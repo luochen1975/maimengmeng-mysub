@@ -1,5 +1,5 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-08-30 20:57:59
+# 生成时间: 2026-08-30 23:24:52
 # 节点数量: 500
 
 proxies:
@@ -1016,6 +1016,55 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
+  - name: "[trojan]剩余流量：86.71 GB"
+    type: "trojan"
+    server: "jp200m.jiasu.asia"
+    port: 50000
+    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    tls: true
+    udp: true
+  - name: "[trojan]距离下次重置剩余：30 天"
+    type: "trojan"
+    server: "jp200m.jiasu.asia"
+    port: 50000
+    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    tls: true
+    udp: true
+  - name: "[trojan]套餐到期：2026-09-29"
+    type: "trojan"
+    server: "jp200m.jiasu.asia"
+    port: 50000
+    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    tls: true
+    udp: true
+  - name: "[trojan]jp-200m"
+    type: "trojan"
+    server: "jp200m.jiasu.asia"
+    port: 50000
+    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    tls: true
+    udp: true
+  - name: "[trojan]us-200m"
+    type: "trojan"
+    server: "us200m.jiasu.asia"
+    port: 50000
+    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    tls: true
+    udp: true
+  - name: "[trojan]hk-200m"
+    type: "trojan"
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    tls: true
+    udp: true
+  - name: "[trojan]剩余流量：80.15 GB"
+    type: "trojan"
+    server: "jp200m.jiasu.asia"
+    port: 50000
+    password: "b454c830-7d58-4072-89a5-e0715e3e0b87"
+    tls: true
+    udp: true
   - name: "[trojan]剩余流量：0"
     type: "trojan"
     server: "jp200m.jiasu.asia"
@@ -1037,56 +1086,14 @@ proxies:
     password: "0e2e0e96-5beb-4f91-8f88-24f60451e745"
     tls: true
     udp: true
-  - name: "[trojan]jp-200m"
+  - name: "[trojan]距离下次重置剩余：29 天"
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
-    password: "0e2e0e96-5beb-4f91-8f88-24f60451e745"
+    password: "fd43209f-d9d6-42aa-9bd9-6ecb7f171164"
     tls: true
     udp: true
-  - name: "[trojan]us-200m"
-    type: "trojan"
-    server: "us200m.jiasu.asia"
-    port: 50000
-    password: "0e2e0e96-5beb-4f91-8f88-24f60451e745"
-    tls: true
-    udp: true
-  - name: "[trojan]hk-200m"
-    type: "trojan"
-    server: "hk200m.jiasu.asia"
-    port: 50000
-    password: "0e2e0e96-5beb-4f91-8f88-24f60451e745"
-    tls: true
-    udp: true
-  - name: "[trojan]剩余流量：89.5 GB"
-    type: "trojan"
-    server: "jp200m.jiasu.asia"
-    port: 50000
-    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
-    tls: true
-    udp: true
-  - name: "[trojan]距离下次重置剩余：30 天"
-    type: "trojan"
-    server: "jp200m.jiasu.asia"
-    port: 50000
-    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
-    tls: true
-    udp: true
-  - name: "[trojan]套餐到期：2026-09-29"
-    type: "trojan"
-    server: "jp200m.jiasu.asia"
-    port: 50000
-    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
-    tls: true
-    udp: true
-  - name: "[trojan]剩余流量：83.06 GB"
-    type: "trojan"
-    server: "jp200m.jiasu.asia"
-    port: 50000
-    password: "b454c830-7d58-4072-89a5-e0715e3e0b87"
-    tls: true
-    udp: true
-  - name: "[trojan]剩余流量：50.43 GB"
+  - name: "[trojan]剩余流量：46.83 GB"
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
@@ -1508,24 +1515,6 @@ proxies:
     port: 443
     uuid: "29794dae-06ca-4b62-94f2-220b5858d39b"
     udp: true
-  - name: "官网: www.雨燕云.com"
-    type: "ss"
-    server: "1.1.1.1"
-    port: 10001
-    cipher: "chacha20-ietf-poly1305"
-    password: "53db9c44-94a1-4976-8682-5d1c3642058d"
-  - name: "套餐到期:2025-12-13"
-    type: "ss"
-    server: "127.0.0.1"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "password"
-  - name: "续费方法在节点详情的<地址>"
-    type: "ss"
-    server: "qpwhjq.shvpn.xyz"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "password"
   - name: "套餐到期:2025-10-15"
     type: "ss"
     server: "127.0.0.1"
@@ -1535,6 +1524,18 @@ proxies:
   - name: "续费方法在节点详情的<地址>"
     type: "ss"
     server: "lykeij.shvpn.xyz"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "password"
+  - name: "套餐到期:2025-12-13"
+    type: "ss"
+    server: "127.0.0.1"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "password"
+  - name: "续费方法在节点详情的<地址>"
+    type: "ss"
+    server: "qpwhjq.shvpn.xyz"
     port: 443
     cipher: "aes-256-gcm"
     password: "password"
@@ -1550,6 +1551,42 @@ proxies:
     port: 443
     cipher: "aes-256-gcm"
     password: "password"
+  - name: "🚫 账户已被封禁-1 🚫"
+    type: "ss"
+    server: "1.1.1.1"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+  - name: "🚫 账户已被封禁-2 🚫"
+    type: "ss"
+    server: "1.1.1.1"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+  - name: "🚫 账户已被封禁-3 🚫"
+    type: "ss"
+    server: "1.1.1.1"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+  - name: "📞 原因1：恶意滥用 📞"
+    type: "ss"
+    server: "1.1.1.1"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+  - name: "📋 原因2：超过免费套餐阈值 📋"
+    type: "ss"
+    server: "1.1.1.1"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+  - name: "🌐 官网地址：https://my.wazhua.org 🌐"
+    type: "ss"
+    server: "1.1.1.1"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "⚠️ 过滤掉3条线路（升级客户端）"
     type: "ss"
     server: "gd.bjnet2.com"
@@ -2798,22 +2835,6 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
-  - name: "🇭🇰香港-07 | 三网"
-    type: "hysteria2"
-    server: "hk-alicdn.xn--9kqp42aims.top"
-    port: 55001
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇭🇰香港-08 | 三网"
-    type: "hysteria2"
-    server: "hk-alicdn.xn--9kqp42aims.top"
-    port: 55001
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
   - name: "🇺🇸美国-01"
     type: "hysteria2"
     server: "107.172.252.201"
@@ -3626,54 +3647,6 @@ proxies:
     network: "tcp"
     udp: true
     skip-cert-verify: false
-  - name: "[IPLC]韩国 01 SK텔레콤"
-    type: "vmess"
-    server: "select-kr.ddnskunlun.com"
-    port: 9057
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-kr.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]韩国 02 SK텔레콤"
-    type: "vmess"
-    server: "select-kr.ddnskunlun.com"
-    port: 9058
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-kr.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]韩国 03 SK텔레콤"
-    type: "vmess"
-    server: "select-kr.ddnskunlun.com"
-    port: 9059
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-kr.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]韩国 04 SK텔레콤"
-    type: "vmess"
-    server: "select-kr.ddnskunlun.com"
-    port: 9060
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-kr.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
 
 proxy-groups:
   - name: "Proxy"
@@ -3819,17 +3792,18 @@ proxy-groups:
       - "🇦🇶 ✅续费地址：12.kg"
       - "🇦🇶 ㅤ"
       - "🇦🇶 ⚠️‼️ 订阅已过期 请续费 ‼️"
-      - "[trojan]剩余流量：0"
-      - "[trojan]距离下次重置剩余：28 天"
-      - "[trojan]套餐到期：2026-09-27"
+      - "[trojan]剩余流量：86.71 GB"
+      - "[trojan]距离下次重置剩余：30 天"
+      - "[trojan]套餐到期：2026-09-29"
       - "[trojan]jp-200m"
       - "[trojan]us-200m"
       - "[trojan]hk-200m"
-      - "[trojan]剩余流量：89.5 GB"
-      - "[trojan]距离下次重置剩余：30 天"
-      - "[trojan]套餐到期：2026-09-29"
-      - "[trojan]剩余流量：83.06 GB"
-      - "[trojan]剩余流量：50.43 GB"
+      - "[trojan]剩余流量：80.15 GB"
+      - "[trojan]剩余流量：0"
+      - "[trojan]距离下次重置剩余：28 天"
+      - "[trojan]套餐到期：2026-09-27"
+      - "[trojan]距离下次重置剩余：29 天"
+      - "[trojan]剩余流量：46.83 GB"
       - "❗您当前客户端v2rayN不支持hy协议❗"
       - "❗请到我们文档中下载Clash Verge❗"
       - "❗文档 https://www.qf1.us/#/knowledge❗"
@@ -3890,13 +3864,18 @@ proxy-groups:
       - "US-LAX-DC12-004[TCP]"
       - "US-LAX-DC12-005[UDP]"
       - "US-LAX-DC12-005[TCP]"
-      - "官网: www.雨燕云.com"
-      - "套餐到期:2025-12-13"
-      - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-10-15"
+      - "续费方法在节点详情的<地址>"
+      - "套餐到期:2025-12-13"
       - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-11-20"
       - "续费方法在节点详情的<地址>"
+      - "🚫 账户已被封禁-1 🚫"
+      - "🚫 账户已被封禁-2 🚫"
+      - "🚫 账户已被封禁-3 🚫"
+      - "📞 原因1：恶意滥用 📞"
+      - "📋 原因2：超过免费套餐阈值 📋"
+      - "🌐 官网地址：https://my.wazhua.org 🌐"
       - "⚠️ 过滤掉3条线路（升级客户端）"
       - "🇭🇰香港-Gemini-IEPL"
       - "🇭🇰香港2-IEPL"
@@ -4094,8 +4073,6 @@ proxy-groups:
       - "🇭🇰香港-04 | 移动"
       - "🇭🇰香港-05 | 三网"
       - "🇭🇰香港-06 | 三网"
-      - "🇭🇰香港-07 | 三网"
-      - "🇭🇰香港-08 | 三网"
       - "🇺🇸美国-01"
       - "🇺🇸美国-02"
       - "🇺🇸美国-03"
@@ -4175,7 +4152,3 @@ proxy-groups:
       - "[IPLC]日本 06 NTTドコモ"
       - "[IPLC]日本 07 NTTドコモ"
       - "[IPLC]日本 08 NTTドコモ"
-      - "[IPLC]韩国 01 SK텔레콤"
-      - "[IPLC]韩国 02 SK텔레콤"
-      - "[IPLC]韩国 03 SK텔레콤"
-      - "[IPLC]韩国 04 SK텔레콤"
