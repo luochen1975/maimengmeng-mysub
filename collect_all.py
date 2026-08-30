@@ -1,8 +1,8 @@
 import requests
 import base64
 import json
-import re
-from urllib.parse import urlparse, unquote, parse_qs
+import os
+from urllib.parse import urlparse, unquote
 from datetime import datetime
 
 headers = {
@@ -10,14 +10,17 @@ headers = {
     'Accept-Encoding': 'gzip, deflate'
 }
 
-# ==================== 配置参数 ====================
 TIMEOUT = 15
-GROUP_SIZE = 500                    # 每组节点数量
+GROUP_SIZE = 500
 
-OUTPUT_RAW = 'valid_content_all.yaml'      # 分组前完整文件（YAML格式）
-OUTPUT_PREFIX = 'valid_content_all'        # 分组后文件前缀，最终为 valid_content_all_1.yaml ...
+# 获取当前工作目录，确保文件生成在这里
+WORK_DIR = os.path.dirname(os.path.abspath(__file__)) if '__file__' in dir() else os.getcwd()
+os.chdir(WORK_DIR)
+print(f"💡 当前工作目录: {WORK_DIR}")
 
-# Mihomo 支持的协议类型（小写）
+OUTPUT_RAW = os.path.join(WORK_DIR, 'valid_content_all.yaml')
+OUTPUT_PREFIX = os.path.join(WORK_DIR, 'valid_content_all')
+
 MIHOMO_SUPPORTED = {
     'ss', 'ss2022', 'vmess', 'vless', 'trojan',
     'hysteria', 'hysteria2', 'tuic', 'wireguard',
@@ -25,7 +28,6 @@ MIHOMO_SUPPORTED = {
     'direct', 'reject', 'dns'
 }
 
-# URL scheme 到 Clash type 的映射
 URL_SCHEMES = {
     'ss': 'ss', 'vmess': 'vmess', 'vless': 'vless',
     'trojan': 'trojan', 'hysteria': 'hysteria',
@@ -33,18 +35,7 @@ URL_SCHEMES = {
     'socks5': 'socks5', 'http': 'http'
 }
 
-# ==================== 工具函数 ====================
-
-def is_valid_url(url):
-    """验证URL格式是否合法"""
-    try:
-        r = urlparse(url)
-        return r.scheme in ['http', 'https'] and bool(r.netloc)
-    except:
-        return False
-
 def safe_b64_decode(text):
-    """安全的Base64解码，失败返回None"""
     try:
         padding = 4 - len(text) % 4
         if padding != 4:
@@ -54,7 +45,6 @@ def safe_b64_decode(text):
         return None
 
 def parse_vmess(b64_data, idx):
-    """解析 vmess:// Base64内容"""
     try:
         raw = safe_b64_decode(b64_data)
         if not raw:
@@ -74,7 +64,6 @@ def parse_vmess(b64_data, idx):
             'network': data.get('net', 'tcp'),
             'udp': True
         }
-        # ws/grpc 额外参数
         if proxy['network'] == 'ws':
             proxy['ws-opts'] = {
                 'path': data.get('path', '/'),
@@ -87,16 +76,13 @@ def parse_vmess(b64_data, idx):
         return None
 
 def parse_ss(url, idx):
-    """解析 ss:// 链接"""
     try:
         p = urlparse(url)
         server, port = p.hostname, p.port
-        # 尝试 method:password 格式
         if p.username and p.password:
             method = unquote(p.username)
             password = unquote(p.password)
         else:
-            # Base64 编码的 userinfo
             userinfo = safe_b64_decode(p.username or '')
             if not userinfo or ':' not in userinfo:
                 return None
@@ -112,7 +98,6 @@ def parse_ss(url, idx):
         return None
 
 def parse_standard_url(url, idx, ptype):
-    """解析 trojan / vless / hysteria2 / tuic / http / socks5"""
     try:
         p = urlparse(url)
         name = unquote(p.fragment) if p.fragment else f'{ptype.upper()}-{idx}'
@@ -143,11 +128,9 @@ def parse_standard_url(url, idx, ptype):
         return None
 
 def url_to_proxy(url, idx):
-    """将单条URL转换为Clash proxy字典"""
     if '://' not in url:
         return None
     scheme = url.split('://')[0].lower()
-    # 明确不支持的协议直接丢弃
     if scheme in ('ssr', 'brook', 'relay'):
         return None
     if scheme == 'vmess':
@@ -159,7 +142,6 @@ def url_to_proxy(url, idx):
     return None
 
 def extract_proxies_from_yaml(text):
-    """简易YAML解析器：提取 proxies: 下的节点列表"""
     proxies = []
     lines = text.splitlines()
     in_proxies = False
@@ -170,7 +152,6 @@ def extract_proxies_from_yaml(text):
         if not line or line.startswith('#'):
             continue
         
-        # 检测 proxies: 起始
         if line.strip() in ('proxies:', 'Proxy:'):
             in_proxies = True
             continue
@@ -181,7 +162,6 @@ def extract_proxies_from_yaml(text):
         indent = len(line) - len(line.lstrip())
         stripped = line.strip()
         
-        # 顶级新section，结束proxies
         if indent == 0 and stripped.endswith(':') and stripped not in ('proxies:', 'Proxy:'):
             if current and 'type' in current:
                 proxies.append(current)
@@ -189,7 +169,6 @@ def extract_proxies_from_yaml(text):
             current = {}
             continue
         
-        # 新节点开始
         if indent == 2 and stripped.startswith('- '):
             if current and 'type' in current:
                 proxies.append(current)
@@ -201,11 +180,9 @@ def extract_proxies_from_yaml(text):
                     current = json.loads(stripped[2:].strip())
                 except:
                     current = {}
-        # 节点属性
         elif indent == 4 and current is not None and ':' in stripped:
             k, v = stripped.split(':', 1)
             k, v = k.strip(), v.strip().strip('"\'')
-            # 类型转换
             if v.lower() == 'true':
                 v = True
             elif v.lower() == 'false':
@@ -225,11 +202,8 @@ def extract_proxies_from_yaml(text):
     return proxies
 
 def proxy_to_yaml_lines(proxy):
-    """将单个proxy字典转为YAML行列表"""
     lines = [f"  - name: {json.dumps(proxy.get('name', 'Unnamed'))}"]
     done = {'name'}
-    
-    # 优先字段顺序
     priority = ['type', 'server', 'port', 'uuid', 'cipher', 'password',
                 'alterId', 'tls', 'sni', 'servername', 'network', 'udp',
                 'flow', 'up', 'down', 'skip-cert-verify']
@@ -244,7 +218,6 @@ def proxy_to_yaml_lines(proxy):
                 lines.append(f"    {k}: {v}")
             done.add(k)
     
-    # 其余字段
     for k, v in proxy.items():
         if k in done:
             continue
@@ -268,18 +241,15 @@ def proxy_to_yaml_lines(proxy):
     return lines
 
 def build_clash_yaml(proxies, group_name="Proxy"):
-    """生成标准Clash/Mihomo YAML配置文本"""
     lines = [
         "# Mihomo / Clash Meta 配置文件",
         f"# 生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         f"# 节点数量: {len(proxies)}",
         ""
     ]
-    
     lines.append("proxies:")
     for p in proxies:
         lines.extend(proxy_to_yaml_lines(p))
-    
     lines.extend([
         "",
         "proxy-groups:",
@@ -289,18 +259,20 @@ def build_clash_yaml(proxies, group_name="Proxy"):
     ])
     for p in proxies:
         lines.append(f"      - {json.dumps(p.get('name', 'Unnamed'))}")
-    
     return '\n'.join(lines)
 
 def save_yaml(proxies, filepath):
-    """保存为YAML文件"""
-    with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(build_clash_yaml(proxies))
-    return filepath
+    try:
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(build_clash_yaml(proxies))
+        print(f"  ✓ 已保存: {filepath}")
+        return True
+    except Exception as e:
+        print(f"  ✗ 保存失败 [{filepath}]: {e}")
+        return False
 
 # ==================== 主程序 ====================
 
-# 获取原始URL列表
 sub_all_clash_url = 'https://raw.githubusercontent.com/maimengmeng/collectSub/main/sub/sub_all_clash.txt'
 try:
     response = requests.get(sub_all_clash_url, headers=headers, timeout=10)
@@ -311,18 +283,15 @@ except Exception as e:
     print(f"获取URL列表失败: {e}")
     exit()
 
-# 预处理URL列表
-valid_urls = [url.strip() for url in raw_urls if is_valid_url(url.strip())]
-print(f"经过格式验证的有效URL数量：{len(valid_urls)}")
+valid_urls = [url.strip() for url in raw_urls if '://' in url and url.strip()]
+print(f"有效URL数量：{len(valid_urls)}")
 
-all_proxies = []      # 所有解析后的节点
+all_proxies = []
 success_count = 0
 processed_count = 0
 
 for url in valid_urls:
     processed_count += 1
-    
-    # 显示进度
     if processed_count % 10 == 0:
         print(f"[进度] 已处理 {processed_count} 个 | 成功 {success_count} 个 ")
     
@@ -331,25 +300,17 @@ for url in valid_urls:
         resp.raise_for_status()
         text = resp.text.strip()
         
-        # 内容有效性检查（保留YAML格式内容）
         if len(text) < 10:
             continue
-        # 若包含DOMAIN且不是标准Clash配置，则跳过
         if "DOMAIN" in text and 'proxies:' not in text and 'Proxy:' not in text:
             continue
             
-        # 编码检测 & Base64解码
-        resp.encoding = resp.apparent_encoding
         decoded = safe_b64_decode(resp.text) or resp.text
-        
         proxies = []
         
-        # 判断内容类型并提取节点
         if 'proxies:' in decoded or 'Proxy:' in decoded:
-            # 标准Clash YAML配置
             proxies = extract_proxies_from_yaml(decoded)
         else:
-            # 作为URL列表处理（逐行解析）
             line_idx = 0
             for line in decoded.splitlines():
                 line = line.strip()
@@ -360,19 +321,16 @@ for url in valid_urls:
                     proxies.append(p)
                     line_idx += 1
         
-        # 过滤Mihomo不支持的协议类型
         filtered = [p for p in proxies if p.get('type', '').lower() in MIHOMO_SUPPORTED]
         
         if filtered:
             all_proxies.extend(filtered)
             success_count += 1
             
-    except requests.exceptions.RequestException:
-        continue
     except Exception:
         continue
 
-# 去重：根据 name + server + port
+# 去重
 seen = set()
 unique_proxies = []
 for p in all_proxies:
@@ -387,17 +345,18 @@ print(f"去重前节点数：{len(all_proxies)}")
 print(f"去重后节点数：{total}")
 
 if total == 0:
-    print("未获取到任何有效节点，程序结束")
+    print("❌ 未获取到任何有效节点，程序结束")
     exit()
 
 # ---------- 保存分组前完整文件 ----------
+print(f"\n📁 正在保存分组前完整文件...")
 save_yaml(unique_proxies, OUTPUT_RAW)
-print(f"分组前完整YAML已保存：{OUTPUT_RAW}")
 
-# ---------- 分组保存，每500个一组 ----------
+# ---------- 分组保存 ----------
 group_num = (total + GROUP_SIZE - 1) // GROUP_SIZE
-print(f"\n节点分组：共 {total} 个节点，分为 {group_num} 组（每组最多 {GROUP_SIZE} 个）")
+print(f"\n📁 开始分组保存（共 {total} 个节点，预计 {group_num} 个文件）...")
 
+saved_groups = 0
 for i in range(group_num):
     start = i * GROUP_SIZE
     end = min(start + GROUP_SIZE, total)
@@ -405,16 +364,25 @@ for i in range(group_num):
     
     suffix = i + 1
     filepath = f"{OUTPUT_PREFIX}_{suffix}.yaml"
-    save_yaml(group_proxies, filepath)
-    print(f"  第 {suffix} 组 ({start+1} - {end}) 已保存：{filepath}")
+    
+    print(f"  处理第 {suffix}/{group_num} 组 ({start+1}-{end})...")
+    if save_yaml(group_proxies, filepath):
+        saved_groups += 1
 
-# ---------- 最终结果报告 ----------
+# ---------- 验证文件 ----------
+print(f"\n{'='*50}")
+print("📋 文件生成验证：")
+for f in sorted(os.listdir(WORK_DIR)):
+    if f.startswith('valid_content_all'):
+        fpath = os.path.join(WORK_DIR, f)
+        fsize = os.path.getsize(fpath)
+        print(f"  {f}  ({fsize:,} bytes)")
+
 print(f"\n{'='*50}")
 print(f"最终结果：")
 print(f"  处理URL总数：{processed_count}")
 print(f"  成功获取订阅数：{success_count}")
 print(f"  有效节点总数：{total}")
 print(f"  分组数量：{group_num}")
-print(f"  分组前文件：{OUTPUT_RAW}")
-print(f"  分组后文件：{OUTPUT_PREFIX}_1.yaml ~ {OUTPUT_PREFIX}_{group_num}.yaml")
+print(f"  实际保存分组数：{saved_groups}")
 print(f"{'='*50}")
