@@ -46,8 +46,10 @@ jobs:
         # 更新远程仓库URL
         git remote set-url origin $REPO_URL
         
-        # 提交变更
-        git add valid_content_all.txt
+        # 提交变更（改为提交新的yaml文件，包含分组后的文件）
+        git add valid_content_all.yaml valid_content_all_*.yaml
+        
+        # 如果有变更则提交
         git diff --quiet && git diff --staged --quiet || git commit -m "Auto update all collected content"
         
         # 强制推送变更
