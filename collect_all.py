@@ -13,7 +13,6 @@ headers = {
 TIMEOUT = 15
 GROUP_SIZE = 500
 
-# 获取当前工作目录，确保文件生成在这里
 WORK_DIR = os.path.dirname(os.path.abspath(__file__)) if '__file__' in dir() else os.getcwd()
 os.chdir(WORK_DIR)
 print(f"💡 当前工作目录: {WORK_DIR}")
@@ -202,7 +201,15 @@ def extract_proxies_from_yaml(text):
     return proxies
 
 def proxy_to_yaml_lines(proxy):
-    lines = [f"  - name: {json.dumps(proxy.get('name', 'Unnamed'))}"]
+    # 关键修复：ensure_ascii=False，避免 \uXXXX 转义导致 YAML 解析错误
+    def dump_val(v):
+        if isinstance(v, str):
+            return json.dumps(v, ensure_ascii=False)
+        elif isinstance(v, bool):
+            return str(v).lower()
+        return str(v)
+    
+    lines = [f"  - name: {dump_val(proxy.get('name', 'Unnamed'))}"]
     done = {'name'}
     priority = ['type', 'server', 'port', 'uuid', 'cipher', 'password',
                 'alterId', 'tls', 'sni', 'servername', 'network', 'udp',
@@ -211,7 +218,7 @@ def proxy_to_yaml_lines(proxy):
         if k in proxy and k not in done:
             v = proxy[k]
             if isinstance(v, str):
-                lines.append(f"    {k}: {json.dumps(v)}")
+                lines.append(f"    {k}: {dump_val(v)}")
             elif isinstance(v, bool):
                 lines.append(f"    {k}: {str(v).lower()}")
             else:
@@ -222,7 +229,7 @@ def proxy_to_yaml_lines(proxy):
         if k in done:
             continue
         if isinstance(v, str):
-            lines.append(f"    {k}: {json.dumps(v)}")
+            lines.append(f"    {k}: {dump_val(v)}")
         elif isinstance(v, bool):
             lines.append(f"    {k}: {str(v).lower()}")
         elif isinstance(v, (int, float)):
@@ -231,16 +238,23 @@ def proxy_to_yaml_lines(proxy):
             lines.append(f"    {k}:")
             for k2, v2 in v.items():
                 if isinstance(v2, str):
-                    lines.append(f"      {k2}: {json.dumps(v2)}")
+                    lines.append(f"      {k2}: {dump_val(v2)}")
                 elif isinstance(v2, bool):
                     lines.append(f"      {k2}: {str(v2).lower()}")
                 elif isinstance(v2, dict):
                     lines.append(f"      {k2}:")
                     for k3, v3 in v2.items():
-                        lines.append(f"        {k3}: {json.dumps(v3)}")
+                        lines.append(f"        {k3}: {dump_val(v3)}")
     return lines
 
 def build_clash_yaml(proxies, group_name="Proxy"):
+    def dump_val(v):
+        if isinstance(v, str):
+            return json.dumps(v, ensure_ascii=False)
+        elif isinstance(v, bool):
+            return str(v).lower()
+        return str(v)
+    
     lines = [
         "# Mihomo / Clash Meta 配置文件",
         f"# 生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
@@ -253,12 +267,12 @@ def build_clash_yaml(proxies, group_name="Proxy"):
     lines.extend([
         "",
         "proxy-groups:",
-        f"  - name: {json.dumps(group_name)}",
+        f"  - name: {dump_val(group_name)}",
         "    type: select",
         "    proxies:"
     ])
     for p in proxies:
-        lines.append(f"      - {json.dumps(p.get('name', 'Unnamed'))}")
+        lines.append(f"      - {dump_val(p.get('name', 'Unnamed'))}")
     return '\n'.join(lines)
 
 def save_yaml(proxies, filepath):
@@ -330,7 +344,6 @@ for url in valid_urls:
     except Exception:
         continue
 
-# 去重
 seen = set()
 unique_proxies = []
 for p in all_proxies:
@@ -348,11 +361,9 @@ if total == 0:
     print("❌ 未获取到任何有效节点，程序结束")
     exit()
 
-# ---------- 保存分组前完整文件 ----------
 print(f"\n📁 正在保存分组前完整文件...")
 save_yaml(unique_proxies, OUTPUT_RAW)
 
-# ---------- 分组保存 ----------
 group_num = (total + GROUP_SIZE - 1) // GROUP_SIZE
 print(f"\n📁 开始分组保存（共 {total} 个节点，预计 {group_num} 个文件）...")
 
@@ -369,7 +380,6 @@ for i in range(group_num):
     if save_yaml(group_proxies, filepath):
         saved_groups += 1
 
-# ---------- 验证文件 ----------
 print(f"\n{'='*50}")
 print("📋 文件生成验证：")
 for f in sorted(os.listdir(WORK_DIR)):
