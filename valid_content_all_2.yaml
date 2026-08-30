@@ -1,14 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-08-30 09:14:03
+# 生成时间: 2026-08-30 09:18:22
 # 节点数量: 500
 
 proxies:
-  - name: "🇮🇪IE-52.30.74.16-0256"
-    type: "ss"
-    server: "52.30.74.16"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
   - name: "🇨🇦CA-16.52.90.213-0257"
     type: "ss"
     server: "16.52.90.213"
@@ -426,19 +420,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "e71e08c2-8a4f-47ef-8657-ec26c4ebf969"
+    uuid: "de3863c6-a302-4bdd-9852-15c522eafbe3"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "e71e08c2-8a4f-47ef-8657-ec26c4ebf969"
+    uuid: "de3863c6-a302-4bdd-9852-15c522eafbe3"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "e71e08c2-8a4f-47ef-8657-ec26c4ebf969"
+    uuid: "de3863c6-a302-4bdd-9852-15c522eafbe3"
     udp: true
   - name: "🇺🇸 美国 001"
     type: "vmess"
@@ -5544,12 +5538,23 @@ proxies:
     network: "tcp"
     udp: true
     skip-cert-verify: false
+  - name: "[IPLC]俄罗斯 01 莫斯科"
+    type: "vmess"
+    server: "board-01.ddnskunlun.com"
+    port: 11911
+    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    servername: "board-01.ddnskunlun.com"
+    network: "tcp"
+    udp: true
+    skip-cert-verify: false
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇮🇪IE-52.30.74.16-0256"
       - "🇨🇦CA-16.52.90.213-0257"
       - "🇨🇦CA-3.96.165.186-0258"
       - "🇺🇸US-198.211.4.60-0259"
@@ -6049,3 +6054,4 @@ proxy-groups:
       - "[IPLC]乌克兰 02 基辅"
       - "[IPLC]以色列 01 特拉维夫"
       - "[IPLC]以色列 02 特拉维夫"
+      - "[IPLC]俄罗斯 01 莫斯科"

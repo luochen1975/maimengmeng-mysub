@@ -1,20 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-08-30 09:14:03
-# 节点数量: 323
+# 生成时间: 2026-08-30 09:18:22
+# 节点数量: 322
 
 proxies:
-  - name: "[IPLC]俄罗斯 01 莫斯科"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11911
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
   - name: "[IPLC]俄罗斯 02 莫斯科"
     type: "vmess"
     server: "board-02.ddnskunlun.com"
@@ -2708,7 +2696,6 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "[IPLC]俄罗斯 01 莫斯科"
       - "[IPLC]俄罗斯 02 莫斯科"
       - "[IPLC]俄罗斯 03 莫斯科"
       - "[IPLC]俄罗斯 04 莫斯科"

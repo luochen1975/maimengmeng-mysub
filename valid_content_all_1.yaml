@@ -1,5 +1,5 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-08-30 09:14:03
+# 生成时间: 2026-08-30 09:18:22
 # 节点数量: 500
 
 proxies:
@@ -236,14 +236,6 @@ proxies:
     type: "hysteria2"
     server: "sg10.459292.xyz"
     port: 8443
-    password: "3a2f9f47-dbd7-473d-98f9-4e918a7e1e54"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "新加坡12aws"
-    type: "hysteria2"
-    server: "sg19.459921.xyz"
-    port: 8080
     password: "3a2f9f47-dbd7-473d-98f9-4e918a7e1e54"
     udp: true
     up: "50 Mbps"
@@ -874,7 +866,7 @@ proxies:
     cipher: "auto"
     alterId: 0
     udp: true
-  - name: "[trojan]剩余流量：97.55 GB"
+  - name: "[trojan]剩余流量：97.51 GB"
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
@@ -944,14 +936,14 @@ proxies:
     password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
     tls: true
     udp: true
-  - name: "[trojan]剩余流量：8.86 GB"
+  - name: "[trojan]剩余流量：8.83 GB"
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
     password: "fd43209f-d9d6-42aa-9bd9-6ecb7f171164"
     tls: true
     udp: true
-  - name: "[trojan]剩余流量：86.66 GB"
+  - name: "[trojan]剩余流量：86.65 GB"
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
@@ -3553,6 +3545,12 @@ proxies:
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
+  - name: "🇮🇪IE-52.30.74.16-0256"
+    type: "ss"
+    server: "52.30.74.16"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
 
 proxy-groups:
   - name: "Proxy"
@@ -3593,7 +3591,6 @@ proxy-groups:
       - "新加坡03aws"
       - "新加坡07aws"
       - "新加坡10aws"
-      - "新加坡12aws"
       - "vless新加坡01aws"
       - "美国01aws"
       - "美国03aws"
@@ -3680,7 +3677,7 @@ proxy-groups:
       - "新加坡 02"
       - "新加坡 03"
       - "新加坡 04"
-      - "[trojan]剩余流量：97.55 GB"
+      - "[trojan]剩余流量：97.51 GB"
       - "[trojan]距离下次重置剩余：30 天"
       - "[trojan]套餐到期：2026-09-29"
       - "[trojan]jp-200m"
@@ -3690,8 +3687,8 @@ proxy-groups:
       - "[trojan]距离下次重置剩余：28 天"
       - "[trojan]套餐到期：2026-09-27"
       - "[trojan]剩余流量：95.98 GB"
-      - "[trojan]剩余流量：8.86 GB"
-      - "[trojan]剩余流量：86.66 GB"
+      - "[trojan]剩余流量：8.83 GB"
+      - "[trojan]剩余流量：86.65 GB"
       - "❗您当前客户端v2rayN不支持hy协议❗"
       - "❗请到我们文档中下载Clash Verge❗"
       - "❗文档 https://www.qf1.us/#/knowledge❗"
@@ -4058,3 +4055,4 @@ proxy-groups:
       - "🇬🇧GB-18.175.227.220-0253"
       - "🇬🇧GB-35.178.212.194-0254"
       - "🇬🇧GB-13.135.252.176-0255"
+      - "🇮🇪IE-52.30.74.16-0256"
