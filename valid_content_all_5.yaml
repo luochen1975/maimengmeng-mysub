@@ -1,8 +1,276 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-08-31 05:19:04
+# 生成时间: 2026-08-31 13:35:04
 # 节点数量: 500
 
 proxies:
+  - name: "🇨🇳 中国 051"
+    type: "vmess"
+    server: "47.242.95.19"
+    port: 40988
+    uuid: "1e60b35a-db17-4283-8b99-7358ee7d5fd5"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇨🇳 中国 052"
+    type: "vmess"
+    server: "8.210.70.156"
+    port: 54148
+    uuid: "1346261e-3201-4932-bfba-df869ab48116"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇨🇳 中国 053"
+    type: "vmess"
+    server: "blog.voewl.com"
+    port: 43815
+    uuid: "7a9f026f-f7a8-40ca-f2f9-3b380c287c0d"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/abc"
+      headers:
+        Host: "blog.voewl.com"
+  - name: "🇩🇪 德国 064"
+    type: "vmess"
+    server: "157.90.20.18"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇩🇪 德国 065"
+    type: "vmess"
+    server: "5.75.168.155"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇩🇪 德国 066"
+    type: "vmess"
+    server: "94.130.25.155"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇩🇪 德国 067"
+    type: "vmess"
+    server: "167.235.136.155"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇩🇪 德国 068"
+    type: "vmess"
+    server: "65.21.240.108"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "其他 022"
+    type: "vmess"
+    server: "mt2.qowch.com"
+    port: 443
+    uuid: "a61eb3a2-1adb-48cb-ab46-ce225769de16"
+    cipher: "auto"
+    alterId: 32
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "users?ed=2048"
+      headers:
+        Host: "mt2.qowch.com"
+  - name: "🇺🇸 美国 807"
+    type: "vmess"
+    server: "speed.cloudflare.com"
+    port: 8443
+    uuid: "a6a37e04-5e81-44c9-be53-baa3ff46eb8b"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/8cda48b3"
+      headers:
+        Host: "speed.cloudflare.com"
+  - name: "🇺🇸 美国 808"
+    type: "vmess"
+    server: "cf-dx-dns.sharecentre.online"
+    port: 443
+    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/shirker"
+      headers:
+        Host: "cf-dx-dns.sharecentre.online"
+  - name: "🇨🇳 中国 054"
+    type: "vmess"
+    server: "hk3.grpc.stream"
+    port: 8300
+    uuid: "6031b5c3-d8ba-5756-b708-f61084a2b678"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/event"
+      headers:
+        Host: "hk3.grpc.stream"
+  - name: "🇨🇿 捷克 009"
+    type: "vmess"
+    server: "sg-v.sshmax.xyz"
+    port: 80
+    uuid: "0baaf014-af04-4028-be53-f5c75bb276ae"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "sg-v.sshmax.xyz"
+  - name: "🇩🇪 德国 069"
+    type: "vmess"
+    server: "5.75.247.192"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇩🇪 德国 070"
+    type: "vmess"
+    server: "88.198.104.211"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 809"
+    type: "vmess"
+    server: "sg80-2.sanfen001.pics"
+    port: 80
+    uuid: "9f3f612a-2fb0-420d-830f-1a502a1db50c"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/zh-cn/download"
+      headers:
+        Host: "sg80-2.sanfen001.pics"
+  - name: "🇨🇳 中国 055"
+    type: "vmess"
+    server: "univstar-104-208-117-86.nip.io"
+    port: 443
+    uuid: "328b2547-d141-4df4-a76e-4f1c2e361f5c"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "univstar-104-208-117-86.nip.io"
+  - name: "🇷🇺 俄罗斯 036"
+    type: "vmess"
+    server: "176.119.159.245"
+    port: 37672
+    uuid: "86b4e35c-1061-47b3-8c6c-811d1853a477"
+    cipher: "auto"
+    alterId: 64
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 810"
+    type: "vmess"
+    server: "23.237.33.106"
+    port: 443
+    uuid: "176b598f-445b-41ac-9d2a-430c5c4df26a"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/dongtaiwang.com"
+      headers:
+        Host: "clash1.trump2023.net"
+  - name: "🇺🇸 美国 811"
+    type: "vmess"
+    server: "172.67.178.55"
+    port: 443
+    uuid: "0145bfef-aa53-416f-90d4-8634295dab57"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/live"
+      headers:
+        Host: "www.aoopmiss.cf"
+  - name: "🇺🇸 美国 812"
+    type: "vmess"
+    server: "38.72img.xyz"
+    port: 443
+    uuid: "81d93f62-15a2-4994-adb9-0b5d906aac7e"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "38.72img.xyz"
+  - name: "🇺🇸 美国 813"
+    type: "vmess"
+    server: "198.41.212.92"
+    port: 443
+    uuid: "bd014532-1f8b-4d33-b79d-50131d8d4633"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vbje5ytgwfgdrhe"
+      headers:
+        Host: "www.998808.xyz"
   - name: "🇺🇸 美国 814"
     type: "vmess"
     server: "172.67.72.172"
@@ -1377,7 +1645,41 @@ proxies:
     type: "vless"
     server: "asaa.mmm.top"
     port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
+  - name: "距离下次重置剩余：1 天"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
+  - name: "套餐到期：2027-09-01"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
+  - name: "⚠️保持软件为最新版"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
+  - name: "⚠️使用前更新订阅"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
+  - name: "🇺🇸美国 公益"
+    type: "vmess"
+    server: "p05.rghvf.sbs"
+    port: 1233
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "tcp"
     udp: true
   - name: "距离下次重置剩余：12 天"
     type: "vless"
@@ -1390,40 +1692,6 @@ proxies:
     server: "asaa.mmm.top"
     port: 10003
     uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    udp: true
-  - name: "⚠️保持软件为最新版"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    udp: true
-  - name: "⚠️使用前更新订阅"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    udp: true
-  - name: "🇺🇸美国 公益"
-    type: "vmess"
-    server: "p05.rghvf.sbs"
-    port: 1233
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "tcp"
-    udp: true
-  - name: "距离下次重置剩余：2 天"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
-  - name: "套餐到期：2027-09-01"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
     udp: true
   - name: "剩余流量：0"
     type: "ss"
@@ -1613,19 +1881,19 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
-  - name: "🇺🇸美国圣何塞-01-免费"
+  - name: "🇺🇸美国-01 | 免费"
     type: "vless"
     server: "us-host.xn--9kqp42aims.top"
     port: 443
     uuid: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
-  - name: "🇺🇸美国圣何塞-02-免费"
+  - name: "🇺🇸美国-02 | 免费"
     type: "vless"
     server: "us-host.xn--9kqp42aims.top"
     port: 443
     uuid: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
-  - name: "🇺🇸美国圣何塞-03-免费"
+  - name: "🇺🇸美国-03 | 免费"
     type: "hysteria2"
     server: "us-ju.xn--9kqp42aims.top"
     port: 20000
@@ -1633,7 +1901,7 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
-  - name: "🇺🇸美国圣何塞-04-免费"
+  - name: "🇺🇸美国-04 | 免费"
     type: "hysteria2"
     server: "us-ju.xn--9kqp42aims.top"
     port: 20000
@@ -1641,7 +1909,31 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
-  - name: "🇯🇵日本东京|免费"
+  - name: "🇺🇸美国-05"
+    type: "hysteria2"
+    server: "107.172.252.201"
+    port: 20000
+    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇺🇸美国-06"
+    type: "hysteria2"
+    server: "ushost.xn--9kqp42aims.top"
+    port: 20000
+    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇺🇸美国-07"
+    type: "hysteria2"
+    server: "ushost.xn--9kqp42aims.top"
+    port: 20000
+    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇯🇵日本 | 免费"
     type: "vless"
     server: "47.74.22.234"
     port: 443
@@ -1671,7 +1963,7 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
-  - name: "🇭🇰香港-01 | 移动"
+  - name: "🇭🇰香港-01"
     type: "hysteria2"
     server: "38.6.219.47"
     port: 20000
@@ -1679,7 +1971,7 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
-  - name: "🇭🇰香港-02 | 移动"
+  - name: "🇭🇰香港-02"
     type: "hysteria2"
     server: "38.6.219.47"
     port: 20000
@@ -1687,7 +1979,7 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
-  - name: "🇭🇰香港-03 | 移动"
+  - name: "🇭🇰香港-03"
     type: "hysteria2"
     server: "141.11.90.244"
     port: 20000
@@ -1695,7 +1987,7 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
-  - name: "🇭🇰香港-04 | 移动"
+  - name: "🇭🇰香港-04"
     type: "hysteria2"
     server: "141.11.90.244"
     port: 20000
@@ -1703,7 +1995,7 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
-  - name: "🇭🇰香港-05 | 三网"
+  - name: "🇭🇰香港-05 | 电信优化 | x2"
     type: "hysteria2"
     server: "hk-alicdn.xn--9kqp42aims.top"
     port: 20000
@@ -1711,33 +2003,9 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
-  - name: "🇭🇰香港-06 | 三网"
+  - name: "🇭🇰香港-06 | 电信优化 | x2"
     type: "hysteria2"
     server: "hk-alicdn.xn--9kqp42aims.top"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇺🇸美国-01"
-    type: "hysteria2"
-    server: "107.172.252.201"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇺🇸美国-02"
-    type: "hysteria2"
-    server: "ushost.xn--9kqp42aims.top"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇺🇸美国-03"
-    type: "hysteria2"
-    server: "ushost.xn--9kqp42aims.top"
     port: 20000
     password: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
@@ -4880,157 +5148,33 @@ proxies:
     port: 28031
     cipher: "aes-128-gcm"
     password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇨🇳 台湾 04 专线"
-    type: "ss"
-    server: "catnet-tw.kunlun04dns.com"
-    port: 28032
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇨🇳 台湾 05 专线"
-    type: "ss"
-    server: "catnet-tw.kunlun04dns.com"
-    port: 28033
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇨🇳 台湾 06 专线"
-    type: "ss"
-    server: "catnet-tw.kunlun04dns.com"
-    port: 28034
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇰🇭 柬埔寨 01 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28035
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇰🇭 柬埔寨 02 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28036
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇩🇪 德国 01 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28037
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇩🇪 德国 02 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28038
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇳🇱 荷兰 01 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28039
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇳🇱 荷兰 02 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28040
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇹🇭 泰国 01 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28041
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇹🇭 泰国 02 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28042
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇬🇧 英国 01 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28043
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇬🇧 英国 02 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28044
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇨🇦 加拿大 01 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28045
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇨🇦 加拿大 02 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28046
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇦🇺 澳大利亚 01 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28047
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "🇦🇺 澳大利亚 02 专线"
-    type: "ss"
-    server: "catnet-other.kunlun04dns.com"
-    port: 28048
-    cipher: "aes-128-gcm"
-    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "Shadowsocks"
-    type: "socks5"
-    server: "127.0.0.1"
-    port: 1080
-  - name: "🇦🇶 ⚠️‼️您的订阅已重置 ‼️"
-    type: "vmess"
-    server: "127.0.0.1"
-    port: 80
-    uuid: "00000000-0000-0000-0000-000000000000"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "tcp"
-    udp: true
-  - name: "🇦🇶 请登陆官网 导入新订阅"
-    type: "vmess"
-    server: "127.0.0.1"
-    port: 80
-    uuid: "00000000-0000-0000-0000-000000000000"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "tcp"
-    udp: true
-  - name: "🇦🇶 登陆网站导入新的订阅URL"
-    type: "vmess"
-    server: "127.0.0.1"
-    port: 80
-    uuid: "00000000-0000-0000-0000-000000000000"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "tcp"
-    udp: true
-  - name: "🇦🇶 ⚠️‼️ 订阅请勿泄露"
-    type: "vmess"
-    server: "127.0.0.1"
-    port: 80
-    uuid: "00000000-0000-0000-0000-000000000000"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "tcp"
-    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇨🇳 中国 051"
+      - "🇨🇳 中国 052"
+      - "🇨🇳 中国 053"
+      - "🇩🇪 德国 064"
+      - "🇩🇪 德国 065"
+      - "🇩🇪 德国 066"
+      - "🇩🇪 德国 067"
+      - "🇩🇪 德国 068"
+      - "其他 022"
+      - "🇺🇸 美国 807"
+      - "🇺🇸 美国 808"
+      - "🇨🇳 中国 054"
+      - "🇨🇿 捷克 009"
+      - "🇩🇪 德国 069"
+      - "🇩🇪 德国 070"
+      - "🇺🇸 美国 809"
+      - "🇨🇳 中国 055"
+      - "🇷🇺 俄罗斯 036"
+      - "🇺🇸 美国 810"
+      - "🇺🇸 美国 811"
+      - "🇺🇸 美国 812"
+      - "🇺🇸 美国 813"
       - "🇺🇸 美国 814"
       - "🇺🇸 美国 815"
       - "🇨🇳 中国 056"
@@ -5157,13 +5301,13 @@ proxy-groups:
       - "越南-IEPL-Basic专线-01"
       - "英国-IEPL-Basic专线-01"
       - "剩余流量：0"
-      - "距离下次重置剩余：12 天"
-      - "套餐到期：2029-06-11"
+      - "距离下次重置剩余：1 天"
+      - "套餐到期：2027-09-01"
       - "⚠️保持软件为最新版"
       - "⚠️使用前更新订阅"
       - "🇺🇸美国 公益"
-      - "距离下次重置剩余：2 天"
-      - "套餐到期：2027-09-01"
+      - "距离下次重置剩余：12 天"
+      - "套餐到期：2029-06-11"
       - "剩余流量：0"
       - "距离下次重置剩余：5 天"
       - "套餐到期：2026-09-05"
@@ -5194,23 +5338,23 @@ proxy-groups:
       - "套餐到期：长期有效"
       - "🇺🇸官网:gz-cloud.top"
       - "🇺🇸频道:@gzcloudpd"
-      - "🇺🇸美国圣何塞-01-免费"
-      - "🇺🇸美国圣何塞-02-免费"
-      - "🇺🇸美国圣何塞-03-免费"
-      - "🇺🇸美国圣何塞-04-免费"
-      - "🇯🇵日本东京|免费"
+      - "🇺🇸美国-01 | 免费"
+      - "🇺🇸美国-02 | 免费"
+      - "🇺🇸美国-03 | 免费"
+      - "🇺🇸美国-04 | 免费"
+      - "🇺🇸美国-05"
+      - "🇺🇸美国-06"
+      - "🇺🇸美国-07"
+      - "🇯🇵日本 | 免费"
       - "🇯🇵日本-06"
       - "🇯🇵日本-07"
       - "🇯🇵日本-08"
-      - "🇭🇰香港-01 | 移动"
-      - "🇭🇰香港-02 | 移动"
-      - "🇭🇰香港-03 | 移动"
-      - "🇭🇰香港-04 | 移动"
-      - "🇭🇰香港-05 | 三网"
-      - "🇭🇰香港-06 | 三网"
-      - "🇺🇸美国-01"
-      - "🇺🇸美国-02"
-      - "🇺🇸美国-03"
+      - "🇭🇰香港-01"
+      - "🇭🇰香港-02"
+      - "🇭🇰香港-03"
+      - "🇭🇰香港-04"
+      - "🇭🇰香港-05 | 电信优化 | x2"
+      - "🇭🇰香港-06 | 电信优化 | x2"
       - "AA-香港HKT1"
       - "AA-香港HKT2"
       - "AA-香港HKT4"
@@ -5509,25 +5653,3 @@ proxy-groups:
       - "🇨🇳 台湾 01 专线"
       - "🇨🇳 台湾 02 专线"
       - "🇨🇳 台湾 03 专线"
-      - "🇨🇳 台湾 04 专线"
-      - "🇨🇳 台湾 05 专线"
-      - "🇨🇳 台湾 06 专线"
-      - "🇰🇭 柬埔寨 01 专线"
-      - "🇰🇭 柬埔寨 02 专线"
-      - "🇩🇪 德国 01 专线"
-      - "🇩🇪 德国 02 专线"
-      - "🇳🇱 荷兰 01 专线"
-      - "🇳🇱 荷兰 02 专线"
-      - "🇹🇭 泰国 01 专线"
-      - "🇹🇭 泰国 02 专线"
-      - "🇬🇧 英国 01 专线"
-      - "🇬🇧 英国 02 专线"
-      - "🇨🇦 加拿大 01 专线"
-      - "🇨🇦 加拿大 02 专线"
-      - "🇦🇺 澳大利亚 01 专线"
-      - "🇦🇺 澳大利亚 02 专线"
-      - "Shadowsocks"
-      - "🇦🇶 ⚠️‼️您的订阅已重置 ‼️"
-      - "🇦🇶 请登陆官网 导入新订阅"
-      - "🇦🇶 登陆网站导入新的订阅URL"
-      - "🇦🇶 ⚠️‼️ 订阅请勿泄露"

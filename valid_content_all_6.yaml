@@ -1,8 +1,154 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-08-31 05:19:04
-# 节点数量: 107
+# 生成时间: 2026-08-31 13:35:04
+# 节点数量: 129
 
 proxies:
+  - name: "🇨🇳 台湾 04 专线"
+    type: "ss"
+    server: "catnet-tw.kunlun04dns.com"
+    port: 28032
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇨🇳 台湾 05 专线"
+    type: "ss"
+    server: "catnet-tw.kunlun04dns.com"
+    port: 28033
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇨🇳 台湾 06 专线"
+    type: "ss"
+    server: "catnet-tw.kunlun04dns.com"
+    port: 28034
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇰🇭 柬埔寨 01 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28035
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇰🇭 柬埔寨 02 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28036
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇩🇪 德国 01 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28037
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇩🇪 德国 02 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28038
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇳🇱 荷兰 01 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28039
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇳🇱 荷兰 02 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28040
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇹🇭 泰国 01 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28041
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇹🇭 泰国 02 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28042
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇬🇧 英国 01 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28043
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇬🇧 英国 02 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28044
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇨🇦 加拿大 01 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28045
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇨🇦 加拿大 02 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28046
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇦🇺 澳大利亚 01 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28047
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "🇦🇺 澳大利亚 02 专线"
+    type: "ss"
+    server: "catnet-other.kunlun04dns.com"
+    port: 28048
+    cipher: "aes-128-gcm"
+    password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+  - name: "Shadowsocks"
+    type: "socks5"
+    server: "127.0.0.1"
+    port: 1080
+  - name: "🇦🇶 ⚠️‼️您的订阅已重置 ‼️"
+    type: "vmess"
+    server: "127.0.0.1"
+    port: 80
+    uuid: "00000000-0000-0000-0000-000000000000"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇦🇶 请登陆官网 导入新订阅"
+    type: "vmess"
+    server: "127.0.0.1"
+    port: 80
+    uuid: "00000000-0000-0000-0000-000000000000"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇦🇶 登陆网站导入新的订阅URL"
+    type: "vmess"
+    server: "127.0.0.1"
+    port: 80
+    uuid: "00000000-0000-0000-0000-000000000000"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇦🇶 ⚠️‼️ 订阅请勿泄露"
+    type: "vmess"
+    server: "127.0.0.1"
+    port: 80
+    uuid: "00000000-0000-0000-0000-000000000000"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
   - name: "订阅链接过期了"
     type: "ss"
     server: "www.baidu.com"
@@ -762,6 +908,28 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇨🇳 台湾 04 专线"
+      - "🇨🇳 台湾 05 专线"
+      - "🇨🇳 台湾 06 专线"
+      - "🇰🇭 柬埔寨 01 专线"
+      - "🇰🇭 柬埔寨 02 专线"
+      - "🇩🇪 德国 01 专线"
+      - "🇩🇪 德国 02 专线"
+      - "🇳🇱 荷兰 01 专线"
+      - "🇳🇱 荷兰 02 专线"
+      - "🇹🇭 泰国 01 专线"
+      - "🇹🇭 泰国 02 专线"
+      - "🇬🇧 英国 01 专线"
+      - "🇬🇧 英国 02 专线"
+      - "🇨🇦 加拿大 01 专线"
+      - "🇨🇦 加拿大 02 专线"
+      - "🇦🇺 澳大利亚 01 专线"
+      - "🇦🇺 澳大利亚 02 专线"
+      - "Shadowsocks"
+      - "🇦🇶 ⚠️‼️您的订阅已重置 ‼️"
+      - "🇦🇶 请登陆官网 导入新订阅"
+      - "🇦🇶 登陆网站导入新的订阅URL"
+      - "🇦🇶 ⚠️‼️ 订阅请勿泄露"
       - "订阅链接过期了"
       - "订阅链接为短时间有效模式"
       - "去官网获取最新有效链接"
