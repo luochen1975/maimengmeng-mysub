@@ -1,8 +1,194 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-08-30 16:36:10
+# 生成时间: 2026-08-31 05:19:04
 # 节点数量: 500
 
 proxies:
+  - name: "🇧🇷 巴西 008"
+    type: "vless"
+    server: "152.233.35.228"
+    port: 8443
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    udp: true
+  - name: "🇺🇸 美国 218"
+    type: "vless"
+    server: "172.64.152.23"
+    port: 443
+    uuid: "396c904b-4b62-4334-b793-ee25fc0c61cc"
+    udp: true
+  - name: "🇧🇷 巴西 009"
+    type: "vless"
+    server: "188.114.96.3"
+    port: 443
+    uuid: "396c904b-4b62-4334-b793-ee25fc0c61cc"
+    udp: true
+  - name: "🇺🇦 乌克兰 004"
+    type: "vless"
+    server: "185.147.27.164"
+    port: 8443
+    uuid: "3a90bf69-1ffe-4ebb-b9a7-ad9ba8e9f66f"
+    udp: true
+  - name: "🇺🇸 美国 219"
+    type: "vless"
+    server: "104.17.180.185"
+    port: 443
+    uuid: "3b464aa7-f422-48f5-cfbd-27d5eeda5092"
+    udp: true
+  - name: "🇺🇸 美国 220"
+    type: "vless"
+    server: "69.46.46.14"
+    port: 443
+    uuid: "3b8da22a-8728-c157-297c-71096c356ae1"
+    udp: true
+  - name: "🇺🇸 美国 221"
+    type: "vless"
+    server: "103.21.244.75"
+    port: 80
+    uuid: "3c1eef35-015b-48cd-9f0a-23d9ef5816cc"
+    udp: true
+  - name: "🇺🇸 美国 222"
+    type: "vless"
+    server: "104.16.8.237"
+    port: 80
+    uuid: "3c1eef35-015b-48cd-9f0a-23d9ef5816cc"
+    udp: true
+  - name: "🇹🇭 泰国 001"
+    type: "vless"
+    server: "116.206.124.228"
+    port: 80
+    uuid: "3c52e091-6714-4915-949f-2149fe69951b"
+    udp: true
+  - name: "🇺🇸 美国 223"
+    type: "vless"
+    server: "206.72.205.152"
+    port: 40296
+    uuid: "3d0135ce-97f0-4b2f-90c3-e8aaa01be795"
+    udp: true
+  - name: "🇺🇸 美国 224"
+    type: "vless"
+    server: "199.232.79.229"
+    port: 80
+    uuid: "3d142a41-8e57-47d7-a579-f52c6eae79f7"
+    udp: true
+  - name: "🇳🇱 荷兰 024"
+    type: "vless"
+    server: "45.130.125.192"
+    port: 8443
+    uuid: "3d7c04ea-0d63-4847-b916-1103cc6a488f"
+    udp: true
+  - name: "🇺🇸 美国 225"
+    type: "vless"
+    server: "72.56.40.152"
+    port: 443
+    uuid: "3f054fce-df15-4f7c-8616-56a8b17e84b4"
+    udp: true
+  - name: "🇩🇪 德国 022"
+    type: "vless"
+    server: "18.192.50.101"
+    port: 443
+    uuid: "3f3bb5cc-da8b-4551-8b76-ba223f1a5255"
+    udp: true
+  - name: "🇺🇸 美国 226"
+    type: "vless"
+    server: "66.33.22.36"
+    port: 443
+    uuid: "3f5ebdae-4d8e-db0c-41fd-15029566f398"
+    udp: true
+  - name: "🇺🇸 美国 227"
+    type: "vless"
+    server: "104.16.7.70"
+    port: 443
+    uuid: "406d8436-0eb9-4eb2-84fb-960e076ffba6"
+    udp: true
+  - name: "🇳🇱 荷兰 025"
+    type: "vless"
+    server: "45.130.125.160"
+    port: 443
+    uuid: "406d8436-0eb9-4eb2-84fb-960e076ffba6"
+    udp: true
+  - name: "🇩🇪 德国 023"
+    type: "vless"
+    server: "167.233.54.146"
+    port: 2087
+    uuid: "4077de3d-64cb-41cb-bee2-9178210e5fb4"
+    udp: true
+  - name: "🇷🇺 俄罗斯 011"
+    type: "vless"
+    server: "213.156.152.110"
+    port: 443
+    uuid: "41a9711b-5b34-4fd8-a877-85c6f4d0e418"
+    udp: true
+  - name: "🇺🇸 美国 228"
+    type: "vless"
+    server: "172.67.139.85"
+    port: 443
+    uuid: "429efff7-16bd-499e-85a5-a6f4b89c2773"
+    udp: true
+  - name: "🇺🇸 美国 229"
+    type: "vless"
+    server: "172.67.139.85"
+    port: 80
+    uuid: "429efff7-16bd-499e-85a5-a6f4b89c2773"
+    udp: true
+  - name: "🇷🇺 俄罗斯 012"
+    type: "vless"
+    server: "91.243.86.89"
+    port: 2058
+    uuid: "42edf47c-7dd2-4207-b061-87935222eec4"
+    udp: true
+  - name: "🇯🇵 日本 008"
+    type: "vless"
+    server: "14.137.238.40"
+    port: 10000
+    uuid: "431fe973-a43a-4fac-bf83-2a772e0d0625"
+    udp: true
+  - name: "🇨🇳 中国 018"
+    type: "vless"
+    server: "180.178.60.253"
+    port: 10000
+    uuid: "431fe973-a43a-4fac-bf83-2a772e0d0625"
+    udp: true
+  - name: "🇺🇸 美国 230"
+    type: "vless"
+    server: "104.16.132.80"
+    port: 80
+    uuid: "435bda4c-fe5e-42c9-a3ad-15334943b38a"
+    udp: true
+  - name: "🇺🇸 美国 231"
+    type: "vless"
+    server: "104.16.195.29"
+    port: 80
+    uuid: "435bda4c-fe5e-42c9-a3ad-15334943b38a"
+    udp: true
+  - name: "🇺🇸 美国 232"
+    type: "vless"
+    server: "104.16.206.135"
+    port: 80
+    uuid: "435bda4c-fe5e-42c9-a3ad-15334943b38a"
+    udp: true
+  - name: "🇺🇸 美国 233"
+    type: "vless"
+    server: "104.16.206.187"
+    port: 80
+    uuid: "435bda4c-fe5e-42c9-a3ad-15334943b38a"
+    udp: true
+  - name: "🇺🇸 美国 234"
+    type: "vless"
+    server: "104.16.238.181"
+    port: 80
+    uuid: "435bda4c-fe5e-42c9-a3ad-15334943b38a"
+    udp: true
+  - name: "🇺🇸 美国 235"
+    type: "vless"
+    server: "104.16.247.58"
+    port: 80
+    uuid: "435bda4c-fe5e-42c9-a3ad-15334943b38a"
+    udp: true
+  - name: "🇺🇸 美国 236"
+    type: "vless"
+    server: "104.16.250.81"
+    port: 80
+    uuid: "435bda4c-fe5e-42c9-a3ad-15334943b38a"
+    udp: true
   - name: "🇺🇸 美国 237"
     type: "vless"
     server: "104.16.254.201"
@@ -2817,197 +3003,42 @@ proxies:
     port: 22223
     uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
     udp: true
-  - name: "🇫🇷 法国 026"
-    type: "vless"
-    server: "52.47.114.162"
-    port: 22222
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇫🇷 法国 027"
-    type: "vless"
-    server: "52.47.114.162"
-    port: 22224
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇫🇷 法国 028"
-    type: "vless"
-    server: "52.47.166.121"
-    port: 22222
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇺🇸 美国 510"
-    type: "vless"
-    server: "63.180.184.26"
-    port: 22222
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇺🇸 美国 511"
-    type: "vless"
-    server: "63.180.184.26"
-    port: 22224
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇺🇸 美国 512"
-    type: "vless"
-    server: "63.181.91.194"
-    port: 22224
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇺🇸 美国 513"
-    type: "vless"
-    server: "63.184.211.42"
-    port: 22222
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇺🇸 美国 514"
-    type: "vless"
-    server: "63.184.211.42"
-    port: 22223
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇺🇸 美国 515"
-    type: "vless"
-    server: "63.184.211.42"
-    port: 22224
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇺🇸 美国 516"
-    type: "vless"
-    server: "63.187.187.6"
-    port: 22224
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇺🇸 美国 517"
-    type: "vless"
-    server: "63.187.248.131"
-    port: 22222
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇺🇸 美国 518"
-    type: "vless"
-    server: "63.187.248.131"
-    port: 22223
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇺🇸 美国 519"
-    type: "vless"
-    server: "63.187.253.165"
-    port: 22222
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇺🇸 美国 520"
-    type: "vless"
-    server: "104.16.0.1"
-    port: 2053
-    uuid: "e5418edb-e1b6-c9b9-1b2c-f0bf0000000c"
-    udp: true
-  - name: "🇺🇸 美国 521"
-    type: "vless"
-    server: "172.64.150.28"
-    port: 2082
-    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
-    udp: true
-  - name: "🇷🇺 俄罗斯 025"
-    type: "vless"
-    server: "94.26.249.216"
-    port: 52006
-    uuid: "e76dc9ca-b09f-07d0-bd4f-316ee0dce041"
-    udp: true
-  - name: "🇺🇸 美国 522"
-    type: "vless"
-    server: "172.64.147.1"
-    port: 2053
-    uuid: "e7af22d8-dee7-2af7-e515-c27800000013"
-    udp: true
-  - name: "🇱🇹 立陶宛 005"
-    type: "vless"
-    server: "84.32.189.155"
-    port: 443
-    uuid: "e7e90e6b-8069-4cb8-bad9-a3b364dd5d71"
-    udp: true
-  - name: "🇺🇸 美国 523"
-    type: "vless"
-    server: "162.19.10.99"
-    port: 443
-    uuid: "e8b1500b-e9e8-5492-8312-f4eadf7d0767"
-    udp: true
-  - name: "🇺🇸 美国 524"
-    type: "vless"
-    server: "141.101.115.71"
-    port: 8443
-    uuid: "e8c61352-444f-4154-ba34-9d3141154a8d"
-    udp: true
-  - name: "🇺🇸 美国 525"
-    type: "vless"
-    server: "172.64.155.209"
-    port: 8443
-    uuid: "e8c61352-444f-4154-ba34-9d3141154a8d"
-    udp: true
-  - name: "🇨🇭 瑞士 007"
-    type: "vless"
-    server: "185.195.69.158"
-    port: 443
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
-    udp: true
-  - name: "🇷🇺 俄罗斯 026"
-    type: "vless"
-    server: "194.55.164.154"
-    port: 8443
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
-    udp: true
-  - name: "🇫🇷 法国 029"
-    type: "vless"
-    server: "212.23.221.62"
-    port: 443
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
-    udp: true
-  - name: "🇧🇪 比利时 009"
-    type: "vless"
-    server: "57.128.182.21"
-    port: 443
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
-    udp: true
-  - name: "🇳🇱 荷兰 055"
-    type: "vless"
-    server: "91.232.114.148"
-    port: 443
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
-    udp: true
-  - name: "🇺🇸 美国 526"
-    type: "vless"
-    server: "104.26.6.89"
-    port: 8443
-    uuid: "e999db7a-1b17-4da6-bc37-c9fa24af2e93"
-    udp: true
-  - name: "🇮🇷 伊朗 049"
-    type: "vless"
-    server: "31.57.93.62"
-    port: 8882
-    uuid: "eab915bc-d2df-73d1-47d0-6eb240497055"
-    udp: true
-  - name: "🇮🇳 印度 002"
-    type: "vless"
-    server: "14.102.228.81"
-    port: 2053
-    uuid: "eb404f21-2ad7-43b2-8b7c-2ae2302b1156"
-    udp: true
-  - name: "🇷🇺 俄罗斯 027"
-    type: "vless"
-    server: "45.13.119.219"
-    port: 8888
-    uuid: "eb77be10-9d9e-527b-a78d-8caaf58992d6"
-    udp: true
-  - name: "🇺🇸 美国 527"
-    type: "vless"
-    server: "104.16.80.73"
-    port: 2083
-    uuid: "ebe44c2c-96ed-4a36-8456-2e9ee60c859c"
-    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇧🇷 巴西 008"
+      - "🇺🇸 美国 218"
+      - "🇧🇷 巴西 009"
+      - "🇺🇦 乌克兰 004"
+      - "🇺🇸 美国 219"
+      - "🇺🇸 美国 220"
+      - "🇺🇸 美国 221"
+      - "🇺🇸 美国 222"
+      - "🇹🇭 泰国 001"
+      - "🇺🇸 美国 223"
+      - "🇺🇸 美国 224"
+      - "🇳🇱 荷兰 024"
+      - "🇺🇸 美国 225"
+      - "🇩🇪 德国 022"
+      - "🇺🇸 美国 226"
+      - "🇺🇸 美国 227"
+      - "🇳🇱 荷兰 025"
+      - "🇩🇪 德国 023"
+      - "🇷🇺 俄罗斯 011"
+      - "🇺🇸 美国 228"
+      - "🇺🇸 美国 229"
+      - "🇷🇺 俄罗斯 012"
+      - "🇯🇵 日本 008"
+      - "🇨🇳 中国 018"
+      - "🇺🇸 美国 230"
+      - "🇺🇸 美国 231"
+      - "🇺🇸 美国 232"
+      - "🇺🇸 美国 233"
+      - "🇺🇸 美国 234"
+      - "🇺🇸 美国 235"
+      - "🇺🇸 美国 236"
       - "🇺🇸 美国 237"
       - "🇺🇸 美国 238"
       - "🇺🇸 美国 239"
@@ -3477,34 +3508,3 @@ proxy-groups:
       - "🇺🇸 美国 508"
       - "🇺🇸 美国 509"
       - "🇬🇧 英国 027"
-      - "🇫🇷 法国 026"
-      - "🇫🇷 法国 027"
-      - "🇫🇷 法国 028"
-      - "🇺🇸 美国 510"
-      - "🇺🇸 美国 511"
-      - "🇺🇸 美国 512"
-      - "🇺🇸 美国 513"
-      - "🇺🇸 美国 514"
-      - "🇺🇸 美国 515"
-      - "🇺🇸 美国 516"
-      - "🇺🇸 美国 517"
-      - "🇺🇸 美国 518"
-      - "🇺🇸 美国 519"
-      - "🇺🇸 美国 520"
-      - "🇺🇸 美国 521"
-      - "🇷🇺 俄罗斯 025"
-      - "🇺🇸 美国 522"
-      - "🇱🇹 立陶宛 005"
-      - "🇺🇸 美国 523"
-      - "🇺🇸 美国 524"
-      - "🇺🇸 美国 525"
-      - "🇨🇭 瑞士 007"
-      - "🇷🇺 俄罗斯 026"
-      - "🇫🇷 法国 029"
-      - "🇧🇪 比利时 009"
-      - "🇳🇱 荷兰 055"
-      - "🇺🇸 美国 526"
-      - "🇮🇷 伊朗 049"
-      - "🇮🇳 印度 002"
-      - "🇷🇺 俄罗斯 027"
-      - "🇺🇸 美国 527"
