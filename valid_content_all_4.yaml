@@ -1,8 +1,120 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-08-31 20:47:40
+# 生成时间: 2026-09-01 14:07:46
 # 节点数量: 500
 
 proxies:
+  - name: "🇺🇸 美国 530"
+    type: "vmess"
+    server: "172.64.155.200"
+    port: 443
+    uuid: "a8030afd-812a-4afe-a766-9c76ff3eddd4"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "lg4.zhujicn2.com"
+  - name: "🇺🇸 美国 531"
+    type: "vmess"
+    server: "198.41.212.30"
+    port: 443
+    uuid: "105c635f-918d-4b2a-8c9d-d5426e94eb4b"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/dongtaiwang.com"
+      headers:
+        Host: "lg2.zhujicn2.com"
+  - name: "🇺🇸 美国 532"
+    type: "vmess"
+    server: "172.67.218.162"
+    port: 443
+    uuid: "70d9bf20-3e6b-4cd3-ff28-b62567ff5a23"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eu.ptuu.tk"
+  - name: "🇺🇸 美国 533"
+    type: "vmess"
+    server: "172.67.196.0"
+    port: 443
+    uuid: "4db99e96-3ee3-419c-b1fb-856975801380"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/ray"
+      headers:
+        Host: "localhoster.ml"
+  - name: "🇺🇸 美国 534"
+    type: "vmess"
+    server: "ct3.ainivp.com"
+    port: 33412
+    uuid: "9204afcd-026e-781f-1abc-c03efabd1344"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/ray"
+      headers:
+        Host: "ct3.ainivp.com"
+  - name: "🇯🇵 日本 009"
+    type: "vmess"
+    server: "61.245.11.60"
+    port: 80
+    uuid: "a3e3a710-79f8-4ae0-b83c-607aab40d197"
+    cipher: "auto"
+    alterId: 64
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmess/"
+      headers:
+        Host: "61.245.11.60"
+  - name: "🇩🇪 德国 057"
+    type: "vmess"
+    server: "176.65.140.210"
+    port: 28267
+    uuid: "5a07247c-ea05-4dac-ab9f-6d778b5e0583"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "bobo.badrangteb.ir"
+  - name: "🇩🇪 德国 058"
+    type: "vmess"
+    server: "176.65.140.210"
+    port: 23981
+    uuid: "e2ab9425-a3d5-4001-8b31-6a259935fe72"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "bobo.badrangteb.ir"
   - name: "🇨🇳 中国 026"
     type: "vmess"
     server: "219.76.13.178"
@@ -6549,59 +6661,19 @@ proxies:
     port: 47708
     cipher: "chacha20-ietf-poly1305"
     password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-09"
-    type: "ss"
-    server: "hk09.network-cdn-gw-yd.net"
-    port: 47709
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-10"
-    type: "ss"
-    server: "hk11.network-cdn-gw-yd.net"
-    port: 47711
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic-01"
-    type: "ss"
-    server: "us06.network-cdn-gw-yd.net"
-    port: 43111
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic-02"
-    type: "ss"
-    server: "us07.network-cdn-gw-yd.net"
-    port: 43211
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic-03"
-    type: "ss"
-    server: "us08.network-cdn-gw-yd.net"
-    port: 43212
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic直连-01|gpt|三网优化线路|X3"
-    type: "ss"
-    server: "usbis.network-cdn-gw-yd.net"
-    port: 43213
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic直连-02|gpt|三网优化线路|X3"
-    type: "ss"
-    server: "usbis.network-cdn-gw-yd.net"
-    port: 43215
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "日本-Basic-BGP-01"
-    type: "ss"
-    server: "jp01.network-cdn-gw-yd.net"
-    port: 48801
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇺🇸 美国 530"
+      - "🇺🇸 美国 531"
+      - "🇺🇸 美国 532"
+      - "🇺🇸 美国 533"
+      - "🇺🇸 美国 534"
+      - "🇯🇵 日本 009"
+      - "🇩🇪 德国 057"
+      - "🇩🇪 德国 058"
       - "🇨🇳 中国 026"
       - "🇦🇺 澳大利亚 005"
       - "🇨🇿 捷克 004"
@@ -7094,11 +7166,3 @@ proxy-groups:
       - "香港-Basic-BGP-06"
       - "香港-Basic-BGP-07"
       - "香港-Basic-BGP-08"
-      - "香港-Basic-BGP-09"
-      - "香港-Basic-BGP-10"
-      - "美国-Basic-01"
-      - "美国-Basic-02"
-      - "美国-Basic-03"
-      - "美国-Basic直连-01|gpt|三网优化线路|X3"
-      - "美国-Basic直连-02|gpt|三网优化线路|X3"
-      - "日本-Basic-BGP-01"

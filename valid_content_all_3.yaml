@@ -1,8 +1,56 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-08-31 20:47:40
+# 生成时间: 2026-09-01 14:07:46
 # 节点数量: 500
 
 proxies:
+  - name: "🇩🇪 德国 025"
+    type: "vless"
+    server: "185.55.240.199"
+    port: 443
+    uuid: "53c76647-14d1-4df5-99cb-be99ad2e6bd9"
+    udp: true
+  - name: "🇺🇸 美国 232"
+    type: "vless"
+    server: "104.17.148.22"
+    port: 2087
+    uuid: "543affb5-fb77-41fe-adfe-d54226840b07"
+    udp: true
+  - name: "🇸🇬 新加坡 005"
+    type: "vless"
+    server: "139.59.124.172"
+    port: 443
+    uuid: "54a9c202-cfe9-4bb8-826c-653a52a96c6d"
+    udp: true
+  - name: "🇺🇸 美国 233"
+    type: "vless"
+    server: "69.46.46.13"
+    port: 443
+    uuid: "55b4e885-c5ad-6263-28bd-a3ed1f1bcd80"
+    udp: true
+  - name: "🇨🇿 捷克 001"
+    type: "vless"
+    server: "79.127.196.11"
+    port: 8443
+    uuid: "55f7d143-a594-4a91-b030-f227039f85ef"
+    udp: true
+  - name: "🇺🇸 美国 234"
+    type: "vless"
+    server: "212.87.199.122"
+    port: 58416
+    uuid: "5626ce32-dad0-468b-952c-e53d609100f1"
+    udp: true
+  - name: "🇺🇸 美国 235"
+    type: "vless"
+    server: "69.46.46.199"
+    port: 443
+    uuid: "5658529b-d1eb-9e77-17c1-cdc20d003b3a"
+    udp: true
+  - name: "🇺🇸 美国 236"
+    type: "vless"
+    server: "8.35.211.43"
+    port: 2053
+    uuid: "56e4896e-90a9-4fe0-8480-90d3d68b9928"
+    udp: true
   - name: "🇺🇸 美国 237"
     type: "vless"
     server: "151.101.65.242"
@@ -3147,123 +3195,19 @@ proxies:
       path: "/"
       headers:
         Host: "scw.cloudflare.quest"
-  - name: "🇺🇸 美国 530"
-    type: "vmess"
-    server: "172.64.155.200"
-    port: 443
-    uuid: "a8030afd-812a-4afe-a766-9c76ff3eddd4"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "lg4.zhujicn2.com"
-  - name: "🇺🇸 美国 531"
-    type: "vmess"
-    server: "198.41.212.30"
-    port: 443
-    uuid: "105c635f-918d-4b2a-8c9d-d5426e94eb4b"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/dongtaiwang.com"
-      headers:
-        Host: "lg2.zhujicn2.com"
-  - name: "🇺🇸 美国 532"
-    type: "vmess"
-    server: "172.67.218.162"
-    port: 443
-    uuid: "70d9bf20-3e6b-4cd3-ff28-b62567ff5a23"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eu.ptuu.tk"
-  - name: "🇺🇸 美国 533"
-    type: "vmess"
-    server: "172.67.196.0"
-    port: 443
-    uuid: "4db99e96-3ee3-419c-b1fb-856975801380"
-    cipher: "auto"
-    alterId: 64
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/ray"
-      headers:
-        Host: "localhoster.ml"
-  - name: "🇺🇸 美国 534"
-    type: "vmess"
-    server: "ct3.ainivp.com"
-    port: 33412
-    uuid: "9204afcd-026e-781f-1abc-c03efabd1344"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/ray"
-      headers:
-        Host: "ct3.ainivp.com"
-  - name: "🇯🇵 日本 009"
-    type: "vmess"
-    server: "61.245.11.60"
-    port: 80
-    uuid: "a3e3a710-79f8-4ae0-b83c-607aab40d197"
-    cipher: "auto"
-    alterId: 64
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/vmess/"
-      headers:
-        Host: "61.245.11.60"
-  - name: "🇩🇪 德国 057"
-    type: "vmess"
-    server: "176.65.140.210"
-    port: 28267
-    uuid: "5a07247c-ea05-4dac-ab9f-6d778b5e0583"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "bobo.badrangteb.ir"
-  - name: "🇩🇪 德国 058"
-    type: "vmess"
-    server: "176.65.140.210"
-    port: 23981
-    uuid: "e2ab9425-a3d5-4001-8b31-6a259935fe72"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "bobo.badrangteb.ir"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇩🇪 德国 025"
+      - "🇺🇸 美国 232"
+      - "🇸🇬 新加坡 005"
+      - "🇺🇸 美国 233"
+      - "🇨🇿 捷克 001"
+      - "🇺🇸 美国 234"
+      - "🇺🇸 美国 235"
+      - "🇺🇸 美国 236"
       - "🇺🇸 美国 237"
       - "🇧🇷 巴西 018"
       - "🇺🇸 美国 238"
@@ -3756,11 +3700,3 @@ proxy-groups:
       - "🇩🇪 德国 056"
       - "🇺🇸 美国 528"
       - "🇺🇸 美国 529"
-      - "🇺🇸 美国 530"
-      - "🇺🇸 美国 531"
-      - "🇺🇸 美国 532"
-      - "🇺🇸 美国 533"
-      - "🇺🇸 美国 534"
-      - "🇯🇵 日本 009"
-      - "🇩🇪 德国 057"
-      - "🇩🇪 德国 058"
