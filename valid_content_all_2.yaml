@@ -1,8 +1,88 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-01 23:15:45
+# 生成时间: 2026-09-02 04:13:39
 # 节点数量: 500
 
 proxies:
+  - name: "🇺🇸US-20.231.111.125-0032"
+    type: "ss"
+    server: "20.231.111.125"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇺🇸US-20.231.111.125-0031"
+    type: "vmess"
+    server: "20.231.111.125"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇳🇱NL-52.232.66.152-0030"
+    type: "vmess"
+    server: "52.232.66.152"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇺🇸US-20.10.159.29-0029"
+    type: "vmess"
+    server: "20.10.159.29"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇭🇰HK-95.40.120.162-0184"
+    type: "ss"
+    server: "95.40.120.162"
+    port: 8319
+    cipher: "chacha20-ietf-poly1305"
+    password: "ljqdalu13.."
+  - name: "🇺🇸US-156.146.38.169-0185"
+    type: "ss"
+    server: "156.146.38.169"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇬🇧GB-20.90.249.210-0026"
+    type: "vmess"
+    server: "20.90.249.210"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇬🇧GB-20.77.245.193-0025"
+    type: "ss"
+    server: "20.77.245.193"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
   - name: "🇩🇪DE-207.241.172.111-0188"
     type: "ss"
     server: "de-server-1.zelnora.ir"
@@ -498,11 +578,11 @@ proxies:
     port: 5601
     cipher: "aes-256-gcm"
     password: "Y6R9pAtvxxzmGC"
-  - name: "🇸🇪_SE_瑞典"
+  - name: "🇳🇱_NL_荷兰->🇩🇪_DE_德国"
     type: "vless"
-    server: "202.155.11.249"
+    server: "153.75.89.35"
     port: 443
-    uuid: "0a2dde28-70da-4863-a06f-35d007d94d35"
+    uuid: "24623d40-0a9a-4ae8-9b30-da896fac4ca9"
     udp: true
   - name: "🇬🇧_GB_英国->🇩🇪_DE_德国"
     type: "vless"
@@ -510,95 +590,79 @@ proxies:
     port: 2087
     uuid: "90da514d-8888-4a53-912e-ac2981c8c6ee"
     udp: true
-  - name: "🇵🇱_PL_波兰->🇳🇱_NL_荷兰"
-    type: "vless"
-    server: "178.95.170.115"
-    port: 2087
-    uuid: "bf443e4a-aa9e-4509-abf0-d0f6828d57be"
-    udp: true
-  - name: "🇷🇺_RU_俄罗斯"
-    type: "vless"
-    server: "194.26.229.110"
-    port: 4100
-    uuid: "6a726f9a-5753-4113-bfd8-bd845281dca8"
-    udp: true
-  - name: "🇸🇬_SG_新加坡"
-    type: "hysteria2"
-    server: "47.241.108.227"
-    port: 50160
-    password: "436114b5f36b2e704bdfa0927d57b6cd"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
-    type: "vless"
-    server: "us22.sofast.live"
-    port: 58011
-    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
-    udp: true
-  - name: "🇭🇰_HK_中国香港"
-    type: "vmess"
-    server: "v10.hdacd.com"
-    port: 30807
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    cipher: "auto"
-    alterId: 2
-    tls: false
-    network: "tcp"
-    udp: true
-  - name: "🇭🇰_HK_中国香港"
-    type: "vless"
-    server: "nian.001.url111.kcloud02.top"
-    port: 15003
-    uuid: "399c4c9b-27e1-37f1-9dce-22ccc2727a86"
-    udp: true
-  - name: "🇮🇷_IR_伊朗->🇫🇮_FI_芬兰"
-    type: "vless"
-    server: "ar.shotorfree.shop"
-    port: 17476
-    uuid: "37f80d6d-53d8-4c12-8ea3-7a6889a921b2"
-    udp: true
-  - name: "🇨🇭_CH_瑞士->🇫🇮_FI_芬兰"
-    type: "vless"
-    server: "31.76.4.128"
-    port: 5001
-    uuid: "5a92a9d2-3067-49cd-bfc5-989bbdfc5d52"
-    udp: true
-  - name: "🇩🇪_DE_德国"
-    type: "vless"
-    server: "46.28.65.153"
-    port: 443
-    uuid: "f1904bfb-3903-4949-814a-e1053a918e34"
-    udp: true
-  - name: "🇨🇳_CN_中国"
-    type: "vmess"
-    server: "112.132.215.108"
-    port: 50002
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    cipher: "auto"
-    alterId: 64
-    tls: false
-    network: "tcp"
-    udp: true
-  - name: "🇸🇬_SG_新加坡"
-    type: "hysteria2"
-    server: "sg1.xiaoliyu.cyou"
-    port: 1933
-    password: "19f72087-4591-4d72-930b-2697078ec2be"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
   - name: "🇺🇸_US_美国"
     type: "vless"
     server: "s881.gogocs.xyz"
     port: 18153
     uuid: "41f4cb15-5a3f-3934-89fe-b4177146adf4"
     udp: true
+  - name: "🇸🇪_SE_瑞典"
+    type: "vless"
+    server: "202.155.11.249"
+    port: 443
+    uuid: "0a2dde28-70da-4863-a06f-35d007d94d35"
+    udp: true
+  - name: "🇨🇳_CN_中国->🇯🇵_JP_日本"
+    type: "vmess"
+    server: "v6.hdacd.com"
+    port: 30806
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    cipher: "auto"
+    alterId: 2
+    tls: false
+    network: "tcp"
+    udp: true
   - name: "🇺🇸_US_美国"
     type: "vless"
-    server: "188.114.97.6"
-    port: 2095
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    server: "us5-r.link-t7.com"
+    port: 10242
+    uuid: "31904E3E-F57B-41D1-BDB2-CB6D3A496232"
+    udp: true
+  - name: "🇱🇻_LV_拉脱维亚"
+    type: "vless"
+    server: "109.248.161.43"
+    port: 64584
+    uuid: "24e84618-3de6-4e3b-802e-5abbe666c4b0"
+    udp: true
+  - name: "🇨🇳_CN_中国->🇩🇪_DE_德国"
+    type: "vmess"
+    server: "v33.hdacd.com"
+    port: 30833
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    cipher: "auto"
+    alterId: 2
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇺🇸_US_美国"
+    type: "vmess"
+    server: "p05.rghvf.sbs"
+    port: 1233
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "tcp"
+    udp: true
+  - name: "🇺🇸_US_美国"
+    type: "vmess"
+    server: "38.246.226.240"
+    port: 52080
+    uuid: "7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸_US_美国"
+    type: "vmess"
+    server: "195.133.192.232"
+    port: 1233
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "tcp"
     udp: true
   - name: "🇺🇸_US_美国"
     type: "vmess"
@@ -610,33 +674,81 @@ proxies:
     tls: true
     network: "tcp"
     udp: true
-  - name: "🇺🇸_US_美国"
+  - name: "🇨🇭_CH_瑞士->🇫🇮_FI_芬兰"
+    type: "vless"
+    server: "31.76.4.128"
+    port: 5001
+    uuid: "5a92a9d2-3067-49cd-bfc5-989bbdfc5d52"
+    udp: true
+  - name: "🇭🇰_HK_中国香港"
     type: "vmess"
-    server: "192.227.247.27"
-    port: 443
-    uuid: "6a89a215-22bf-4bd7-9642-b95b2e09583a"
+    server: "v10.zgtfqs.click"
+    port: 30807
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
     cipher: "auto"
-    alterId: 0
-    tls: true
+    alterId: 2
+    tls: false
     network: "tcp"
     udp: true
+  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+    type: "vless"
+    server: "31.76.71.140"
+    port: 443
+    uuid: "af00e0c4-decf-48f2-9013-56abe9c9efcd"
+    udp: true
+  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
+    type: "vmess"
+    server: "v4.hdacd.com"
+    port: 30804
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    cipher: "auto"
+    alterId: 2
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇭🇰_HK_中国香港->🇸🇬_SG_新加坡"
+    type: "vless"
+    server: "82.38.46.66"
+    port: 15006
+    uuid: "399c4c9b-27e1-37f1-9dce-22ccc2727a86"
+    udp: true
+  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
+    type: "vless"
+    server: "us22.sofast.live"
+    port: 58011
+    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
+    udp: true
+  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
+    type: "vless"
+    server: "jp.sofast.live"
+    port: 52683
+    uuid: "399b6b23-cc40-4831-a494-61948e2df133"
+    udp: true
+  - name: "🇸🇬_SG_新加坡"
+    type: "hysteria2"
+    server: "47.241.108.227"
+    port: 50160
+    password: "436114b5f36b2e704bdfa0927d57b6cd"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
   - name: "自适应分流"
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "c2bbf57c-dd24-42d6-8063-68fe9f801247"
+    uuid: "a5d13da9-392e-4249-b92a-4e7b993e9743"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "c2bbf57c-dd24-42d6-8063-68fe9f801247"
+    uuid: "a5d13da9-392e-4249-b92a-4e7b993e9743"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "c2bbf57c-dd24-42d6-8063-68fe9f801247"
+    uuid: "a5d13da9-392e-4249-b92a-4e7b993e9743"
     udp: true
   - name: "🇺🇸 美国 001"
     type: "vmess"
@@ -3890,13 +4002,13 @@ proxies:
     port: 10014
     cipher: "chacha20-ietf-poly1305"
     password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "剩余流量：59.56 GB"
+  - name: "剩余流量：59.49 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
     cipher: "aes-128-gcm"
     password: "f80fadf1-4f90-40e2-891f-e9a10146d960"
-  - name: "剩余流量：35.11 GB"
+  - name: "剩余流量：31.95 GB"
     type: "vless"
     server: "asaa.mmm.top"
     port: 10003
@@ -4104,7 +4216,7 @@ proxies:
     port: 26914
     cipher: "chacha20-ietf-poly1305"
     password: "461f4996-a430-4482-a103-acef0713281a"
-  - name: "剩余流量：59.81 GB"
+  - name: "剩余流量：59.75 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -4294,6 +4406,254 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
+  - name: "AA-香港HKT1"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 1030
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "hkt1.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "AA-香港HKT2"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2570
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "hkt2.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "AA-香港HKT4"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 2020
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "hkt4.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "AA-香港HKT5"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 2840
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "hkt5.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-B台湾01"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 2980
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "tpe01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-B台湾02"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2990
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "tpe02.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-B台湾03"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 1320
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "tpe03.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-C日本(语音游戏)05"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 2720
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "jp05.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-C日本直连-07"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1730
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "jp07.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-美国高速-01"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 1580
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "us01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-美国高速-05"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2930
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "us05.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-美国高速-06"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 2740
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "us06.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-美国高速-07"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2220
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "us07.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-E新加坡解锁02"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2160
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "sg02.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-E新加坡解锁04"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 2670
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "sg04.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-俄罗斯-01"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1150
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "ru01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-俄罗斯-02"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1260
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "ru02.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-越南（原生ip）"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2800
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "vn01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-智利"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1060
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "cl01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-加拿大高速-01"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1370
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "ca01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-加拿大高速-02"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1570
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "ca02.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-印度"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1980
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "in01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-爱尔兰原生IP"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1560
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "ie01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-德国-01 DE"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1350
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "de01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-德国原生IP-02"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1550
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "de02.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-L立陶宛-01"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 3170
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "lt01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-英国-01"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1360
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "uk01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-法国-01"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2920
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "fr01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-芬兰原生IP"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1930
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "fi01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-巴西原生IP"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2870
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "br01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-南非原生IP"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 3000
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "za01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
   - name: "[IPV6]网络支持IPV6可用 台湾01"
     type: "vmess"
     server: "ipv6-tw01.cnddns.com"
@@ -4870,515 +5230,19 @@ proxies:
     network: "tcp"
     udp: true
     skip-cert-verify: false
-  - name: "[IPLC]韩国 04 SK텔레콤"
-    type: "vmess"
-    server: "select-kr.ddnskunlun.com"
-    port: 9060
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-kr.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]韩国 05 SK텔레콤"
-    type: "vmess"
-    server: "select-kr.ddnskunlun.com"
-    port: 9061
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-kr.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]韩国 06 SK텔레콤"
-    type: "vmess"
-    server: "select-kr.ddnskunlun.com"
-    port: 9062
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-kr.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]韩国 07 SK텔레콤"
-    type: "vmess"
-    server: "select-kr.ddnskunlun.com"
-    port: 9063
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-kr.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]韩国 08 SK텔레콤"
-    type: "vmess"
-    server: "select-kr.ddnskunlun.com"
-    port: 9064
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-kr.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]新加坡 01 Singtel"
-    type: "vmess"
-    server: "select-sg.ddnskunlun.com"
-    port: 9038
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-sg.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]新加坡 02 Singtel"
-    type: "vmess"
-    server: "select-sg.ddnskunlun.com"
-    port: 9039
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-sg.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]新加坡 03 Singtel"
-    type: "vmess"
-    server: "select-sg.ddnskunlun.com"
-    port: 9040
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-sg.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]新加坡 04 Singtel"
-    type: "vmess"
-    server: "select-sg.ddnskunlun.com"
-    port: 9041
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-sg.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]新加坡 05 Singtel"
-    type: "vmess"
-    server: "select-sg.ddnskunlun.com"
-    port: 9042
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-sg.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]新加坡 06 Singtel"
-    type: "vmess"
-    server: "select-sg.ddnskunlun.com"
-    port: 9043
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-sg.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]新加坡 07 Singtel"
-    type: "vmess"
-    server: "select-sg.ddnskunlun.com"
-    port: 9044
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-sg.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]新加坡 08 Singtel"
-    type: "vmess"
-    server: "select-sg.ddnskunlun.com"
-    port: 9045
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-sg.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]印度尼西亚 01 ISP&HOME"
-    type: "vmess"
-    server: "select-id.ddnskunlun.com"
-    port: 11936
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-id.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]印度尼西亚 02 ISP&HOME"
-    type: "vmess"
-    server: "select-id.ddnskunlun.com"
-    port: 11945
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-id.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]印度尼西亚 03 ISP&HOME"
-    type: "vmess"
-    server: "select-id.ddnskunlun.com"
-    port: 11949
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-id.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]印度尼西亚 04 ISP&HOME"
-    type: "vmess"
-    server: "select-id.ddnskunlun.com"
-    port: 11950
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-id.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]印度尼西亚 05 IDC&ALIYUN"
-    type: "vmess"
-    server: "select-id.ddnskunlun.com"
-    port: 11951
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-id.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]印度尼西亚 06 IDC&ALIYUN"
-    type: "vmess"
-    server: "select-id.ddnskunlun.com"
-    port: 11952
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-id.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]印度尼西亚 07 IDC&CFWARP"
-    type: "vmess"
-    server: "select-id.ddnskunlun.com"
-    port: 11953
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-id.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]印度尼西亚 08 IDC&CFWARP"
-    type: "vmess"
-    server: "select-id.ddnskunlun.com"
-    port: 11954
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "select-id.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]丹麦 01 巴勒鲁普"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11931
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]丹麦 02 巴勒鲁普"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11959
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]南非 01 约翰内斯堡"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11909
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]南非 02 约翰内斯堡"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11963
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]印度 01 新德里"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11929
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]印度 02 新德里"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11971
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]印度 03 新德里"
-    type: "vmess"
-    server: "board-03.ddnskunlun.com"
-    port: 11972
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-03.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]印度 04 新德里"
-    type: "vmess"
-    server: "board-04.ddnskunlun.com"
-    port: 11973
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-04.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]巴林 01 麦纳麦"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11935
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]巴林 02 麦纳麦"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11978
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]巴西 01 圣保罗"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11940
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]巴西 02 圣保罗"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11975
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]希腊 01 雅典"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11928
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]希腊 02 雅典"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11970
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]德国 01 法兰克福"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11903
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]德国 02 法兰克福"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11958
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]挪威 01 奥斯陆"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11912
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]挪威 02 奥斯陆"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11979
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]智利 01 圣地亚哥"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11938
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]智利 02 圣地亚哥"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11984
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]法国 01 巴黎"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11932
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇺🇸US-20.231.111.125-0032"
+      - "🇺🇸US-20.231.111.125-0031"
+      - "🇳🇱NL-52.232.66.152-0030"
+      - "🇺🇸US-20.10.159.29-0029"
+      - "🇭🇰HK-95.40.120.162-0184"
+      - "🇺🇸US-156.146.38.169-0185"
+      - "🇬🇧GB-20.90.249.210-0026"
+      - "🇬🇧GB-20.77.245.193-0025"
       - "🇩🇪DE-207.241.172.111-0188"
       - "🇭🇰HK-47.240.51.89-0024"
       - "🇬🇧GB-212.102.53.197-0190"
@@ -5437,23 +5301,26 @@ proxy-groups:
       - "🇺🇸US-38.68.135.18-0253"
       - "🇺🇸US-38.68.135.18-0254"
       - "🇨🇦CA-51.222.155.113-0256"
-      - "🇸🇪_SE_瑞典"
+      - "🇳🇱_NL_荷兰->🇩🇪_DE_德国"
       - "🇬🇧_GB_英国->🇩🇪_DE_德国"
-      - "🇵🇱_PL_波兰->🇳🇱_NL_荷兰"
-      - "🇷🇺_RU_俄罗斯"
-      - "🇸🇬_SG_新加坡"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国"
-      - "🇭🇰_HK_中国香港"
-      - "🇭🇰_HK_中国香港"
-      - "🇮🇷_IR_伊朗->🇫🇮_FI_芬兰"
+      - "🇺🇸_US_美国"
+      - "🇸🇪_SE_瑞典"
+      - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+      - "🇺🇸_US_美国"
+      - "🇱🇻_LV_拉脱维亚"
+      - "🇨🇳_CN_中国->🇩🇪_DE_德国"
+      - "🇺🇸_US_美国"
+      - "🇺🇸_US_美国"
+      - "🇺🇸_US_美国"
+      - "🇺🇸_US_美国"
       - "🇨🇭_CH_瑞士->🇫🇮_FI_芬兰"
-      - "🇩🇪_DE_德国"
-      - "🇨🇳_CN_中国"
+      - "🇭🇰_HK_中国香港"
+      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国"
+      - "🇭🇰_HK_中国香港->🇸🇬_SG_新加坡"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国"
       - "🇸🇬_SG_新加坡"
-      - "🇺🇸_US_美国"
-      - "🇺🇸_US_美国"
-      - "🇺🇸_US_美国"
-      - "🇺🇸_US_美国"
       - "自适应分流"
       - "电信分流"
       - "移动分流"
@@ -5729,8 +5596,8 @@ proxy-groups:
       - "韩国-IEPL-Basic专线-|X2|"
       - "越南-IEPL-Basic专线-01"
       - "英国-IEPL-Basic专线-01"
-      - "剩余流量：59.56 GB"
-      - "剩余流量：35.11 GB"
+      - "剩余流量：59.49 GB"
+      - "剩余流量：31.95 GB"
       - "距离下次重置剩余：30 天"
       - "套餐到期：2027-09-01"
       - "⚠️保持软件为最新版"
@@ -5764,7 +5631,7 @@ proxy-groups:
       - "德国-优化2"
       - "法国-优化1"
       - "法国-优化2"
-      - "剩余流量：59.81 GB"
+      - "剩余流量：59.75 GB"
       - "套餐到期：2027-03-11"
       - "剩余流量：0"
       - "套餐到期：长期有效"
@@ -5789,6 +5656,37 @@ proxy-groups:
       - "🇭🇰香港-06 | 电信优化 | x2"
       - "🇭🇰香港-07 | 三网"
       - "🇭🇰香港-08 | 三网"
+      - "AA-香港HKT1"
+      - "AA-香港HKT2"
+      - "AA-香港HKT4"
+      - "AA-香港HKT5"
+      - "SVIP-B台湾01"
+      - "SVIP-B台湾02"
+      - "SVIP-B台湾03"
+      - "SVIP-C日本(语音游戏)05"
+      - "SVIP-C日本直连-07"
+      - "SVIP-美国高速-01"
+      - "SVIP-美国高速-05"
+      - "SVIP-美国高速-06"
+      - "SVIP-美国高速-07"
+      - "SVIP-E新加坡解锁02"
+      - "SVIP-E新加坡解锁04"
+      - "SVIP-俄罗斯-01"
+      - "SVIP-俄罗斯-02"
+      - "SVIP-越南（原生ip）"
+      - "SVIP-智利"
+      - "SVIP-加拿大高速-01"
+      - "SVIP-加拿大高速-02"
+      - "SVIP-印度"
+      - "SVIP-爱尔兰原生IP"
+      - "SVIP-德国-01 DE"
+      - "SVIP-德国原生IP-02"
+      - "SVIP-L立陶宛-01"
+      - "SVIP-英国-01"
+      - "SVIP-法国-01"
+      - "SVIP-芬兰原生IP"
+      - "SVIP-巴西原生IP"
+      - "SVIP-南非原生IP"
       - "[IPV6]网络支持IPV6可用 台湾01"
       - "[IPV6]网络支持IPV6可用 台湾02"
       - "[IPV6]网络支持IPV6可用 台湾03"
@@ -5837,45 +5735,3 @@ proxy-groups:
       - "[IPLC]韩国 01 SK텔레콤"
       - "[IPLC]韩国 02 SK텔레콤"
       - "[IPLC]韩国 03 SK텔레콤"
-      - "[IPLC]韩国 04 SK텔레콤"
-      - "[IPLC]韩国 05 SK텔레콤"
-      - "[IPLC]韩国 06 SK텔레콤"
-      - "[IPLC]韩国 07 SK텔레콤"
-      - "[IPLC]韩国 08 SK텔레콤"
-      - "[IPLC]新加坡 01 Singtel"
-      - "[IPLC]新加坡 02 Singtel"
-      - "[IPLC]新加坡 03 Singtel"
-      - "[IPLC]新加坡 04 Singtel"
-      - "[IPLC]新加坡 05 Singtel"
-      - "[IPLC]新加坡 06 Singtel"
-      - "[IPLC]新加坡 07 Singtel"
-      - "[IPLC]新加坡 08 Singtel"
-      - "[IPLC]印度尼西亚 01 ISP&HOME"
-      - "[IPLC]印度尼西亚 02 ISP&HOME"
-      - "[IPLC]印度尼西亚 03 ISP&HOME"
-      - "[IPLC]印度尼西亚 04 ISP&HOME"
-      - "[IPLC]印度尼西亚 05 IDC&ALIYUN"
-      - "[IPLC]印度尼西亚 06 IDC&ALIYUN"
-      - "[IPLC]印度尼西亚 07 IDC&CFWARP"
-      - "[IPLC]印度尼西亚 08 IDC&CFWARP"
-      - "[IPLC]丹麦 01 巴勒鲁普"
-      - "[IPLC]丹麦 02 巴勒鲁普"
-      - "[IPLC]南非 01 约翰内斯堡"
-      - "[IPLC]南非 02 约翰内斯堡"
-      - "[IPLC]印度 01 新德里"
-      - "[IPLC]印度 02 新德里"
-      - "[IPLC]印度 03 新德里"
-      - "[IPLC]印度 04 新德里"
-      - "[IPLC]巴林 01 麦纳麦"
-      - "[IPLC]巴林 02 麦纳麦"
-      - "[IPLC]巴西 01 圣保罗"
-      - "[IPLC]巴西 02 圣保罗"
-      - "[IPLC]希腊 01 雅典"
-      - "[IPLC]希腊 02 雅典"
-      - "[IPLC]德国 01 法兰克福"
-      - "[IPLC]德国 02 法兰克福"
-      - "[IPLC]挪威 01 奥斯陆"
-      - "[IPLC]挪威 02 奥斯陆"
-      - "[IPLC]智利 01 圣地亚哥"
-      - "[IPLC]智利 02 圣地亚哥"
-      - "[IPLC]法国 01 巴黎"
