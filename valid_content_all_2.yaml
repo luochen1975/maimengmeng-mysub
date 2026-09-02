@@ -1,5 +1,5 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-02 20:58:01
+# 生成时间: 2026-09-02 23:15:55
 # 节点数量: 500
 
 proxies:
@@ -1302,19 +1302,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "27e66983-bbf2-4567-b9ef-763be600181d"
+    uuid: "77f3b943-3a27-4f4a-a83a-a0bdcd605d8a"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "27e66983-bbf2-4567-b9ef-763be600181d"
+    uuid: "77f3b943-3a27-4f4a-a83a-a0bdcd605d8a"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "27e66983-bbf2-4567-b9ef-763be600181d"
+    uuid: "77f3b943-3a27-4f4a-a83a-a0bdcd605d8a"
     udp: true
   - name: "🇨🇳 中国 001"
     type: "vmess"
