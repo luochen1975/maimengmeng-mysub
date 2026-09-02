@@ -1,117 +1,141 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-01 14:07:46
-# 节点数量: 20
+# 生成时间: 2026-09-02 16:30:22
+# 节点数量: 25
 
 proxies:
-  - name: "UN【机场推荐：https://a9a.xyz】88"
-    type: "trojan"
-    server: "104.18.152.233"
+  - name: "UN【机场推荐：https://a9a.xyz】100"
+    type: "vless"
+    server: "151.242.2.81"
     port: 443
-    password: "humanity"
-    tls: true
+    uuid: "0a2dde28-70da-4863-a06f-35d007d94d35"
     udp: true
-  - name: "UN【机场推荐：https://a9a.xyz】89"
-    type: "trojan"
-    server: "104.18.152.229"
+  - name: "UN【机场推荐：https://a9a.xyz】101"
+    type: "vless"
+    server: "167.104.223.179"
     port: 443
-    password: "humanity"
-    tls: true
+    uuid: "c6cff605-90cf-4953-bf97-0a44e43f229d"
     udp: true
-  - name: "UN【机场推荐：https://a9a.xyz】90"
+  - name: "UN【机场推荐：https://a9a.xyz】102"
+    type: "vless"
+    server: "188.220.67.181"
+    port: 2087
+    uuid: "90da514d-8888-4a53-912e-ac2981c8c6ee"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】103"
+    type: "vless"
+    server: "13.135.142.182"
+    port: 22222
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】104"
+    type: "vless"
+    server: "69.46.46.102"
+    port: 443
+    uuid: "6e55c426-4c88-61ff-409c-c938db3d4cae"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】105"
+    type: "vless"
+    server: "62.133.62.179"
+    port: 443
+    uuid: "d67af820-f54c-48ab-862c-19086357f276"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】106"
+    type: "vless"
+    server: "188.220.67.224"
+    port: 2087
+    uuid: "90da514d-8888-4a53-912e-ac2981c8c6ee"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】107"
+    type: "vless"
+    server: "31.77.220.183"
+    port: 1443
+    uuid: "6379673b-197f-4944-ba81-a45c66aefe9c"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】108"
+    type: "ss"
+    server: "129.151.85.181"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "oVtaQMKcs4RHe6leo+ecPpjnr7mJsXGF8+6cmBo7efY="
+  - name: "UN【机场推荐：https://a9a.xyz】109"
+    type: "vless"
+    server: "family.bucket.zjs.h.1.0.kfc-520.com"
+    port: 10024
+    uuid: "c2564a65-0821-3241-b090-45d49cef58fd"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】110"
+    type: "vless"
+    server: "5.152.223.115"
+    port: 443
+    uuid: "a85a397d-4b44-492f-82cb-b1726ddfa8ab"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】111"
+    type: "vless"
+    server: "family.bucket.zjs.h.1.0.kfc-520.com"
+    port: 10023
+    uuid: "c2564a65-0821-3241-b090-45d49cef58fd"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】112"
+    type: "vless"
+    server: "family.bucket.zjs.h.1.0.kfc-520.com"
+    port: 10022
+    uuid: "c2564a65-0821-3241-b090-45d49cef58fd"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】113"
+    type: "vless"
+    server: "family.bucket.zjs.a.b.9.kfc-520.com"
+    port: 10043
+    uuid: "c2564a65-0821-3241-b090-45d49cef58fd"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】114"
+    type: "vless"
+    server: "vul2jp1.87544899.xyz"
+    port: 443
+    uuid: "58c14e54-6db0-46fb-a1fb-8f3184197d94"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】115"
+    type: "vless"
+    server: "family.bucket.zjs.s.1.kfc-520.com"
+    port: 10018
+    uuid: "c2564a65-0821-3241-b090-45d49cef58fd"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】116"
+    type: "vless"
+    server: "38.244.20.31"
+    port: 443
+    uuid: "43ecb6db-829f-4e5b-9bd6-4bdd1c537395"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】117"
+    type: "ss"
+    server: "200.169.178.229"
+    port: 37518
+    cipher: "aes-128-gcm"
+    password: "ODJaelg0N1BuMkFMN1E4T3NKN0piQU5NZ1NNSVlTODlBTHE3dE9uWmRGN3dwcUZDVEpHYnN2ZFJXVmpWZEVpdw=="
+  - name: "UN【机场推荐：https://a9a.xyz】118"
+    type: "vless"
+    server: "188.220.67.140"
+    port: 2087
+    uuid: "90da514d-8888-4a53-912e-ac2981c8c6ee"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】119"
+    type: "vless"
+    server: "jp.sofast.live"
+    port: 52683
+    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】120"
+    type: "vless"
+    server: "45.9.15.206"
+    port: 443
+    uuid: "a289a3d3-5833-4b28-8809-ae72898a98d0"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】121"
     type: "vless"
     server: "s299.kukuss.top"
     port: 18153
     uuid: "41f4cb15-5a3f-3934-89fe-b4177146adf4"
     udp: true
-  - name: "剩余流量：866.24 GB"
-    type: "ss"
-    server: "ss.041.node-for-bigairport.win"
-    port: 16688
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "距离下次重置剩余：29 天"
-    type: "ss"
-    server: "ss.041.node-for-bigairport.win"
-    port: 16688
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "套餐到期：2026-11-13"
-    type: "ss"
-    server: "ss.041.node-for-bigairport.win"
-    port: 16688
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "[1x] [E] [直连] [SS] 日本 1"
-    type: "ss"
-    server: "ss.041.node-for-bigairport.win"
-    port: 16688
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "[1x] [E] [直连] [SS] 日本 2"
-    type: "ss"
-    server: "ss.042.node-for-bigairport.win"
-    port: 19000
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "[1x] [E] [直连] [SS] 日本 3"
-    type: "ss"
-    server: "ss.043.node-for-bigairport.win"
-    port: 19001
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "[1x] [E] [直连] [SS] 日本 4"
-    type: "ss"
-    server: "ss.044.node-for-bigairport.win"
-    port: 19001
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "[1x] [E] [直连] [SS] 香港 5"
-    type: "ss"
-    server: "ss.045.node-for-bigairport.win"
-    port: 19000
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "[1x] [E] [直连] [SS] 香港 6"
-    type: "ss"
-    server: "ss.046.node-for-bigairport.win"
-    port: 19000
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "[1x] [E] [直连] [SS] 香港 7"
-    type: "ss"
-    server: "ss.047.node-for-bigairport.win"
-    port: 19001
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "[1x] [E] [直连] [SS] 香港 8"
-    type: "ss"
-    server: "ss.048.node-for-bigairport.win"
-    port: 19000
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "[1x] [E] [直连] [SS] 新加坡 9"
-    type: "ss"
-    server: "ss.049.node-for-bigairport.win"
-    port: 19000
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "[1x] [E] [直连] [SS] 新加坡 10"
-    type: "ss"
-    server: "ss.050.node-for-bigairport.win"
-    port: 19001
-    cipher: "chacha20-ietf-poly1305"
-    password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "国内入口：bigairport-mirror.com 固定入口：大机场.com  电报讨论群组：BigAirport_Group"
-    type: "vmess"
-    server: "1.1.1.1"
-    port: 65535
-    uuid: "792e0bdb-01db-450c-94c4-925151eb396e"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "tcp"
-    udp: true
-  - name: "剩余流量：55.53 GB"
+  - name: "剩余流量：46.96 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -126,7 +150,7 @@ proxies:
     behavior: "classical"
     format: "yaml"
     size-limit: 0
-  - name: "剩余流量：59.71 GB"
+  - name: "剩余流量：58.77 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -137,23 +161,28 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "UN【机场推荐：https://a9a.xyz】88"
-      - "UN【机场推荐：https://a9a.xyz】89"
-      - "UN【机场推荐：https://a9a.xyz】90"
-      - "剩余流量：866.24 GB"
-      - "距离下次重置剩余：29 天"
-      - "套餐到期：2026-11-13"
-      - "[1x] [E] [直连] [SS] 日本 1"
-      - "[1x] [E] [直连] [SS] 日本 2"
-      - "[1x] [E] [直连] [SS] 日本 3"
-      - "[1x] [E] [直连] [SS] 日本 4"
-      - "[1x] [E] [直连] [SS] 香港 5"
-      - "[1x] [E] [直连] [SS] 香港 6"
-      - "[1x] [E] [直连] [SS] 香港 7"
-      - "[1x] [E] [直连] [SS] 香港 8"
-      - "[1x] [E] [直连] [SS] 新加坡 9"
-      - "[1x] [E] [直连] [SS] 新加坡 10"
-      - "国内入口：bigairport-mirror.com 固定入口：大机场.com  电报讨论群组：BigAirport_Group"
-      - "剩余流量：55.53 GB"
+      - "UN【机场推荐：https://a9a.xyz】100"
+      - "UN【机场推荐：https://a9a.xyz】101"
+      - "UN【机场推荐：https://a9a.xyz】102"
+      - "UN【机场推荐：https://a9a.xyz】103"
+      - "UN【机场推荐：https://a9a.xyz】104"
+      - "UN【机场推荐：https://a9a.xyz】105"
+      - "UN【机场推荐：https://a9a.xyz】106"
+      - "UN【机场推荐：https://a9a.xyz】107"
+      - "UN【机场推荐：https://a9a.xyz】108"
+      - "UN【机场推荐：https://a9a.xyz】109"
+      - "UN【机场推荐：https://a9a.xyz】110"
+      - "UN【机场推荐：https://a9a.xyz】111"
+      - "UN【机场推荐：https://a9a.xyz】112"
+      - "UN【机场推荐：https://a9a.xyz】113"
+      - "UN【机场推荐：https://a9a.xyz】114"
+      - "UN【机场推荐：https://a9a.xyz】115"
+      - "UN【机场推荐：https://a9a.xyz】116"
+      - "UN【机场推荐：https://a9a.xyz】117"
+      - "UN【机场推荐：https://a9a.xyz】118"
+      - "UN【机场推荐：https://a9a.xyz】119"
+      - "UN【机场推荐：https://a9a.xyz】120"
+      - "UN【机场推荐：https://a9a.xyz】121"
+      - "剩余流量：46.96 GB"
       - "Unnamed"
-      - "剩余流量：59.71 GB"
+      - "剩余流量：58.77 GB"
