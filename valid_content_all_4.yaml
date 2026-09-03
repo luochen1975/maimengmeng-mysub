@@ -1,26 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 20:56:37
+# 生成时间: 2026-09-03 23:13:31
 # 节点数量: 500
 
 proxies:
-  - name: "🇷🇺 俄罗斯 019"
-    type: "vless"
-    server: "193.233.82.32"
-    port: 443
-    uuid: "5999a497-a2da-41d0-92cb-5b758082f83c"
-    udp: true
-  - name: "🇺🇸 美国 551"
-    type: "vless"
-    server: "104.16.100.66"
-    port: 8880
-    uuid: "59a0424b-d36b-4685-bac5-89d50d8969a8"
-    udp: true
-  - name: "🇺🇸 美国 552"
-    type: "vless"
-    server: "170.114.46.6"
-    port: 443
-    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
-    udp: true
   - name: "🇳🇿 新西兰 001"
     type: "vless"
     server: "202.37.33.80"
@@ -3023,14 +3005,29 @@ proxies:
     port: 47705
     cipher: "chacha20-ietf-poly1305"
     password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-06"
+    type: "ss"
+    server: "hk16.network-cdn-gw-yd.net"
+    port: 47706
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-07"
+    type: "ss"
+    server: "hk17.network-cdn-gw-yd.net"
+    port: 47707
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-08"
+    type: "ss"
+    server: "hk18.network-cdn-gw-yd.net"
+    port: 47708
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇷🇺 俄罗斯 019"
-      - "🇺🇸 美国 551"
-      - "🇺🇸 美国 552"
       - "🇳🇿 新西兰 001"
       - "🇺🇸 美国 553"
       - "🇩🇪 德国 031"
@@ -3528,3 +3525,6 @@ proxy-groups:
       - "香港-Basic-BGP-03"
       - "香港-Basic-BGP-04"
       - "香港-Basic-BGP-05"
+      - "香港-Basic-BGP-06"
+      - "香港-Basic-BGP-07"
+      - "香港-Basic-BGP-08"

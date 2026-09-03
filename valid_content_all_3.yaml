@@ -1,46 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 20:56:37
+# 生成时间: 2026-09-03 23:13:31
 # 节点数量: 500
 
 proxies:
-  - name: "🇨🇳 中国 017"
-    type: "vmess"
-    server: "47.242.26.30"
-    port: 28045
-    uuid: "bb73d6fe-9700-4607-8dc1-eb9f15253e9d"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "http"
-    udp: true
-  - name: "🇺🇸 美国 275"
-    type: "vmess"
-    server: "nl.sharecentre.online"
-    port: 443
-    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/shirker"
-      headers:
-        Host: "nl.sharecentre.online"
-  - name: "🇨🇳 中国 018"
-    type: "vmess"
-    server: "fullaccesstohongkongnet.azurewebsites.net"
-    port: 443
-    uuid: "274f11c6-f69b-40b9-8966-f39e06e97be7"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: "fullaccesstohongkongnet.azurewebsites.net"
   - name: "🇨🇳 中国 019"
     type: "vmess"
     server: "47.242.65.80"
@@ -4441,14 +4403,29 @@ proxies:
     port: 443
     uuid: "5999a497-a2da-41d0-92cb-5b758082f83c"
     udp: true
+  - name: "🇷🇺 俄罗斯 019"
+    type: "vless"
+    server: "193.233.82.32"
+    port: 443
+    uuid: "5999a497-a2da-41d0-92cb-5b758082f83c"
+    udp: true
+  - name: "🇺🇸 美国 551"
+    type: "vless"
+    server: "104.16.100.66"
+    port: 8880
+    uuid: "59a0424b-d36b-4685-bac5-89d50d8969a8"
+    udp: true
+  - name: "🇺🇸 美国 552"
+    type: "vless"
+    server: "170.114.46.6"
+    port: 443
+    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
+    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇨🇳 中国 017"
-      - "🇺🇸 美国 275"
-      - "🇨🇳 中国 018"
       - "🇨🇳 中国 019"
       - "🇨🇳 中国 020"
       - "🇰🇷 韩国 005"
@@ -4946,3 +4923,6 @@ proxy-groups:
       - "🇺🇸 美国 550"
       - "🇩🇪 德国 030"
       - "🇷🇺 俄罗斯 018"
+      - "🇷🇺 俄罗斯 019"
+      - "🇺🇸 美国 551"
+      - "🇺🇸 美国 552"

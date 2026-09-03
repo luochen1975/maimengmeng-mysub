@@ -1,5 +1,5 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 20:56:37
+# 生成时间: 2026-09-03 23:13:31
 # 节点数量: 500
 
 proxies:
@@ -1066,20 +1066,6 @@ proxies:
     password: "b454c830-7d58-4072-89a5-e0715e3e0b87"
     tls: true
     udp: true
-  - name: "[trojan]距离下次重置剩余：24 天"
-    type: "trojan"
-    server: "jp200m.jiasu.asia"
-    port: 50000
-    password: "0e2e0e96-5beb-4f91-8f88-24f60451e745"
-    tls: true
-    udp: true
-  - name: "[trojan]套餐到期：2026-09-27"
-    type: "trojan"
-    server: "jp200m.jiasu.asia"
-    port: 50000
-    password: "0e2e0e96-5beb-4f91-8f88-24f60451e745"
-    tls: true
-    udp: true
   - name: "❗您当前客户端v2rayN不支持hy协议❗"
     type: "ss"
     server: "1.1.1.1"
@@ -1103,9 +1089,9 @@ proxies:
     server: "127.0.0.1"
     port: 443
     password: "password"
-    sni: "localhost"
+    tls: true
     udp: true
-  - name: "剩余流量：25.9 GB"
+  - name: "剩余流量：14.97 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -1495,12 +1481,18 @@ proxies:
     port: 443
     uuid: "29794dae-06ca-4b62-94f2-220b5858d39b"
     udp: true
-  - name: "官网: www.雨燕云.com"
+  - name: "套餐到期:2025-11-20"
     type: "ss"
-    server: "1.1.1.1"
-    port: 10001
-    cipher: "chacha20-ietf-poly1305"
-    password: "53db9c44-94a1-4976-8682-5d1c3642058d"
+    server: "127.0.0.1"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "password"
+  - name: "续费方法在节点详情的<地址>"
+    type: "ss"
+    server: "3rdq9m.shvpn.xyz"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "password"
   - name: "套餐到期:2025-10-15"
     type: "ss"
     server: "127.0.0.1"
@@ -1522,18 +1514,6 @@ proxies:
   - name: "续费方法在节点详情的<地址>"
     type: "ss"
     server: "qpwhjq.shvpn.xyz"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "password"
-  - name: "套餐到期:2025-11-20"
-    type: "ss"
-    server: "127.0.0.1"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "password"
-  - name: "续费方法在节点详情的<地址>"
-    type: "ss"
-    server: "3rdq9m.shvpn.xyz"
     port: 443
     cipher: "aes-256-gcm"
     password: "password"
@@ -1578,79 +1558,79 @@ proxies:
     server: "gd.bjnet2.com"
     port: 36602
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "🇭🇰香港-Gemini-IEPL"
     type: "ss"
     server: "gd.bjnet2.com"
     port: 36602
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "🇭🇰香港2-IEPL"
     type: "ss"
     server: "gd2.bjnet2.com"
     port: 36602
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "🇹🇼台湾-IEPL"
     type: "ss"
     server: "gd.bjnet2.com"
     port: 36603
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "🇹🇼台湾2-IEPL"
     type: "ss"
     server: "gd2.bjnet2.com"
     port: 36603
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "🇸🇬新加坡-Gemini-IEPL"
     type: "ss"
     server: "gd.bjnet2.com"
     port: 36604
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "🇸🇬新加坡2-Gemini-IEPL"
     type: "ss"
     server: "gd2.bjnet2.com"
     port: 36604
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "🇯🇵日本-IEPL-GPT"
     type: "ss"
     server: "gd.bjnet2.com"
     port: 36609
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "🇯🇵日本2-IEPL-GPT"
     type: "ss"
     server: "gd2.bjnet2.com"
     port: 36609
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "🇯🇵日本4-IEPL-家宽"
     type: "ss"
     server: "gd2.bjnet2.com"
     port: 36610
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "🇺🇸美国-IEPL-GPT"
     type: "ss"
     server: "gd.bjnet2.com"
     port: 36608
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "🇺🇸美国2-IEPL-GPT"
     type: "ss"
     server: "gd2.bjnet2.com"
     port: 36608
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "🇩🇪德国-IEPL"
     type: "ss"
     server: "gd.bjnet2.com"
     port: 36611
     cipher: "aes-128-gcm"
-    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
+    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
   - name: "用户名 llpl"
     type: "ss"
     server: "127.0.0.1"
@@ -2247,13 +2227,13 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
-  - name: "剩余流量：923.99 MB"
+  - name: "剩余流量：0"
     type: "ss"
     server: "127.0.0.1"
     port: 80
     cipher: "aes-128-gcm"
     password: "aa297f2a-42b2-440e-80cc-5c758f5f1003"
-  - name: "剩余流量：37.72 GB"
+  - name: "剩余流量：34.4 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -2326,43 +2306,40 @@ proxies:
     network: "tcp"
     udp: true
   - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "172.67.133.136"
+    port: 443
+    uuid: "1aa96574-c28b-4ee9-855d-ebdbbf1f7e90"
+    udp: true
+  - name: "日本+V2CROSS.COM"
+    type: "vless"
+    server: "us22.sofast.live"
+    port: 58011
+    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
+    udp: true
+  - name: "巴西圣保罗+CloudFlare节点"
     type: "trojan"
-    server: "104.17.111.8"
+    server: "188.114.97.7"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "104.18.152.229"
+    server: "172.67.221.242"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.16.174.72"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "英国 V2CROSS.COM"
-    type: "vmess"
-    server: "planb.mojcn.com.linuxlh.xin"
-    port: 16632
-    uuid: "cefbe234-bcc6-4558-ab7b-1030e331e6a5"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com"
   - name: "美国+CloudFlare节点"
     type: "vless"
-    server: "172.67.140.160"
+    server: "104.21.16.74"
+    port: 443
+    uuid: "7700ff6d-cefb-4768-a806-ec4f63fe3b38"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "172.67.155.252"
     port: 443
     uuid: "1aa96574-c28b-4ee9-855d-ebdbbf1f7e90"
     udp: true
@@ -2373,59 +2350,24 @@ proxies:
     password: "humanity"
     tls: true
     udp: true
-  - name: "美国+CloudFlare节点"
+  - name: "英国+V2CROSS.COM"
     type: "trojan"
-    server: "104.18.22.63"
+    server: "176.97.66.175"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "美国+CloudFlare节点"
     type: "vless"
-    server: "108.162.198.178"
-    port: 2086
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "join-telegram-channel.tirexnet.kdns.fr"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.152.208"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "www.speedtest.net"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+加州"
-    type: "trojan"
-    server: "216.24.57.1"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "vless"
-    server: "172.67.140.11"
+    server: "104.21.31.110"
     port: 443
     uuid: "a90c264d-3853-4eef-9a3d-628b2d02d15e"
     udp: true
   - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "www.speedtest.org"
+    type: "vless"
+    server: "172.67.155.189"
     port: 443
-    password: "humanity"
-    tls: true
+    uuid: "7700ff6d-cefb-4768-a806-ec4f63fe3b38"
     udp: true
   - name: "澳大利亚+V2CROSS.COM"
     type: "vless"
@@ -2435,37 +2377,63 @@ proxies:
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "104.18.152.161"
+    server: "104.18.152.246"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "104.18.152.152"
+    server: "104.16.174.14"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "美国+乔治亚洲亚特兰大Fastly节点"
+    type: "trojan"
+    server: "151.101.56.7"
+    port: 443
+    password: "MiTiVPN"
+    tls: true
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.17.111.1"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "英国+V2CROSS.COM"
+    type: "vless"
+    server: "188.220.67.245"
+    port: 2087
+    uuid: "90da514d-8888-4a53-912e-ac2981c8c6ee"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.16.174.121"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.18.152.225"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "美国+CloudFlare节点"
     type: "vless"
-    server: "172.67.150.230"
+    server: "172.67.185.142"
+    port: 443
+    uuid: "7e26fd8f-d75a-473d-84ba-9f4e3f47d086"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "104.21.22.82"
     port: 443
     uuid: "a90c264d-3853-4eef-9a3d-628b2d02d15e"
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "198.41.223.96"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.16.73.213"
-    port: 443
-    password: "humanity"
-    tls: true
     udp: true
   - name: "🇺🇸US-173.244.56.6-0098"
     type: "ss"
@@ -3537,6 +3505,40 @@ proxies:
     password: "62b78c9b-16cb-4ee6-824b-a4f856cf18f3"
     tls: true
     udp: true
+  - name: "🇬🇧GB-20.77.245.193-0225"
+    type: "vmess"
+    server: "20.77.245.193"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇨🇦CA-20.104.183.100-0226"
+    type: "ss"
+    server: "20.104.183.100"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇭🇰HK-175.29.23.105-0227"
+    type: "vmess"
+    server: "sg6-midpoint.kejibear.net"
+    port: 10014
+    uuid: "7bcd50fc-414b-3e8a-a1a2-d81bd7fc4586"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sg6-midpoint.kejibear.net"
 
 proxy-groups:
   - name: "Proxy"
@@ -3687,13 +3689,11 @@ proxy-groups:
       - "[trojan]jp-200m"
       - "[trojan]us-200m"
       - "[trojan]hk-200m"
-      - "[trojan]距离下次重置剩余：24 天"
-      - "[trojan]套餐到期：2026-09-27"
       - "❗您当前客户端v2rayN不支持hy协议❗"
       - "❗请到我们文档中下载Clash Verge❗"
       - "❗文档 https://www.qf1.us/#/knowledge❗"
       - "无效订阅，请重新复制订阅链接"
-      - "剩余流量：25.9 GB"
+      - "剩余流量：14.97 GB"
       - "距离下次重置剩余：27 天"
       - "套餐到期：2027-03-09"
       - "提示:若失效请重新拉取节点 | 站点：https://dh.221345.xyz"
@@ -3749,12 +3749,11 @@ proxy-groups:
       - "US-LAX-DC12-004[TCP]"
       - "US-LAX-DC12-005[UDP]"
       - "US-LAX-DC12-005[TCP]"
-      - "官网: www.雨燕云.com"
+      - "套餐到期:2025-11-20"
+      - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-10-15"
       - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-12-13"
-      - "续费方法在节点详情的<地址>"
-      - "套餐到期:2025-11-20"
       - "续费方法在节点详情的<地址>"
       - "🚫 账户已被封禁-1 🚫"
       - "🚫 账户已被封禁-2 🚫"
@@ -3873,8 +3872,8 @@ proxy-groups:
       - "🇨🇳 TW-06"
       - "🇨🇳 TW-07"
       - "🇦🇶 订阅于2026年05月25日 21:50已到期"
-      - "剩余流量：923.99 MB"
-      - "剩余流量：37.72 GB"
+      - "剩余流量：0"
+      - "剩余流量：34.4 GB"
       - "套餐到期：2027-04-01"
       - "🇦🇶 ⚠️‼️ 您的流量已耗尽 ‼️"
       - "🇦🇶 [订阅: 2026年09月05日到期]"
@@ -3883,21 +3882,21 @@ proxy-groups:
       - "🇦🇶 也可登陆官网 加购流量包"
       - "🇦🇶 ⚠️‼️ 流量已耗尽 请加流量 ‼️"
       - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "英国 V2CROSS.COM"
-      - "美国+CloudFlare节点"
-      - "美国+加州"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
+      - "日本+V2CROSS.COM"
+      - "巴西圣保罗+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "美国+加州"
+      - "英国+V2CROSS.COM"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "澳大利亚+V2CROSS.COM"
       - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "美国+乔治亚洲亚特兰大Fastly节点"
+      - "美国+CloudFlare节点"
+      - "英国+V2CROSS.COM"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
@@ -4042,3 +4041,6 @@ proxy-groups:
       - "🇩🇪DE-193.108.118.30-0222"
       - "🇦🇪AE-20.216.40.219-0223"
       - "🇳🇱NL-37.1.220.158-0224"
+      - "🇬🇧GB-20.77.245.193-0225"
+      - "🇨🇦CA-20.104.183.100-0226"
+      - "🇭🇰HK-175.29.23.105-0227"

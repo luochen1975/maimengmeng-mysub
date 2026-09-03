@@ -1,42 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 20:56:37
+# 生成时间: 2026-09-03 23:13:31
 # 节点数量: 500
 
 proxies:
-  - name: "🇬🇧GB-20.77.245.193-0225"
-    type: "vmess"
-    server: "20.77.245.193"
-    port: 80
-    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
-  - name: "🇨🇦CA-20.104.183.100-0226"
-    type: "ss"
-    server: "20.104.183.100"
-    port: 8080
-    cipher: "aes-256-gcm"
-    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🇭🇰HK-175.29.23.105-0227"
-    type: "vmess"
-    server: "sg6-midpoint.kejibear.net"
-    port: 10014
-    uuid: "7bcd50fc-414b-3e8a-a1a2-d81bd7fc4586"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "sg6-midpoint.kejibear.net"
   - name: "🇺🇸US-20.9.46.251-0229"
     type: "ss"
     server: "20.9.46.251"
@@ -594,19 +560,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "8d71cebb-62a4-4796-9f3c-d1154baf4d01"
+    uuid: "704211f8-52e7-4c7e-979e-8770e0b0b872"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "8d71cebb-62a4-4796-9f3c-d1154baf4d01"
+    uuid: "704211f8-52e7-4c7e-979e-8770e0b0b872"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "8d71cebb-62a4-4796-9f3c-d1154baf4d01"
+    uuid: "704211f8-52e7-4c7e-979e-8770e0b0b872"
     udp: true
   - name: "其他 001"
     type: "vmess"
@@ -6463,14 +6429,49 @@ proxies:
     tls: false
     network: "http"
     udp: true
+  - name: "🇨🇳 中国 017"
+    type: "vmess"
+    server: "47.242.26.30"
+    port: 28045
+    uuid: "bb73d6fe-9700-4607-8dc1-eb9f15253e9d"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 275"
+    type: "vmess"
+    server: "nl.sharecentre.online"
+    port: 443
+    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/shirker"
+      headers:
+        Host: "nl.sharecentre.online"
+  - name: "🇨🇳 中国 018"
+    type: "vmess"
+    server: "fullaccesstohongkongnet.azurewebsites.net"
+    port: 443
+    uuid: "274f11c6-f69b-40b9-8966-f39e06e97be7"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "fullaccesstohongkongnet.azurewebsites.net"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇬🇧GB-20.77.245.193-0225"
-      - "🇨🇦CA-20.104.183.100-0226"
-      - "🇭🇰HK-175.29.23.105-0227"
       - "🇺🇸US-20.9.46.251-0229"
       - "🏁RELAY-104.18.21.226-0036"
       - "🇰🇷KR-20.214.138.184-0231"
@@ -6968,3 +6969,6 @@ proxy-groups:
       - "🇺🇸 美国 273"
       - "🇺🇸 美国 274"
       - "🇨🇳 中国 016"
+      - "🇨🇳 中国 017"
+      - "🇺🇸 美国 275"
+      - "🇨🇳 中国 018"
