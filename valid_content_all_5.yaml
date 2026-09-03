@@ -1,25 +1,15 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 11:06:24
+# 生成时间: 2026-09-03 16:20:19
 # 节点数量: 500
 
 proxies:
-  - name: "⚠️使用前更新订阅"
+  - name: "剩余流量：0"
     type: "vless"
     server: "asaa.mmm.top"
     port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
     udp: true
-  - name: "🇺🇸美国 公益"
-    type: "vmess"
-    server: "p05.rghvf.sbs"
-    port: 1233
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "tcp"
-    udp: true
-  - name: "距离下次重置剩余：9 天"
+  - name: "距离下次重置剩余：8 天"
     type: "vless"
     server: "asaa.mmm.top"
     port: 10003
@@ -31,13 +21,47 @@ proxies:
     port: 10003
     uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
     udp: true
+  - name: "⚠️保持软件为最新版"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
+    udp: true
+  - name: "⚠️使用前更新订阅"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
+    udp: true
+  - name: "🇺🇸美国 公益"
+    type: "vmess"
+    server: "p05.rghvf.sbs"
+    port: 1233
+    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "tcp"
+    udp: true
+  - name: "距离下次重置剩余：28 天"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
+  - name: "套餐到期：2027-09-01"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
   - name: "剩余流量：0"
     type: "ss"
     server: "ydyh1.nanbei-host.com"
     port: 26912
     cipher: "chacha20-ietf-poly1305"
     password: "461f4996-a430-4482-a103-acef0713281a"
-  - name: "距离下次重置剩余：2 天"
+  - name: "距离下次重置剩余：1 天"
     type: "ss"
     server: "ydyh1.nanbei-host.com"
     port: 26912
@@ -181,7 +205,7 @@ proxies:
     port: 26914
     cipher: "chacha20-ietf-poly1305"
     password: "461f4996-a430-4482-a103-acef0713281a"
-  - name: "剩余流量：59.33 GB"
+  - name: "剩余流量：59.27 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -2911,7 +2935,7 @@ proxies:
     network: "tcp"
     udp: true
     skip-cert-verify: false
-  - name: "剩余流量：58.86 GB"
+  - name: "剩余流量：58.55 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -3616,7 +3640,7 @@ proxies:
     port: 28048
     cipher: "aes-128-gcm"
     password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "剩余流量：57 GB"
+  - name: "剩余流量：56.83 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -3626,7 +3650,7 @@ proxies:
     type: "socks5"
     server: "127.0.0.1"
     port: 1080
-  - name: "剩余流量：58.59 GB"
+  - name: "剩余流量：58.5 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -3722,7 +3746,7 @@ proxies:
       path: ""
       headers:
         Host: ""
-  - name: "距离下次重置剩余：27 天"
+  - name: "距离下次重置剩余：26 天"
     type: "vmess"
     server: "2605:e440:11::388"
     port: 16003
@@ -4526,41 +4550,21 @@ proxies:
     port: 443
     uuid: "7700ff6d-cefb-4768-a806-ec4f63fe3b38"
     udp: true
-  - name: "UN【机场推荐：https://a9a.xyz】105"
-    type: "ss"
-    server: "200.169.178.86"
-    port: 50070
-    cipher: "aes-128-gcm"
-    password: "Z3JCbEwxUDN6R2JyNDUyYUtMRzM1NWZoYlZFMVZOU3pSam82bVhwWlU1UDJRTHV5VW05dlJNVnpib3d4cnBPMw=="
-  - name: "UN【机场推荐：https://a9a.xyz】106"
-    type: "vless"
-    server: "158.178.156.51"
-    port: 62145
-    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
-    udp: true
-  - name: "UN【机场推荐：https://a9a.xyz】107"
-    type: "vless"
-    server: "89.105.208.122"
-    port: 443
-    uuid: "91d0fa43-e557-43e7-a731-f0c3d1fb306a"
-    udp: true
-  - name: "UN【机场推荐：https://a9a.xyz】108"
-    type: "vless"
-    server: "50.7.33.218"
-    port: 443
-    uuid: "252f7811-d86f-4dc2-97e0-83d3172ef4b8"
-    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "剩余流量：0"
+      - "距离下次重置剩余：8 天"
+      - "套餐到期：2029-06-11"
+      - "⚠️保持软件为最新版"
       - "⚠️使用前更新订阅"
       - "🇺🇸美国 公益"
-      - "距离下次重置剩余：9 天"
-      - "套餐到期：2029-06-11"
+      - "距离下次重置剩余：28 天"
+      - "套餐到期：2027-09-01"
       - "剩余流量：0"
-      - "距离下次重置剩余：2 天"
+      - "距离下次重置剩余：1 天"
       - "套餐到期：2026-09-05"
       - "香港-优化1"
       - "香港-优化2"
@@ -4584,7 +4588,7 @@ proxy-groups:
       - "德国-优化2"
       - "法国-优化1"
       - "法国-优化2"
-      - "剩余流量：59.33 GB"
+      - "剩余流量：59.27 GB"
       - "套餐到期：2027-03-11"
       - "剩余流量：0"
       - "套餐到期：长期有效"
@@ -4831,7 +4835,7 @@ proxy-groups:
       - "[IPLC]斯洛文尼亚 02 克拉尼"
       - "[IPLC]沙特阿拉伯 01 利雅得"
       - "[IPLC]沙特阿拉伯 02 利雅得"
-      - "剩余流量：58.86 GB"
+      - "剩余流量：58.55 GB"
       - "Traffic: 0"
       - "Expire: Permanent validity"
       - "订阅套餐已过期/SubscriptionExpired"
@@ -4925,9 +4929,9 @@ proxy-groups:
       - "🇨🇦 加拿大 02 专线"
       - "🇦🇺 澳大利亚 01 专线"
       - "🇦🇺 澳大利亚 02 专线"
-      - "剩余流量：57 GB"
+      - "剩余流量：56.83 GB"
       - "Shadowsocks"
-      - "剩余流量：58.59 GB"
+      - "剩余流量：58.5 GB"
       - "🇦🇶 ⚠️‼️您的订阅已重置 ‼️"
       - "🇦🇶 请登陆官网 导入新订阅"
       - "🇦🇶 登陆网站导入新的订阅URL"
@@ -4939,7 +4943,7 @@ proxy-groups:
       - "教程：doc.miyun.app"
       - "官网：miyun.de"
       - "剩余流量：0"
-      - "距离下次重置剩余：27 天"
+      - "距离下次重置剩余：26 天"
       - "套餐到期：2026-09-24"
       - "过滤掉28条线路"
       - "❤️故障报修请发邮件❤️"
@@ -5051,7 +5055,3 @@ proxy-groups:
       - "UN【机场推荐：https://a9a.xyz】102"
       - "UN【机场推荐：https://a9a.xyz】103"
       - "UN【机场推荐：https://a9a.xyz】104"
-      - "UN【机场推荐：https://a9a.xyz】105"
-      - "UN【机场推荐：https://a9a.xyz】106"
-      - "UN【机场推荐：https://a9a.xyz】107"
-      - "UN【机场推荐：https://a9a.xyz】108"

@@ -1,8 +1,32 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 11:06:24
-# 节点数量: 31
+# 生成时间: 2026-09-03 16:20:19
+# 节点数量: 35
 
 proxies:
+  - name: "UN【机场推荐：https://a9a.xyz】105"
+    type: "ss"
+    server: "200.169.178.86"
+    port: 50070
+    cipher: "aes-128-gcm"
+    password: "Z3JCbEwxUDN6R2JyNDUyYUtMRzM1NWZoYlZFMVZOU3pSam82bVhwWlU1UDJRTHV5VW05dlJNVnpib3d4cnBPMw=="
+  - name: "UN【机场推荐：https://a9a.xyz】106"
+    type: "vless"
+    server: "158.178.156.51"
+    port: 62145
+    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】107"
+    type: "vless"
+    server: "89.105.208.122"
+    port: 443
+    uuid: "91d0fa43-e557-43e7-a731-f0c3d1fb306a"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】108"
+    type: "vless"
+    server: "50.7.33.218"
+    port: 443
+    uuid: "252f7811-d86f-4dc2-97e0-83d3172ef4b8"
+    udp: true
   - name: "UN【机场推荐：https://a9a.xyz】109"
     type: "ss"
     server: "e1.cover20.ir"
@@ -96,13 +120,13 @@ proxies:
     port: 18153
     uuid: "41f4cb15-5a3f-3934-89fe-b4177146adf4"
     udp: true
-  - name: "剩余流量：612.64 GB"
+  - name: "剩余流量：590.66 GB"
     type: "ss"
     server: "ss.041.node-for-bigairport.win"
     port: 16688
     cipher: "chacha20-ietf-poly1305"
     password: "792e0bdb-01db-450c-94c4-925151eb396e"
-  - name: "距离下次重置剩余：27 天"
+  - name: "距离下次重置剩余：26 天"
     type: "ss"
     server: "ss.041.node-for-bigairport.win"
     port: 16688
@@ -184,7 +208,7 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
-  - name: "剩余流量：38.29 GB"
+  - name: "剩余流量：30.73 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -199,7 +223,7 @@ proxies:
     behavior: "classical"
     format: "yaml"
     size-limit: 0
-  - name: "剩余流量：58.4 GB"
+  - name: "剩余流量：58.05 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -210,6 +234,10 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "UN【机场推荐：https://a9a.xyz】105"
+      - "UN【机场推荐：https://a9a.xyz】106"
+      - "UN【机场推荐：https://a9a.xyz】107"
+      - "UN【机场推荐：https://a9a.xyz】108"
       - "UN【机场推荐：https://a9a.xyz】109"
       - "UN【机场推荐：https://a9a.xyz】110"
       - "UN【机场推荐：https://a9a.xyz】111"
@@ -224,8 +252,8 @@ proxy-groups:
       - "UN【机场推荐：https://a9a.xyz】120"
       - "UN【机场推荐：https://a9a.xyz】121"
       - "UN【机场推荐：https://a9a.xyz】122"
-      - "剩余流量：612.64 GB"
-      - "距离下次重置剩余：27 天"
+      - "剩余流量：590.66 GB"
+      - "距离下次重置剩余：26 天"
       - "套餐到期：2026-11-13"
       - "[1x] [E] [直连] [SS] 日本 1"
       - "[1x] [E] [直连] [SS] 日本 2"
@@ -238,6 +266,6 @@ proxy-groups:
       - "[1x] [E] [直连] [SS] 新加坡 9"
       - "[1x] [E] [直连] [SS] 新加坡 10"
       - "国内入口：bigairport-mirror.com 固定入口：大机场.com  电报讨论群组：BigAirport_Group"
-      - "剩余流量：38.29 GB"
+      - "剩余流量：30.73 GB"
       - "Unnamed"
-      - "剩余流量：58.4 GB"
+      - "剩余流量：58.05 GB"
