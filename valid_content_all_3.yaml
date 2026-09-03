@@ -1,8 +1,238 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 16:20:19
+# 生成时间: 2026-09-03 20:56:37
 # 节点数量: 500
 
 proxies:
+  - name: "🇨🇳 中国 017"
+    type: "vmess"
+    server: "47.242.26.30"
+    port: 28045
+    uuid: "bb73d6fe-9700-4607-8dc1-eb9f15253e9d"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 275"
+    type: "vmess"
+    server: "nl.sharecentre.online"
+    port: 443
+    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/shirker"
+      headers:
+        Host: "nl.sharecentre.online"
+  - name: "🇨🇳 中国 018"
+    type: "vmess"
+    server: "fullaccesstohongkongnet.azurewebsites.net"
+    port: 443
+    uuid: "274f11c6-f69b-40b9-8966-f39e06e97be7"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "fullaccesstohongkongnet.azurewebsites.net"
+  - name: "🇨🇳 中国 019"
+    type: "vmess"
+    server: "47.242.65.80"
+    port: 62307
+    uuid: "48f3fa93-1722-4f8d-af74-fcc54c2f21d5"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇨🇳 中国 020"
+    type: "vmess"
+    server: "8.210.236.45"
+    port: 61228
+    uuid: "7e0ee5c7-46ff-42f8-ab7c-06d8227da454"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇰🇷 韩国 005"
+    type: "vmess"
+    server: "fullaccesstokoreannetsubnode1.azurewebsites.net"
+    port: 443
+    uuid: "274f11c6-f69b-40b9-8966-f39e06e97be7"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "fullaccesstokoreannetsubnode1.azurewebsites.net"
+  - name: "🇨🇳 中国 021"
+    type: "vmess"
+    server: "47.242.1.160"
+    port: 36298
+    uuid: "6cea7176-148d-4f51-9bf4-313199c839ba"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇨🇳 中国 022"
+    type: "vmess"
+    server: "8.210.166.114"
+    port: 48236
+    uuid: "9a3ab916-0662-45ae-8844-8efa29365f84"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 276"
+    type: "vmess"
+    server: "138.2.83.217"
+    port: 43863
+    uuid: "ca984457-b017-46e5-d973-42a3c3fdc292"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇮🇷 伊朗 001"
+    type: "vmess"
+    server: "109.122.208.205"
+    port: 48377
+    uuid: "21745bfe-ef4d-4e61-c142-97b4848fdc14"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇨🇳 中国 023"
+    type: "vmess"
+    server: "8.210.248.210"
+    port: 54570
+    uuid: "aa1d02a4-60e6-4671-8107-4d5e6bacd265"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 277"
+    type: "vmess"
+    server: "jp04.170203.xyz"
+    port: 23245
+    uuid: "1f3f5b8a-be41-4a92-9b90-6473702aaa3b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "jp04.170203.xyz"
+  - name: "🇨🇳 中国 024"
+    type: "vmess"
+    server: "47.242.21.177"
+    port: 51007
+    uuid: "318b3dd1-09cf-4980-81ed-6cf689e5825a"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 278"
+    type: "vmess"
+    server: "uicdn.cf"
+    port: 80
+    uuid: "6fea1649-425b-4092-bf53-29792152c925"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/sshkit/fdfadsfa/63848bfe228fd/"
+      headers:
+        Host: "uicdn.cf"
+  - name: "🇯🇵 日本 007"
+    type: "vmess"
+    server: "kr-arm2.018999.xyz"
+    port: 443
+    uuid: "e98fc1a0-9c52-4091-91a5-c159b0aa274e"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/e98fc1a0-9c52-4091-91a5-c159b0aa274e"
+      headers:
+        Host: "kr-arm2.018999.xyz"
+  - name: "🇦🇺 澳大利亚 007"
+    type: "vmess"
+    server: "jp-amd1.018999.xyz"
+    port: 443
+    uuid: "65e619e7-0bf1-4f5b-a390-5735b01a3713"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/65e619e7-0bf1-4f5b-a390-5735b01a3713"
+      headers:
+        Host: "jp-amd1.018999.xyz"
+  - name: "🇺🇸 美国 279"
+    type: "vmess"
+    server: "hk80-2.sanfen001.pics"
+    port: 80
+    uuid: "3c34f264-6d9c-4234-b1da-3b84f183a931"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/zh-cn/"
+      headers:
+        Host: "hk80-2.sanfen001.pics"
+  - name: "🇺🇸 美国 280"
+    type: "vmess"
+    server: "jp80-4.sanfen001.pics"
+    port: 80
+    uuid: "3c34f264-6d9c-4234-b1da-3b84f183a931"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/zh-cn"
+      headers:
+        Host: "jp80-4.sanfen001.pics"
+  - name: "🇺🇸 美国 281"
+    type: "vmess"
+    server: "us80-3.sanfen001.pics"
+    port: 80
+    uuid: "ed1e7cc5-e0cf-424a-8e28-70ca305f26d3"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/zh-cn/"
+      headers:
+        Host: "us80-3.sanfen001.pics"
   - name: "🇺🇸 美国 282"
     type: "vmess"
     server: "vtors43.net2vip.com"
@@ -4211,125 +4441,30 @@ proxies:
     port: 443
     uuid: "5999a497-a2da-41d0-92cb-5b758082f83c"
     udp: true
-  - name: "🇷🇺 俄罗斯 019"
-    type: "vless"
-    server: "193.233.82.32"
-    port: 443
-    uuid: "5999a497-a2da-41d0-92cb-5b758082f83c"
-    udp: true
-  - name: "🇺🇸 美国 551"
-    type: "vless"
-    server: "104.16.100.66"
-    port: 8880
-    uuid: "59a0424b-d36b-4685-bac5-89d50d8969a8"
-    udp: true
-  - name: "🇺🇸 美国 552"
-    type: "vless"
-    server: "170.114.46.6"
-    port: 443
-    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
-    udp: true
-  - name: "🇳🇿 新西兰 001"
-    type: "vless"
-    server: "202.37.33.80"
-    port: 443
-    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
-    udp: true
-  - name: "🇺🇸 美国 553"
-    type: "vless"
-    server: "173.245.59.191"
-    port: 8443
-    uuid: "5acc4610-f2d7-44c9-bbe6-c0ee6a058aac"
-    udp: true
-  - name: "🇩🇪 德国 031"
-    type: "vless"
-    server: "5.75.194.217"
-    port: 56539
-    uuid: "5ca098ea-8220-42bb-b6b6-e155a6a62094"
-    udp: true
-  - name: "🇩🇪 德国 032"
-    type: "vless"
-    server: "5.75.195.244"
-    port: 56539
-    uuid: "5ca098ea-8220-42bb-b6b6-e155a6a62094"
-    udp: true
-  - name: "🇮🇷 伊朗 021"
-    type: "vless"
-    server: "193.228.168.106"
-    port: 11011
-    uuid: "5d4e7f4f-dd35-4a4e-9121-813377ec79f9"
-    udp: true
-  - name: "🇹🇷 土耳其 003"
-    type: "vless"
-    server: "139.28.241.77"
-    port: 443
-    uuid: "5d5c40b1-102c-4343-94cc-d5b794dbd0c6"
-    udp: true
-  - name: "🇺🇸 美国 554"
-    type: "vless"
-    server: "151.101.69.223"
-    port: 443
-    uuid: "5f65c1ae-9e7a-48ea-8ecf-6822365cd177"
-    udp: true
-  - name: "🇩🇪 德国 033"
-    type: "vless"
-    server: "45.77.53.179"
-    port: 51125
-    uuid: "5f896b05-0f15-4498-84e0-a940cd87ba62"
-    udp: true
-  - name: "🇺🇸 美国 555"
-    type: "vless"
-    server: "142.93.107.234"
-    port: 443
-    uuid: "603819a3-dd65-408a-abab-15d8dc49887f"
-    udp: true
-  - name: "🇺🇸 美国 556"
-    type: "vless"
-    server: "161.35.94.161"
-    port: 8880
-    uuid: "603819a3-dd65-408a-abab-15d8dc49887f"
-    udp: true
-  - name: "🇳🇱 荷兰 021"
-    type: "vless"
-    server: "167.71.7.72"
-    port: 443
-    uuid: "603819a3-dd65-408a-abab-15d8dc49887f"
-    udp: true
-  - name: "🇺🇸 美国 557"
-    type: "vless"
-    server: "167.99.138.52"
-    port: 443
-    uuid: "603819a3-dd65-408a-abab-15d8dc49887f"
-    udp: true
-  - name: "🇳🇱 荷兰 022"
-    type: "vless"
-    server: "188.166.123.201"
-    port: 443
-    uuid: "603819a3-dd65-408a-abab-15d8dc49887f"
-    udp: true
-  - name: "🇺🇸 美国 558"
-    type: "vless"
-    server: "209.38.250.74"
-    port: 443
-    uuid: "603819a3-dd65-408a-abab-15d8dc49887f"
-    udp: true
-  - name: "🇺🇸 美国 559"
-    type: "vless"
-    server: "172.67.151.222"
-    port: 80
-    uuid: "60c4d55d-bee3-4719-9568-aabf45153f9f"
-    udp: true
-  - name: "🇺🇸 美国 560"
-    type: "vless"
-    server: "104.16.7.70"
-    port: 2096
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇨🇳 中国 017"
+      - "🇺🇸 美国 275"
+      - "🇨🇳 中国 018"
+      - "🇨🇳 中国 019"
+      - "🇨🇳 中国 020"
+      - "🇰🇷 韩国 005"
+      - "🇨🇳 中国 021"
+      - "🇨🇳 中国 022"
+      - "🇺🇸 美国 276"
+      - "🇮🇷 伊朗 001"
+      - "🇨🇳 中国 023"
+      - "🇺🇸 美国 277"
+      - "🇨🇳 中国 024"
+      - "🇺🇸 美国 278"
+      - "🇯🇵 日本 007"
+      - "🇦🇺 澳大利亚 007"
+      - "🇺🇸 美国 279"
+      - "🇺🇸 美国 280"
+      - "🇺🇸 美国 281"
       - "🇺🇸 美国 282"
       - "🇨🇳 中国 025"
       - "🇺🇸 美国 283"
@@ -4811,22 +4946,3 @@ proxy-groups:
       - "🇺🇸 美国 550"
       - "🇩🇪 德国 030"
       - "🇷🇺 俄罗斯 018"
-      - "🇷🇺 俄罗斯 019"
-      - "🇺🇸 美国 551"
-      - "🇺🇸 美国 552"
-      - "🇳🇿 新西兰 001"
-      - "🇺🇸 美国 553"
-      - "🇩🇪 德国 031"
-      - "🇩🇪 德国 032"
-      - "🇮🇷 伊朗 021"
-      - "🇹🇷 土耳其 003"
-      - "🇺🇸 美国 554"
-      - "🇩🇪 德国 033"
-      - "🇺🇸 美国 555"
-      - "🇺🇸 美国 556"
-      - "🇳🇱 荷兰 021"
-      - "🇺🇸 美国 557"
-      - "🇳🇱 荷兰 022"
-      - "🇺🇸 美国 558"
-      - "🇺🇸 美国 559"
-      - "🇺🇸 美国 560"

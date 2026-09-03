@@ -1,8 +1,122 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 16:20:19
+# 生成时间: 2026-09-03 20:56:37
 # 节点数量: 500
 
 proxies:
+  - name: "🇷🇺 俄罗斯 019"
+    type: "vless"
+    server: "193.233.82.32"
+    port: 443
+    uuid: "5999a497-a2da-41d0-92cb-5b758082f83c"
+    udp: true
+  - name: "🇺🇸 美国 551"
+    type: "vless"
+    server: "104.16.100.66"
+    port: 8880
+    uuid: "59a0424b-d36b-4685-bac5-89d50d8969a8"
+    udp: true
+  - name: "🇺🇸 美国 552"
+    type: "vless"
+    server: "170.114.46.6"
+    port: 443
+    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
+    udp: true
+  - name: "🇳🇿 新西兰 001"
+    type: "vless"
+    server: "202.37.33.80"
+    port: 443
+    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
+    udp: true
+  - name: "🇺🇸 美国 553"
+    type: "vless"
+    server: "173.245.59.191"
+    port: 8443
+    uuid: "5acc4610-f2d7-44c9-bbe6-c0ee6a058aac"
+    udp: true
+  - name: "🇩🇪 德国 031"
+    type: "vless"
+    server: "5.75.194.217"
+    port: 56539
+    uuid: "5ca098ea-8220-42bb-b6b6-e155a6a62094"
+    udp: true
+  - name: "🇩🇪 德国 032"
+    type: "vless"
+    server: "5.75.195.244"
+    port: 56539
+    uuid: "5ca098ea-8220-42bb-b6b6-e155a6a62094"
+    udp: true
+  - name: "🇮🇷 伊朗 021"
+    type: "vless"
+    server: "193.228.168.106"
+    port: 11011
+    uuid: "5d4e7f4f-dd35-4a4e-9121-813377ec79f9"
+    udp: true
+  - name: "🇹🇷 土耳其 003"
+    type: "vless"
+    server: "139.28.241.77"
+    port: 443
+    uuid: "5d5c40b1-102c-4343-94cc-d5b794dbd0c6"
+    udp: true
+  - name: "🇺🇸 美国 554"
+    type: "vless"
+    server: "151.101.69.223"
+    port: 443
+    uuid: "5f65c1ae-9e7a-48ea-8ecf-6822365cd177"
+    udp: true
+  - name: "🇩🇪 德国 033"
+    type: "vless"
+    server: "45.77.53.179"
+    port: 51125
+    uuid: "5f896b05-0f15-4498-84e0-a940cd87ba62"
+    udp: true
+  - name: "🇺🇸 美国 555"
+    type: "vless"
+    server: "142.93.107.234"
+    port: 443
+    uuid: "603819a3-dd65-408a-abab-15d8dc49887f"
+    udp: true
+  - name: "🇺🇸 美国 556"
+    type: "vless"
+    server: "161.35.94.161"
+    port: 8880
+    uuid: "603819a3-dd65-408a-abab-15d8dc49887f"
+    udp: true
+  - name: "🇳🇱 荷兰 021"
+    type: "vless"
+    server: "167.71.7.72"
+    port: 443
+    uuid: "603819a3-dd65-408a-abab-15d8dc49887f"
+    udp: true
+  - name: "🇺🇸 美国 557"
+    type: "vless"
+    server: "167.99.138.52"
+    port: 443
+    uuid: "603819a3-dd65-408a-abab-15d8dc49887f"
+    udp: true
+  - name: "🇳🇱 荷兰 022"
+    type: "vless"
+    server: "188.166.123.201"
+    port: 443
+    uuid: "603819a3-dd65-408a-abab-15d8dc49887f"
+    udp: true
+  - name: "🇺🇸 美国 558"
+    type: "vless"
+    server: "209.38.250.74"
+    port: 443
+    uuid: "603819a3-dd65-408a-abab-15d8dc49887f"
+    udp: true
+  - name: "🇺🇸 美国 559"
+    type: "vless"
+    server: "172.67.151.222"
+    port: 80
+    uuid: "60c4d55d-bee3-4719-9568-aabf45153f9f"
+    udp: true
+  - name: "🇺🇸 美国 560"
+    type: "vless"
+    server: "104.16.7.70"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
   - name: "🇳🇱 荷兰 023"
     type: "vless"
     server: "146.0.79.109"
@@ -2909,125 +3023,30 @@ proxies:
     port: 47705
     cipher: "chacha20-ietf-poly1305"
     password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-06"
-    type: "ss"
-    server: "hk16.network-cdn-gw-yd.net"
-    port: 47706
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-07"
-    type: "ss"
-    server: "hk17.network-cdn-gw-yd.net"
-    port: 47707
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-08"
-    type: "ss"
-    server: "hk18.network-cdn-gw-yd.net"
-    port: 47708
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-09"
-    type: "ss"
-    server: "hk09.network-cdn-gw-yd.net"
-    port: 47709
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-10"
-    type: "ss"
-    server: "hk11.network-cdn-gw-yd.net"
-    port: 47711
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic-01"
-    type: "ss"
-    server: "us06.network-cdn-gw-yd.net"
-    port: 43111
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic-02"
-    type: "ss"
-    server: "us07.network-cdn-gw-yd.net"
-    port: 43211
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic-03"
-    type: "ss"
-    server: "us08.network-cdn-gw-yd.net"
-    port: 43212
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic直连-01|gpt|三网优化线路|X3"
-    type: "ss"
-    server: "usb4-5.toop-digxinap.com"
-    port: 43213
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic直连-02|gpt|三网优化线路|X3"
-    type: "ss"
-    server: "usb4-5.toop-digxinap.com"
-    port: 43215
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "日本-Basic-BGP-01"
-    type: "ss"
-    server: "jp01.network-cdn-gw-yd.net"
-    port: 48801
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "日本-Basic-BGP-02"
-    type: "ss"
-    server: "jp02.network-cdn-gw-yd.net"
-    port: 48802
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "台湾-Basic-BGP-01"
-    type: "ss"
-    server: "tw1.network-cdn-gw-yd.net"
-    port: 46601
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "台湾-Basic-BGP-02"
-    type: "ss"
-    server: "tw02.network-cdn-gw-yd.net"
-    port: 46602
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "新加坡-IEPL-Basic专线-01"
-    type: "ss"
-    server: "sgp01.network-cdn-gw-yd.net"
-    port: 45506
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "韩国-IEPL-Basic专线-|X2|"
-    type: "ss"
-    server: "kr03.network-cdn-gw-yd.net"
-    port: 36220
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "越南-IEPL-Basic专线-01"
-    type: "ss"
-    server: "vn01.network-cdn-gw-yd.net"
-    port: 20011
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "英国-IEPL-Basic专线-01"
-    type: "ss"
-    server: "uks1.network-cdn-gw-yd.net"
-    port: 10014
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "剩余流量：2.74 GB"
-    type: "ss"
-    server: "127.0.0.1"
-    port: 80
-    cipher: "aes-128-gcm"
-    password: "f80fadf1-4f90-40e2-891f-e9a10146d960"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇷🇺 俄罗斯 019"
+      - "🇺🇸 美国 551"
+      - "🇺🇸 美国 552"
+      - "🇳🇿 新西兰 001"
+      - "🇺🇸 美国 553"
+      - "🇩🇪 德国 031"
+      - "🇩🇪 德国 032"
+      - "🇮🇷 伊朗 021"
+      - "🇹🇷 土耳其 003"
+      - "🇺🇸 美国 554"
+      - "🇩🇪 德国 033"
+      - "🇺🇸 美国 555"
+      - "🇺🇸 美国 556"
+      - "🇳🇱 荷兰 021"
+      - "🇺🇸 美国 557"
+      - "🇳🇱 荷兰 022"
+      - "🇺🇸 美国 558"
+      - "🇺🇸 美国 559"
+      - "🇺🇸 美国 560"
       - "🇳🇱 荷兰 023"
       - "🇺🇸 美国 561"
       - "🇺🇸 美国 562"
@@ -3509,22 +3528,3 @@ proxy-groups:
       - "香港-Basic-BGP-03"
       - "香港-Basic-BGP-04"
       - "香港-Basic-BGP-05"
-      - "香港-Basic-BGP-06"
-      - "香港-Basic-BGP-07"
-      - "香港-Basic-BGP-08"
-      - "香港-Basic-BGP-09"
-      - "香港-Basic-BGP-10"
-      - "美国-Basic-01"
-      - "美国-Basic-02"
-      - "美国-Basic-03"
-      - "美国-Basic直连-01|gpt|三网优化线路|X3"
-      - "美国-Basic直连-02|gpt|三网优化线路|X3"
-      - "日本-Basic-BGP-01"
-      - "日本-Basic-BGP-02"
-      - "台湾-Basic-BGP-01"
-      - "台湾-Basic-BGP-02"
-      - "新加坡-IEPL-Basic专线-01"
-      - "韩国-IEPL-Basic专线-|X2|"
-      - "越南-IEPL-Basic专线-01"
-      - "英国-IEPL-Basic专线-01"
-      - "剩余流量：2.74 GB"
