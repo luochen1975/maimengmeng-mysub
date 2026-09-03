@@ -1,43 +1,9 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 04:10:05
+# 生成时间: 2026-09-03 11:06:24
 # 节点数量: 500
 
 proxies:
-  - name: "🇨🇦CA-20.104.96.194-0183"
-    type: "ss"
-    server: "20.104.96.194"
-    port: 8080
-    cipher: "aes-256-gcm"
-    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🇧🇷BR-20.206.76.37-0184"
-    type: "vmess"
-    server: "20.206.76.37"
-    port: 80
-    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
-  - name: "🇫🇷FR-40.89.155.71-0185"
-    type: "vmess"
-    server: "40.89.155.71"
-    port: 80
-    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
-  - name: "🇨🇦CA-20.104.183.100-0186"
+  - name: "🇨🇦CA-20.104.183.100-0203"
     type: "vmess"
     server: "20.104.183.100"
     port: 80
@@ -51,13 +17,13 @@ proxies:
       path: "/"
       headers:
         Host: ""
-  - name: "🇧🇷BR-20.206.76.37-0187"
+  - name: "🇧🇷BR-20.206.76.37-0204"
     type: "ss"
     server: "20.206.76.37"
     port: 8080
     cipher: "aes-256-gcm"
     password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🇨🇦CA-20.104.96.194-0188"
+  - name: "🇨🇦CA-20.104.96.194-0205"
     type: "vmess"
     server: "20.104.96.194"
     port: 80
@@ -71,25 +37,25 @@ proxies:
       path: "/"
       headers:
         Host: ""
-  - name: "🇺🇸US-20.10.159.29-0189"
+  - name: "🇺🇸US-20.10.159.29-0206"
     type: "ss"
     server: "20.10.159.29"
     port: 8080
     cipher: "aes-256-gcm"
     password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🇭🇰HK-20.239.89.71-0190"
+  - name: "🇭🇰HK-20.239.89.71-0207"
     type: "ss"
     server: "20.239.89.71"
     port: 8080
     cipher: "aes-256-gcm"
     password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🇺🇸US-20.231.111.125-0191"
+  - name: "🇺🇸US-20.231.111.125-0208"
     type: "ss"
     server: "20.231.111.125"
     port: 8080
     cipher: "aes-256-gcm"
     password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🇺🇸US-20.231.111.125-0192"
+  - name: "🇺🇸US-20.231.111.125-0209"
     type: "vmess"
     server: "20.231.111.125"
     port: 80
@@ -103,7 +69,7 @@ proxies:
       path: "/"
       headers:
         Host: ""
-  - name: "🇳🇱NL-52.232.66.152-0193"
+  - name: "🇳🇱NL-52.232.66.152-0210"
     type: "vmess"
     server: "52.232.66.152"
     port: 80
@@ -117,7 +83,7 @@ proxies:
       path: "/"
       headers:
         Host: ""
-  - name: "🇺🇸US-20.10.159.29-0194"
+  - name: "🇺🇸US-20.10.159.29-0211"
     type: "vmess"
     server: "20.10.159.29"
     port: 80
@@ -131,19 +97,20 @@ proxies:
       path: "/"
       headers:
         Host: ""
-  - name: "🇭🇰HK-95.40.120.162-0195"
+  - name: "🇭🇰HK-95.40.120.162-0212"
     type: "ss"
     server: "95.40.120.162"
     port: 8319
     cipher: "chacha20-ietf-poly1305"
     password: "ljqdalu13.."
-  - name: "🇷🇺RU-91.206.92.176-0014"
-    type: "ss"
-    server: "91.206.92.176"
-    port: 35030
-    cipher: "chacha20-ietf-poly1305"
-    password: "FCx0i7b33H9G"
-  - name: "🇬🇧GB-20.90.249.210-0197"
+  - name: "🇯🇵JP-95.85.94.57-0213"
+    type: "trojan"
+    server: "gentle-mastiff.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+    tls: true
+    udp: true
+  - name: "🇬🇧GB-20.90.249.210-0214"
     type: "vmess"
     server: "20.90.249.210"
     port: 80
@@ -157,19 +124,19 @@ proxies:
       path: "/"
       headers:
         Host: ""
-  - name: "🇬🇧GB-20.77.245.193-0198"
+  - name: "🇬🇧GB-20.77.245.193-0215"
     type: "ss"
     server: "20.77.245.193"
     port: 8080
     cipher: "aes-256-gcm"
     password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🏁RELAY-172.67.207.87-0199"
+  - name: "🏁RELAY-172.67.207.87-0216"
     type: "ss"
     server: "de-server-1.zelnora.ir"
     port: 1080
     cipher: "chacha20-ietf-poly1305"
     password: "OhGXJG4nEqTN62cDDcD_8_CddrpTHn0u"
-  - name: "🇭🇰HK-47.240.51.89-0200"
+  - name: "🇭🇰HK-47.240.51.89-0217"
     type: "vmess"
     server: "47.240.51.89"
     port: 55214
@@ -183,97 +150,97 @@ proxies:
       path: "/"
       headers:
         Host: "a.189.cn"
-  - name: "🇬🇧GB-212.102.53.197-0201"
+  - name: "🇬🇧GB-212.102.53.197-0218"
     type: "ss"
     server: "212.102.53.197"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
-  - name: "🇺🇸US-38.114.114.19-0202"
+  - name: "🇺🇸US-38.114.114.19-0219"
     type: "ss"
     server: "38.114.114.19"
     port: 8888
     cipher: "aes-256-gcm"
     password: "Y6R9pAtvxxzmGC"
-  - name: "🇮🇪IE-34.244.150.119-0203"
+  - name: "🇮🇪IE-34.244.150.119-0220"
     type: "ss"
     server: "34.244.150.119"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
-  - name: "🇮🇪IE-3.250.80.208-0204"
+  - name: "🇮🇪IE-3.250.80.208-0221"
     type: "ss"
     server: "3.250.80.208"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
-  - name: "🇫🇷FR-40.89.155.71-0205"
+  - name: "🇫🇷FR-40.89.155.71-0222"
     type: "ss"
     server: "40.89.155.71"
     port: 8080
     cipher: "aes-256-gcm"
     password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🇪🇸ES-5.188.181.201-0206"
+  - name: "🇪🇸ES-5.188.181.201-0223"
     type: "ss"
     server: "5.188.181.201"
     port: 9025
     cipher: "aes-256-cfb"
     password: "XPtzA9sCug3SPR4c"
-  - name: "🇳🇱NL-52.232.66.152-0207"
+  - name: "🇳🇱NL-52.232.66.152-0224"
     type: "ss"
     server: "52.232.66.152"
     port: 8080
     cipher: "aes-256-gcm"
     password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🇨🇦CA-3.96.124.46-0208"
+  - name: "🇨🇦CA-3.96.124.46-0225"
     type: "ss"
     server: "3.96.124.46"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
-  - name: "🇺🇸US-38.75.136.34-0211"
+  - name: "🇺🇸US-38.75.136.34-0226"
     type: "ss"
     server: "38.75.136.34"
     port: 5600
     cipher: "aes-256-gcm"
     password: "Y6R9pAtvxxzmGC"
-  - name: "🇺🇸US-38.91.107.37-0213"
+  - name: "🇺🇸US-38.91.107.37-0227"
     type: "ss"
     server: "38.91.107.37"
     port: 5003
     cipher: "aes-256-gcm"
     password: "g5MeD6Ft3CWlJId"
-  - name: "🇪🇸ES-5.188.181.201-0215"
+  - name: "🇪🇸ES-5.188.181.201-0228"
     type: "ss"
     server: "5.188.181.201"
     port: 9011
     cipher: "aes-256-cfb"
     password: "M3t2ZEQcMGRWBjRa"
-  - name: "🇺🇸US-38.91.107.37-0217"
+  - name: "🇺🇸US-38.91.107.37-0229"
     type: "ss"
     server: "38.91.107.37"
     port: 7001
     cipher: "aes-256-gcm"
     password: "RexnBgU7EV5ADxG"
-  - name: "🇺🇸US-38.75.136.34-0218"
+  - name: "🇺🇸US-38.75.136.34-0230"
     type: "ss"
     server: "38.75.136.34"
     port: 9101
     cipher: "aes-256-gcm"
     password: "e4FCWrgpkji3QY"
-  - name: "🇯🇵JP-20.89.43.106-0219"
+  - name: "🇯🇵JP-20.89.43.106-0231"
     type: "ss"
     server: "20.89.43.106"
     port: 8080
     cipher: "aes-256-gcm"
     password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🇭🇰HK-20.239.195.254-0220"
+  - name: "🇭🇰HK-20.239.195.254-0232"
     type: "ss"
     server: "20.239.195.254"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🇯🇵JP-140.83.57.20-0221"
+  - name: "🇯🇵JP-140.83.57.20-0233"
     type: "vmess"
     server: "140.83.57.20"
     port: 13118
@@ -287,19 +254,19 @@ proxies:
       path: "/"
       headers:
         Host: "sg.11160321.de5.net"
-  - name: "🇺🇸US-38.75.136.34-0222"
+  - name: "🇺🇸US-38.75.136.34-0234"
     type: "ss"
     server: "38.75.136.34"
     port: 8090
     cipher: "aes-256-gcm"
     password: "PCnnH6SQSnfoS27"
-  - name: "🇺🇸US-38.75.136.34-0223"
+  - name: "🇺🇸US-38.75.136.34-0235"
     type: "ss"
     server: "38.75.136.34"
     port: 5003
     cipher: "aes-256-gcm"
     password: "g5MeD6Ft3CWlJId"
-  - name: "🇭🇰HK-47.244.120.197-0224"
+  - name: "🇭🇰HK-47.244.120.197-0236"
     type: "vmess"
     server: "47.244.120.197"
     port: 36703
@@ -313,25 +280,25 @@ proxies:
       path: "/"
       headers:
         Host: ""
-  - name: "🇺🇸US-38.75.136.34-0225"
+  - name: "🇺🇸US-38.75.136.34-0237"
     type: "ss"
     server: "38.75.136.34"
     port: 8118
     cipher: "aes-256-gcm"
     password: "cdBIDV42DCwnfIN"
-  - name: "🇺🇸US-38.75.136.34-0226"
+  - name: "🇺🇸US-38.75.136.34-0238"
     type: "ss"
     server: "38.75.136.34"
     port: 5500
     cipher: "aes-256-gcm"
     password: "KixLvKzwjekG00rm"
-  - name: "🇺🇸US-162.251.61.221-0227"
+  - name: "🇺🇸US-162.251.61.221-0239"
     type: "ss"
     server: "162.251.61.221"
     port: 812
     cipher: "chacha20-ietf-poly1305"
     password: "G!yBwPWH3Vao"
-  - name: "🏁RELAY-198.41.212.12-0228"
+  - name: "🏁RELAY-198.41.212.12-0240"
     type: "vmess"
     server: "198.41.212.12"
     port: 443
@@ -345,13 +312,13 @@ proxies:
       path: "/"
       headers:
         Host: "oplg1.cfcdn2.xyz"
-  - name: "🇮🇪IE-3.250.223.202-0230"
+  - name: "🇮🇪IE-3.250.223.202-0241"
     type: "ss"
     server: "3.250.223.202"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
-  - name: "🇦🇺AU-20.227.152.156-0232"
+  - name: "🇦🇺AU-20.227.152.156-0242"
     type: "vmess"
     server: "20.227.152.156"
     port: 80
@@ -365,117 +332,6 @@ proxies:
       path: "/"
       headers:
         Host: ""
-  - name: "🇬🇧GB-94.156.250.148-0233"
-    type: "ss"
-    server: "94.156.250.148"
-    port: 7001
-    cipher: "aes-256-gcm"
-    password: "RexnBgU7EV5ADxG"
-  - name: "🇨🇦CA-134.195.196.85-0235"
-    type: "ss"
-    server: "134.195.196.85"
-    port: 5001
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
-  - name: "🇺🇸US-38.121.43.204-0236"
-    type: "ss"
-    server: "38.121.43.204"
-    port: 8009
-    cipher: "aes-256-gcm"
-    password: "XKFKl2rULjIp74"
-  - name: "🇺🇸US-38.121.43.204-0237"
-    type: "ss"
-    server: "38.121.43.204"
-    port: 8090
-    cipher: "aes-256-gcm"
-    password: "PCnnH6SQSnfoS27"
-  - name: "🇭🇰HK-103.149.182.79-0238"
-    type: "ss"
-    server: "103.149.182.79"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
-  - name: "🇯🇵JP-178.157.58.99-0239"
-    type: "trojan"
-    server: "178.157.58.99"
-    port: 50500
-    password: "47eba057-a45d-4002-9e11-eaf21c88cefe"
-    tls: true
-    udp: true
-  - name: "🇺🇸US-38.121.43.204-0240"
-    type: "ss"
-    server: "38.121.43.204"
-    port: 8000
-    cipher: "aes-256-gcm"
-    password: "KixLvKzwjekG00rm"
-  - name: "🇭🇰HK-43.100.32.4-0241"
-    type: "vmess"
-    server: "n1747624260.4u9ma.icu"
-    port: 443
-    uuid: "eee8cb72-7eab-4034-a308-ed06cb07e003"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "n1747624260.4u9ma.icu"
-  - name: "🇨🇦CA-85.208.108.19-0242"
-    type: "ss"
-    server: "85.208.108.19"
-    port: 5000
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
-  - name: "🇨🇳CN-183.236.51.6-0243"
-    type: "trojan"
-    server: "183.236.51.6"
-    port: 10823
-    password: "7d223bae-e183-4bf6-89c3-e327b15df490"
-    tls: true
-    udp: true
-  - name: "🏁RELAY-104.31.16.35-0244"
-    type: "vmess"
-    server: "104.31.16.35"
-    port: 80
-    uuid: "8abe9496-5e24-4e49-b566-dcf86116017d"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
-  - name: "🇪🇪EE-109.206.241.10-0245"
-    type: "trojan"
-    server: "109.206.241.10"
-    port: 449
-    password: "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1"
-    tls: true
-    udp: true
-  - name: "🏁RELAY-104.18.42.163-0246"
-    type: "vmess"
-    server: "www.shopify.com"
-    port: 443
-    uuid: "a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "included-shaw-lean-believe.trycloudflare.com"
-  - name: "🇨🇦CA-85.208.108.19-0247"
-    type: "ss"
-    server: "85.208.108.19"
-    port: 3389
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
   - name: "🇬🇧_GB_英国"
     type: "trojan"
     server: "45.85.88.194"
@@ -650,19 +506,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "f1db0d89-149e-41a2-9aa5-c2c7700fa107"
+    uuid: "f8e6dd52-a392-44a2-a448-d7ab5f630a76"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "f1db0d89-149e-41a2-9aa5-c2c7700fa107"
+    uuid: "f8e6dd52-a392-44a2-a448-d7ab5f630a76"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "f1db0d89-149e-41a2-9aa5-c2c7700fa107"
+    uuid: "f8e6dd52-a392-44a2-a448-d7ab5f630a76"
     udp: true
   - name: "🇨🇳 中国 001"
     type: "vmess"
@@ -6345,68 +6201,265 @@ proxies:
     tls: false
     network: "http"
     udp: true
+  - name: "🇨🇳 中国 012"
+    type: "vmess"
+    server: "47.242.69.124"
+    port: 54620
+    uuid: "7c3008e5-9665-4319-a2b9-ac7370665f1a"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 272"
+    type: "vmess"
+    server: "de-2.sharecentre.online"
+    port: 443
+    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/shirker"
+      headers:
+        Host: "de-2.sharecentre.online"
+  - name: "🇨🇿 捷克 005"
+    type: "vmess"
+    server: "sg1-v.sshmax.xyz"
+    port: 443
+    uuid: "b655be0e-4b1a-4e3e-b63f-22a928a6e808"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "sg1-v.sshmax.xyz"
+  - name: "🇸🇬 新加坡 007"
+    type: "vmess"
+    server: "steam.dnspro.icu"
+    port: 5001
+    uuid: "d4c93465-70f0-30d5-ab5f-a8881f3f49e7"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/iso"
+      headers:
+        Host: "steam.dnspro.icu"
+  - name: "🇨🇳 中国 013"
+    type: "vmess"
+    server: "47.243.230.222"
+    port: 35668
+    uuid: "ab4df3ef-e77f-4f2a-bfb8-63604412f73b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 273"
+    type: "vmess"
+    server: "sg-gcore.sharecentre.online"
+    port: 443
+    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/shirker"
+      headers:
+        Host: "sg-gcore.sharecentre.online"
+  - name: "🇸🇬 新加坡 008"
+    type: "vmess"
+    server: "st-1.dnspro.icu"
+    port: 9111
+    uuid: "13ef5f2c-d002-36a2-9e96-a13d5e3ae03b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/iso"
+      headers:
+        Host: "st-1.dnspro.icu"
+  - name: "🇸🇬 新加坡 009"
+    type: "vmess"
+    server: "st-2.dnspro.icu"
+    port: 5100
+    uuid: "13ef5f2c-d002-36a2-9e96-a13d5e3ae03b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/iso"
+      headers:
+        Host: "st-2.dnspro.icu"
+  - name: "🇨🇳 中国 014"
+    type: "vmess"
+    server: "47.243.187.171"
+    port: 60808
+    uuid: "99c3c1c3-c27c-49a0-9c2c-7c77c3d92bf6"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇸🇬 新加坡 010"
+    type: "vmess"
+    server: "sh-cn-1.dnspro.icu"
+    port: 20025
+    uuid: "13ef5f2c-d002-36a2-9e96-a13d5e3ae03b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/iso"
+      headers:
+        Host: "sh-cn-1.dnspro.icu"
+  - name: "🇨🇳 中国 015"
+    type: "vmess"
+    server: "47.243.185.128"
+    port: 47365
+    uuid: "fb695171-6b24-4255-9893-8921f53a0548"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 274"
+    type: "vmess"
+    server: "0121136175176168.xhtk.cc"
+    port: 443
+    uuid: "286ff9bd-26b8-39c2-d85e-ba20dc1a7e75"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/fkcgvws"
+      headers:
+        Host: "0121136175176168.xhtk.cc"
+  - name: "🇺🇸 美国 275"
+    type: "vmess"
+    server: "us-dp2.sharecentre.online"
+    port: 443
+    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/shirker"
+      headers:
+        Host: "us-dp2.sharecentre.online"
+  - name: "🇺🇸 美国 276"
+    type: "vmess"
+    server: "opc-jp.sharecentre.online"
+    port: 443
+    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/shirker"
+      headers:
+        Host: "opc-jp.sharecentre.online"
+  - name: "🇺🇸 美国 277"
+    type: "vmess"
+    server: "icook.hk"
+    port: 80
+    uuid: "3eb05cb6-d2e1-4a31-9f82-514cfa98fe15"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/ray?ed=2048"
+      headers:
+        Host: "icook.hk"
+  - name: "🇨🇳 中国 016"
+    type: "vmess"
+    server: "8.210.15.231"
+    port: 41083
+    uuid: "1d1ad417-29ed-41e8-aaed-323f797efe6b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇨🇳 中国 017"
+    type: "vmess"
+    server: "47.242.26.30"
+    port: 28045
+    uuid: "bb73d6fe-9700-4607-8dc1-eb9f15253e9d"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇨🇦CA-20.104.96.194-0183"
-      - "🇧🇷BR-20.206.76.37-0184"
-      - "🇫🇷FR-40.89.155.71-0185"
-      - "🇨🇦CA-20.104.183.100-0186"
-      - "🇧🇷BR-20.206.76.37-0187"
-      - "🇨🇦CA-20.104.96.194-0188"
-      - "🇺🇸US-20.10.159.29-0189"
-      - "🇭🇰HK-20.239.89.71-0190"
-      - "🇺🇸US-20.231.111.125-0191"
-      - "🇺🇸US-20.231.111.125-0192"
-      - "🇳🇱NL-52.232.66.152-0193"
-      - "🇺🇸US-20.10.159.29-0194"
-      - "🇭🇰HK-95.40.120.162-0195"
-      - "🇷🇺RU-91.206.92.176-0014"
-      - "🇬🇧GB-20.90.249.210-0197"
-      - "🇬🇧GB-20.77.245.193-0198"
-      - "🏁RELAY-172.67.207.87-0199"
-      - "🇭🇰HK-47.240.51.89-0200"
-      - "🇬🇧GB-212.102.53.197-0201"
-      - "🇺🇸US-38.114.114.19-0202"
-      - "🇮🇪IE-34.244.150.119-0203"
-      - "🇮🇪IE-3.250.80.208-0204"
-      - "🇫🇷FR-40.89.155.71-0205"
-      - "🇪🇸ES-5.188.181.201-0206"
-      - "🇳🇱NL-52.232.66.152-0207"
-      - "🇨🇦CA-3.96.124.46-0208"
-      - "🇺🇸US-38.75.136.34-0211"
-      - "🇺🇸US-38.91.107.37-0213"
-      - "🇪🇸ES-5.188.181.201-0215"
-      - "🇺🇸US-38.91.107.37-0217"
-      - "🇺🇸US-38.75.136.34-0218"
-      - "🇯🇵JP-20.89.43.106-0219"
-      - "🇭🇰HK-20.239.195.254-0220"
-      - "🇯🇵JP-140.83.57.20-0221"
-      - "🇺🇸US-38.75.136.34-0222"
-      - "🇺🇸US-38.75.136.34-0223"
-      - "🇭🇰HK-47.244.120.197-0224"
-      - "🇺🇸US-38.75.136.34-0225"
+      - "🇨🇦CA-20.104.183.100-0203"
+      - "🇧🇷BR-20.206.76.37-0204"
+      - "🇨🇦CA-20.104.96.194-0205"
+      - "🇺🇸US-20.10.159.29-0206"
+      - "🇭🇰HK-20.239.89.71-0207"
+      - "🇺🇸US-20.231.111.125-0208"
+      - "🇺🇸US-20.231.111.125-0209"
+      - "🇳🇱NL-52.232.66.152-0210"
+      - "🇺🇸US-20.10.159.29-0211"
+      - "🇭🇰HK-95.40.120.162-0212"
+      - "🇯🇵JP-95.85.94.57-0213"
+      - "🇬🇧GB-20.90.249.210-0214"
+      - "🇬🇧GB-20.77.245.193-0215"
+      - "🏁RELAY-172.67.207.87-0216"
+      - "🇭🇰HK-47.240.51.89-0217"
+      - "🇬🇧GB-212.102.53.197-0218"
+      - "🇺🇸US-38.114.114.19-0219"
+      - "🇮🇪IE-34.244.150.119-0220"
+      - "🇮🇪IE-3.250.80.208-0221"
+      - "🇫🇷FR-40.89.155.71-0222"
+      - "🇪🇸ES-5.188.181.201-0223"
+      - "🇳🇱NL-52.232.66.152-0224"
+      - "🇨🇦CA-3.96.124.46-0225"
       - "🇺🇸US-38.75.136.34-0226"
-      - "🇺🇸US-162.251.61.221-0227"
-      - "🏁RELAY-198.41.212.12-0228"
-      - "🇮🇪IE-3.250.223.202-0230"
-      - "🇦🇺AU-20.227.152.156-0232"
-      - "🇬🇧GB-94.156.250.148-0233"
-      - "🇨🇦CA-134.195.196.85-0235"
-      - "🇺🇸US-38.121.43.204-0236"
-      - "🇺🇸US-38.121.43.204-0237"
-      - "🇭🇰HK-103.149.182.79-0238"
-      - "🇯🇵JP-178.157.58.99-0239"
-      - "🇺🇸US-38.121.43.204-0240"
-      - "🇭🇰HK-43.100.32.4-0241"
-      - "🇨🇦CA-85.208.108.19-0242"
-      - "🇨🇳CN-183.236.51.6-0243"
-      - "🏁RELAY-104.31.16.35-0244"
-      - "🇪🇪EE-109.206.241.10-0245"
-      - "🏁RELAY-104.18.42.163-0246"
-      - "🇨🇦CA-85.208.108.19-0247"
+      - "🇺🇸US-38.91.107.37-0227"
+      - "🇪🇸ES-5.188.181.201-0228"
+      - "🇺🇸US-38.91.107.37-0229"
+      - "🇺🇸US-38.75.136.34-0230"
+      - "🇯🇵JP-20.89.43.106-0231"
+      - "🇭🇰HK-20.239.195.254-0232"
+      - "🇯🇵JP-140.83.57.20-0233"
+      - "🇺🇸US-38.75.136.34-0234"
+      - "🇺🇸US-38.75.136.34-0235"
+      - "🇭🇰HK-47.244.120.197-0236"
+      - "🇺🇸US-38.75.136.34-0237"
+      - "🇺🇸US-38.75.136.34-0238"
+      - "🇺🇸US-162.251.61.221-0239"
+      - "🏁RELAY-198.41.212.12-0240"
+      - "🇮🇪IE-3.250.223.202-0241"
+      - "🇦🇺AU-20.227.152.156-0242"
       - "🇬🇧_GB_英国"
       - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本"
@@ -6850,3 +6903,20 @@ proxy-groups:
       - "🇺🇸 美国 271"
       - "🇯🇵 日本 005"
       - "🇨🇳 中国 011"
+      - "🇨🇳 中国 012"
+      - "🇺🇸 美国 272"
+      - "🇨🇿 捷克 005"
+      - "🇸🇬 新加坡 007"
+      - "🇨🇳 中国 013"
+      - "🇺🇸 美国 273"
+      - "🇸🇬 新加坡 008"
+      - "🇸🇬 新加坡 009"
+      - "🇨🇳 中国 014"
+      - "🇸🇬 新加坡 010"
+      - "🇨🇳 中国 015"
+      - "🇺🇸 美国 274"
+      - "🇺🇸 美国 275"
+      - "🇺🇸 美国 276"
+      - "🇺🇸 美国 277"
+      - "🇨🇳 中国 016"
+      - "🇨🇳 中国 017"

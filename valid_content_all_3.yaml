@@ -1,222 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 04:10:05
+# 生成时间: 2026-09-03 11:06:24
 # 节点数量: 500
 
 proxies:
-  - name: "🇨🇳 中国 012"
-    type: "vmess"
-    server: "47.242.69.124"
-    port: 54620
-    uuid: "7c3008e5-9665-4319-a2b9-ac7370665f1a"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "http"
-    udp: true
-  - name: "🇺🇸 美国 272"
-    type: "vmess"
-    server: "de-2.sharecentre.online"
-    port: 443
-    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/shirker"
-      headers:
-        Host: "de-2.sharecentre.online"
-  - name: "🇨🇿 捷克 005"
-    type: "vmess"
-    server: "sg1-v.sshmax.xyz"
-    port: 443
-    uuid: "b655be0e-4b1a-4e3e-b63f-22a928a6e808"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/vmess"
-      headers:
-        Host: "sg1-v.sshmax.xyz"
-  - name: "🇸🇬 新加坡 007"
-    type: "vmess"
-    server: "steam.dnspro.icu"
-    port: 5001
-    uuid: "d4c93465-70f0-30d5-ab5f-a8881f3f49e7"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/iso"
-      headers:
-        Host: "steam.dnspro.icu"
-  - name: "🇨🇳 中国 013"
-    type: "vmess"
-    server: "47.243.230.222"
-    port: 35668
-    uuid: "ab4df3ef-e77f-4f2a-bfb8-63604412f73b"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "http"
-    udp: true
-  - name: "🇺🇸 美国 273"
-    type: "vmess"
-    server: "sg-gcore.sharecentre.online"
-    port: 443
-    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/shirker"
-      headers:
-        Host: "sg-gcore.sharecentre.online"
-  - name: "🇸🇬 新加坡 008"
-    type: "vmess"
-    server: "st-1.dnspro.icu"
-    port: 9111
-    uuid: "13ef5f2c-d002-36a2-9e96-a13d5e3ae03b"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/iso"
-      headers:
-        Host: "st-1.dnspro.icu"
-  - name: "🇸🇬 新加坡 009"
-    type: "vmess"
-    server: "st-2.dnspro.icu"
-    port: 5100
-    uuid: "13ef5f2c-d002-36a2-9e96-a13d5e3ae03b"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/iso"
-      headers:
-        Host: "st-2.dnspro.icu"
-  - name: "🇨🇳 中国 014"
-    type: "vmess"
-    server: "47.243.187.171"
-    port: 60808
-    uuid: "99c3c1c3-c27c-49a0-9c2c-7c77c3d92bf6"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "http"
-    udp: true
-  - name: "🇸🇬 新加坡 010"
-    type: "vmess"
-    server: "sh-cn-1.dnspro.icu"
-    port: 20025
-    uuid: "13ef5f2c-d002-36a2-9e96-a13d5e3ae03b"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/iso"
-      headers:
-        Host: "sh-cn-1.dnspro.icu"
-  - name: "🇨🇳 中国 015"
-    type: "vmess"
-    server: "47.243.185.128"
-    port: 47365
-    uuid: "fb695171-6b24-4255-9893-8921f53a0548"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "http"
-    udp: true
-  - name: "🇺🇸 美国 274"
-    type: "vmess"
-    server: "0121136175176168.xhtk.cc"
-    port: 443
-    uuid: "286ff9bd-26b8-39c2-d85e-ba20dc1a7e75"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/fkcgvws"
-      headers:
-        Host: "0121136175176168.xhtk.cc"
-  - name: "🇺🇸 美国 275"
-    type: "vmess"
-    server: "us-dp2.sharecentre.online"
-    port: 443
-    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/shirker"
-      headers:
-        Host: "us-dp2.sharecentre.online"
-  - name: "🇺🇸 美国 276"
-    type: "vmess"
-    server: "opc-jp.sharecentre.online"
-    port: 443
-    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/shirker"
-      headers:
-        Host: "opc-jp.sharecentre.online"
-  - name: "🇺🇸 美国 277"
-    type: "vmess"
-    server: "icook.hk"
-    port: 80
-    uuid: "3eb05cb6-d2e1-4a31-9f82-514cfa98fe15"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/ray?ed=2048"
-      headers:
-        Host: "icook.hk"
-  - name: "🇨🇳 中国 016"
-    type: "vmess"
-    server: "8.210.15.231"
-    port: 41083
-    uuid: "1d1ad417-29ed-41e8-aaed-323f797efe6b"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "http"
-    udp: true
-  - name: "🇨🇳 中国 017"
-    type: "vmess"
-    server: "47.242.26.30"
-    port: 28045
-    uuid: "bb73d6fe-9700-4607-8dc1-eb9f15253e9d"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "http"
-    udp: true
   - name: "🇺🇸 美国 278"
     type: "vmess"
     server: "nl.sharecentre.online"
@@ -4501,28 +4287,113 @@ proxies:
     port: 443
     uuid: "53c76647-14d1-4df5-99cb-be99ad2e6bd9"
     udp: true
+  - name: "🇺🇸 美国 550"
+    type: "vless"
+    server: "104.17.73.206"
+    port: 8443
+    uuid: "542fd687-5160-4f80-9223-56678567dd29"
+    udp: true
+  - name: "🇸🇬 新加坡 015"
+    type: "vless"
+    server: "139.59.124.172"
+    port: 443
+    uuid: "54a9c202-cfe9-4bb8-826c-653a52a96c6d"
+    udp: true
+  - name: "🇺🇸 美国 551"
+    type: "vless"
+    server: "69.46.46.13"
+    port: 443
+    uuid: "55b4e885-c5ad-6263-28bd-a3ed1f1bcd80"
+    udp: true
+  - name: "🇨🇿 捷克 007"
+    type: "vless"
+    server: "79.127.196.11"
+    port: 8443
+    uuid: "55f7d143-a594-4a91-b030-f227039f85ef"
+    udp: true
+  - name: "🇺🇸 美国 552"
+    type: "vless"
+    server: "212.87.199.122"
+    port: 58416
+    uuid: "5626ce32-dad0-468b-952c-e53d609100f1"
+    udp: true
+  - name: "🇺🇸 美国 553"
+    type: "vless"
+    server: "69.46.46.199"
+    port: 443
+    uuid: "5658529b-d1eb-9e77-17c1-cdc20d003b3a"
+    udp: true
+  - name: "🇺🇸 美国 554"
+    type: "vless"
+    server: "104.21.14.116"
+    port: 443
+    uuid: "566c0473-382e-aabb-c62a-f5bb00000000"
+    udp: true
+  - name: "🇧🇷 巴西 030"
+    type: "vless"
+    server: "188.114.96.66"
+    port: 2082
+    uuid: "5859e7c5-c61a-4d16-b56e-8fc6321ba59a"
+    udp: true
+  - name: "🇺🇸 美国 555"
+    type: "vless"
+    server: "104.24.87.230"
+    port: 80
+    uuid: "590dfbde-f8c8-429b-b947-39bb767ddd9c"
+    udp: true
+  - name: "🇺🇸 美国 556"
+    type: "vless"
+    server: "172.64.92.243"
+    port: 80
+    uuid: "590dfbde-f8c8-429b-b947-39bb767ddd9c"
+    udp: true
+  - name: "🇺🇸 美国 557"
+    type: "vless"
+    server: "104.16.203.166"
+    port: 80
+    uuid: "592bac53-90ec-44b5-811b-01f6adf28f41"
+    udp: true
+  - name: "🇺🇸 美国 558"
+    type: "vless"
+    server: "104.24.140.39"
+    port: 80
+    uuid: "592bac53-90ec-44b5-811b-01f6adf28f41"
+    udp: true
+  - name: "🇺🇸 美国 559"
+    type: "vless"
+    server: "104.16.183.61"
+    port: 443
+    uuid: "5982b9dd-e7d1-4887-99bb-eec2cd9efa71"
+    udp: true
+  - name: "🇩🇪 德国 031"
+    type: "vless"
+    server: "138.197.186.182"
+    port: 440
+    uuid: "59906cb2-a61b-4cf3-b77b-5762ef61d2b0"
+    udp: true
+  - name: "🇺🇸 美国 560"
+    type: "vless"
+    server: "104.16.100.66"
+    port: 8880
+    uuid: "59a0424b-d36b-4685-bac5-89d50d8969a8"
+    udp: true
+  - name: "🇺🇸 美国 561"
+    type: "vless"
+    server: "170.114.46.6"
+    port: 443
+    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
+    udp: true
+  - name: "🇳🇿 新西兰 001"
+    type: "vless"
+    server: "202.37.33.80"
+    port: 443
+    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
+    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇨🇳 中国 012"
-      - "🇺🇸 美国 272"
-      - "🇨🇿 捷克 005"
-      - "🇸🇬 新加坡 007"
-      - "🇨🇳 中国 013"
-      - "🇺🇸 美国 273"
-      - "🇸🇬 新加坡 008"
-      - "🇸🇬 新加坡 009"
-      - "🇨🇳 中国 014"
-      - "🇸🇬 新加坡 010"
-      - "🇨🇳 中国 015"
-      - "🇺🇸 美国 274"
-      - "🇺🇸 美国 275"
-      - "🇺🇸 美国 276"
-      - "🇺🇸 美国 277"
-      - "🇨🇳 中国 016"
-      - "🇨🇳 中国 017"
       - "🇺🇸 美国 278"
       - "🇨🇳 中国 018"
       - "🇨🇳 中国 019"
@@ -5006,3 +4877,20 @@ proxy-groups:
       - "🇮🇷 伊朗 022"
       - "🇺🇸 美国 549"
       - "🇩🇪 德国 030"
+      - "🇺🇸 美国 550"
+      - "🇸🇬 新加坡 015"
+      - "🇺🇸 美国 551"
+      - "🇨🇿 捷克 007"
+      - "🇺🇸 美国 552"
+      - "🇺🇸 美国 553"
+      - "🇺🇸 美国 554"
+      - "🇧🇷 巴西 030"
+      - "🇺🇸 美国 555"
+      - "🇺🇸 美国 556"
+      - "🇺🇸 美国 557"
+      - "🇺🇸 美国 558"
+      - "🇺🇸 美国 559"
+      - "🇩🇪 德国 031"
+      - "🇺🇸 美国 560"
+      - "🇺🇸 美国 561"
+      - "🇳🇿 新西兰 001"

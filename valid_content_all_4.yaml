@@ -1,110 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 04:10:05
+# 生成时间: 2026-09-03 11:06:24
 # 节点数量: 500
 
 proxies:
-  - name: "🇺🇸 美国 550"
-    type: "vless"
-    server: "104.17.73.206"
-    port: 8443
-    uuid: "542fd687-5160-4f80-9223-56678567dd29"
-    udp: true
-  - name: "🇸🇬 新加坡 015"
-    type: "vless"
-    server: "139.59.124.172"
-    port: 443
-    uuid: "54a9c202-cfe9-4bb8-826c-653a52a96c6d"
-    udp: true
-  - name: "🇺🇸 美国 551"
-    type: "vless"
-    server: "69.46.46.13"
-    port: 443
-    uuid: "55b4e885-c5ad-6263-28bd-a3ed1f1bcd80"
-    udp: true
-  - name: "🇨🇿 捷克 007"
-    type: "vless"
-    server: "79.127.196.11"
-    port: 8443
-    uuid: "55f7d143-a594-4a91-b030-f227039f85ef"
-    udp: true
-  - name: "🇺🇸 美国 552"
-    type: "vless"
-    server: "212.87.199.122"
-    port: 58416
-    uuid: "5626ce32-dad0-468b-952c-e53d609100f1"
-    udp: true
-  - name: "🇺🇸 美国 553"
-    type: "vless"
-    server: "69.46.46.199"
-    port: 443
-    uuid: "5658529b-d1eb-9e77-17c1-cdc20d003b3a"
-    udp: true
-  - name: "🇺🇸 美国 554"
-    type: "vless"
-    server: "104.21.14.116"
-    port: 443
-    uuid: "566c0473-382e-aabb-c62a-f5bb00000000"
-    udp: true
-  - name: "🇧🇷 巴西 030"
-    type: "vless"
-    server: "188.114.96.66"
-    port: 2082
-    uuid: "5859e7c5-c61a-4d16-b56e-8fc6321ba59a"
-    udp: true
-  - name: "🇺🇸 美国 555"
-    type: "vless"
-    server: "104.24.87.230"
-    port: 80
-    uuid: "590dfbde-f8c8-429b-b947-39bb767ddd9c"
-    udp: true
-  - name: "🇺🇸 美国 556"
-    type: "vless"
-    server: "172.64.92.243"
-    port: 80
-    uuid: "590dfbde-f8c8-429b-b947-39bb767ddd9c"
-    udp: true
-  - name: "🇺🇸 美国 557"
-    type: "vless"
-    server: "104.16.203.166"
-    port: 80
-    uuid: "592bac53-90ec-44b5-811b-01f6adf28f41"
-    udp: true
-  - name: "🇺🇸 美国 558"
-    type: "vless"
-    server: "104.24.140.39"
-    port: 80
-    uuid: "592bac53-90ec-44b5-811b-01f6adf28f41"
-    udp: true
-  - name: "🇺🇸 美国 559"
-    type: "vless"
-    server: "104.16.183.61"
-    port: 443
-    uuid: "5982b9dd-e7d1-4887-99bb-eec2cd9efa71"
-    udp: true
-  - name: "🇩🇪 德国 031"
-    type: "vless"
-    server: "138.197.186.182"
-    port: 440
-    uuid: "59906cb2-a61b-4cf3-b77b-5762ef61d2b0"
-    udp: true
-  - name: "🇺🇸 美国 560"
-    type: "vless"
-    server: "104.16.100.66"
-    port: 8880
-    uuid: "59a0424b-d36b-4685-bac5-89d50d8969a8"
-    udp: true
-  - name: "🇺🇸 美国 561"
-    type: "vless"
-    server: "170.114.46.6"
-    port: 443
-    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
-    udp: true
-  - name: "🇳🇿 新西兰 001"
-    type: "vless"
-    server: "202.37.33.80"
-    port: 443
-    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
-    udp: true
   - name: "🇺🇸 美国 562"
     type: "vless"
     server: "173.245.59.191"
@@ -3003,28 +2901,113 @@ proxies:
     port: 43111
     cipher: "chacha20-ietf-poly1305"
     password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "美国-Basic-02"
+    type: "ss"
+    server: "us07.network-cdn-gw-yd.net"
+    port: 43211
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "美国-Basic-03"
+    type: "ss"
+    server: "us08.network-cdn-gw-yd.net"
+    port: 43212
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "美国-Basic直连-01|gpt|三网优化线路|X3"
+    type: "ss"
+    server: "usb4-5.toop-digxinap.com"
+    port: 43213
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "美国-Basic直连-02|gpt|三网优化线路|X3"
+    type: "ss"
+    server: "usb4-5.toop-digxinap.com"
+    port: 43215
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "日本-Basic-BGP-01"
+    type: "ss"
+    server: "jp01.network-cdn-gw-yd.net"
+    port: 48801
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "日本-Basic-BGP-02"
+    type: "ss"
+    server: "jp02.network-cdn-gw-yd.net"
+    port: 48802
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "台湾-Basic-BGP-01"
+    type: "ss"
+    server: "tw1.network-cdn-gw-yd.net"
+    port: 46601
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "台湾-Basic-BGP-02"
+    type: "ss"
+    server: "tw02.network-cdn-gw-yd.net"
+    port: 46602
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "新加坡-IEPL-Basic专线-01"
+    type: "ss"
+    server: "sgp01.network-cdn-gw-yd.net"
+    port: 45506
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "韩国-IEPL-Basic专线-|X2|"
+    type: "ss"
+    server: "kr03.network-cdn-gw-yd.net"
+    port: 36220
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "越南-IEPL-Basic专线-01"
+    type: "ss"
+    server: "vn01.network-cdn-gw-yd.net"
+    port: 20011
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "英国-IEPL-Basic专线-01"
+    type: "ss"
+    server: "uks1.network-cdn-gw-yd.net"
+    port: 10014
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "剩余流量：56.68 GB"
+    type: "ss"
+    server: "127.0.0.1"
+    port: 80
+    cipher: "aes-128-gcm"
+    password: "f80fadf1-4f90-40e2-891f-e9a10146d960"
+  - name: "剩余流量：0"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
+  - name: "距离下次重置剩余：28 天"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
+  - name: "套餐到期：2027-09-01"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
+  - name: "⚠️保持软件为最新版"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇺🇸 美国 550"
-      - "🇸🇬 新加坡 015"
-      - "🇺🇸 美国 551"
-      - "🇨🇿 捷克 007"
-      - "🇺🇸 美国 552"
-      - "🇺🇸 美国 553"
-      - "🇺🇸 美国 554"
-      - "🇧🇷 巴西 030"
-      - "🇺🇸 美国 555"
-      - "🇺🇸 美国 556"
-      - "🇺🇸 美国 557"
-      - "🇺🇸 美国 558"
-      - "🇺🇸 美国 559"
-      - "🇩🇪 德国 031"
-      - "🇺🇸 美国 560"
-      - "🇺🇸 美国 561"
-      - "🇳🇿 新西兰 001"
       - "🇺🇸 美国 562"
       - "🇮🇷 伊朗 023"
       - "🇹🇷 土耳其 003"
@@ -3508,3 +3491,20 @@ proxy-groups:
       - "香港-Basic-BGP-09"
       - "香港-Basic-BGP-10"
       - "美国-Basic-01"
+      - "美国-Basic-02"
+      - "美国-Basic-03"
+      - "美国-Basic直连-01|gpt|三网优化线路|X3"
+      - "美国-Basic直连-02|gpt|三网优化线路|X3"
+      - "日本-Basic-BGP-01"
+      - "日本-Basic-BGP-02"
+      - "台湾-Basic-BGP-01"
+      - "台湾-Basic-BGP-02"
+      - "新加坡-IEPL-Basic专线-01"
+      - "韩国-IEPL-Basic专线-|X2|"
+      - "越南-IEPL-Basic专线-01"
+      - "英国-IEPL-Basic专线-01"
+      - "剩余流量：56.68 GB"
+      - "剩余流量：0"
+      - "距离下次重置剩余：28 天"
+      - "套餐到期：2027-09-01"
+      - "⚠️保持软件为最新版"
