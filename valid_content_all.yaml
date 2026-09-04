@@ -1,6 +1,6 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-04 11:07:06
-# 节点数量: 838
+# 生成时间: 2026-09-04 16:15:28
+# 节点数量: 1433
 
 proxies:
   - name: "剩余流量：0"
@@ -494,7 +494,7 @@ proxies:
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "2YdE4lFOid5a"
-  - name: "距离下次重置剩余：9 天"
+  - name: "距离下次重置剩余：8 天"
     type: "ss"
     server: "51.195.126.38"
     port: 8388
@@ -986,42 +986,42 @@ proxies:
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
-    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    password: "b454c830-7d58-4072-89a5-e0715e3e0b87"
     tls: true
     udp: true
   - name: "[trojan]距离下次重置剩余：25 天"
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
-    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    password: "b454c830-7d58-4072-89a5-e0715e3e0b87"
     tls: true
     udp: true
   - name: "[trojan]套餐到期：2026-09-29"
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
-    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    password: "b454c830-7d58-4072-89a5-e0715e3e0b87"
     tls: true
     udp: true
   - name: "[trojan]jp-200m"
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
-    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    password: "b454c830-7d58-4072-89a5-e0715e3e0b87"
     tls: true
     udp: true
   - name: "[trojan]us-200m"
     type: "trojan"
     server: "us200m.jiasu.asia"
     port: 50000
-    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    password: "b454c830-7d58-4072-89a5-e0715e3e0b87"
     tls: true
     udp: true
   - name: "[trojan]hk-200m"
     type: "trojan"
     server: "hk200m.jiasu.asia"
     port: 50000
-    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    password: "b454c830-7d58-4072-89a5-e0715e3e0b87"
     tls: true
     udp: true
   - name: "[trojan]距离下次重置剩余：23 天"
@@ -1413,12 +1413,6 @@ proxies:
     port: 443
     uuid: "29794dae-06ca-4b62-94f2-220b5858d39b"
     udp: true
-  - name: "官网: www.雨燕云.com"
-    type: "ss"
-    server: "1.1.1.1"
-    port: 10001
-    cipher: "chacha20-ietf-poly1305"
-    password: "53db9c44-94a1-4976-8682-5d1c3642058d"
   - name: "套餐到期:2025-10-15"
     type: "ss"
     server: "127.0.0.1"
@@ -1460,37 +1454,37 @@ proxies:
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
   - name: "🚫 账户已被封禁-2 🚫"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
   - name: "🚫 账户已被封禁-3 🚫"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
   - name: "📞 原因1：恶意滥用 📞"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
   - name: "📋 原因2：超过免费套餐阈值 📋"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
   - name: "🌐 官网地址：https://my.wazhua.org 🌐"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
   - name: "⚠️ 过滤掉3条线路（升级客户端）"
     type: "ss"
     server: "gd.bjnet2.com"
@@ -2171,7 +2165,7 @@ proxies:
     port: 80
     cipher: "aes-128-gcm"
     password: "cc8b3b88-4ce7-4420-9793-c230f1191246"
-  - name: "距离下次重置剩余：27 天"
+  - name: "距离下次重置剩余：26 天"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -2265,6 +2259,5085 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.20.6.134"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "德国+法尔肯施泰因HETZNER"
+    type: "vless"
+    server: "116.202.19.251"
+    port: 443
+    uuid: "cf990ae8-ee77-4436-aa3a-bbc2fb040c53"
+    udp: true
+  - name: "美国+加州"
+    type: "trojan"
+    server: "216.24.57.1"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "英国+V2CROSS.COM"
+    type: "trojan"
+    server: "185.75.243.102"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.21.46.3"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "英国+V2CROSS.COM"
+    type: "vless"
+    server: "188.220.67.245"
+    port: 2087
+    uuid: "90da514d-8888-4a53-912e-ac2981c8c6ee"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "172.67.149.60"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.18.22.63"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "保加利亚+V2CROSS.COM"
+    type: "hysteria2"
+    server: "fr.vpn.legendaah.xyz"
+    port: 36723
+    password: "Krab9Hyst2_Rk7pQ2xL"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "172.67.138.232"
+    port: 443
+    uuid: "a1a6a3be-2bf9-46a2-bc24-328306e49ab7"
+    udp: true
+  - name: "俄罗斯+莫斯科justhost.ru"
+    type: "hysteria2"
+    server: "ru1.xiaoliyu.cyou"
+    port: 4433
+    password: "19f72087-4591-4d72-930b-2697078ec2be"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "美国+V2CROSS.COM"
+    type: "hysteria2"
+    server: "go2.wwwinternetvideo.click"
+    port: 443
+    password: "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "172.64.158.146"
+    port: 8080
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    udp: true
+  - name: "乌克兰+V2CROSS.COM"
+    type: "vless"
+    server: "178.95.170.83"
+    port: 2087
+    uuid: "bf443e4a-aa9e-4509-abf0-d0f6828d57be"
+    udp: true
+  - name: "欧盟+V2CROSS.COM"
+    type: "vless"
+    server: "ru05.abvpn.ru"
+    port: 443
+    uuid: "a289a3d3-5833-4b28-8809-ae72898a98d0"
+    udp: true
+  - name: "🇺🇸US-37.19.198.244-0095"
+    type: "ss"
+    server: "37.19.198.244"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇺🇸US-37.19.198.160-0100"
+    type: "ss"
+    server: "37.19.198.160"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇺🇸US-37.19.198.236-0101"
+    type: "ss"
+    server: "37.19.198.236"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇺🇸US-37.19.198.243-0102"
+    type: "ss"
+    server: "37.19.198.243"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇨🇦CA-3.97.16.160-0438"
+    type: "ss"
+    server: "3.97.16.160"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "🇬🇧GB-82.38.31.216-0107"
+    type: "ss"
+    server: "82.38.31.216"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.208-0137"
+    type: "ss"
+    server: "82.38.31.208"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.217-0103"
+    type: "ss"
+    server: "82.38.31.217"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.189-0121"
+    type: "ss"
+    server: "82.38.31.189"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.210-0136"
+    type: "ss"
+    server: "82.38.31.210"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.15-0123"
+    type: "ss"
+    server: "82.38.31.15"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇬🇧GB-82.38.31.16-0127"
+    type: "ss"
+    server: "82.38.31.16"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇺🇸US-156.146.38.167-0097"
+    type: "ss"
+    server: "156.146.38.167"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇳🇱NL-193.29.139.204-0132"
+    type: "ss"
+    server: "193.29.139.204"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇬🇧GB-82.38.31.187-0133"
+    type: "ss"
+    server: "82.38.31.187"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇳🇱NL-193.29.139.151-0125"
+    type: "ss"
+    server: "193.29.139.151"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇳🇱NL-193.29.139.235-0114"
+    type: "ss"
+    server: "193.29.139.235"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇳🇱NL-193.29.139.168-0124"
+    type: "ss"
+    server: "193.29.139.168"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "QCXDxuDlTTMD7jtgHUjIoj"
+  - name: "🇬🇧GB-82.38.31.174-0112"
+    type: "ss"
+    server: "82.38.31.174"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇬🇧GB-82.38.31.184-0122"
+    type: "ss"
+    server: "82.38.31.184"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.214-0108"
+    type: "ss"
+    server: "82.38.31.214"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.179-0139"
+    type: "ss"
+    server: "82.38.31.179"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.205-0130"
+    type: "ss"
+    server: "82.38.31.205"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.35-0126"
+    type: "ss"
+    server: "82.38.31.35"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇬🇧GB-82.38.31.34-0135"
+    type: "ss"
+    server: "82.38.31.34"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇬🇧GB-82.38.31.174-0110"
+    type: "ss"
+    server: "82.38.31.174"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇳🇱NL-193.29.139.147-0104"
+    type: "ss"
+    server: "193.29.139.147"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.155-0134"
+    type: "ss"
+    server: "82.38.31.155"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇺🇸US-156.146.38.170-0096"
+    type: "ss"
+    server: "156.146.38.170"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇬🇧GB-82.38.31.35-0120"
+    type: "ss"
+    server: "82.38.31.35"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇺🇸US-156.146.38.169-0099"
+    type: "ss"
+    server: "156.146.38.169"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇳🇱NL-193.29.139.223-0131"
+    type: "ss"
+    server: "193.29.139.223"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.186-0113"
+    type: "ss"
+    server: "82.38.31.186"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.46-0140"
+    type: "ss"
+    server: "82.38.31.46"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇬🇧GB-82.38.31.194-0105"
+    type: "ss"
+    server: "82.38.31.194"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.192-0106"
+    type: "ss"
+    server: "82.38.31.192"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇺🇸US-156.146.38.168-0098"
+    type: "ss"
+    server: "156.146.38.168"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇬🇧GB-146.70.61.37-0191"
+    type: "ss"
+    server: "146.70.61.37"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
+  - name: "🇬🇧GB-82.38.31.149-0128"
+    type: "ss"
+    server: "82.38.31.149"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇬🇧GB-82.38.31.180-0129"
+    type: "ss"
+    server: "82.38.31.180"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.191-0117"
+    type: "ss"
+    server: "82.38.31.191"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.57-0138"
+    type: "ss"
+    server: "82.38.31.57"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇬🇧GB-82.38.31.49-0118"
+    type: "ss"
+    server: "82.38.31.49"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇨🇦CA-137.184.174.93-0189"
+    type: "ss"
+    server: "137.184.174.93"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
+  - name: "🇬🇧GB-82.38.31.36-0119"
+    type: "ss"
+    server: "82.38.31.36"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇺🇸US-108.181.0.177-0116"
+    type: "ss"
+    server: "108.181.0.177"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
+  - name: "🇬🇧GB-82.38.31.212-0109"
+    type: "ss"
+    server: "82.38.31.212"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇨🇦CA-108.181.118.10-0146"
+    type: "ss"
+    server: "108.181.118.10"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
+  - name: "🇳🇱NL-109.201.152.181-0141"
+    type: "ss"
+    server: "109.201.152.181"
+    port: 443
+    cipher: "aes-128-cfb"
+    password: "shadowsocks"
+  - name: "🇳🇱NL-108.181.126.122-0147"
+    type: "ss"
+    server: "108.181.126.122"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
+  - name: "🇳🇱NL-108.181.58.239-0148"
+    type: "ss"
+    server: "108.181.58.239"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
+  - name: "🇬🇧GB-82.38.31.48-0115"
+    type: "ss"
+    server: "82.38.31.48"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇺🇸US-107.175.91.118-5169"
+    type: "vmess"
+    server: "107.175.91.118"
+    port: 443
+    uuid: "1bb1f95f-7425-4442-93f7-8fc1bd1a2001"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/v2ray-wisp"
+      headers:
+        Host: ""
+  - name: "🇺🇸US-173.244.56.9-0145"
+    type: "ss"
+    server: "173.244.56.9"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇺🇸US-173.244.56.6-0143"
+    type: "ss"
+    server: "173.244.56.6"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇩🇪DE-209.46.102.22-0149"
+    type: "ss"
+    server: "209.46.102.22"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "1hhrqrokj3ag"
+  - name: "🇨🇦CA-149.22.95.183-0144"
+    type: "ss"
+    server: "149.22.95.183"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇮🇪IE-3.252.205.48-0430"
+    type: "ss"
+    server: "3.252.205.48"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "🇳🇱NL-158.173.20.171-0150"
+    type: "ss"
+    server: "158.173.20.171"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇬🇧GB-82.38.31.202-0111"
+    type: "ss"
+    server: "82.38.31.202"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-13.40.94.70-0188"
+    type: "ss"
+    server: "13.40.94.70"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "🇳🇴NO-185.213.23.63-0153"
+    type: "ss"
+    server: "185.213.23.63"
+    port: 990
+    cipher: "chacha20-ietf-poly1305"
+    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+  - name: "🇩🇪DE-8.209.74.72-0152"
+    type: "ss"
+    server: "8.209.74.72"
+    port: 20001
+    cipher: "chacha20-ietf-poly1305"
+    password: "PWpjPo3tqhPN4yRZ"
+  - name: "🇨🇦CA-23.162.200.227-1092"
+    type: "vmess"
+    server: "23.162.200.227"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/linkvws"
+      headers:
+        Host: "vk.com"
+  - name: "🇬🇧GB-141.98.101.181-0151"
+    type: "ss"
+    server: "141.98.101.181"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇯🇵JP-149.22.87.240-0155"
+    type: "ss"
+    server: "149.22.87.240"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇯🇵JP-149.22.87.204-0163"
+    type: "ss"
+    server: "149.22.87.204"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇯🇵JP-45.32.16.53-5101"
+    type: "ss"
+    server: "45.32.16.53"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "uTBjZhDmOMwBVAJI"
+  - name: "🇯🇵JP-149.22.87.241-0154"
+    type: "ss"
+    server: "149.22.87.241"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇸🇬SG-103.36.91.32-0217"
+    type: "ss"
+    server: "103.36.91.32"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+  - name: "🇺🇸US-144.31.243.2-0158"
+    type: "ss"
+    server: "144.31.243.2"
+    port: 16015
+    cipher: "chacha20-ietf-poly1305"
+    password: "J1InuU6QRT5JOh1mQfkjU2"
+  - name: "🇯🇵JP-176.97.73.215-0157"
+    type: "ss"
+    server: "176.97.73.215"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "ma6zc4JoLRJA"
+  - name: "🇿🇦ZA-102.133.165.160-0162"
+    type: "ss"
+    server: "102.133.165.160"
+    port: 16233
+    cipher: "chacha20-ietf-poly1305"
+    password: "Xsy8Ox4yOV3xLlpxtjzs3X"
+  - name: "🇿🇦ZA-102.37.156.224-0160"
+    type: "ss"
+    server: "102.37.156.224"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "aduB9HGxQHjA2SBMRjkHX6"
+  - name: "🇮🇹IT-194.87.47.204-0159"
+    type: "ss"
+    server: "194.87.47.204"
+    port: 10901
+    cipher: "aes-256-gcm"
+    password: "d1fa2f4b98a38bc8"
+  - name: "🇫🇷FR-95.170.13.47-0176"
+    type: "ss"
+    server: "95.170.13.47"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+  - name: "🇨🇦CA-142.4.216.225-0166"
+    type: "ss"
+    server: "142.4.216.225"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "ytw2awn"
+  - name: "🇬🇧GB-94.156.250.148-0164"
+    type: "ss"
+    server: "94.156.250.148"
+    port: 7001
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
+  - name: "🇬🇧GB-82.38.31.176-0177"
+    type: "ss"
+    server: "82.38.31.176"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇹🇼TW-36.224.151.80-0165"
+    type: "ss"
+    server: "r3mrcg00129437x.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+  - name: "🇹🇼TW-36.224.152.189-0214"
+    type: "ss"
+    server: "r3mrcg001287h3p.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+  - name: "🇺🇸US-15.204.247.244-0167"
+    type: "ss"
+    server: "15.204.247.244"
+    port: 4444
+    cipher: "aes-256-gcm"
+    password: "pKEW8JPByTVTLtM"
+  - name: "🇬🇧GB-82.38.31.199-0168"
+    type: "ss"
+    server: "82.38.31.199"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇬🇧GB-82.38.31.2-0175"
+    type: "ss"
+    server: "82.38.31.2"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇬🇧GB-82.38.31.10-0174"
+    type: "ss"
+    server: "82.38.31.10"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇨🇳CN-121.46.230.233-0194"
+    type: "ss"
+    server: "121.46.230.233"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+  - name: "🇨🇳CN-121.46.230.232-0190"
+    type: "ss"
+    server: "121.46.230.232"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+  - name: "🇺🇸US-216.105.168.18-0216"
+    type: "ss"
+    server: "216.105.168.18"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "hCCWOcIsK5wrFz4OX70rWf"
+  - name: "🇰🇷KR-218.237.185.230-0183"
+    type: "ss"
+    server: "p141.panda001.net"
+    port: 4652
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+  - name: "🇬🇧GB-82.38.31.219-0172"
+    type: "ss"
+    server: "82.38.31.219"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇨🇳CN-121.46.230.138-0223"
+    type: "ss"
+    server: "121.46.230.138"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+  - name: "🇲🇾MY-118.107.222.231-0180"
+    type: "ss"
+    server: "118.107.222.231"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+  - name: "🇮🇳IN-152.67.8.205-0171"
+    type: "vmess"
+    server: "152.67.8.205"
+    port: 80
+    uuid: "9db4c708-aef8-4359-821b-38e47990be0d"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇬🇧GB-82.38.31.218-0170"
+    type: "ss"
+    server: "82.38.31.218"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "🇰🇷KR-211.178.105.134-0178"
+    type: "ss"
+    server: "211.178.105.134"
+    port: 6123
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+  - name: "🇰🇷KR-218.237.185.230-0181"
+    type: "ss"
+    server: "218.237.185.230"
+    port: 4652
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+  - name: "🇰🇷KR-221.139.79.57-0179"
+    type: "ss"
+    server: "221.139.79.57"
+    port: 13979
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+  - name: "🇭🇰HK-156.245.232.239-0184"
+    type: "vmess"
+    server: "156.245.232.239"
+    port: 35043
+    uuid: "b15e481d-17e4-41a8-84c2-23d4f0514d9a"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇳🇱NL-92.112.126.90-0182"
+    type: "ss"
+    server: "switcher-nick-croquet.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "9tqhMdIrTkgQ46PvhyAtMH"
+  - name: "🇭🇰HK-47.244.120.197-5004"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 36703
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+        Host: ""
+  - name: "🇭🇰HK-47.244.120.197-5005"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+        Host: ""
+  - name: "🇲🇾MY-47.250.45.234-5017"
+    type: "vmess"
+    server: "47.250.45.234"
+    port: 43063
+    uuid: "c77f48f5-4be3-4461-b52b-49998e7b897b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+        Host: ""
+  - name: "🇲🇾MY-47.250.45.234-5018"
+    type: "vmess"
+    server: "47.250.45.234"
+    port: 8613
+    uuid: "80039b4d-bac0-4f89-82c7-54fad3b0a1ea"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+        Host: ""
+  - name: "🇺🇸US-64.94.95.118-5044"
+    type: "trojan"
+    server: "64.94.95.118"
+    port: 57142
+    password: "kkzh2prsyr2ik47as615"
+    tls: true
+    udp: true
+  - name: "🇭🇰HK-148.66.56.99-2670"
+    type: "ss"
+    server: "148.66.56.99"
+    port: 802
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+  - name: "🇹🇼TW-36.224.147.226-0169"
+    type: "ss"
+    server: "r3mrcg001286ek2.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+  - name: "🇹🇭TH-103.169.67.34-0161"
+    type: "ss"
+    server: "103.169.67.34"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+  - name: "🇫🇷FR-162.19.192.89-0156"
+    type: "vmess"
+    server: "planb.mojcn.com.linuxlh.xin"
+    port: 16632
+    uuid: "cefbe234-bcc6-4558-ab7b-1030e331e6a5"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com"
+  - name: "🇯🇵JP-54.168.242.25-0142"
+    type: "vmess"
+    server: "54.168.242.25"
+    port: 8555
+    uuid: "7aa3a024-e333-4b63-99a2-3db9d3b2054e"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "a.189.cn"
+  - name: "🇨🇳CN-120.240.55.137-0090"
+    type: "vmess"
+    server: "120.240.55.137"
+    port: 38201
+    uuid: "79386685-16da-327c-9e14-aa6d702d86bc"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/hls/cctv5phd.m3u8"
+      headers:
+        Host: "120.240.55.137"
+  - name: "🇺🇸US-38.249.23.97-0079"
+    type: "vmess"
+    server: "data-hk-v1.heisey.cn"
+    port: 50205
+    uuid: "b1478e24-4916-3abe-8f17-15931012ecbe"
+    cipher: "auto"
+    alterId: 1
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/hls/cctv5phd.m3u8"
+      headers:
+        Host: "tv.cctv.com"
+  - name: "🇸🇬SG-91.243.81.39-0185"
+    type: "trojan"
+    server: "harmless-lab.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+    tls: true
+    udp: true
+  - name: "🏁RELAY-203.30.191.191-0186"
+    type: "vmess"
+    server: "203.30.191.191"
+    port: 443
+    uuid: "40d496a6-ceeb-4096-baeb-4cc52b205621"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇫🇷FR-162.19.192.89-0187"
+    type: "vmess"
+    server: "planb.mojcn.com.linuxlh.xin"
+    port: 16632
+    uuid: "56a511bd-f207-48f4-be5b-4652afe178a4"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com"
+  - name: "🇭🇰HK-18.167.94.243-0070"
+    type: "vmess"
+    server: "18.167.94.243"
+    port: 36831
+    uuid: "5b979e45-2697-49ce-8903-70a1c5787702"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇭🇰HK-18.167.94.243-0068"
+    type: "vmess"
+    server: "18.167.94.243"
+    port: 36831
+    uuid: "5b979e45-2697-49ce-8903-70a1c5787702"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "18.167.94.243"
+  - name: "🇯🇵JP-193.38.139.204-0061"
+    type: "ss"
+    server: "193.38.139.204"
+    port: 809
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+  - name: "🇯🇵JP-193.38.139.204-0060"
+    type: "ss"
+    server: "193.38.139.204"
+    port: 806
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+  - name: "🇨🇳CN-120.240.55.137-0192"
+    type: "vmess"
+    server: "120.240.55.137"
+    port: 38201
+    uuid: "79386685-16da-327c-9e14-aa6d702d86bc"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "120.240.55.137"
+  - name: "🇨🇳CN-119.36.161.40-0193"
+    type: "vmess"
+    server: "119.36.161.40"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "www.79759381.xyz"
+  - name: "🇭🇰HK-18.167.20.169-0054"
+    type: "vmess"
+    server: "18.167.20.169"
+    port: 8080
+    uuid: "e1f97064-adcd-40d3-91a0-3f0bea035fca"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇪🇸ES-5.188.181.201-0195"
+    type: "ss"
+    server: "5.188.181.201"
+    port: 9005
+    cipher: "aes-256-cfb"
+    password: "ZET59LF6DvCC8KVt"
+  - name: "🏁RELAY-104.18.21.226-0196"
+    type: "vmess"
+    server: "104.18.21.226"
+    port: 80
+    uuid: "a55b7d77-d251-4e31-a76e-22d09ac69eb0"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sanggoro6.nextvpn.cc"
+  - name: "🇰🇿KZ-5.180.21.146-0197"
+    type: "trojan"
+    server: "5.180.21.146"
+    port: 4443
+    password: "owefv0_92Z540k2F_nx83245_J9130oS_tY"
+    tls: true
+    udp: true
+  - name: "🇺🇸US-38.249.23.97-0198"
+    type: "vmess"
+    server: "data-hk-v1.heisey.cn"
+    port: 50205
+    uuid: "b1478e24-4916-3abe-8f17-15931012ecbe"
+    cipher: "auto"
+    alterId: 1
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "tv.cctv.com"
+  - name: "🇨🇳CN-36.137.199.99-0200"
+    type: "ss"
+    server: "36.137.199.99"
+    port: 5406
+    cipher: "aes-128-gcm"
+    password: "0a228809-a1d7-4143-944a-071b105ab9c7"
+  - name: "🇳🇱NL-37.1.220.158-0201"
+    type: "trojan"
+    server: "tr03.kaochangonline.online"
+    port: 443
+    password: "a2dc172b-cd95-45a5-a999-3f7e8d1a1eab"
+    tls: true
+    udp: true
+  - name: "🇺🇸US-38.75.136.34-0203"
+    type: "ss"
+    server: "38.75.136.34"
+    port: 8091
+    cipher: "aes-256-gcm"
+    password: "PCnnH6SQSnfoS27"
+  - name: "🏁RELAY-141.193.213.20-0204"
+    type: "vmess"
+    server: "141.193.213.20"
+    port: 80
+    uuid: "a55b7d77-d251-4e31-a76e-22d09ac69eb0"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sanggoro6.nextvpn.cc"
+  - name: "🇨🇳CN-119.36.161.40-0205"
+    type: "vmess"
+    server: "119.36.161.40"
+    port: 443
+    uuid: "2a23dbd5-09cf-4aa8-a835-3230728c4973"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "www.25055502.xyz"
+  - name: "🇭🇰HK-47.244.120.197-0207"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇷🇺RU-91.206.92.176-0211"
+    type: "ss"
+    server: "91.206.92.176"
+    port: 35030
+    cipher: "chacha20-ietf-poly1305"
+    password: "FCx0i7b33H9G"
+  - name: "🇰🇷KR-43.201.249.3-0212"
+    type: "trojan"
+    server: "magical-prawn.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+    tls: true
+    udp: true
+  - name: "🇵🇱PL-217.30.10.68-0213"
+    type: "ss"
+    server: "217.30.10.68"
+    port: 9070
+    cipher: "aes-256-cfb"
+    password: "bf7v334KKDV3YDhH"
+  - name: "🏁RELAY-141.193.213.21-0051"
+    type: "vmess"
+    server: "141.193.213.21"
+    port: 80
+    uuid: "a55b7d77-d251-4e31-a76e-22d09ac69eb0"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vpnneo"
+      headers:
+        Host: "sanggoro6.nextvpn.cc"
+  - name: "🇲🇾MY-47.250.45.234-0215"
+    type: "vmess"
+    server: "47.250.45.234"
+    port: 43063
+    uuid: "c77f48f5-4be3-4461-b52b-49998e7b897b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇦🇺AU-103.224.212.142-0050"
+    type: "vmess"
+    server: "mpdee-1042-v2-0.tyo-d-kcd.ap.cjhh.beauty"
+    port: 888
+    uuid: "fbc2efb0-786a-4074-81ea-8ab12ca5422c"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/je5x3pBN1vez3NQudNkB"
+      headers:
+        Host: "s3.cjhh.beauty"
+  - name: "🏁RELAY-141.193.213.20-0048"
+    type: "vmess"
+    server: "141.193.213.20"
+    port: 80
+    uuid: "a55b7d77-d251-4e31-a76e-22d09ac69eb0"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vpnneo"
+      headers:
+        Host: "sanggoro6.nextvpn.cc"
+  - name: "🇸🇬SG-81.28.13.69-0218"
+    type: "trojan"
+    server: "quiet-condor.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+    tls: true
+    udp: true
+  - name: "🇺🇸US-23.236.69.39-0219"
+    type: "vmess"
+    server: "23.236.69.39"
+    port: 24187
+    uuid: "12a8ee36-5936-4449-90bd-b5eac6db4c1d"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇰🇷KR-132.145.80.230-0220"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kr02.a0a.xyz"
+  - name: "🇨🇦CA-35.182.250.193-0221"
+    type: "ss"
+    server: "35.182.250.193"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "🇨🇦CA-35.182.226.121-0222"
+    type: "ss"
+    server: "35.182.226.121"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "🇭🇰HK-147.139.7.71-0041"
+    type: "vmess"
+    server: "147.139.7.71"
+    port: 888
+    uuid: "08d6729d-830e-4341-df76-62d3d12e75e8"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🏁RELAY-104.16.117.43-0224"
+    type: "vmess"
+    server: "access.zoominfo.com"
+    port: 80
+    uuid: "a55b7d77-d251-4e31-a76e-22d09ac69eb0"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sanggoro6.nextvpn.cc"
+  - name: "🇸🇬SG-13.213.46.196-0229"
+    type: "ss"
+    server: "13.213.46.196"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "🇨🇳CN-14.29.124.168-0230"
+    type: "ss"
+    server: "14.29.124.168"
+    port: 25283
+    cipher: "aes-128-cfb"
+    password: "QazEdcTgb159@$*"
+  - name: "🇺🇸US-38.121.43.65-0233"
+    type: "ss"
+    server: "38.121.43.65"
+    port: 2375
+    cipher: "aes-256-gcm"
+    password: "faBAoD54k87UJG7"
+  - name: "🇦🇪AE-20.216.40.219-0234"
+    type: "vmess"
+    server: "20.216.40.219"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🏁RELAY-104.26.8.76-0235"
+    type: "vmess"
+    server: "powerservice.com"
+    port: 443
+    uuid: "0764a598-82c4-4b41-ba10-551a625beed5"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "uk2.v2rayserv.com"
+  - name: "🏁RELAY-141.193.213.21-0237"
+    type: "vmess"
+    server: "141.193.213.21"
+    port: 80
+    uuid: "a55b7d77-d251-4e31-a76e-22d09ac69eb0"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sanggoro6.nextvpn.cc"
+  - name: "🏁RELAY-104.23.102.53-0238"
+    type: "vmess"
+    server: "104.23.102.53"
+    port: 443
+    uuid: "5c84e109-4772-4efb-a1cb-7b09d5a1791e"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "bissen.114514cn.me"
+  - name: "🇩🇪DE-193.108.118.30-0239"
+    type: "ss"
+    server: "193.108.118.30"
+    port: 5500
+    cipher: "aes-256-gcm"
+    password: "KixLvKzwjekG00rm"
+  - name: "🇦🇪AE-20.216.40.219-0240"
+    type: "ss"
+    server: "20.216.40.219"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇳🇱NL-37.1.220.158-0241"
+    type: "trojan"
+    server: "tr04.kaochangonline.online"
+    port: 443
+    password: "62b78c9b-16cb-4ee6-824b-a4f856cf18f3"
+    tls: true
+    udp: true
+  - name: "🇬🇧GB-20.77.245.193-0242"
+    type: "vmess"
+    server: "20.77.245.193"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇨🇦CA-20.104.183.100-0243"
+    type: "ss"
+    server: "20.104.183.100"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇭🇰HK-175.29.23.105-0244"
+    type: "vmess"
+    server: "sg6-midpoint.kejibear.net"
+    port: 10014
+    uuid: "7bcd50fc-414b-3e8a-a1a2-d81bd7fc4586"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sg6-midpoint.kejibear.net"
+  - name: "🇺🇸US-20.9.46.251-0245"
+    type: "ss"
+    server: "20.9.46.251"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇰🇷KR-20.214.138.184-0246"
+    type: "vmess"
+    server: "20.214.138.184"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇿🇦ZA-102.37.100.144-0247"
+    type: "vmess"
+    server: "102.37.100.144"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇬🇧GB-20.90.249.210-0248"
+    type: "ss"
+    server: "20.90.249.210"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇨🇦CA-134.195.198.147-0249"
+    type: "vmess"
+    server: "134.195.198.147"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vk.com"
+  - name: "🇺🇸US-20.9.46.251-0250"
+    type: "vmess"
+    server: "20.9.46.251"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇿🇦ZA-102.37.100.144-0251"
+    type: "ss"
+    server: "102.37.100.144"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇨🇦CA-20.104.96.194-0252"
+    type: "ss"
+    server: "20.104.96.194"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇧🇷BR-20.206.76.37-0253"
+    type: "vmess"
+    server: "20.206.76.37"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇫🇷FR-40.89.155.71-0254"
+    type: "vmess"
+    server: "40.89.155.71"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇨🇦CA-20.104.183.100-0255"
+    type: "vmess"
+    server: "20.104.183.100"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇧🇷BR-20.206.76.37-0256"
+    type: "ss"
+    server: "20.206.76.37"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇨🇦CA-20.104.96.194-0257"
+    type: "vmess"
+    server: "20.104.96.194"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇺🇸US-20.10.159.29-0258"
+    type: "ss"
+    server: "20.10.159.29"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇭🇰HK-20.239.89.71-0259"
+    type: "ss"
+    server: "20.239.89.71"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇺🇸US-20.231.111.125-0260"
+    type: "ss"
+    server: "20.231.111.125"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇺🇸US-20.231.111.125-0261"
+    type: "vmess"
+    server: "20.231.111.125"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇳🇱NL-52.232.66.152-0262"
+    type: "vmess"
+    server: "52.232.66.152"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇺🇸US-20.10.159.29-0263"
+    type: "vmess"
+    server: "20.10.159.29"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇭🇰HK-95.40.120.162-0264"
+    type: "ss"
+    server: "95.40.120.162"
+    port: 8319
+    cipher: "chacha20-ietf-poly1305"
+    password: "ljqdalu13.."
+  - name: "🇯🇵JP-95.85.94.57-0265"
+    type: "trojan"
+    server: "gentle-mastiff.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+    tls: true
+    udp: true
+  - name: "🇬🇧GB-20.90.249.210-0266"
+    type: "vmess"
+    server: "20.90.249.210"
+    port: 80
+    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇬🇧GB-20.77.245.193-0267"
+    type: "ss"
+    server: "20.77.245.193"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇭🇰HK-47.240.51.89-0269"
+    type: "vmess"
+    server: "47.240.51.89"
+    port: 55214
+    uuid: "d5d8b40a-a301-496f-9bc3-2a2ca16ede1e"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "a.189.cn"
+  - name: "🇬🇧GB-212.102.53.197-0270"
+    type: "ss"
+    server: "212.102.53.197"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🇺🇸US-38.114.114.19-0271"
+    type: "ss"
+    server: "38.114.114.19"
+    port: 8888
+    cipher: "aes-256-gcm"
+    password: "Y6R9pAtvxxzmGC"
+  - name: "🇮🇪IE-34.244.150.119-0272"
+    type: "ss"
+    server: "34.244.150.119"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "🇮🇪IE-3.250.80.208-0273"
+    type: "ss"
+    server: "3.250.80.208"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "🇫🇷FR-40.89.155.71-0274"
+    type: "ss"
+    server: "40.89.155.71"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇪🇸ES-5.188.181.201-0275"
+    type: "ss"
+    server: "5.188.181.201"
+    port: 9025
+    cipher: "aes-256-cfb"
+    password: "XPtzA9sCug3SPR4c"
+  - name: "🇳🇱NL-52.232.66.152-0276"
+    type: "ss"
+    server: "52.232.66.152"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇨🇦CA-3.96.124.46-0277"
+    type: "ss"
+    server: "3.96.124.46"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "🇺🇸US-38.75.136.34-0278"
+    type: "ss"
+    server: "38.75.136.34"
+    port: 5600
+    cipher: "aes-256-gcm"
+    password: "Y6R9pAtvxxzmGC"
+  - name: "🇺🇸US-38.91.107.37-0279"
+    type: "ss"
+    server: "38.91.107.37"
+    port: 5003
+    cipher: "aes-256-gcm"
+    password: "g5MeD6Ft3CWlJId"
+  - name: "🇪🇸ES-5.188.181.201-0280"
+    type: "ss"
+    server: "5.188.181.201"
+    port: 9011
+    cipher: "aes-256-cfb"
+    password: "M3t2ZEQcMGRWBjRa"
+  - name: "🇺🇸US-38.91.107.37-0281"
+    type: "ss"
+    server: "38.91.107.37"
+    port: 7001
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
+  - name: "🇺🇸US-38.75.136.34-0282"
+    type: "ss"
+    server: "38.75.136.34"
+    port: 9101
+    cipher: "aes-256-gcm"
+    password: "e4FCWrgpkji3QY"
+  - name: "🇯🇵JP-20.89.43.106-0283"
+    type: "ss"
+    server: "20.89.43.106"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇭🇰HK-20.239.195.254-0284"
+    type: "ss"
+    server: "20.239.195.254"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
+  - name: "🇯🇵JP-140.83.57.20-0285"
+    type: "vmess"
+    server: "140.83.57.20"
+    port: 13118
+    uuid: "1f01e389-fbcb-494c-e46a-210ec36329c2"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sg.11160321.de5.net"
+  - name: "🇺🇸US-38.75.136.34-0286"
+    type: "ss"
+    server: "38.75.136.34"
+    port: 8090
+    cipher: "aes-256-gcm"
+    password: "PCnnH6SQSnfoS27"
+  - name: "🇺🇸US-38.75.136.34-0287"
+    type: "ss"
+    server: "38.75.136.34"
+    port: 5003
+    cipher: "aes-256-gcm"
+    password: "g5MeD6Ft3CWlJId"
+  - name: "🇩🇪_DE_德国"
+    type: "vless"
+    server: "188.220.67.245"
+    port: 2087
+    uuid: "90da514d-8888-4a53-912e-ac2981c8c6ee"
+    udp: true
+  - name: "🇨🇳_CN_中国"
+    type: "vmess"
+    server: "112.132.215.108"
+    port: 50002
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇳🇱_NL_荷兰"
+    type: "vless"
+    server: "51.15.57.139"
+    port: 8080
+    uuid: "11af1c47-865a-47c6-92ff-118013655d78"
+    udp: true
+  - name: "🇳🇱_NL_荷兰"
+    type: "vless"
+    server: "51.158.241.182"
+    port: 8080
+    uuid: "11af1c47-865a-47c6-92ff-118013655d78"
+    udp: true
+  - name: "🇺🇸_US_美国"
+    type: "hysteria2"
+    server: "66.94.121.46"
+    port: 443
+    password: "gf1"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇨🇭_CH_瑞士->🇫🇮_FI_芬兰"
+    type: "vless"
+    server: "31.76.4.128"
+    port: 5001
+    uuid: "5a92a9d2-3067-49cd-bfc5-989bbdfc5d52"
+    udp: true
+  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
+    type: "vless"
+    server: "jp.sofast.live"
+    port: 52683
+    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
+    udp: true
+  - name: "🇩🇪_DE_德国"
+    type: "hysteria"
+    server: "5.83.129.153"
+    port: 20088
+    udp: true
+  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+    type: "vless"
+    server: "31.76.71.140"
+    port: 443
+    uuid: "af00e0c4-decf-48f2-9013-56abe9c9efcd"
+    udp: true
+  - name: "自适应分流"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "57fa490d-e38e-4850-8020-d9cca52f3a85"
+    udp: true
+  - name: "电信分流"
+    type: "vless"
+    server: "ct.090227.xyz"
+    port: 2083
+    uuid: "57fa490d-e38e-4850-8020-d9cca52f3a85"
+    udp: true
+  - name: "移动分流"
+    type: "vless"
+    server: "cmcc.090227.xyz"
+    port: 2096
+    uuid: "57fa490d-e38e-4850-8020-d9cca52f3a85"
+    udp: true
+  - name: "🇺🇸 美国 001"
+    type: "vmess"
+    server: "162.159.1.33"
+    port: 8080
+    uuid: "d9c5ec6a-a8d8-4732-8447-56fbd2f93e96"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm"
+      headers:
+        Host: "pcs-referenced-camera-concerns.trycloudflare.com"
+  - name: "🇹🇷 土耳其 001"
+    type: "vmess"
+    server: "78.111.102.232"
+    port: 3389
+    uuid: "9c050a86-d612-48f1-ec32-e573df08a1b7"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 002"
+    type: "vmess"
+    server: "172.67.152.170"
+    port: 2052
+    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "mahilu.site"
+  - name: "🇺🇸 美国 003"
+    type: "vmess"
+    server: "russia.com"
+    port: 2095
+    uuid: "6658a3a6-225a-4d33-a5d2-82cfde565b4e"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/api/v3/download.getFile"
+      headers:
+        Host: "ssrsub.v03.ssrsub.com"
+  - name: "🇺🇸 美国 004"
+    type: "vmess"
+    server: "cold-dawn-9246.fly.dev"
+    port: 443
+    uuid: "ea4909ef-7ca6-4b46-bf2e-6c07896ef338"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm"
+      headers:
+        Host: "cold-dawn-9246.fly.dev"
+  - name: "🇺🇸 美国 005"
+    type: "vmess"
+    server: "162.159.137.249"
+    port: 8080
+    uuid: "028c8131-9e3e-4836-94ac-ea7f24d4d05a"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm"
+      headers:
+        Host: "nest-emily-healing-h.trycloudflare.com"
+  - name: "🇺🇸 美国 006"
+    type: "vmess"
+    server: "104.21.82.39"
+    port: 2052
+    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "mahilu.site"
+  - name: "其他 001"
+    type: "vmess"
+    server: "mahilu.site"
+    port: 2052
+    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "mahilu.site"
+  - name: "🇺🇸 美国 007"
+    type: "vmess"
+    server: "23.227.39.24"
+    port: 8080
+    uuid: "9258153a-dc97-4e39-9037-009abfc4fed0"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "9258153a-dc97-4e39-9037-009abfc4fed0-vm"
+      headers:
+        Host: "per-essex-patterns-bowling.trycloudflare.com"
+  - name: "🇫🇷 法国 001"
+    type: "vmess"
+    server: "94.140.0.110"
+    port: 8880
+    uuid: "0d1bf26a-ce97-4707-a270-7f4d2ae37334"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "food.zhaal.ir"
+  - name: "🇺🇸 美国 008"
+    type: "vmess"
+    server: "23.227.38.22"
+    port: 8080
+    uuid: "9258153a-dc97-4e39-9037-009abfc4fed0"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "9258153a-dc97-4e39-9037-009abfc4fed0-vm"
+      headers:
+        Host: "per-essex-patterns-bowling.trycloudflare.com"
+  - name: "🇺🇸 美国 009"
+    type: "trojan"
+    server: "23.227.38.11"
+    port: 443
+    password: "b17fa17d-13a0-4e8a-a398-8e549ea8b208"
+    tls: true
+    udp: true
+  - name: "🇺🇸 美国 010"
+    type: "vmess"
+    server: "fbi.gov"
+    port: 8080
+    uuid: "ef8c954e-014f-4b36-8273-9b5086afab34"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "ef8c954e-014f-4b36-8273-9b5086afab34-vm"
+      headers:
+        Host: "bibliographic-sword-sequence-advertisers.trycloudflare.com"
+  - name: "其他 002"
+    type: "vmess"
+    server: "yh3.freeh1.xyz"
+    port: 8080
+    uuid: "82cb93a3-65a9-4dac-a2a7-d997b6c26d6a"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm"
+      headers:
+        Host: "larger-marketing-amounts-skin.trycloudflare.com"
+  - name: "其他 003"
+    type: "vmess"
+    server: "cfcdn1.sanfencdn9.com"
+    port: 2086
+    uuid: "3f09c198-da80-44ce-a72b-40bc600b2321"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/video/Z7qdcrAGRw"
+      headers:
+        Host: "us77SmSk86j.fzbqfrse.xyz"
+  - name: "🇨🇦 加拿大 001"
+    type: "vmess"
+    server: "108.181.23.161"
+    port: 8080
+    uuid: "969f1909-c0d3-4c30-813d-3aec5c838b7d"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/1IKYjV0r/"
+      headers:
+        Host: "internet.life.com.by"
+  - name: "🇺🇸 美国 011"
+    type: "vmess"
+    server: "162.159.134.23"
+    port: 8080
+    uuid: "9b196b50-37f2-4f4b-b175-06273adc6207"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "9b196b50-37f2-4f4b-b175-06273adc6207-vm"
+      headers:
+        Host: "championship-bidding-oxygen-brochure.trycloudflare.com"
+  - name: "🇺🇸 美国 012"
+    type: "vmess"
+    server: "134.122.41.160"
+    port: 3389
+    uuid: "9c050a86-d612-48f1-ec32-e573df08a1b7"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 013"
+    type: "vmess"
+    server: "23.227.38.23"
+    port: 8080
+    uuid: "34c0bb5e-c120-432d-9c58-bd7d82c7397b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm"
+      headers:
+        Host: "uh-lawyers-instruments-kernel.trycloudflare.com"
+  - name: "🇺🇸 美国 014"
+    type: "vmess"
+    server: "162.159.130.208"
+    port: 8080
+    uuid: "55021a7c-bd6c-418e-be95-ceac8ba27b45"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "55021a7c-bd6c-418e-be95-ceac8ba27b45-vm"
+      headers:
+        Host: "widescreen-instruction-breakdown-postage.trycloudflare.com"
+  - name: "🇺🇸 美国 015"
+    type: "vmess"
+    server: "51.159.155.52"
+    port: 3389
+    uuid: "9c050a86-d612-48f1-ec32-e573df08a1b7"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇷🇴 罗马尼亚 001"
+    type: "vmess"
+    server: "45.82.31.164"
+    port: 3389
+    uuid: "9c050a86-d612-48f1-ec32-e573df08a1b7"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 016"
+    type: "vmess"
+    server: "162.159.5.6"
+    port: 8080
+    uuid: "d9c5ec6a-a8d8-4732-8447-56fbd2f93e96"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm"
+      headers:
+        Host: "pcs-referenced-camera-concerns.trycloudflare.com"
+  - name: "🇺🇸 美国 017"
+    type: "vmess"
+    server: "russia.com"
+    port: 8880
+    uuid: "6658a3a6-225a-4d33-a5d2-82cfde565b4e"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/api/v3/download.getFile"
+      headers:
+        Host: "ssrsub.v03.ssrsub.com"
+  - name: "其他 004"
+    type: "vmess"
+    server: "yh2.freeh1.xyz"
+    port: 8080
+    uuid: "d9c5ec6a-a8d8-4732-8447-56fbd2f93e96"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm"
+      headers:
+        Host: "pcs-referenced-camera-concerns.trycloudflare.com"
+  - name: "🇺🇸 美国 018"
+    type: "vmess"
+    server: "172.67.116.48"
+    port: 80
+    uuid: "22a13aa2-4854-44cb-e090-ec71ab84b1ff"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "wap.hostmjj.com"
+  - name: "🇨🇳 中国 001"
+    type: "vmess"
+    server: "yh1.dtku41.xyz"
+    port: 8080
+    uuid: "34c0bb5e-c120-432d-9c58-bd7d82c7397b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm"
+      headers:
+        Host: "uh-lawyers-instruments-kernel.trycloudflare.com"
+  - name: "🇨🇳 中国 002"
+    type: "vmess"
+    server: "yh2.dtku41.xyz"
+    port: 8080
+    uuid: "9258153a-dc97-4e39-9037-009abfc4fed0"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "9258153a-dc97-4e39-9037-009abfc4fed0-vm"
+      headers:
+        Host: "per-essex-patterns-bowling.trycloudflare.com"
+  - name: "🇺🇸 美国 019"
+    type: "vmess"
+    server: "104.21.8.157"
+    port: 2082
+    uuid: "112ac36f-3f53-4e26-8371-d25c028e1b9a"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "s1c.v2.v001sss.xyz"
+  - name: "🇺🇸 美国 020"
+    type: "vmess"
+    server: "172.67.130.140"
+    port: 2082
+    uuid: "112ac36f-3f53-4e26-8371-d25c028e1b9a"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "s1c.v2.v001sss.xyz"
+  - name: "其他 005"
+    type: "vmess"
+    server: "hms082.gwdef.sbs"
+    port: 443
+    uuid: "bc864078-dcf3-4bf4-8dbf-ca9f200b56be"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "gwdef.sbs"
+  - name: "🇺🇸 美国 021"
+    type: "vmess"
+    server: "104.21.234.52"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "🇺🇦 乌克兰 001"
+    type: "trojan"
+    server: "95.164.33.62"
+    port: 443
+    password: "0b1371aa-649d-41dc-9126-338c87936500"
+    tls: true
+    udp: true
+  - name: "🇺🇸 美国 022"
+    type: "vmess"
+    server: "104.26.4.57"
+    port: 2095
+    uuid: "6658a3a6-225a-4d33-a5d2-82cfde565b4e"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/api/v3/download.getFile"
+      headers:
+        Host: "ssrsub.v03.ssrsub.com"
+  - name: "其他 006"
+    type: "vmess"
+    server: "547.rtxconfigz.shop"
+    port: 8080
+    uuid: "44e57485-eccc-46ef-808f-cd17ac810018"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "node4.rtxconfigz.com"
+  - name: "🇺🇸 美国 023"
+    type: "vmess"
+    server: "t1.620720.xyz"
+    port: 8443
+    uuid: "516d8a7a-3f0b-41d3-bad0-246116381516"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "t1.620720.xyz"
+  - name: "🇨🇦 加拿大 002"
+    type: "vmess"
+    server: "51.79.102.253"
+    port: 80
+    uuid: "58fe1542-5290-40ad-815a-77707a81afe5"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/IOebhLMhl1CTbFHbL95myfRX2"
+      headers:
+        Host: "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+  - name: "其他 007"
+    type: "vmess"
+    server: "v2ray.codefyinc.com"
+    port: 443
+    uuid: "2c981164-9b93-4bca-94ff-b78d3f8498d7"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmessws"
+      headers:
+        Host: "v2ray.codefyinc.com"
+  - name: "🇵🇱 波兰 001"
+    type: "vmess"
+    server: "cg1c07.waimaojd.com"
+    port: 443
+    uuid: "be8e3136-b874-4085-bd23-ec3699300490"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/api/v1/graphql"
+      headers:
+        Host: "cg1c07.waimaojd.com"
+  - name: "🇺🇸 美国 024"
+    type: "vmess"
+    server: "support.zoom.us"
+    port: 8080
+    uuid: "44e57485-eccc-46ef-808f-cd17ac810018"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "node4.rtxconfigz.com"
+  - name: "🇺🇸 美国 025"
+    type: "vmess"
+    server: "209.126.84.189"
+    port: 443
+    uuid: "2c981164-9b93-4bca-94ff-b78d3f8498d7"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmessws"
+      headers:
+        Host: "209.126.84.189"
+  - name: "🇺🇸 美国 026"
+    type: "vmess"
+    server: "sy4.620720.xyz"
+    port: 443
+    uuid: "516d8a7a-3f0b-41d3-bad0-246116381516"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sy4.620720.xyz"
+  - name: "🇺🇸 美国 027"
+    type: "vmess"
+    server: "hgtrojan.zabc.net"
+    port: 2083
+    uuid: "e6395c20-4571-4b34-d6b1-55a5d36e49ea"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/e6395c20"
+      headers:
+        Host: "hgtrojan.zabc.net"
+  - name: "🇺🇸 美国 028"
+    type: "vmess"
+    server: "cg1c01.waimaojd.com"
+    port: 443
+    uuid: "be8e3136-b874-4085-bd23-ec3699300490"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/api/v1/graphql"
+      headers:
+        Host: "cg1c01.waimaojd.com"
+  - name: "🇺🇸 美国 029"
+    type: "vmess"
+    server: "cg1c04.waimaojd.com"
+    port: 443
+    uuid: "be8e3136-b874-4085-bd23-ec3699300490"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/api/v1/graphql"
+      headers:
+        Host: "cg1c04.waimaojd.com"
+  - name: "🇵🇱 波兰 002"
+    type: "vmess"
+    server: "cg1c14.waimaojd.com"
+    port: 443
+    uuid: "be8e3136-b874-4085-bd23-ec3699300490"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/api/v1/graphql"
+      headers:
+        Host: "cg1c14.waimaojd.com"
+  - name: "其他 008"
+    type: "trojan"
+    server: "fkvip102.qlgq.fun"
+    port: 11789
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 009"
+    type: "trojan"
+    server: "fkvip102.qlgq.fun"
+    port: 21789
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 010"
+    type: "trojan"
+    server: "fkvip102.qlgq.fun"
+    port: 31789
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 011"
+    type: "trojan"
+    server: "ukvip101.qlgq.fun"
+    port: 14568
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 012"
+    type: "trojan"
+    server: "ukvip101.qlgq.fun"
+    port: 14586
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 013"
+    type: "trojan"
+    server: "ukvip101.qlgq.fun"
+    port: 18885
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 014"
+    type: "trojan"
+    server: "klvip101.qlgq.fun"
+    port: 10443
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 015"
+    type: "trojan"
+    server: "klvip101.qlgq.fun"
+    port: 20443
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 016"
+    type: "trojan"
+    server: "klvip101.qlgq.fun"
+    port: 30443
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 017"
+    type: "trojan"
+    server: "sgvip101.qlgq.fun"
+    port: 11223
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 018"
+    type: "trojan"
+    server: "sgvip101.qlgq.fun"
+    port: 21223
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 019"
+    type: "trojan"
+    server: "sgvip101.qlgq.fun"
+    port: 31223
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 020"
+    type: "trojan"
+    server: "sgvip101.qlgq.fun"
+    port: 41223
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 021"
+    type: "trojan"
+    server: "sgvip101.qlgq.fun"
+    port: 51223
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 022"
+    type: "trojan"
+    server: "lavip101.qlgq.fun"
+    port: 11156
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 023"
+    type: "trojan"
+    server: "lavip101.qlgq.fun"
+    port: 21156
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 024"
+    type: "trojan"
+    server: "lavip101.qlgq.fun"
+    port: 31156
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 025"
+    type: "trojan"
+    server: "lavip102.qlgq.fun"
+    port: 49643
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 026"
+    type: "trojan"
+    server: "lavip102.qlgq.fun"
+    port: 20443
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 027"
+    type: "trojan"
+    server: "lavip102.qlgq.fun"
+    port: 30443
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 028"
+    type: "trojan"
+    server: "hkvip101.qlgq.fun"
+    port: 12249
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 029"
+    type: "trojan"
+    server: "hkvip101.qlgq.fun"
+    port: 22249
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 030"
+    type: "trojan"
+    server: "hkvip102.qlgq.fun"
+    port: 32249
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 031"
+    type: "trojan"
+    server: "hkvip102.qlgq.fun"
+    port: 42249
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 032"
+    type: "trojan"
+    server: "hkvip103.qlgq.fun"
+    port: 52249
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 033"
+    type: "trojan"
+    server: "hkvip103.qlgq.fun"
+    port: 11116
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 034"
+    type: "trojan"
+    server: "hkvip104.qlgq.fun"
+    port: 45136
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 035"
+    type: "trojan"
+    server: "hkvip104.qlgq.fun"
+    port: 46216
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 036"
+    type: "trojan"
+    server: "hkvip105.qlgq.fun"
+    port: 41116
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "其他 037"
+    type: "trojan"
+    server: "hkvip105.qlgq.fun"
+    port: 51116
+    password: "3c668456-cc9c-3392-9014-0f73e5a09bb3"
+    tls: true
+    udp: true
+  - name: "🇦🇺 澳大利亚 001"
+    type: "vmess"
+    server: "1.1.1.1"
+    port: 443
+    uuid: "36f71b02-04bf-4ab6-8f17-850a002b448d"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/cctv13/hd.m3u8"
+      headers:
+        Host: "usbk.cfip.top"
+  - name: "其他 038"
+    type: "vmess"
+    server: "usbk.cfip.top"
+    port: 8443
+    uuid: "36f71b02-04bf-4ab6-8f17-850a002b448d"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/cctv13/hd.m3u8"
+      headers:
+        Host: "usbk.cfip.top"
+  - name: "其他 039"
+    type: "vmess"
+    server: "US-Los_Angeles-A.cfip.top"
+    port: 8443
+    uuid: "36f71b02-04bf-4ab6-8f17-850a002b448d"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/cctv13/hd.m3u8"
+      headers:
+        Host: "us-los_angeles-a.cfip.top"
+  - name: "其他 040"
+    type: "vmess"
+    server: "US-Los_Angeles-B.cfip.top"
+    port: 8443
+    uuid: "36f71b02-04bf-4ab6-8f17-850a002b448d"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/cctv13/hd.m3u8"
+      headers:
+        Host: "us-los_angeles-b.cfip.top"
+  - name: "其他 041"
+    type: "vmess"
+    server: "htsub-2024.899696998.xyz"
+    port: 20011
+    uuid: "eb9b6d07-8644-437f-a1c5-dbed378d38ed"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/2024"
+      headers:
+        Host: "yyyt-hk-2024.mofaxw.top"
+  - name: "其他 042"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 80
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "其他 043"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 81
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "其他 044"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 82
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "其他 045"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 83
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "其他 046"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 84
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "其他 047"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 85
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "其他 048"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 86
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "其他 049"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 87
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "其他 050"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 88
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "其他 051"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 89
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇨🇳 中国 003"
+    type: "vmess"
+    server: "v10.hdacd.com"
+    port: 30807
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    cipher: "auto"
+    alterId: 2
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇺🇸 美国 030"
+    type: "vless"
+    server: "hk6-r.link-t7.com"
+    port: 10136
+    uuid: "DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3"
+    udp: true
+  - name: "🇺🇸 美国 031"
+    type: "vless"
+    server: "45.9.15.206"
+    port: 443
+    uuid: "a289a3d3-5833-4b28-8809-ae72898a98d0"
+    udp: true
+  - name: "🇺🇸 美国 032"
+    type: "vless"
+    server: "172.67.176.60"
+    port: 443
+    uuid: "a90c264d-3853-4eef-9a3d-628b2d02d15e"
+    udp: true
+  - name: "🇨🇿 捷克 001"
+    type: "vmess"
+    server: "109.123.230.157"
+    port: 80
+    uuid: "59517e0b-ae1c-41d3-9c44-c44cea6f7546"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/takeshi.wiki"
+      headers:
+        Host: "internet.life.com.by"
+  - name: "🇺🇦 乌克兰 002"
+    type: "vmess"
+    server: "94.131.14.177"
+    port: 2082
+    uuid: "2c5fee13-f08b-4ba8-86db-27dd51cb9781"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "94.131.14.177"
+  - name: "🇵🇭 菲律宾 001"
+    type: "vmess"
+    server: "120.28.10.46"
+    port: 80
+    uuid: "ecba5b33-f768-4d8a-b004-b29e8e5c676f"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sazgar.serveirc.com"
+  - name: "乌兹别克斯坦 001"
+    type: "vmess"
+    server: "37.110.209.228"
+    port: 80
+    uuid: "ecba5b33-f768-4d8a-b004-b29e8e5c676f"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sazgar.serveirc.com"
+  - name: "其他 052"
+    type: "vmess"
+    server: "yhnsb3.shabijichang.com"
+    port: 80
+    uuid: "c458695d-6908-45c3-9512-e0c46418454c"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "yhnsb3.shabijichang.com"
+  - name: "科威特 001"
+    type: "vmess"
+    server: "94.128.12.238"
+    port: 443
+    uuid: "ecba5b33-f768-4d8a-b004-b29e8e5c676f"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sazgar.serveirc.com"
+  - name: "🇺🇦 乌克兰 003"
+    type: "vmess"
+    server: "95.164.69.27"
+    port: 80
+    uuid: "cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "internet.life.com.by"
+  - name: "🇺🇸 美国 033"
+    type: "vmess"
+    server: "118ejob.ir"
+    port: 80
+    uuid: "47d0805b-6b81-49f1-9813-776032d2c076"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "at1-vmess.sshmax.xyz"
+  - name: "其他 053"
+    type: "vmess"
+    server: "a3.bcbot.in"
+    port: 8880
+    uuid: "ce9aadc8-8c6e-4867-d247-9a84b469ac27"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "a3.bcbot.in"
+  - name: "🇰🇿 哈萨克斯坦 001"
+    type: "vmess"
+    server: "217.76.64.195"
+    port: 443
+    uuid: "4abdf58e-0516-468d-9571-fe25cb4897ef"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "skuone.serveminecraft.net"
+  - name: "🇨🇦 加拿大 003"
+    type: "vmess"
+    server: "142.171.79.10"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704276466760"
+      headers:
+        Host: "www.32410592.xyz"
+  - name: "🇻🇳 越南 001"
+    type: "vmess"
+    server: "103.232.54.160"
+    port: 80
+    uuid: "d95cded2-816a-4b5d-bb21-6180bd6d4d3a"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/zenpn.com"
+      headers:
+        Host: "dl.kgvn.garenanow.com"
+  - name: "其他 054"
+    type: "vmess"
+    server: "jp.takeshi.wiki"
+    port: 80
+    uuid: "59517e0b-ae1c-41d3-9c44-c44cea6f7546"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/takeshi.wiki"
+      headers:
+        Host: "dl.kgvn.garenanow.com"
+  - name: "🇳🇱 荷兰 001"
+    type: "vmess"
+    server: "46.182.107.72"
+    port: 30000
+    uuid: "375e70f0-5d46-476f-8d69-0fb35c5548a9"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704276466760"
+      headers:
+        Host: "www.11302851.xyz"
+  - name: "🇺🇸 美国 034"
+    type: "vmess"
+    server: "38.54.185.112"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1701091133409"
+      headers:
+        Host: "www.73664999.xyz"
+  - name: "🇺🇸 美国 035"
+    type: "vmess"
+    server: "104.17.171.34"
+    port: 80
+    uuid: "60be5ddb-c9f1-48ec-b0ee-f6bd4364b3ce"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "ccs.hostmjj.com"
+  - name: "🇨🇦 加拿大 004"
+    type: "vmess"
+    server: "142.171.215.99"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.62644213.xyz"
+  - name: "🇺🇸 美国 036"
+    type: "vmess"
+    server: "142.4.101.8"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.23494000.xyz"
+  - name: "🇺🇸 美国 037"
+    type: "vmess"
+    server: "192.74.243.33"
+    port: 31000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.44509344.xyz"
+  - name: "🇺🇸 美国 038"
+    type: "vmess"
+    server: "142.4.107.184"
+    port: 40000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704276466760"
+      headers:
+        Host: "www.98382183.xyz"
+  - name: "🇰🇷 韩国 001"
+    type: "vmess"
+    server: "92.223.61.25"
+    port: 80
+    uuid: "22aa72b1-605b-4807-8a81-fb414cbb409c"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "mizban888.servecounterstrike.com"
+  - name: "🇺🇸 美国 039"
+    type: "vmess"
+    server: "142.4.116.241"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.90224962.xyz"
+  - name: "🇺🇸 美国 040"
+    type: "vmess"
+    server: "142.4.110.44"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.24364264.xyz"
+  - name: "🇺🇸 美国 041"
+    type: "vmess"
+    server: "198.2.204.40"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1703755625558"
+      headers:
+        Host: "www.75575729.xyz"
+  - name: "🇲🇳 蒙古 001"
+    type: "vmess"
+    server: "180.149.90.66"
+    port: 443
+    uuid: "f5c137d1-ca89-42c0-b604-db39aef60a73"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "tabyan777.sytes.net"
+  - name: "🇨🇦 加拿大 005"
+    type: "vmess"
+    server: "142.171.61.106"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.88166954.xyz"
+  - name: "🇨🇦 加拿大 006"
+    type: "vmess"
+    server: "142.171.238.19"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1703493333049"
+      headers:
+        Host: "www.76482812.xyz"
+  - name: "🇺🇸 美国 042"
+    type: "vmess"
+    server: "142.0.131.72"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.67271089.xyz"
+  - name: "🇺🇸 美国 043"
+    type: "vmess"
+    server: "198.2.222.77"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.62679611.xyz"
+  - name: "🇺🇸 美国 044"
+    type: "vmess"
+    server: "137.175.49.221"
+    port: 50000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.36443410.xyz"
+  - name: "🇺🇸 美国 045"
+    type: "vmess"
+    server: "198.2.213.179"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.71585518.xyz"
+  - name: "🇺🇸 美国 046"
+    type: "vmess"
+    server: "198.2.204.51"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704095122778"
+      headers:
+        Host: "www.44337922.xyz"
+  - name: "🇺🇸 美国 047"
+    type: "vmess"
+    server: "38.63.17.164"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704095122778"
+      headers:
+        Host: "www.84206290.xyz"
+  - name: "🇺🇸 美国 048"
+    type: "vmess"
+    server: "198.2.204.135"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.43444988.xyz"
+  - name: "🇺🇸 美国 049"
+    type: "vmess"
+    server: "142.4.104.104"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.64102475.xyz"
+  - name: "🇺🇸 美国 050"
+    type: "vmess"
+    server: "198.2.202.25"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704095122778"
+      headers:
+        Host: "www.94231160.xyz"
+  - name: "🇺🇸 美国 051"
+    type: "vmess"
+    server: "137.175.49.195"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704095122778"
+      headers:
+        Host: "www.37195723.xyz"
+  - name: "🇺🇸 美国 052"
+    type: "vmess"
+    server: "137.175.32.91"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.94152251.xyz"
+  - name: "🇨🇦 加拿大 007"
+    type: "vmess"
+    server: "142.171.237.242"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.71532237.xyz"
+  - name: "🇸🇪 瑞典 001"
+    type: "vmess"
+    server: "148.135.38.107"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.13861936.xyz"
+  - name: "🇺🇸 美国 053"
+    type: "vmess"
+    server: "142.4.100.120"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704012351832"
+      headers:
+        Host: "www.26959851.xyz"
+  - name: "🇺🇸 美国 054"
+    type: "vmess"
+    server: "142.4.96.5"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.37511588.xyz"
+  - name: "🇺🇸 美国 055"
+    type: "vmess"
+    server: "137.175.18.85"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704012351832"
+      headers:
+        Host: "www.66273264.xyz"
+  - name: "🇺🇸 美国 056"
+    type: "vmess"
+    server: "64.32.8.216"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.58116899.xyz"
+  - name: "🇺🇸 美国 057"
+    type: "vmess"
+    server: "108.186.116.173"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1703837837728"
+      headers:
+        Host: "www.71034070.xyz"
+  - name: "🇺🇸 美国 058"
+    type: "vmess"
+    server: "142.4.126.34"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704276466760"
+      headers:
+        Host: "www.60184527.xyz"
+  - name: "🇨🇦 加拿大 008"
+    type: "vmess"
+    server: "142.171.141.211"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1703924658447"
+      headers:
+        Host: "www.53649262.xyz"
+  - name: "🇨🇳 中国 004"
+    type: "vmess"
+    server: "45.199.138.185"
+    port: 31000
+    uuid: "078eb24d-8d1d-4fbd-b914-ee58a897a35e"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.15697065.xyz"
+  - name: "🇸🇪 瑞典 002"
+    type: "vmess"
+    server: "148.135.9.156"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.30121911.xyz"
+  - name: "🇺🇸 美国 059"
+    type: "vmess"
+    server: "142.4.116.177"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1703493333049"
+      headers:
+        Host: "www.96128725.xyz"
+  - name: "🇺🇸 美国 060"
+    type: "vmess"
+    server: "137.175.18.182"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.87140386.xyz"
+  - name: "🇺🇸 美国 061"
+    type: "vmess"
+    server: "192.74.249.6"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1703755625558"
+      headers:
+        Host: "www.37790958.xyz"
+  - name: "🇨🇦 加拿大 009"
+    type: "vmess"
+    server: "142.171.215.52"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.69062911.xyz"
+  - name: "🇺🇸 美国 062"
+    type: "vmess"
+    server: "137.175.47.183"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704276466760"
+      headers:
+        Host: "www.23602249.xyz"
+  - name: "🇺🇸 美国 063"
+    type: "vmess"
+    server: "198.2.197.77"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704276466760"
+      headers:
+        Host: "www.39619212.xyz"
+  - name: "🇨🇦 加拿大 010"
+    type: "vmess"
+    server: "142.171.187.178"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.70615435.xyz"
+  - name: "🇺🇸 美国 064"
+    type: "vmess"
+    server: "142.4.110.10"
+    port: 30000
+    uuid: "08fc4943-4c7a-4a69-9265-fb961eaea917"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1703755625558"
+      headers:
+        Host: "www.25208010.xyz"
+  - name: "🇸🇪 瑞典 003"
+    type: "vmess"
+    server: "148.135.14.99"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.20414124.xyz"
+  - name: "🇺🇸 美国 065"
+    type: "vmess"
+    server: "137.175.4.43"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704276466760"
+      headers:
+        Host: "www.83008320.xyz"
+  - name: "🇺🇸 美国 066"
+    type: "vmess"
+    server: "192.74.241.197"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.17144479.xyz"
+  - name: "🇸🇪 瑞典 004"
+    type: "vmess"
+    server: "148.135.31.171"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1703924658447"
+      headers:
+        Host: "www.72672771.xyz"
+  - name: "🇺🇸 美国 067"
+    type: "vmess"
+    server: "142.4.112.138"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1703924658447"
+      headers:
+        Host: "www.18469970.xyz"
+  - name: "🇺🇸 美国 068"
+    type: "vmess"
+    server: "142.4.96.211"
+    port: 30000
+    uuid: "2a23dbd5-09cf-4aa8-a835-3230728c4973"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704095122778"
+      headers:
+        Host: "www.92308907.xyz"
+  - name: "🇺🇸 美国 069"
+    type: "vmess"
+    server: "142.4.102.177"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.22796359.xyz"
+  - name: "🇺🇸 美国 070"
+    type: "vmess"
+    server: "199.180.103.52"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1703493333049"
+      headers:
+        Host: "www.75322715.xyz"
+  - name: "🇺🇸 美国 071"
+    type: "vmess"
+    server: "142.4.121.227"
+    port: 40000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704363182493"
+      headers:
+        Host: "www.43535620.xyz"
+  - name: "🇸🇪 瑞典 005"
+    type: "vmess"
+    server: "148.135.33.140"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.31270022.xyz"
+  - name: "🇺🇸 美国 072"
+    type: "vmess"
+    server: "137.175.4.59"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704276466760"
+      headers:
+        Host: "www.54790250.xyz"
+  - name: "🇺🇸 美国 073"
+    type: "vmess"
+    server: "156.249.18.66"
+    port: 31000
+    uuid: "4ec0ae62-de09-4029-904a-0313d4628ecf"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704276466760"
+      headers:
+        Host: "www.72281149.xyz"
+  - name: "🇨🇦 加拿大 011"
+    type: "vmess"
+    server: "142.171.149.75"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.11640247.xyz"
+  - name: "🇺🇸 美国 074"
+    type: "vmess"
+    server: "skk.moe"
+    port: 8080
+    uuid: "54d4d640-731c-4572-d0d4-e8a617816470"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "icu4.mac2win.top"
+  - name: "🇰🇬 吉尔吉斯斯坦 001"
+    type: "vmess"
+    server: "185.48.136.150"
+    port: 443
+    uuid: "14bb927f-a4ec-4de7-90fb-388c1f69dbc1"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sazgar22.zapto.org"
+  - name: "其他 055"
+    type: "vmess"
+    server: "data-us-v1.shwjfkw.cn"
+    port: 20401
+    uuid: "b1478e24-4916-3abe-8f17-15931012ecbe"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/debian"
+      headers:
+        Host: "data-us-v1.shwjfkw.cn"
+  - name: "🇨🇳 中国 005"
+    type: "vmess"
+    server: "154.90.39.63"
+    port: 45343
+    uuid: "08aa8499-d616-4ff1-d6ab-ce0c522824aa"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇺🇸 美国 075"
+    type: "vmess"
+    server: "107.148.25.129"
+    port: 40000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.19940750.xyz"
+  - name: "🇺🇸 美国 076"
+    type: "vmess"
+    server: "107.148.86.150"
+    port: 40000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.24603527.xyz"
+  - name: "🇰🇿 哈萨克斯坦 002"
+    type: "vmess"
+    server: "92.46.108.106"
+    port: 80
+    uuid: "ecba5b33-f768-4d8a-b004-b29e8e5c676f"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sazgar.serveirc.com"
+  - name: "🇺🇸 美国 077"
+    type: "vmess"
+    server: "142.4.102.83"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704276466760"
+      headers:
+        Host: "www.38625324.xyz"
+  - name: "🇳🇱 荷兰 002"
+    type: "vmess"
+    server: "45.58.174.92"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1704188270531"
+      headers:
+        Host: "www.74386585.xyz"
+  - name: "🇯🇵 日本 001"
+    type: "vmess"
+    server: "103.35.188.226"
+    port: 80
+    uuid: "098e7cdd-03b4-435d-8c41-ea608fa637c2"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "103.35.188.226"
+  - name: "🇺🇸 美国 078"
+    type: "vmess"
+    server: "38.54.185.114"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1703755625558"
+      headers:
+        Host: "www.73664999.xyz"
+  - name: "🇺🇸 美国 079"
+    type: "vmess"
+    server: "137.175.49.209"
+    port: 50000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/1703579900346"
+      headers:
+        Host: "www.36443410.xyz"
+  - name: "🇦🇺 澳大利亚 002"
+    type: "vmess"
+    server: "43.201.103.12"
+    port: 29930
+    uuid: "f46b2e2a-e02c-437a-833c-023410840a80"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/f46b2e2a-e02c-437a-833c-023410840a80"
+      headers:
+        Host: "43.201.103.12"
+  - name: "🇦🇺 澳大利亚 003"
+    type: "vmess"
+    server: "140.83.63.38"
+    port: 24445
+    uuid: "94c5ef37-4d82-49f9-c624-f01259374a17"
+    cipher: "auto"
+    alterId: 64
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇦🇺 澳大利亚 004"
+    type: "vmess"
+    server: "43.201.253.222"
+    port: 26540
+    uuid: "c841c903-7657-41f7-bf55-b41dd9456179"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/c841c903-7657-41f7-bf55-b41dd9456179"
+      headers:
+        Host: "43.201.253.222"
+  - name: "🇨🇦 加拿大 012"
+    type: "vmess"
+    server: "198.57.27.212"
+    port: 22324
+    uuid: "04621bae-ab36-11ec-b909-0242ac120002"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇨🇳 中国 006"
+    type: "vmess"
+    server: "39.103.165.178"
+    port: 56002
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇯🇵 日本 002"
+    type: "vmess"
+    server: "139.162.125.97"
+    port: 49499
+    uuid: "3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇯🇵 日本 003"
+    type: "vmess"
+    server: "167.179.111.237"
+    port: 14935
+    uuid: "e961894f-8e90-472f-98d3-09402e4be453"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇷🇴 罗马尼亚 002"
+    type: "vmess"
+    server: "37.120.236.251"
+    port: 443
+    uuid: "ed162daa-ee20-44ed-830f-b522c501387a"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/path/143013092425"
+      headers:
+        Host: "www.42088326.xyz"
+  - name: "🇺🇦 乌克兰 004"
+    type: "vmess"
+    server: "kz-v2ray.ipracevpn.com"
+    port: 8443
+    uuid: "48b10b02-2c60-4323-bc65-a11b15144745"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "tcp"
+    udp: true
+  - name: "🇸🇬 新加坡 001"
+    type: "vmess"
+    server: "139.180.211.152"
+    port: 16737
+    uuid: "1458e38c-9f71-4c3c-aa70-aaccda6789dd"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "m.twitter.com"
+  - name: "🇸🇬 新加坡 002"
+    type: "vmess"
+    server: "139.180.211.152"
+    port: 18063
+    uuid: "0d4f647b-0d96-4820-9de8-0186156185dd"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/Dialog Zoom"
+      headers:
+        Host: "m.zoom.us"
+  - name: "🇨🇳 中国 007"
+    type: "vmess"
+    server: "45.121.48.196"
+    port: 10001
+    uuid: "0ed35629-919a-4891-ba0f-13cd198f863b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇨🇳 中国 008"
+    type: "vmess"
+    server: "45.121.48.172"
+    port: 10001
+    uuid: "dba51a2e-a788-43b7-9ac4-9f7cc1255f15"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "其他 056"
+    type: "vmess"
+    server: "adenc35.fixedlfoat.top"
+    port: 443
+    uuid: "45f63e92-f782-4cac-84b8-e61cb5a5bfd0"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "adenc35.fixedlfoat.top"
+  - name: "🇺🇸 美国 080"
+    type: "vmess"
+    server: "104.237.128.72"
+    port: 14432
+    uuid: "4c09b776-6f83-4bf2-f7f7-4e286dbbb6da"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇺🇸 美国 081"
+    type: "vmess"
+    server: "172.67.183.110"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "waynn.makeup"
+  - name: "🇺🇸 美国 082"
+    type: "vmess"
+    server: "104.21.53.12"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "ophelia.mom"
+  - name: "🇺🇸 美国 083"
+    type: "vmess"
+    server: "104.21.75.246"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/ophelia.mom:443/linkvws"
+      headers:
+        Host: "cf.tonyluk.link"
+  - name: "🇺🇸 美国 084"
+    type: "vmess"
+    server: "172.67.131.150"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "oliv.beauty"
+  - name: "🇺🇸 美国 085"
+    type: "vmess"
+    server: "104.21.91.254"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "waynn.makeup"
+  - name: "🇺🇸 美国 086"
+    type: "vmess"
+    server: "104.21.4.29"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "oliv.beauty"
+  - name: "🇺🇸 美国 087"
+    type: "vmess"
+    server: "vps-837611db.vps.ovh.us"
+    port: 443
+    uuid: "3e1c1355-ffb5-48c3-8e7d-f6be7b8fece4"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "tcp"
+    udp: true
+  - name: "🇺🇸 美国 088"
+    type: "vmess"
+    server: "30.vmessprotocol.telegram-vmessprotocol-channel.space"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "ophelia.mom"
+  - name: "其他 057"
+    type: "vmess"
+    server: "linde06.indiavideo.sbs"
+    port: 443
+    uuid: "edbb1059-1633-4271-b66e-ed4fba47a1bf"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "linde06.indiavideo.sbs"
+  - name: "🇺🇸 美国 089"
+    type: "vmess"
+    server: "172.67.164.184"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "alvvin.click"
+  - name: "🇺🇸 美国 090"
+    type: "vmess"
+    server: "104.21.50.177"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "alvvin.click"
+  - name: "🇺🇸 美国 091"
+    type: "vmess"
+    server: "172.67.207.114"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "ophelia.mom"
+  - name: "🇺🇸 美国 092"
+    type: "vmess"
+    server: "172.67.215.202"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "octavi.cfd"
+  - name: "🇺🇸 美国 093"
+    type: "vmess"
+    server: "172.67.179.37"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "octavi.cfd"
+  - name: "🇺🇸 美国 094"
+    type: "vmess"
+    server: "104.21.27.139"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "edeen.makeup"
+  - name: "🇺🇸 美国 095"
+    type: "vmess"
+    server: "172.67.142.191"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "edeen.makeup"
+  - name: "🇺🇸 美国 096"
+    type: "vmess"
+    server: "172.67.197.82"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "odelia.autos"
+  - name: "🇺🇸 美国 097"
+    type: "vmess"
+    server: "vmessprotocol.telegram-vmessprotocol-channel.space"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "ophelia.mom"
+  - name: "🇺🇸 美国 098"
+    type: "vmess"
+    server: "104.21.31.183"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "octavi.cfd"
+  - name: "其他 058"
+    type: "vmess"
+    server: "oliv.beauty"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "oliv.beauty"
+  - name: "其他 059"
+    type: "vmess"
+    server: "edeen.makeup"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "edeen.makeup"
+  - name: "🇺🇸 美国 099"
+    type: "vmess"
+    server: "104.21.91.73"
+    port: 443
+    uuid: "45f63e92-f782-4cac-84b8-e61cb5a5bfd0"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "adenc35.fixedlfoat.top"
+  - name: "🇺🇸 美国 100"
+    type: "vmess"
+    server: "172.67.194.2"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "alvvin.click"
+  - name: "🇺🇸 美国 101"
+    type: "vmess"
+    server: "octavi.cfd"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "octavi.cfd"
+  - name: "其他 060"
+    type: "vmess"
+    server: "alvvin.click"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "alvvin.click"
+  - name: "🇺🇸 美国 102"
+    type: "vmess"
+    server: "162.251.62.115"
+    port: 22324
+    uuid: "04621bae-ab36-11ec-b909-0242ac120002"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇺🇸 美国 103"
+    type: "vmess"
+    server: "ophelia.mom"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "ophelia.mom"
+  - name: "🇺🇸 美国 104"
+    type: "vmess"
+    server: "104.21.21.88"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "odelia.autos"
+  - name: "🇺🇸 美国 105"
+    type: "vmess"
+    server: "rlhrwtqusd.site"
+    port: 443
+    uuid: "4fa35ea4-668e-4d7b-9bbc-b83681060617"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/kwhmvws"
+      headers:
+        Host: "rlhrwtqusd.site"
+  - name: "🇺🇸 美国 106"
+    type: "vmess"
+    server: "38.75.137.27"
+    port: 22324
+    uuid: "04621bae-ab36-11ec-b909-0242ac120002"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇺🇸 美国 107"
+    type: "vmess"
+    server: "172.99.190.12"
+    port: 22324
+    uuid: "04621bae-ab36-11ec-b909-0242ac120002"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇺🇸 美国 108"
+    type: "vmess"
+    server: "172.67.206.124"
+    port: 443
+    uuid: "4fa35ea4-668e-4d7b-9bbc-b83681060617"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/kwhmvws"
+      headers:
+        Host: "rlhrwtqusd.site"
+  - name: "🇺🇸 美国 109"
+    type: "vmess"
+    server: "jahfkjha.cfd"
+    port: 443
+    uuid: "950db6aa-4926-4616-816e-ec0312dcb87b"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "jahfkjha.cfd"
+  - name: "🇺🇸 美国 110"
+    type: "vmess"
+    server: "7.vmessprotocol.join.telegram-vmessprotocol-channel.space"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "ophelia.mom"
+  - name: "🇺🇸 美国 111"
+    type: "vmess"
+    server: "138.2.44.211"
+    port: 20081
+    uuid: "593b8525-0c48-4b0f-d9af-2d73a9148973"
+    cipher: "auto"
+    alterId: 64
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "其他 061"
+    type: "vmess"
+    server: "hms02opi.fxiaomi.sbs"
+    port: 443
+    uuid: "6c168fcc-2231-4f3b-8c1e-f6391692df4a"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/link"
+      headers:
+        Host: "hms02.fxiaomi.sbs"
+  - name: "🇺🇸 美国 112"
+    type: "vmess"
+    server: "hms04.xmivideo.cfd"
+    port: 443
+    uuid: "93ea486a-bada-42a4-ac38-d088b320fa1e"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "xmivideo.cfd"
+  - name: "🇺🇸 美国 113"
+    type: "vmess"
+    server: "129.146.46.181"
+    port: 52408
+    uuid: "a797ff7b-8161-40a6-d577-1b2c213b3885"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇺🇸 美国 114"
+    type: "vmess"
+    server: "glweidf.cfd"
+    port: 443
+    uuid: "1052f24e-7b09-45eb-b0c5-d858eb124192"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "glweidf.cfd"
+  - name: "🇺🇸 美国 115"
+    type: "vmess"
+    server: "afrhms16v.bestxray.buzz"
+    port: 443
+    uuid: "f584de15-2034-4170-a723-f48c2bae5e0f"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "afrhms16v.bestxray.buzz"
+  - name: "🇧🇷 巴西 001"
+    type: "vmess"
+    server: "188.114.96.7"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "octavi.cfd"
+  - name: "🇧🇷 巴西 002"
+    type: "vmess"
+    server: "188.114.96.58"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "ophelia.mom"
+  - name: "🇧🇷 巴西 003"
+    type: "vmess"
+    server: "188.114.98.0"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "odelia.autos"
+  - name: "🇧🇷 巴西 004"
+    type: "vmess"
+    server: "22.vmessprotocol.telegram-vmessprotocol-channel.space"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "odelia.autos"
+  - name: "🇧🇷 巴西 005"
+    type: "vmess"
+    server: "188.114.97.7"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "waynn.makeup"
+  - name: "🇧🇷 巴西 006"
+    type: "vmess"
+    server: "188.114.96.2"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "ophelia.mom"
+  - name: "🇧🇷 巴西 007"
+    type: "vmess"
+    server: "188.114.97.1"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "odelia.autos"
+  - name: "🇧🇷 巴西 008"
+    type: "vmess"
+    server: "188.114.96.3"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "oliv.beauty"
+  - name: "🇧🇷 巴西 009"
+    type: "vmess"
+    server: "188.114.97.18"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "odelia.autos"
+  - name: "🇧🇷 巴西 010"
+    type: "vmess"
+    server: "188.114.97.3"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "oliv.beauty"
+  - name: "🇧🇷 巴西 011"
+    type: "vmess"
+    server: "188.114.99.0"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "ophelia.mom"
+  - name: "🇮🇳 印度 001"
+    type: "vmess"
+    server: "202.78.162.5"
+    port: 443
+    uuid: "2ff97c6d-8557-42a4-b43f-19c77c5959ea"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "irsoft.sytes.net"
+  - name: "🇯🇵 日本 004"
+    type: "vmess"
+    server: "www.darkroom.lol"
+    port: 8080
+    uuid: "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "www.darkroom.lol"
+  - name: "其他 063"
+    type: "vmess"
+    server: "server31.beheshtbaneh.com"
+    port: 8880
+    uuid: "4154143c-bbba-47a4-9f79-c2ed087cbcc9"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "server31.beheshtbaneh.com"
+  - name: "🇺🇸 美国 116"
+    type: "vmess"
+    server: "104.21.82.183"
+    port: 8880
+    uuid: "5a7021e0-26b4-45d6-b175-fe551601ca97"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "server26.beheshtbaneh.com"
+  - name: "🇺🇸 美国 117"
+    type: "vmess"
+    server: "gov.uk"
+    port: 443
+    uuid: "77848824-93b7-4b89-ffd0-e91afff406ce"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/77848824"
+      headers:
+        Host: "zheshiscp.com"
+  - name: "其他 064"
+    type: "vmess"
+    server: "server32.beheshtbaneh.com"
+    port: 8880
+    uuid: "044ba8ed-7285-472a-bc14-fb91dc6be4c9"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "server32.beheshtbaneh.com"
+  - name: "剩余流量：-0.55000000000001 GB"
+    type: "ss"
+    server: "hk3.network-cdn-gw-yd.net"
+    port: 21388
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "距离下次重置剩余：11 天"
+    type: "ss"
+    server: "hk3.network-cdn-gw-yd.net"
+    port: 21388
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "套餐到期：2026-09-16"
+    type: "ss"
+    server: "hk3.network-cdn-gw-yd.net"
+    port: 21388
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "官网导航入口:gw.grrnc.com"
+    type: "ss"
+    server: "hk3.network-cdn-gw-yd.net"
+    port: 21388
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-01"
+    type: "ss"
+    server: "hk1.network-cdn-gw-yd.net"
+    port: 32060
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-02"
+    type: "ss"
+    server: "hk2.network-cdn-gw-yd.net"
+    port: 32063
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-03"
+    type: "ss"
+    server: "hk13.network-cdn-gw-yd.net"
+    port: 32061
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-04"
+    type: "ss"
+    server: "hk14.network-cdn-gw-yd.net"
+    port: 32062
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-05"
+    type: "ss"
+    server: "hk15.network-cdn-gw-yd.net"
+    port: 47705
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-06"
+    type: "ss"
+    server: "hk16.network-cdn-gw-yd.net"
+    port: 47706
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-07"
+    type: "ss"
+    server: "hk17.network-cdn-gw-yd.net"
+    port: 47707
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-08"
+    type: "ss"
+    server: "hk18.network-cdn-gw-yd.net"
+    port: 47708
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-09"
+    type: "ss"
+    server: "hk09.network-cdn-gw-yd.net"
+    port: 47709
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "香港-Basic-BGP-10"
+    type: "ss"
+    server: "hk11.network-cdn-gw-yd.net"
+    port: 47711
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "美国-Basic-01"
+    type: "ss"
+    server: "us06.network-cdn-gw-yd.net"
+    port: 43111
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "美国-Basic-02"
+    type: "ss"
+    server: "us07.network-cdn-gw-yd.net"
+    port: 43211
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "美国-Basic-03"
+    type: "ss"
+    server: "us08.network-cdn-gw-yd.net"
+    port: 43212
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "美国-Basic直连-01|gpt|三网优化线路|X3"
+    type: "ss"
+    server: "usb4-5.toop-digxinap.com"
+    port: 43213
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "美国-Basic直连-02|gpt|三网优化线路|X3"
+    type: "ss"
+    server: "usb4-5.toop-digxinap.com"
+    port: 43215
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "日本-Basic-BGP-01"
+    type: "ss"
+    server: "jp01.network-cdn-gw-yd.net"
+    port: 48801
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "日本-Basic-BGP-02"
+    type: "ss"
+    server: "jp02.network-cdn-gw-yd.net"
+    port: 48802
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "台湾-Basic-BGP-01"
+    type: "ss"
+    server: "tw1.network-cdn-gw-yd.net"
+    port: 46601
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "台湾-Basic-BGP-02"
+    type: "ss"
+    server: "tw02.network-cdn-gw-yd.net"
+    port: 46602
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "新加坡-IEPL-Basic专线-01"
+    type: "ss"
+    server: "sgp01.network-cdn-gw-yd.net"
+    port: 45506
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "韩国-IEPL-Basic专线-|X2|"
+    type: "ss"
+    server: "kr03.network-cdn-gw-yd.net"
+    port: 36220
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "越南-IEPL-Basic专线-01"
+    type: "ss"
+    server: "vn01.network-cdn-gw-yd.net"
+    port: 20011
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
+  - name: "英国-IEPL-Basic专线-01"
+    type: "ss"
+    server: "uks1.network-cdn-gw-yd.net"
+    port: 10014
+    cipher: "chacha20-ietf-poly1305"
+    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
   - name: "剩余流量：0"
     type: "vless"
     server: "asaa.mmm.top"
@@ -2305,7 +7378,7 @@ proxies:
     tls: true
     network: "tcp"
     udp: true
-  - name: "距离下次重置剩余：8 天"
+  - name: "距离下次重置剩余：7 天"
     type: "vless"
     server: "asaa.mmm.top"
     port: 10003
@@ -2317,13 +7390,7 @@ proxies:
     port: 10003
     uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
     udp: true
-  - name: "剩余流量：0"
-    type: "ss"
-    server: "ydyh1.nanbei-host.com"
-    port: 26912
-    cipher: "chacha20-ietf-poly1305"
-    password: "461f4996-a430-4482-a103-acef0713281a"
-  - name: "距离下次重置剩余：1 天"
+  - name: "剩余流量：100 GB"
     type: "ss"
     server: "ydyh1.nanbei-host.com"
     port: 26912
@@ -5884,12 +10951,484 @@ proxies:
     port: 28048
     cipher: "aes-128-gcm"
     password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "剩余流量：56.35 GB"
+  - name: "剩余流量：56.16 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
     cipher: "aes-128-gcm"
     password: "66fc385b-2626-49c4-8d2d-bc330f7500a8"
+  - name: "剩余流量：73.36+GB"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "距离下次重置剩余：29+天"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "套餐到期：2026-10-03"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "苏菲家宽官网地址：sufe.us/ai.sufe.pro"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "联通移动用中转"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 2083
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "官网地址防失联发布页：sufe.uk"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "优秀|【3x】中转|香港家宽🇭🇰"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 10020
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "香港家宽hy2🇭🇰"
+    type: "hysteria2"
+    server: "hkbn.388898.xyz"
+    port: 21761
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "【3x】中转|美国一🇺🇸"
+    type: "vless"
+    server: "06n4udhd2h.yun7.de"
+    port: 10000
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|美国二🇺🇸"
+    type: "vless"
+    server: "06n4udhd2h.yun7.de"
+    port: 10014
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|高速新加坡🇸🇬"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 40000
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|台湾🇹🇼"
+    type: "vless"
+    server: "06n4udhd2h.yun7.de"
+    port: 20041
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|日本樱花🇯🇵"
+    type: "vless"
+    server: "06n4udhd2h.yun7.de"
+    port: 10015
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|香港BGP🇭🇰"
+    type: "vless"
+    server: "06n4udhd2h.yun7.de"
+    port: 20011
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "优秀|【3x】中转|台湾hinet动态家宽01"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 10021
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "优秀|[3x]中转|台湾hinet家宽03"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20049
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "优秀|[3x]中转|台湾hinet家宽02"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20040
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|英国"
+    type: "vless"
+    server: "06n4udhd2h.yun7.de"
+    port: 10017
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|美国备用洛杉矶家宽🇺🇸"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 10018
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "美国AT&T家宽-02套餐hy2"
+    type: "hysteria2"
+    server: "att-b-02.388898.xyz"
+    port: 31770
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "美国AT&T家宽备用🇺🇸hy2"
+    type: "hysteria2"
+    server: "att-b-04.388898.xyz"
+    port: 31393
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "【3x】中转|美国洛杉矶"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20012
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|加拿大家宽🇨🇦"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 10007
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|台湾seednet动态家宽🇹🇼"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20016
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|英国家宽"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20013
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|日本NTT家宽"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20031
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|日本sony家宽"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20032
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|日本softbank家宽"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20033
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|韩国LG家宽"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20035
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|泰国家宽🇹🇭"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20036
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|越南家宽🇻🇳"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20037
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|美国备用家宽三🇺🇸"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20038
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "优秀|cf加速|香港动态家宽🇭🇰"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 2053
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "优秀|cf加速|香港动态家宽二🇭🇰"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|美国一"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|美国二"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|台湾🇹🇼"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|美国圣何塞"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 2083
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|中转新加坡🇸🇬"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|德国🇩🇪"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|美国AT&T家宽-02套餐🇺🇸"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|日本樱花"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "优秀|cf加速|台湾动态家宽🇹🇼"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|日本动态家宽🇯🇵"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 2053
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|泰国动态家宽🇹🇭"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 2096
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|越南动态家宽🇻🇳"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|日本softbank家宽🇯🇵"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 2087
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|韩国KT家宽"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 2096
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|韩国sk家宽🇰🇷"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|韩国动态家宽🇰🇷"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 2083
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|美国备用洛杉矶家宽一🇺🇸"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 2053
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|美国att备用家宽二"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 8443
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "cf加速|美国备用动态家宽三🇺🇸"
+    type: "vless"
+    server: "cf.090227.xyz"
+    port: 2087
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "加拿大家宽🇨🇦hy2"
+    type: "hysteria2"
+    server: "ca.388898.xyz"
+    port: 53931
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "[01]台湾hinet家宽🇨🇳hy2"
+    type: "hysteria2"
+    server: "hinet02.388898.xyz"
+    port: 33978
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "[02]台湾hinet家宽🇨🇳hy2"
+    type: "hysteria2"
+    server: "hinet10.388898.xyz"
+    port: 11164
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "[03]台湾hinet家宽🇨🇳hy2"
+    type: "hysteria2"
+    server: "hinet30.388898.xyz"
+    port: 11982
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "中转|尼日利亚家宽🇳🇬"
+    type: "vless"
+    server: "06n4udhd2h.yun7.de"
+    port: 20014
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "【3x】中转|德国🇩🇪"
+    type: "vless"
+    server: "8z6jirlr0f.yun7.de"
+    port: 20048
+    uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+  - name: "德国高速节点hy2🇩🇪"
+    type: "hysteria2"
+    server: "dodef.388898.xyz"
+    port: 31048
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "【1】新加坡高速节点🇸🇬hy2"
+    type: "hysteria2"
+    server: "sggo.388898.xyz"
+    port: 31181
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "【2】新加坡高速节点🇸🇬hy2"
+    type: "hysteria2"
+    server: "sggo.388898.xyz"
+    port: 32749
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "香港家宽hy2🇭🇰"
+    type: "hysteria2"
+    server: "hkbn.388898.xyz"
+    port: 21958
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "美国AT&T家宽-02套餐hy2"
+    type: "hysteria2"
+    server: "att-b-02.388898.xyz"
+    port: 31848
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "美国AT&T家宽备用🇺🇸hy2"
+    type: "hysteria2"
+    server: "att-b-04.388898.xyz"
+    port: 31044
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "加拿大家宽🇨🇦hy2"
+    type: "hysteria2"
+    server: "ca.388898.xyz"
+    port: 53852
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "[01]台湾hinet家宽🇨🇳hy2"
+    type: "hysteria2"
+    server: "hinet02.388898.xyz"
+    port: 33159
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "[02]台湾hinet家宽🇨🇳hy2"
+    type: "hysteria2"
+    server: "hinet10.388898.xyz"
+    port: 11657
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "[03]台湾hinet家宽🇨🇳hy2"
+    type: "hysteria2"
+    server: "hinet30.388898.xyz"
+    port: 11366
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "德国高速节点hy2🇩🇪"
+    type: "hysteria2"
+    server: "dodef.388898.xyz"
+    port: 31084
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "【1】新加坡高速节点🇸🇬hy2"
+    type: "hysteria2"
+    server: "sggo.388898.xyz"
+    port: 31131
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "【2】新加坡高速节点🇸🇬hy2"
+    type: "hysteria2"
+    server: "sggo.388898.xyz"
+    port: 32112
+    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
   - name: "Shadowsocks"
     type: "socks5"
     server: "127.0.0.1"
@@ -6062,6 +11601,118 @@ proxies:
     port: 10081
     cipher: "aes-256-gcm"
     password: "0_110abc"
+  - name: "剩余流量：19.65 GB"
+    type: "vmess"
+    server: "2605:e440:11::388"
+    port: 16003
+    uuid: "81a9c236-bfdb-4446-9ce5-6abcce975053"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: ""
+      headers:
+        Host: ""
+  - name: "距离下次重置剩余：25 天"
+    type: "vmess"
+    server: "2605:e440:11::388"
+    port: 16003
+    uuid: "81a9c236-bfdb-4446-9ce5-6abcce975053"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: ""
+      headers:
+        Host: ""
+  - name: "套餐到期：2026-09-24"
+    type: "vmess"
+    server: "2605:e440:11::388"
+    port: 16003
+    uuid: "81a9c236-bfdb-4446-9ce5-6abcce975053"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: ""
+      headers:
+        Host: ""
+  - name: "过滤掉28条线路"
+    type: "vmess"
+    server: "2605:e440:11::388"
+    port: 16003
+    uuid: "81a9c236-bfdb-4446-9ce5-6abcce975053"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: ""
+      headers:
+        Host: ""
+  - name: "❤️故障报修请发邮件❤️"
+    type: "vmess"
+    server: "2605:e440:11::388"
+    port: 16003
+    uuid: "81a9c236-bfdb-4446-9ce5-6abcce975053"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: ""
+      headers:
+        Host: ""
+  - name: "louwangzhiyu.org@gmail.com"
+    type: "vmess"
+    server: "2605:e440:11::392"
+    port: 17003
+    uuid: "81a9c236-bfdb-4446-9ce5-6abcce975053"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: ""
+      headers:
+        Host: ""
+  - name: "请在系统设置及翻墙软件的设置中同时启用 IPv6"
+    type: "vmess"
+    server: "2605:e440:47::25a"
+    port: 17211
+    uuid: "81a9c236-bfdb-4446-9ce5-6abcce975053"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: ""
+      headers:
+        Host: ""
+  - name: "请使用支持Hy2协议的最新版客户端，老版本识别不了节点"
+    type: "vmess"
+    server: "107.189.16.68"
+    port: 13010
+    uuid: "81a9c236-bfdb-4446-9ce5-6abcce975053"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: ""
+      headers:
+        Host: ""
   - name: "节点日期：2026-09-04"
     type: "trojan"
     server: "151.101.56.7"
@@ -6780,6 +12431,94 @@ proxies:
     port: 18153
     uuid: "41f4cb15-5a3f-3934-89fe-b4177146adf4"
     udp: true
+  - name: "剩余流量：518.86 GB"
+    type: "ss"
+    server: "ss.041.node-for-bigairport.win"
+    port: 16688
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "距离下次重置剩余：25 天"
+    type: "ss"
+    server: "ss.041.node-for-bigairport.win"
+    port: 16688
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "套餐到期：2026-11-13"
+    type: "ss"
+    server: "ss.041.node-for-bigairport.win"
+    port: 16688
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "[1x] [E] [直连] [SS] 日本 1"
+    type: "ss"
+    server: "ss.041.node-for-bigairport.win"
+    port: 16688
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "[1x] [E] [直连] [SS] 日本 2"
+    type: "ss"
+    server: "ss.042.node-for-bigairport.win"
+    port: 19000
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "[1x] [E] [直连] [SS] 日本 3"
+    type: "ss"
+    server: "ss.043.node-for-bigairport.win"
+    port: 19001
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "[1x] [E] [直连] [SS] 日本 4"
+    type: "ss"
+    server: "ss.044.node-for-bigairport.win"
+    port: 19001
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "[1x] [E] [直连] [SS] 香港 5"
+    type: "ss"
+    server: "ss.045.node-for-bigairport.win"
+    port: 19000
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "[1x] [E] [直连] [SS] 香港 6"
+    type: "ss"
+    server: "ss.046.node-for-bigairport.win"
+    port: 19000
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "[1x] [E] [直连] [SS] 香港 7"
+    type: "ss"
+    server: "ss.047.node-for-bigairport.win"
+    port: 19001
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "[1x] [E] [直连] [SS] 香港 8"
+    type: "ss"
+    server: "ss.048.node-for-bigairport.win"
+    port: 19000
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "[1x] [E] [直连] [SS] 新加坡 9"
+    type: "ss"
+    server: "ss.049.node-for-bigairport.win"
+    port: 19000
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "[1x] [E] [直连] [SS] 新加坡 10"
+    type: "ss"
+    server: "ss.050.node-for-bigairport.win"
+    port: 19001
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+  - name: "国内入口：bigairport-mirror.com 固定入口：大机场.com  电报讨论群组：BigAirport_Group"
+    type: "vmess"
+    server: "1.1.1.1"
+    port: 65535
+    uuid: "792e0bdb-01db-450c-94c4-925151eb396e"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
   - name: "套餐到期：2027-03-09"
     type: "ss"
     server: "127.0.0.1"
@@ -6795,7 +12534,7 @@ proxies:
     behavior: "classical"
     format: "yaml"
     size-limit: 0
-  - name: "剩余流量：55.22 GB"
+  - name: "剩余流量：54.65 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -6874,7 +12613,7 @@ proxy-groups:
       - "电报群https://t.me/feiniaoyunjichang"
       - "防失联页https://github.com/feiniaoyun"
       - "剩余流量：1000000000 GB"
-      - "距离下次重置剩余：9 天"
+      - "距离下次重置剩余：8 天"
       - "套餐到期：13433-12-13"
       - "德国 -超时更新-02"
       - "法国 -超时更新-01"
@@ -7003,7 +12742,6 @@ proxy-groups:
       - "US-LAX-DC12-004[TCP]"
       - "US-LAX-DC12-005[UDP]"
       - "US-LAX-DC12-005[TCP]"
-      - "官网: www.雨燕云.com"
       - "套餐到期:2025-10-15"
       - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-12-13"
@@ -7128,7 +12866,7 @@ proxy-groups:
       - "🇨🇳 TW-07"
       - "🇦🇶 订阅于2026年05月25日 21:50已到期"
       - "剩余流量：0"
-      - "距离下次重置剩余：27 天"
+      - "距离下次重置剩余：26 天"
       - "套餐到期：2027-04-01"
       - "提示:若失效请重新拉取节点 | 站点：https://dh.221345.xyz"
       - "[hy2]NL｜荷兰-阿姆斯特丹/1(ipv6)"
@@ -7139,16 +12877,518 @@ proxy-groups:
       - "🇦🇶 [流量 1天后 自动重置]"
       - "🇦🇶 也可登陆官网 加购流量包"
       - "🇦🇶 ⚠️‼️ 流量已耗尽 请加流量 ‼️"
+      - "美国+CloudFlare节点"
+      - "德国+法尔肯施泰因HETZNER"
+      - "美国+加州"
+      - "英国+V2CROSS.COM"
+      - "美国+CloudFlare节点"
+      - "英国+V2CROSS.COM"
+      - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "保加利亚+V2CROSS.COM"
+      - "美国+CloudFlare节点"
+      - "俄罗斯+莫斯科justhost.ru"
+      - "美国+V2CROSS.COM"
+      - "美国+CloudFlare节点"
+      - "乌克兰+V2CROSS.COM"
+      - "欧盟+V2CROSS.COM"
+      - "🇺🇸US-37.19.198.244-0095"
+      - "🇺🇸US-37.19.198.160-0100"
+      - "🇺🇸US-37.19.198.236-0101"
+      - "🇺🇸US-37.19.198.243-0102"
+      - "🇨🇦CA-3.97.16.160-0438"
+      - "🇬🇧GB-82.38.31.216-0107"
+      - "🇬🇧GB-82.38.31.208-0137"
+      - "🇬🇧GB-82.38.31.217-0103"
+      - "🇬🇧GB-82.38.31.189-0121"
+      - "🇬🇧GB-82.38.31.210-0136"
+      - "🇬🇧GB-82.38.31.15-0123"
+      - "🇬🇧GB-82.38.31.16-0127"
+      - "🇺🇸US-156.146.38.167-0097"
+      - "🇳🇱NL-193.29.139.204-0132"
+      - "🇬🇧GB-82.38.31.187-0133"
+      - "🇳🇱NL-193.29.139.151-0125"
+      - "🇳🇱NL-193.29.139.235-0114"
+      - "🇳🇱NL-193.29.139.168-0124"
+      - "🇬🇧GB-82.38.31.174-0112"
+      - "🇬🇧GB-82.38.31.184-0122"
+      - "🇬🇧GB-82.38.31.214-0108"
+      - "🇬🇧GB-82.38.31.179-0139"
+      - "🇬🇧GB-82.38.31.205-0130"
+      - "🇬🇧GB-82.38.31.35-0126"
+      - "🇬🇧GB-82.38.31.34-0135"
+      - "🇬🇧GB-82.38.31.174-0110"
+      - "🇳🇱NL-193.29.139.147-0104"
+      - "🇬🇧GB-82.38.31.155-0134"
+      - "🇺🇸US-156.146.38.170-0096"
+      - "🇬🇧GB-82.38.31.35-0120"
+      - "🇺🇸US-156.146.38.169-0099"
+      - "🇳🇱NL-193.29.139.223-0131"
+      - "🇬🇧GB-82.38.31.186-0113"
+      - "🇬🇧GB-82.38.31.46-0140"
+      - "🇬🇧GB-82.38.31.194-0105"
+      - "🇬🇧GB-82.38.31.192-0106"
+      - "🇺🇸US-156.146.38.168-0098"
+      - "🇬🇧GB-146.70.61.37-0191"
+      - "🇬🇧GB-82.38.31.149-0128"
+      - "🇬🇧GB-82.38.31.180-0129"
+      - "🇬🇧GB-82.38.31.191-0117"
+      - "🇬🇧GB-82.38.31.57-0138"
+      - "🇬🇧GB-82.38.31.49-0118"
+      - "🇨🇦CA-137.184.174.93-0189"
+      - "🇬🇧GB-82.38.31.36-0119"
+      - "🇺🇸US-108.181.0.177-0116"
+      - "🇬🇧GB-82.38.31.212-0109"
+      - "🇨🇦CA-108.181.118.10-0146"
+      - "🇳🇱NL-109.201.152.181-0141"
+      - "🇳🇱NL-108.181.126.122-0147"
+      - "🇳🇱NL-108.181.58.239-0148"
+      - "🇬🇧GB-82.38.31.48-0115"
+      - "🇺🇸US-107.175.91.118-5169"
+      - "🇺🇸US-173.244.56.9-0145"
+      - "🇺🇸US-173.244.56.6-0143"
+      - "🇩🇪DE-209.46.102.22-0149"
+      - "🇨🇦CA-149.22.95.183-0144"
+      - "🇮🇪IE-3.252.205.48-0430"
+      - "🇳🇱NL-158.173.20.171-0150"
+      - "🇬🇧GB-82.38.31.202-0111"
+      - "🇬🇧GB-13.40.94.70-0188"
+      - "🇳🇴NO-185.213.23.63-0153"
+      - "🇩🇪DE-8.209.74.72-0152"
+      - "🇨🇦CA-23.162.200.227-1092"
+      - "🇬🇧GB-141.98.101.181-0151"
+      - "🇯🇵JP-149.22.87.240-0155"
+      - "🇯🇵JP-149.22.87.204-0163"
+      - "🇯🇵JP-45.32.16.53-5101"
+      - "🇯🇵JP-149.22.87.241-0154"
+      - "🇸🇬SG-103.36.91.32-0217"
+      - "🇺🇸US-144.31.243.2-0158"
+      - "🇯🇵JP-176.97.73.215-0157"
+      - "🇿🇦ZA-102.133.165.160-0162"
+      - "🇿🇦ZA-102.37.156.224-0160"
+      - "🇮🇹IT-194.87.47.204-0159"
+      - "🇫🇷FR-95.170.13.47-0176"
+      - "🇨🇦CA-142.4.216.225-0166"
+      - "🇬🇧GB-94.156.250.148-0164"
+      - "🇬🇧GB-82.38.31.176-0177"
+      - "🇹🇼TW-36.224.151.80-0165"
+      - "🇹🇼TW-36.224.152.189-0214"
+      - "🇺🇸US-15.204.247.244-0167"
+      - "🇬🇧GB-82.38.31.199-0168"
+      - "🇬🇧GB-82.38.31.2-0175"
+      - "🇬🇧GB-82.38.31.10-0174"
+      - "🇨🇳CN-121.46.230.233-0194"
+      - "🇨🇳CN-121.46.230.232-0190"
+      - "🇺🇸US-216.105.168.18-0216"
+      - "🇰🇷KR-218.237.185.230-0183"
+      - "🇬🇧GB-82.38.31.219-0172"
+      - "🇨🇳CN-121.46.230.138-0223"
+      - "🇲🇾MY-118.107.222.231-0180"
+      - "🇮🇳IN-152.67.8.205-0171"
+      - "🇬🇧GB-82.38.31.218-0170"
+      - "🇰🇷KR-211.178.105.134-0178"
+      - "🇰🇷KR-218.237.185.230-0181"
+      - "🇰🇷KR-221.139.79.57-0179"
+      - "🇭🇰HK-156.245.232.239-0184"
+      - "🇳🇱NL-92.112.126.90-0182"
+      - "🇭🇰HK-47.244.120.197-5004"
+      - "🇭🇰HK-47.244.120.197-5005"
+      - "🇲🇾MY-47.250.45.234-5017"
+      - "🇲🇾MY-47.250.45.234-5018"
+      - "🇺🇸US-64.94.95.118-5044"
+      - "🇭🇰HK-148.66.56.99-2670"
+      - "🇹🇼TW-36.224.147.226-0169"
+      - "🇹🇭TH-103.169.67.34-0161"
+      - "🇫🇷FR-162.19.192.89-0156"
+      - "🇯🇵JP-54.168.242.25-0142"
+      - "🇨🇳CN-120.240.55.137-0090"
+      - "🇺🇸US-38.249.23.97-0079"
+      - "🇸🇬SG-91.243.81.39-0185"
+      - "🏁RELAY-203.30.191.191-0186"
+      - "🇫🇷FR-162.19.192.89-0187"
+      - "🇭🇰HK-18.167.94.243-0070"
+      - "🇭🇰HK-18.167.94.243-0068"
+      - "🇯🇵JP-193.38.139.204-0061"
+      - "🇯🇵JP-193.38.139.204-0060"
+      - "🇨🇳CN-120.240.55.137-0192"
+      - "🇨🇳CN-119.36.161.40-0193"
+      - "🇭🇰HK-18.167.20.169-0054"
+      - "🇪🇸ES-5.188.181.201-0195"
+      - "🏁RELAY-104.18.21.226-0196"
+      - "🇰🇿KZ-5.180.21.146-0197"
+      - "🇺🇸US-38.249.23.97-0198"
+      - "🇨🇳CN-36.137.199.99-0200"
+      - "🇳🇱NL-37.1.220.158-0201"
+      - "🇺🇸US-38.75.136.34-0203"
+      - "🏁RELAY-141.193.213.20-0204"
+      - "🇨🇳CN-119.36.161.40-0205"
+      - "🇭🇰HK-47.244.120.197-0207"
+      - "🇷🇺RU-91.206.92.176-0211"
+      - "🇰🇷KR-43.201.249.3-0212"
+      - "🇵🇱PL-217.30.10.68-0213"
+      - "🏁RELAY-141.193.213.21-0051"
+      - "🇲🇾MY-47.250.45.234-0215"
+      - "🇦🇺AU-103.224.212.142-0050"
+      - "🏁RELAY-141.193.213.20-0048"
+      - "🇸🇬SG-81.28.13.69-0218"
+      - "🇺🇸US-23.236.69.39-0219"
+      - "🇰🇷KR-132.145.80.230-0220"
+      - "🇨🇦CA-35.182.250.193-0221"
+      - "🇨🇦CA-35.182.226.121-0222"
+      - "🇭🇰HK-147.139.7.71-0041"
+      - "🏁RELAY-104.16.117.43-0224"
+      - "🇸🇬SG-13.213.46.196-0229"
+      - "🇨🇳CN-14.29.124.168-0230"
+      - "🇺🇸US-38.121.43.65-0233"
+      - "🇦🇪AE-20.216.40.219-0234"
+      - "🏁RELAY-104.26.8.76-0235"
+      - "🏁RELAY-141.193.213.21-0237"
+      - "🏁RELAY-104.23.102.53-0238"
+      - "🇩🇪DE-193.108.118.30-0239"
+      - "🇦🇪AE-20.216.40.219-0240"
+      - "🇳🇱NL-37.1.220.158-0241"
+      - "🇬🇧GB-20.77.245.193-0242"
+      - "🇨🇦CA-20.104.183.100-0243"
+      - "🇭🇰HK-175.29.23.105-0244"
+      - "🇺🇸US-20.9.46.251-0245"
+      - "🇰🇷KR-20.214.138.184-0246"
+      - "🇿🇦ZA-102.37.100.144-0247"
+      - "🇬🇧GB-20.90.249.210-0248"
+      - "🇨🇦CA-134.195.198.147-0249"
+      - "🇺🇸US-20.9.46.251-0250"
+      - "🇿🇦ZA-102.37.100.144-0251"
+      - "🇨🇦CA-20.104.96.194-0252"
+      - "🇧🇷BR-20.206.76.37-0253"
+      - "🇫🇷FR-40.89.155.71-0254"
+      - "🇨🇦CA-20.104.183.100-0255"
+      - "🇧🇷BR-20.206.76.37-0256"
+      - "🇨🇦CA-20.104.96.194-0257"
+      - "🇺🇸US-20.10.159.29-0258"
+      - "🇭🇰HK-20.239.89.71-0259"
+      - "🇺🇸US-20.231.111.125-0260"
+      - "🇺🇸US-20.231.111.125-0261"
+      - "🇳🇱NL-52.232.66.152-0262"
+      - "🇺🇸US-20.10.159.29-0263"
+      - "🇭🇰HK-95.40.120.162-0264"
+      - "🇯🇵JP-95.85.94.57-0265"
+      - "🇬🇧GB-20.90.249.210-0266"
+      - "🇬🇧GB-20.77.245.193-0267"
+      - "🇭🇰HK-47.240.51.89-0269"
+      - "🇬🇧GB-212.102.53.197-0270"
+      - "🇺🇸US-38.114.114.19-0271"
+      - "🇮🇪IE-34.244.150.119-0272"
+      - "🇮🇪IE-3.250.80.208-0273"
+      - "🇫🇷FR-40.89.155.71-0274"
+      - "🇪🇸ES-5.188.181.201-0275"
+      - "🇳🇱NL-52.232.66.152-0276"
+      - "🇨🇦CA-3.96.124.46-0277"
+      - "🇺🇸US-38.75.136.34-0278"
+      - "🇺🇸US-38.91.107.37-0279"
+      - "🇪🇸ES-5.188.181.201-0280"
+      - "🇺🇸US-38.91.107.37-0281"
+      - "🇺🇸US-38.75.136.34-0282"
+      - "🇯🇵JP-20.89.43.106-0283"
+      - "🇭🇰HK-20.239.195.254-0284"
+      - "🇯🇵JP-140.83.57.20-0285"
+      - "🇺🇸US-38.75.136.34-0286"
+      - "🇺🇸US-38.75.136.34-0287"
+      - "🇩🇪_DE_德国"
+      - "🇨🇳_CN_中国"
+      - "🇳🇱_NL_荷兰"
+      - "🇳🇱_NL_荷兰"
+      - "🇺🇸_US_美国"
+      - "🇨🇭_CH_瑞士->🇫🇮_FI_芬兰"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国"
+      - "🇩🇪_DE_德国"
+      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+      - "自适应分流"
+      - "电信分流"
+      - "移动分流"
+      - "🇺🇸 美国 001"
+      - "🇹🇷 土耳其 001"
+      - "🇺🇸 美国 002"
+      - "🇺🇸 美国 003"
+      - "🇺🇸 美国 004"
+      - "🇺🇸 美国 005"
+      - "🇺🇸 美国 006"
+      - "其他 001"
+      - "🇺🇸 美国 007"
+      - "🇫🇷 法国 001"
+      - "🇺🇸 美国 008"
+      - "🇺🇸 美国 009"
+      - "🇺🇸 美国 010"
+      - "其他 002"
+      - "其他 003"
+      - "🇨🇦 加拿大 001"
+      - "🇺🇸 美国 011"
+      - "🇺🇸 美国 012"
+      - "🇺🇸 美国 013"
+      - "🇺🇸 美国 014"
+      - "🇺🇸 美国 015"
+      - "🇷🇴 罗马尼亚 001"
+      - "🇺🇸 美国 016"
+      - "🇺🇸 美国 017"
+      - "其他 004"
+      - "🇺🇸 美国 018"
+      - "🇨🇳 中国 001"
+      - "🇨🇳 中国 002"
+      - "🇺🇸 美国 019"
+      - "🇺🇸 美国 020"
+      - "其他 005"
+      - "🇺🇸 美国 021"
+      - "🇺🇦 乌克兰 001"
+      - "🇺🇸 美国 022"
+      - "其他 006"
+      - "🇺🇸 美国 023"
+      - "🇨🇦 加拿大 002"
+      - "其他 007"
+      - "🇵🇱 波兰 001"
+      - "🇺🇸 美国 024"
+      - "🇺🇸 美国 025"
+      - "🇺🇸 美国 026"
+      - "🇺🇸 美国 027"
+      - "🇺🇸 美国 028"
+      - "🇺🇸 美国 029"
+      - "🇵🇱 波兰 002"
+      - "其他 008"
+      - "其他 009"
+      - "其他 010"
+      - "其他 011"
+      - "其他 012"
+      - "其他 013"
+      - "其他 014"
+      - "其他 015"
+      - "其他 016"
+      - "其他 017"
+      - "其他 018"
+      - "其他 019"
+      - "其他 020"
+      - "其他 021"
+      - "其他 022"
+      - "其他 023"
+      - "其他 024"
+      - "其他 025"
+      - "其他 026"
+      - "其他 027"
+      - "其他 028"
+      - "其他 029"
+      - "其他 030"
+      - "其他 031"
+      - "其他 032"
+      - "其他 033"
+      - "其他 034"
+      - "其他 035"
+      - "其他 036"
+      - "其他 037"
+      - "🇦🇺 澳大利亚 001"
+      - "其他 038"
+      - "其他 039"
+      - "其他 040"
+      - "其他 041"
+      - "其他 042"
+      - "其他 043"
+      - "其他 044"
+      - "其他 045"
+      - "其他 046"
+      - "其他 047"
+      - "其他 048"
+      - "其他 049"
+      - "其他 050"
+      - "其他 051"
+      - "🇨🇳 中国 003"
+      - "🇺🇸 美国 030"
+      - "🇺🇸 美国 031"
+      - "🇺🇸 美国 032"
+      - "🇨🇿 捷克 001"
+      - "🇺🇦 乌克兰 002"
+      - "🇵🇭 菲律宾 001"
+      - "乌兹别克斯坦 001"
+      - "其他 052"
+      - "科威特 001"
+      - "🇺🇦 乌克兰 003"
+      - "🇺🇸 美国 033"
+      - "其他 053"
+      - "🇰🇿 哈萨克斯坦 001"
+      - "🇨🇦 加拿大 003"
+      - "🇻🇳 越南 001"
+      - "其他 054"
+      - "🇳🇱 荷兰 001"
+      - "🇺🇸 美国 034"
+      - "🇺🇸 美国 035"
+      - "🇨🇦 加拿大 004"
+      - "🇺🇸 美国 036"
+      - "🇺🇸 美国 037"
+      - "🇺🇸 美国 038"
+      - "🇰🇷 韩国 001"
+      - "🇺🇸 美国 039"
+      - "🇺🇸 美国 040"
+      - "🇺🇸 美国 041"
+      - "🇲🇳 蒙古 001"
+      - "🇨🇦 加拿大 005"
+      - "🇨🇦 加拿大 006"
+      - "🇺🇸 美国 042"
+      - "🇺🇸 美国 043"
+      - "🇺🇸 美国 044"
+      - "🇺🇸 美国 045"
+      - "🇺🇸 美国 046"
+      - "🇺🇸 美国 047"
+      - "🇺🇸 美国 048"
+      - "🇺🇸 美国 049"
+      - "🇺🇸 美国 050"
+      - "🇺🇸 美国 051"
+      - "🇺🇸 美国 052"
+      - "🇨🇦 加拿大 007"
+      - "🇸🇪 瑞典 001"
+      - "🇺🇸 美国 053"
+      - "🇺🇸 美国 054"
+      - "🇺🇸 美国 055"
+      - "🇺🇸 美国 056"
+      - "🇺🇸 美国 057"
+      - "🇺🇸 美国 058"
+      - "🇨🇦 加拿大 008"
+      - "🇨🇳 中国 004"
+      - "🇸🇪 瑞典 002"
+      - "🇺🇸 美国 059"
+      - "🇺🇸 美国 060"
+      - "🇺🇸 美国 061"
+      - "🇨🇦 加拿大 009"
+      - "🇺🇸 美国 062"
+      - "🇺🇸 美国 063"
+      - "🇨🇦 加拿大 010"
+      - "🇺🇸 美国 064"
+      - "🇸🇪 瑞典 003"
+      - "🇺🇸 美国 065"
+      - "🇺🇸 美国 066"
+      - "🇸🇪 瑞典 004"
+      - "🇺🇸 美国 067"
+      - "🇺🇸 美国 068"
+      - "🇺🇸 美国 069"
+      - "🇺🇸 美国 070"
+      - "🇺🇸 美国 071"
+      - "🇸🇪 瑞典 005"
+      - "🇺🇸 美国 072"
+      - "🇺🇸 美国 073"
+      - "🇨🇦 加拿大 011"
+      - "🇺🇸 美国 074"
+      - "🇰🇬 吉尔吉斯斯坦 001"
+      - "其他 055"
+      - "🇨🇳 中国 005"
+      - "🇺🇸 美国 075"
+      - "🇺🇸 美国 076"
+      - "🇰🇿 哈萨克斯坦 002"
+      - "🇺🇸 美国 077"
+      - "🇳🇱 荷兰 002"
+      - "🇯🇵 日本 001"
+      - "🇺🇸 美国 078"
+      - "🇺🇸 美国 079"
+      - "🇦🇺 澳大利亚 002"
+      - "🇦🇺 澳大利亚 003"
+      - "🇦🇺 澳大利亚 004"
+      - "🇨🇦 加拿大 012"
+      - "🇨🇳 中国 006"
+      - "🇯🇵 日本 002"
+      - "🇯🇵 日本 003"
+      - "🇷🇴 罗马尼亚 002"
+      - "🇺🇦 乌克兰 004"
+      - "🇸🇬 新加坡 001"
+      - "🇸🇬 新加坡 002"
+      - "🇨🇳 中国 007"
+      - "🇨🇳 中国 008"
+      - "其他 056"
+      - "🇺🇸 美国 080"
+      - "🇺🇸 美国 081"
+      - "🇺🇸 美国 082"
+      - "🇺🇸 美国 083"
+      - "🇺🇸 美国 084"
+      - "🇺🇸 美国 085"
+      - "🇺🇸 美国 086"
+      - "🇺🇸 美国 087"
+      - "🇺🇸 美国 088"
+      - "其他 057"
+      - "🇺🇸 美国 089"
+      - "🇺🇸 美国 090"
+      - "🇺🇸 美国 091"
+      - "🇺🇸 美国 092"
+      - "🇺🇸 美国 093"
+      - "🇺🇸 美国 094"
+      - "🇺🇸 美国 095"
+      - "🇺🇸 美国 096"
+      - "🇺🇸 美国 097"
+      - "🇺🇸 美国 098"
+      - "其他 058"
+      - "其他 059"
+      - "🇺🇸 美国 099"
+      - "🇺🇸 美国 100"
+      - "🇺🇸 美国 101"
+      - "其他 060"
+      - "🇺🇸 美国 102"
+      - "🇺🇸 美国 103"
+      - "🇺🇸 美国 104"
+      - "🇺🇸 美国 105"
+      - "🇺🇸 美国 106"
+      - "🇺🇸 美国 107"
+      - "🇺🇸 美国 108"
+      - "🇺🇸 美国 109"
+      - "🇺🇸 美国 110"
+      - "🇺🇸 美国 111"
+      - "其他 061"
+      - "🇺🇸 美国 112"
+      - "🇺🇸 美国 113"
+      - "🇺🇸 美国 114"
+      - "🇺🇸 美国 115"
+      - "🇧🇷 巴西 001"
+      - "🇧🇷 巴西 002"
+      - "🇧🇷 巴西 003"
+      - "🇧🇷 巴西 004"
+      - "🇧🇷 巴西 005"
+      - "🇧🇷 巴西 006"
+      - "🇧🇷 巴西 007"
+      - "🇧🇷 巴西 008"
+      - "🇧🇷 巴西 009"
+      - "🇧🇷 巴西 010"
+      - "🇧🇷 巴西 011"
+      - "🇮🇳 印度 001"
+      - "🇯🇵 日本 004"
+      - "其他 063"
+      - "🇺🇸 美国 116"
+      - "🇺🇸 美国 117"
+      - "其他 064"
+      - "剩余流量：-0.55000000000001 GB"
+      - "距离下次重置剩余：11 天"
+      - "套餐到期：2026-09-16"
+      - "官网导航入口:gw.grrnc.com"
+      - "香港-Basic-BGP-01"
+      - "香港-Basic-BGP-02"
+      - "香港-Basic-BGP-03"
+      - "香港-Basic-BGP-04"
+      - "香港-Basic-BGP-05"
+      - "香港-Basic-BGP-06"
+      - "香港-Basic-BGP-07"
+      - "香港-Basic-BGP-08"
+      - "香港-Basic-BGP-09"
+      - "香港-Basic-BGP-10"
+      - "美国-Basic-01"
+      - "美国-Basic-02"
+      - "美国-Basic-03"
+      - "美国-Basic直连-01|gpt|三网优化线路|X3"
+      - "美国-Basic直连-02|gpt|三网优化线路|X3"
+      - "日本-Basic-BGP-01"
+      - "日本-Basic-BGP-02"
+      - "台湾-Basic-BGP-01"
+      - "台湾-Basic-BGP-02"
+      - "新加坡-IEPL-Basic专线-01"
+      - "韩国-IEPL-Basic专线-|X2|"
+      - "越南-IEPL-Basic专线-01"
+      - "英国-IEPL-Basic专线-01"
       - "剩余流量：0"
       - "距离下次重置剩余：27 天"
       - "套餐到期：2027-09-01"
       - "⚠️保持软件为最新版"
       - "⚠️使用前更新订阅"
       - "🇺🇸美国 公益"
-      - "距离下次重置剩余：8 天"
+      - "距离下次重置剩余：7 天"
       - "套餐到期：2029-06-11"
-      - "剩余流量：0"
-      - "距离下次重置剩余：1 天"
+      - "剩余流量：100 GB"
       - "套餐到期：2026-09-05"
       - "香港-优化1"
       - "香港-优化2"
@@ -7510,7 +13750,79 @@ proxy-groups:
       - "🇨🇦 加拿大 02 专线"
       - "🇦🇺 澳大利亚 01 专线"
       - "🇦🇺 澳大利亚 02 专线"
-      - "剩余流量：56.35 GB"
+      - "剩余流量：56.16 GB"
+      - "剩余流量：73.36+GB"
+      - "距离下次重置剩余：29+天"
+      - "套餐到期：2026-10-03"
+      - "苏菲家宽官网地址：sufe.us/ai.sufe.pro"
+      - "联通移动用中转"
+      - "官网地址防失联发布页：sufe.uk"
+      - "优秀|【3x】中转|香港家宽🇭🇰"
+      - "香港家宽hy2🇭🇰"
+      - "【3x】中转|美国一🇺🇸"
+      - "【3x】中转|美国二🇺🇸"
+      - "【3x】中转|高速新加坡🇸🇬"
+      - "【3x】中转|台湾🇹🇼"
+      - "【3x】中转|日本樱花🇯🇵"
+      - "【3x】中转|香港BGP🇭🇰"
+      - "优秀|【3x】中转|台湾hinet动态家宽01"
+      - "优秀|[3x]中转|台湾hinet家宽03"
+      - "优秀|[3x]中转|台湾hinet家宽02"
+      - "【3x】中转|英国"
+      - "【3x】中转|美国备用洛杉矶家宽🇺🇸"
+      - "美国AT&T家宽-02套餐hy2"
+      - "美国AT&T家宽备用🇺🇸hy2"
+      - "【3x】中转|美国洛杉矶"
+      - "【3x】中转|加拿大家宽🇨🇦"
+      - "【3x】中转|台湾seednet动态家宽🇹🇼"
+      - "【3x】中转|英国家宽"
+      - "【3x】中转|日本NTT家宽"
+      - "【3x】中转|日本sony家宽"
+      - "【3x】中转|日本softbank家宽"
+      - "【3x】中转|韩国LG家宽"
+      - "【3x】中转|泰国家宽🇹🇭"
+      - "【3x】中转|越南家宽🇻🇳"
+      - "【3x】中转|美国备用家宽三🇺🇸"
+      - "优秀|cf加速|香港动态家宽🇭🇰"
+      - "优秀|cf加速|香港动态家宽二🇭🇰"
+      - "cf加速|美国一"
+      - "cf加速|美国二"
+      - "cf加速|台湾🇹🇼"
+      - "cf加速|美国圣何塞"
+      - "cf加速|中转新加坡🇸🇬"
+      - "cf加速|德国🇩🇪"
+      - "cf加速|美国AT&T家宽-02套餐🇺🇸"
+      - "cf加速|日本樱花"
+      - "优秀|cf加速|台湾动态家宽🇹🇼"
+      - "cf加速|日本动态家宽🇯🇵"
+      - "cf加速|泰国动态家宽🇹🇭"
+      - "cf加速|越南动态家宽🇻🇳"
+      - "cf加速|日本softbank家宽🇯🇵"
+      - "cf加速|韩国KT家宽"
+      - "cf加速|韩国sk家宽🇰🇷"
+      - "cf加速|韩国动态家宽🇰🇷"
+      - "cf加速|美国备用洛杉矶家宽一🇺🇸"
+      - "cf加速|美国att备用家宽二"
+      - "cf加速|美国备用动态家宽三🇺🇸"
+      - "加拿大家宽🇨🇦hy2"
+      - "[01]台湾hinet家宽🇨🇳hy2"
+      - "[02]台湾hinet家宽🇨🇳hy2"
+      - "[03]台湾hinet家宽🇨🇳hy2"
+      - "中转|尼日利亚家宽🇳🇬"
+      - "【3x】中转|德国🇩🇪"
+      - "德国高速节点hy2🇩🇪"
+      - "【1】新加坡高速节点🇸🇬hy2"
+      - "【2】新加坡高速节点🇸🇬hy2"
+      - "香港家宽hy2🇭🇰"
+      - "美国AT&T家宽-02套餐hy2"
+      - "美国AT&T家宽备用🇺🇸hy2"
+      - "加拿大家宽🇨🇦hy2"
+      - "[01]台湾hinet家宽🇨🇳hy2"
+      - "[02]台湾hinet家宽🇨🇳hy2"
+      - "[03]台湾hinet家宽🇨🇳hy2"
+      - "德国高速节点hy2🇩🇪"
+      - "【1】新加坡高速节点🇸🇬hy2"
+      - "【2】新加坡高速节点🇸🇬hy2"
       - "Shadowsocks"
       - "🇺🇸美国洛杉矶"
       - "🇺🇸美国芝加哥 [0.5×]"
@@ -7535,6 +13847,14 @@ proxy-groups:
       - "节点是否可用与订阅链接过期没关系"
       - "教程：doc.miyun.app"
       - "官网：miyun.de"
+      - "剩余流量：19.65 GB"
+      - "距离下次重置剩余：25 天"
+      - "套餐到期：2026-09-24"
+      - "过滤掉28条线路"
+      - "❤️故障报修请发邮件❤️"
+      - "louwangzhiyu.org@gmail.com"
+      - "请在系统设置及翻墙软件的设置中同时启用 IPv6"
+      - "请使用支持Hy2协议的最新版客户端，老版本识别不了节点"
       - "节点日期：2026-09-04"
       - "US【机场推荐：https://a9a.xyz】1"
       - "CA【机场推荐：https://a9a.xyz】2"
@@ -7641,6 +13961,20 @@ proxy-groups:
       - "UN【机场推荐：https://a9a.xyz】103"
       - "UN【机场推荐：https://a9a.xyz】104"
       - "UN【机场推荐：https://a9a.xyz】105"
+      - "剩余流量：518.86 GB"
+      - "距离下次重置剩余：25 天"
+      - "套餐到期：2026-11-13"
+      - "[1x] [E] [直连] [SS] 日本 1"
+      - "[1x] [E] [直连] [SS] 日本 2"
+      - "[1x] [E] [直连] [SS] 日本 3"
+      - "[1x] [E] [直连] [SS] 日本 4"
+      - "[1x] [E] [直连] [SS] 香港 5"
+      - "[1x] [E] [直连] [SS] 香港 6"
+      - "[1x] [E] [直连] [SS] 香港 7"
+      - "[1x] [E] [直连] [SS] 香港 8"
+      - "[1x] [E] [直连] [SS] 新加坡 9"
+      - "[1x] [E] [直连] [SS] 新加坡 10"
+      - "国内入口：bigairport-mirror.com 固定入口：大机场.com  电报讨论群组：BigAirport_Group"
       - "套餐到期：2027-03-09"
       - "Unnamed"
-      - "剩余流量：55.22 GB"
+      - "剩余流量：54.65 GB"
