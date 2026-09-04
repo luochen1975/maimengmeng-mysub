@@ -1,104 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 23:13:31
+# 生成时间: 2026-09-04 04:16:34
 # 节点数量: 500
 
 proxies:
-  - name: "🇺🇸US-20.9.46.251-0229"
-    type: "ss"
-    server: "20.9.46.251"
-    port: 8080
-    cipher: "aes-256-gcm"
-    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🏁RELAY-104.18.21.226-0036"
-    type: "vmess"
-    server: "104.18.21.226"
-    port: 80
-    uuid: "a55b7d77-d251-4e31-a76e-22d09ac69eb0"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/vpnneo"
-      headers:
-        Host: "sanggoro6.nextvpn.cc"
-  - name: "🇰🇷KR-20.214.138.184-0231"
-    type: "vmess"
-    server: "20.214.138.184"
-    port: 80
-    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
-  - name: "🇿🇦ZA-102.37.100.144-0232"
-    type: "vmess"
-    server: "102.37.100.144"
-    port: 80
-    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
-  - name: "🇬🇧GB-20.90.249.210-0233"
-    type: "ss"
-    server: "20.90.249.210"
-    port: 8080
-    cipher: "aes-256-gcm"
-    password: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-  - name: "🇮🇳IN-152.67.8.205-0234"
-    type: "vmess"
-    server: "152.67.8.205"
-    port: 80
-    uuid: "9db4c708-aef8-4359-821b-38e47990be0d"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
-  - name: "🇨🇦CA-134.195.198.147-0235"
-    type: "vmess"
-    server: "134.195.198.147"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vk.com"
-  - name: "🇺🇸US-20.9.46.251-0236"
-    type: "vmess"
-    server: "20.9.46.251"
-    port: 80
-    uuid: "d218e51a-258f-43d2-8ce3-c8872611bf28"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
   - name: "🇿🇦ZA-102.37.100.144-0237"
     type: "ss"
     server: "102.37.100.144"
@@ -499,23 +403,43 @@ proxies:
     port: 8090
     cipher: "aes-256-gcm"
     password: "PCnnH6SQSnfoS27"
-  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
-    type: "vless"
-    server: "31.76.71.140"
-    port: 443
-    uuid: "af00e0c4-decf-48f2-9013-56abe9c9efcd"
+  - name: "🇭🇰_HK_中国香港"
+    type: "vmess"
+    server: "planb.mojcn.com.linuxlh.xin"
+    port: 16632
+    uuid: "cefbe234-bcc6-4558-ab7b-1030e331e6a5"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
     udp: true
-  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com"
+  - name: "🇨🇭_CH_瑞士->🇫🇮_FI_芬兰"
     type: "vless"
-    server: "jp.sofast.live"
-    port: 52683
-    uuid: "399b6b23-cc40-4831-a494-61948e2df133"
+    server: "31.76.4.128"
+    port: 5001
+    uuid: "5a92a9d2-3067-49cd-bfc5-989bbdfc5d52"
     udp: true
-  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
+  - name: "🇳🇱_NL_荷兰"
     type: "vless"
-    server: "us22.sofast.live"
-    port: 58011
-    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
+    server: "51.15.57.139"
+    port: 8080
+    uuid: "11af1c47-865a-47c6-92ff-118013655d78"
+    udp: true
+  - name: "🇳🇱_NL_荷兰"
+    type: "vless"
+    server: "meli-netbot-join.team-pluss.com"
+    port: 8080
+    uuid: "52b7a871-1455-4a6e-9e9c-78a0a1e43f86"
+    udp: true
+  - name: "🇳🇱_NL_荷兰"
+    type: "vless"
+    server: "51.158.241.182"
+    port: 8080
+    uuid: "11af1c47-865a-47c6-92ff-118013655d78"
     udp: true
   - name: "🇳🇱_NL_荷兰"
     type: "vless"
@@ -523,14 +447,54 @@ proxies:
     port: 443
     uuid: "791a171e-c0af-4bd7-b8ce-43541c7585db"
     udp: true
-  - name: "🇺🇸_US_美国"
-    type: "hysteria2"
-    server: "https"
-    port: 443
-    password: ""
+  - name: "🇯🇵_JP_日本"
+    type: "vmess"
+    server: "38.47.121.14"
+    port: 49432
+    uuid: "ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
     udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
+  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+    type: "vless"
+    server: "31.76.71.140"
+    port: 443
+    uuid: "af00e0c4-decf-48f2-9013-56abe9c9efcd"
+    udp: true
+  - name: "🇭🇰_HK_中国香港"
+    type: "vless"
+    server: "207.174.133.163"
+    port: 10000
+    uuid: "caec0d8d-ab2f-4247-b97d-7fb1a34ab195"
+    udp: true
+  - name: "🇩🇪_DE_德国"
+    type: "vless"
+    server: "188.220.67.245"
+    port: 2087
+    uuid: "90da514d-8888-4a53-912e-ac2981c8c6ee"
+    udp: true
+  - name: "🇹🇷_TR_土耳其"
+    type: "vmess"
+    server: "sacda.tr.snapeurop.com"
+    port: 80
+    uuid: "a17be1ef-d5bc-41a1-aeac-b02345823f07"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇺🇸_US_美国"
+    type: "vless"
+    server: "172.67.156.222"
+    port: 443
+    uuid: "ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba"
+    udp: true
   - name: "🇨🇳_CN_中国"
     type: "vmess"
     server: "112.132.215.108"
@@ -542,37 +506,49 @@ proxies:
     network: "tcp"
     udp: true
   - name: "🇺🇸_US_美国"
-    type: "vmess"
-    server: "38.246.226.240"
-    port: 52080
-    uuid: "7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "http"
+    type: "vless"
+    server: "182.16.61.6"
+    port: 45647
+    uuid: "6f361c37-bc54-43dd-8c8b-0f59354745a5"
     udp: true
   - name: "🇩🇪_DE_德国"
     type: "hysteria"
     server: "5.83.129.153"
     port: 20088
     udp: true
+  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
+    type: "vless"
+    server: "us22.sofast.live"
+    port: 58011
+    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
+    udp: true
+  - name: "🇺🇸_US_美国"
+    type: "vmess"
+    server: "v4.hdacd.com"
+    port: 30804
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    cipher: "auto"
+    alterId: 2
+    tls: false
+    network: "tcp"
+    udp: true
   - name: "自适应分流"
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "704211f8-52e7-4c7e-979e-8770e0b0b872"
+    uuid: "86a771c0-6de7-4ea9-832d-c2eaa42c1eb2"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "704211f8-52e7-4c7e-979e-8770e0b0b872"
+    uuid: "86a771c0-6de7-4ea9-832d-c2eaa42c1eb2"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "704211f8-52e7-4c7e-979e-8770e0b0b872"
+    uuid: "86a771c0-6de7-4ea9-832d-c2eaa42c1eb2"
     udp: true
   - name: "其他 001"
     type: "vmess"
@@ -6453,33 +6429,11 @@ proxies:
       path: "/shirker"
       headers:
         Host: "nl.sharecentre.online"
-  - name: "🇨🇳 中国 018"
-    type: "vmess"
-    server: "fullaccesstohongkongnet.azurewebsites.net"
-    port: 443
-    uuid: "274f11c6-f69b-40b9-8966-f39e06e97be7"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: "fullaccesstohongkongnet.azurewebsites.net"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇺🇸US-20.9.46.251-0229"
-      - "🏁RELAY-104.18.21.226-0036"
-      - "🇰🇷KR-20.214.138.184-0231"
-      - "🇿🇦ZA-102.37.100.144-0232"
-      - "🇬🇧GB-20.90.249.210-0233"
-      - "🇮🇳IN-152.67.8.205-0234"
-      - "🇨🇦CA-134.195.198.147-0235"
-      - "🇺🇸US-20.9.46.251-0236"
       - "🇿🇦ZA-102.37.100.144-0237"
       - "🇨🇦CA-20.104.96.194-0238"
       - "🇧🇷BR-20.206.76.37-0239"
@@ -6528,14 +6482,23 @@ proxy-groups:
       - "🇨🇦CA-134.195.196.85-0282"
       - "🇺🇸US-38.121.43.204-0283"
       - "🇺🇸US-38.121.43.204-0284"
-      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国"
+      - "🇭🇰_HK_中国香港"
+      - "🇨🇭_CH_瑞士->🇫🇮_FI_芬兰"
       - "🇳🇱_NL_荷兰"
+      - "🇳🇱_NL_荷兰"
+      - "🇳🇱_NL_荷兰"
+      - "🇳🇱_NL_荷兰"
+      - "🇯🇵_JP_日本"
+      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+      - "🇭🇰_HK_中国香港"
+      - "🇩🇪_DE_德国"
+      - "🇹🇷_TR_土耳其"
       - "🇺🇸_US_美国"
       - "🇨🇳_CN_中国"
       - "🇺🇸_US_美国"
       - "🇩🇪_DE_德国"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国"
+      - "🇺🇸_US_美国"
       - "自适应分流"
       - "电信分流"
       - "移动分流"
@@ -6971,4 +6934,3 @@ proxy-groups:
       - "🇨🇳 中国 016"
       - "🇨🇳 中国 017"
       - "🇺🇸 美国 275"
-      - "🇨🇳 中国 018"

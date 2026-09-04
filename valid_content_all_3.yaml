@@ -1,8 +1,22 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 23:13:31
+# 生成时间: 2026-09-04 04:16:34
 # 节点数量: 500
 
 proxies:
+  - name: "🇨🇳 中国 018"
+    type: "vmess"
+    server: "fullaccesstohongkongnet.azurewebsites.net"
+    port: 443
+    uuid: "274f11c6-f69b-40b9-8966-f39e06e97be7"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "fullaccesstohongkongnet.azurewebsites.net"
   - name: "🇨🇳 中国 019"
     type: "vmess"
     server: "47.242.65.80"
@@ -4415,17 +4429,12 @@ proxies:
     port: 8880
     uuid: "59a0424b-d36b-4685-bac5-89d50d8969a8"
     udp: true
-  - name: "🇺🇸 美国 552"
-    type: "vless"
-    server: "170.114.46.6"
-    port: 443
-    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
-    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇨🇳 中国 018"
       - "🇨🇳 中国 019"
       - "🇨🇳 中国 020"
       - "🇰🇷 韩国 005"
@@ -4925,4 +4934,3 @@ proxy-groups:
       - "🇷🇺 俄罗斯 018"
       - "🇷🇺 俄罗斯 019"
       - "🇺🇸 美国 551"
-      - "🇺🇸 美国 552"

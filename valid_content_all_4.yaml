@@ -1,8 +1,14 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-03 23:13:31
+# 生成时间: 2026-09-04 04:16:34
 # 节点数量: 500
 
 proxies:
+  - name: "🇺🇸 美国 552"
+    type: "vless"
+    server: "170.114.46.6"
+    port: 443
+    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
+    udp: true
   - name: "🇳🇿 新西兰 001"
     type: "vless"
     server: "202.37.33.80"
@@ -3017,17 +3023,12 @@ proxies:
     port: 47707
     cipher: "chacha20-ietf-poly1305"
     password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-08"
-    type: "ss"
-    server: "hk18.network-cdn-gw-yd.net"
-    port: 47708
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇺🇸 美国 552"
       - "🇳🇿 新西兰 001"
       - "🇺🇸 美国 553"
       - "🇩🇪 德国 031"
@@ -3527,4 +3528,3 @@ proxy-groups:
       - "香港-Basic-BGP-05"
       - "香港-Basic-BGP-06"
       - "香港-Basic-BGP-07"
-      - "香港-Basic-BGP-08"
