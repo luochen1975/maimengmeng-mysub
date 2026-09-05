@@ -1,6 +1,6 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-04 22:59:36
-# 节点数量: 1431
+# 生成时间: 2026-09-05 04:12:36
+# 节点数量: 1438
 
 proxies:
   - name: "剩余流量：0"
@@ -1022,7 +1022,7 @@ proxies:
     password: "24ef7cf6-9997-4886-9ef7-9e8233c6766f"
     tls: true
     udp: true
-  - name: "[trojan]距离下次重置剩余：25 天"
+  - name: "[trojan]距离下次重置剩余：24 天"
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
@@ -1057,7 +1057,7 @@ proxies:
     password: "24ef7cf6-9997-4886-9ef7-9e8233c6766f"
     tls: true
     udp: true
-  - name: "[trojan]距离下次重置剩余：23 天"
+  - name: "[trojan]距离下次重置剩余：22 天"
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
@@ -1069,13 +1069,6 @@ proxies:
     server: "jp200m.jiasu.asia"
     port: 50000
     password: "0e2e0e96-5beb-4f91-8f88-24f60451e745"
-    tls: true
-    udp: true
-  - name: "[trojan]距离下次重置剩余：24 天"
-    type: "trojan"
-    server: "jp200m.jiasu.asia"
-    port: 50000
-    password: "fd43209f-d9d6-42aa-9bd9-6ecb7f171164"
     tls: true
     udp: true
   - name: "❗您当前客户端v2rayN不支持hy协议❗"
@@ -2255,96 +2248,75 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.152.210"
-    port: 443
-    password: "humanity"
-    tls: true
+  - name: "美国+V2CROSS.COM"
+    type: "vless"
+    server: "192.0.63.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
   - name: "美国+CloudFlare节点"
     type: "vless"
-    server: "172.64.158.146"
-    port: 2052
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    server: "deepl.com"
+    port: 8880
+    uuid: "6d73dc1e-1627-4b16-b471-53e63aa16c78"
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "join-telegram-channel-tirexnet.trex.kdns.fr"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.152.77"
+    server: "104.18.23.63"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "104.16.174.14"
+    server: "ip.myip2.qzz.io"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "英国+V2CROSS.COM"
-    type: "trojan"
-    server: "176.97.66.175"
-    port: 443
-    password: "humanity"
-    tls: true
+  - name: "法国+V2CROSS.COM"
+    type: "vless"
+    server: "94.140.0.100"
+    port: 8880
+    uuid: "78e6619e-e82a-cd8d-b482-0973d8498305"
     udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.16.174.124"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.17.111.1"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+加州"
-    type: "trojan"
-    server: "216.24.57.7"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "卢森堡+root.lu数据中心"
-    type: "trojan"
-    server: "188.42.145.180"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.152.73"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "亚太地区+AT&T"
-    type: "hysteria2"
-    server: "vpn-au-002.fastervpn.world"
-    port: 443
-    password: "H7mP2xY9kJ4nQ8wR5tF6vB3z"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
   - name: "美国+V2CROSS.COM"
+    type: "vless"
+    server: "45.130.125.96"
+    port: 443
+    uuid: "28607fa7-db30-47d6-942a-f5744e4be9ad"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "104.24.152.211"
+    port: 8880
+    uuid: "def8ed1e-e07b-40e0-9bc0-7a2ba2cedd56"
+    udp: true
+  - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "165.215.250.14"
+    server: "104.18.152.233"
     port: 443
     password: "humanity"
     tls: true
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.16.174.6"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "新加坡+Amazon数据中心"
+    type: "vless"
+    server: "13.212.45.128"
+    port: 12322
+    uuid: "a2d84cff-5a0f-4559-b793-355d363a4738"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "skk.moe"
+    port: 8880
+    uuid: "160ca353-676d-4b7f-a041-0289e388b865"
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
@@ -2353,38 +2325,58 @@ proxies:
     password: "humanity"
     tls: true
     udp: true
-  - name: "美国+CloudFlare节点"
+  - name: "巴西圣保罗+CloudFlare节点"
     type: "vless"
-    server: "172.64.158.146"
-    port: 8880
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    server: "188.114.97.6"
+    port: 2087
+    uuid: "3cb4c775-bf08-4158-a0e3-cbae9ac452d7"
     udp: true
-  - name: "美国+CloudFlare节点"
+  - name: "美国+加州"
     type: "trojan"
-    server: "104.18.152.143"
+    server: "render.com"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "英国+V2CROSS.COM"
+  - name: "美国+Fastly全球Anycast节点"
     type: "vless"
-    server: "31.76.4.128"
-    port: 5001
-    uuid: "5a92a9d2-3067-49cd-bfc5-989bbdfc5d52"
+    server: "151.101.1.242"
+    port: 443
+    uuid: "d643c485-eb5d-4085-a7f6-1889049384cb"
     udp: true
-  - name: "美国+CloudFlare节点"
+  - name: "美国+V2CROSS.COM"
     type: "trojan"
-    server: "104.17.177.143"
+    server: "45.130.125.158"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "104.19.229.21"
+    server: "104.18.152.152"
     port: 443
     password: "humanity"
     tls: true
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "www.ignitelimit.com"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.16.174.121"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "丹麦+V2CROSS.COM"
+    type: "vless"
+    server: "193.163.203.170"
+    port: 443
+    uuid: "11aabba0-5fd1-4f15-8068-74c1a466cefc"
     udp: true
   - name: "🇺🇸US-156.146.38.167-0081"
     type: "ss"
@@ -3982,6 +3974,12 @@ proxies:
       path: "/"
       headers:
         Host: ""
+  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+    type: "vless"
+    server: "rrr.windconnect.pro"
+    port: 443
+    uuid: "af00e0c4-decf-48f2-9013-56abe9c9efcd"
+    udp: true
   - name: "🇩🇪_DE_德国"
     type: "vless"
     server: "188.220.67.245"
@@ -4000,24 +3998,45 @@ proxies:
     udp: true
   - name: "🇳🇱_NL_荷兰"
     type: "vless"
-    server: "51.15.57.139"
-    port: 8080
-    uuid: "11af1c47-865a-47c6-92ff-118013655d78"
+    server: "78.17.190.94"
+    port: 53289
+    uuid: "9a913f1c-28b3-4d0b-aa77-698302252ab7"
     udp: true
-  - name: "🇳🇱_NL_荷兰"
+  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
     type: "vless"
-    server: "51.158.241.182"
-    port: 8080
-    uuid: "11af1c47-865a-47c6-92ff-118013655d78"
-    udp: true
-  - name: "🇺🇸_US_美国"
-    type: "hysteria2"
-    server: "66.94.121.46"
+    server: "31.76.71.140"
     port: 443
-    password: "gf1"
+    uuid: "af00e0c4-decf-48f2-9013-56abe9c9efcd"
     udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
+  - name: "🇩🇪_DE_德国"
+    type: "vless"
+    server: "176.96.138.122"
+    port: 443
+    uuid: "b229d38c-35ec-4a0b-9c86-8fceba243d6c"
+    udp: true
+  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
+    type: "vless"
+    server: "jp.sofast.live"
+    port: 52683
+    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
+    udp: true
+  - name: "🇸🇪_SE_瑞典"
+    type: "vless"
+    server: "141.227.160.23"
+    port: 443
+    uuid: "0bc31c7f-1ee2-4dd3-929b-b61ae780eb3c"
+    udp: true
+  - name: "🇩🇪_DE_德国"
+    type: "hysteria"
+    server: "5.83.129.153"
+    port: 20088
+    udp: true
+  - name: "🇩🇪_DE_德国"
+    type: "vless"
+    server: "163.8.195.241"
+    port: 2087
+    uuid: "56ba5d34-ef22-4ba6-8090-4188b807df54"
+    udp: true
   - name: "🇨🇭_CH_瑞士->🇫🇮_FI_芬兰"
     type: "vless"
     server: "31.76.4.128"
@@ -4026,38 +4045,49 @@ proxies:
     udp: true
   - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
     type: "vless"
-    server: "jp.sofast.live"
-    port: 52683
-    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
+    server: "us22.sofast.live"
+    port: 58011
+    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
     udp: true
-  - name: "🇩🇪_DE_德国"
-    type: "hysteria"
-    server: "5.83.129.153"
-    port: 20088
-    udp: true
-  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+  - name: "🇺🇸_US_美国"
     type: "vless"
-    server: "31.76.71.140"
+    server: "172.67.140.11"
     port: 443
-    uuid: "af00e0c4-decf-48f2-9013-56abe9c9efcd"
+    uuid: "a90c264d-3853-4eef-9a3d-628b2d02d15e"
+    udp: true
+  - name: "🇵🇱_PL_波兰->🇳🇱_NL_荷兰"
+    type: "vless"
+    server: "178.95.170.83"
+    port: 2087
+    uuid: "bf443e4a-aa9e-4509-abf0-d0f6828d57be"
+    udp: true
+  - name: "🇭🇰_HK_中国香港->🇬🇧_GB_英国"
+    type: "vmess"
+    server: "v36.hdacd.com"
+    port: 30836
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    cipher: "auto"
+    alterId: 2
+    tls: false
+    network: "tcp"
     udp: true
   - name: "自适应分流"
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "b1f2bcbb-16bb-425c-b5b8-4d35c826d1f9"
+    uuid: "fbe41716-05f6-4733-819f-d19074e57158"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "b1f2bcbb-16bb-425c-b5b8-4d35c826d1f9"
+    uuid: "fbe41716-05f6-4733-819f-d19074e57158"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "b1f2bcbb-16bb-425c-b5b8-4d35c826d1f9"
+    uuid: "fbe41716-05f6-4733-819f-d19074e57158"
     udp: true
   - name: "🇺🇸 美国 001"
     type: "vmess"
@@ -7621,6 +7651,14 @@ proxies:
     port: 443
     uuid: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
+  - name: "🇯🇵日本-05"
+    type: "hysteria2"
+    server: "jpsb01.xn--9kqp42aims.top"
+    port: 20000
+    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
   - name: "🇯🇵日本-06"
     type: "hysteria2"
     server: "45.192.203.190"
@@ -7663,7 +7701,7 @@ proxies:
     down: "100 Mbps"
   - name: "🇭🇰香港-03"
     type: "hysteria2"
-    server: "141.11.90.244"
+    server: "hkak3g.xn--9kqp42aims.top"
     port: 20000
     password: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
@@ -7671,7 +7709,7 @@ proxies:
     down: "100 Mbps"
   - name: "🇭🇰香港-04"
     type: "hysteria2"
-    server: "141.11.90.244"
+    server: "hkak3g.xn--9kqp42aims.top"
     port: 20000
     password: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
@@ -10960,7 +10998,7 @@ proxies:
     port: 8443
     uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
-  - name: "距离下次重置剩余：29+天"
+  - name: "距离下次重置剩余：28+天"
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
@@ -10999,7 +11037,7 @@ proxies:
   - name: "香港家宽hy2🇭🇰"
     type: "hysteria2"
     server: "hkbn.388898.xyz"
-    port: 21640
+    port: 21943
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11073,7 +11111,7 @@ proxies:
   - name: "美国AT&T家宽-02套餐hy2"
     type: "hysteria2"
     server: "att-b-02.388898.xyz"
-    port: 31319
+    port: 31148
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11081,7 +11119,7 @@ proxies:
   - name: "美国AT&T家宽备用🇺🇸hy2"
     type: "hysteria2"
     server: "att-b-04.388898.xyz"
-    port: 31740
+    port: 31725
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11281,7 +11319,7 @@ proxies:
   - name: "加拿大家宽🇨🇦hy2"
     type: "hysteria2"
     server: "ca.388898.xyz"
-    port: 53790
+    port: 53652
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11289,7 +11327,7 @@ proxies:
   - name: "[01]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet02.388898.xyz"
-    port: 33013
+    port: 33124
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11297,7 +11335,7 @@ proxies:
   - name: "[02]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet10.388898.xyz"
-    port: 11838
+    port: 11650
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11305,7 +11343,7 @@ proxies:
   - name: "[03]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet30.388898.xyz"
-    port: 11590
+    port: 11079
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11325,7 +11363,7 @@ proxies:
   - name: "德国高速节点hy2🇩🇪"
     type: "hysteria2"
     server: "dodef.388898.xyz"
-    port: 31076
+    port: 31560
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11333,7 +11371,7 @@ proxies:
   - name: "【1】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 31279
+    port: 31344
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11341,7 +11379,7 @@ proxies:
   - name: "【2】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 32581
+    port: 32665
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11353,7 +11391,7 @@ proxies:
   - name: "香港家宽hy2🇭🇰"
     type: "hysteria2"
     server: "hkbn.388898.xyz"
-    port: 21620
+    port: 21313
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11361,7 +11399,7 @@ proxies:
   - name: "美国AT&T家宽-02套餐hy2"
     type: "hysteria2"
     server: "att-b-02.388898.xyz"
-    port: 31818
+    port: 31066
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11369,7 +11407,7 @@ proxies:
   - name: "美国AT&T家宽备用🇺🇸hy2"
     type: "hysteria2"
     server: "att-b-04.388898.xyz"
-    port: 31774
+    port: 31544
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11377,7 +11415,7 @@ proxies:
   - name: "加拿大家宽🇨🇦hy2"
     type: "hysteria2"
     server: "ca.388898.xyz"
-    port: 53883
+    port: 53048
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11385,7 +11423,7 @@ proxies:
   - name: "[01]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet02.388898.xyz"
-    port: 33059
+    port: 33435
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11393,7 +11431,7 @@ proxies:
   - name: "[02]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet10.388898.xyz"
-    port: 11952
+    port: 11903
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11401,7 +11439,7 @@ proxies:
   - name: "[03]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet30.388898.xyz"
-    port: 11442
+    port: 11232
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11409,7 +11447,7 @@ proxies:
   - name: "德国高速节点hy2🇩🇪"
     type: "hysteria2"
     server: "dodef.388898.xyz"
-    port: 31583
+    port: 31279
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11417,7 +11455,7 @@ proxies:
   - name: "【1】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 31751
+    port: 31781
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11425,7 +11463,7 @@ proxies:
   - name: "【2】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 32061
+    port: 32644
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -11598,7 +11636,7 @@ proxies:
     port: 10081
     cipher: "aes-256-gcm"
     password: "0_110abc"
-  - name: "剩余流量：19.17 GB"
+  - name: "剩余流量：18.06 GB"
     type: "vmess"
     server: "2605:e440:11::388"
     port: 16003
@@ -12375,7 +12413,7 @@ proxies:
     port: 443
     uuid: "7e26fd8f-d75a-473d-84ba-9f4e3f47d086"
     udp: true
-  - name: "剩余流量：497.06 GB"
+  - name: "剩余流量：473.23 GB"
     type: "ss"
     server: "ss.041.node-for-bigairport.win"
     port: 20006
@@ -12478,7 +12516,7 @@ proxies:
     behavior: "classical"
     format: "yaml"
     size-limit: 0
-  - name: "剩余流量：53.16 GB"
+  - name: "剩余流量：52.65 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -12630,14 +12668,13 @@ proxy-groups:
       - "🇦🇶 ㅤ"
       - "🇦🇶 ⚠️‼️ 订阅已过期 请续费 ‼️"
       - "[trojan]剩余流量：0"
-      - "[trojan]距离下次重置剩余：25 天"
+      - "[trojan]距离下次重置剩余：24 天"
       - "[trojan]套餐到期：2026-09-29"
       - "[trojan]jp-200m"
       - "[trojan]us-200m"
       - "[trojan]hk-200m"
-      - "[trojan]距离下次重置剩余：23 天"
+      - "[trojan]距离下次重置剩余：22 天"
       - "[trojan]套餐到期：2026-09-27"
-      - "[trojan]距离下次重置剩余：24 天"
       - "❗您当前客户端v2rayN不支持hy协议❗"
       - "❗请到我们文档中下载Clash Verge❗"
       - "❗文档 https://www.qf1.us/#/knowledge❗"
@@ -12823,25 +12860,26 @@ proxy-groups:
       - "[hy2]NL｜荷兰-阿姆斯特丹/1(ipv6)"
       - "[hy2]DE｜德国-法兰克福/1(ipv6)"
       - "🇦🇶 订阅于2026年09月05日 04:42已到期"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "英国+V2CROSS.COM"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+加州"
-      - "卢森堡+root.lu数据中心"
-      - "美国+CloudFlare节点"
-      - "亚太地区+AT&T"
       - "美国+V2CROSS.COM"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
-      - "英国+V2CROSS.COM"
+      - "法国+V2CROSS.COM"
+      - "美国+V2CROSS.COM"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "新加坡+Amazon数据中心"
+      - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "巴西圣保罗+CloudFlare节点"
+      - "美国+加州"
+      - "美国+Fastly全球Anycast节点"
+      - "美国+V2CROSS.COM"
+      - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "丹麦+V2CROSS.COM"
       - "🇺🇸US-156.146.38.167-0081"
       - "🇺🇸US-156.146.38.170-0097"
       - "🇺🇸US-156.146.38.168-0105"
@@ -13042,15 +13080,21 @@ proxy-groups:
       - "🇬🇧GB-20.90.249.210-0230"
       - "🇨🇦CA-134.195.198.147-0231"
       - "🇺🇸US-20.9.46.251-0232"
+      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
       - "🇩🇪_DE_德国"
       - "🇨🇳_CN_中国"
       - "🇳🇱_NL_荷兰"
-      - "🇳🇱_NL_荷兰"
-      - "🇺🇸_US_美国"
+      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+      - "🇩🇪_DE_德国"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国"
+      - "🇸🇪_SE_瑞典"
+      - "🇩🇪_DE_德国"
+      - "🇩🇪_DE_德国"
       - "🇨🇭_CH_瑞士->🇫🇮_FI_芬兰"
       - "🇨🇳_CN_中国->🇺🇸_US_美国"
-      - "🇩🇪_DE_德国"
-      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+      - "🇺🇸_US_美国"
+      - "🇵🇱_PL_波兰->🇳🇱_NL_荷兰"
+      - "🇭🇰_HK_中国香港->🇬🇧_GB_英国"
       - "自适应分流"
       - "电信分流"
       - "移动分流"
@@ -13374,6 +13418,7 @@ proxy-groups:
       - "🇺🇸美国-06"
       - "🇺🇸美国-07"
       - "🇯🇵日本 | 免费"
+      - "🇯🇵日本-05"
       - "🇯🇵日本-06"
       - "🇯🇵日本-07"
       - "🇯🇵日本-08"
@@ -13702,7 +13747,7 @@ proxy-groups:
       - "🇦🇺 澳大利亚 02 专线"
       - "剩余流量：55.74 GB"
       - "剩余流量：0"
-      - "距离下次重置剩余：29+天"
+      - "距离下次重置剩余：28+天"
       - "套餐到期：2026-10-03"
       - "苏菲家宽官网地址：sufe.us/ai.sufe.pro"
       - "联通移动用中转"
@@ -13797,7 +13842,7 @@ proxy-groups:
       - "节点是否可用与订阅链接过期没关系"
       - "教程：doc.miyun.app"
       - "官网：miyun.de"
-      - "剩余流量：19.17 GB"
+      - "剩余流量：18.06 GB"
       - "距离下次重置剩余：25 天"
       - "套餐到期：2026-09-24"
       - "过滤掉28条线路"
@@ -13903,7 +13948,7 @@ proxy-groups:
       - "UN【机场推荐：https://a9a.xyz】95"
       - "UN【机场推荐：https://a9a.xyz】96"
       - "UN【机场推荐：https://a9a.xyz】97"
-      - "剩余流量：497.06 GB"
+      - "剩余流量：473.23 GB"
       - "距离下次重置剩余：25 天"
       - "套餐到期：2026-11-13"
       - "[1x] [E] [直连] [SS] 日本 1"
@@ -13919,4 +13964,4 @@ proxy-groups:
       - "国内入口：bigairport-mirror.com 固定入口：大机场.com  电报讨论群组：BigAirport_Group"
       - "套餐到期：2027-03-09"
       - "Unnamed"
-      - "剩余流量：53.16 GB"
+      - "剩余流量：52.65 GB"

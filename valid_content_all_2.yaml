@@ -1,5 +1,5 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-04 22:59:36
+# 生成时间: 2026-09-05 04:12:36
 # 节点数量: 500
 
 proxies:
@@ -560,6 +560,12 @@ proxies:
       path: "/"
       headers:
         Host: ""
+  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+    type: "vless"
+    server: "rrr.windconnect.pro"
+    port: 443
+    uuid: "af00e0c4-decf-48f2-9013-56abe9c9efcd"
+    udp: true
   - name: "🇩🇪_DE_德国"
     type: "vless"
     server: "188.220.67.245"
@@ -578,24 +584,45 @@ proxies:
     udp: true
   - name: "🇳🇱_NL_荷兰"
     type: "vless"
-    server: "51.15.57.139"
-    port: 8080
-    uuid: "11af1c47-865a-47c6-92ff-118013655d78"
+    server: "78.17.190.94"
+    port: 53289
+    uuid: "9a913f1c-28b3-4d0b-aa77-698302252ab7"
     udp: true
-  - name: "🇳🇱_NL_荷兰"
+  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
     type: "vless"
-    server: "51.158.241.182"
-    port: 8080
-    uuid: "11af1c47-865a-47c6-92ff-118013655d78"
-    udp: true
-  - name: "🇺🇸_US_美国"
-    type: "hysteria2"
-    server: "66.94.121.46"
+    server: "31.76.71.140"
     port: 443
-    password: "gf1"
+    uuid: "af00e0c4-decf-48f2-9013-56abe9c9efcd"
     udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
+  - name: "🇩🇪_DE_德国"
+    type: "vless"
+    server: "176.96.138.122"
+    port: 443
+    uuid: "b229d38c-35ec-4a0b-9c86-8fceba243d6c"
+    udp: true
+  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
+    type: "vless"
+    server: "jp.sofast.live"
+    port: 52683
+    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
+    udp: true
+  - name: "🇸🇪_SE_瑞典"
+    type: "vless"
+    server: "141.227.160.23"
+    port: 443
+    uuid: "0bc31c7f-1ee2-4dd3-929b-b61ae780eb3c"
+    udp: true
+  - name: "🇩🇪_DE_德国"
+    type: "hysteria"
+    server: "5.83.129.153"
+    port: 20088
+    udp: true
+  - name: "🇩🇪_DE_德国"
+    type: "vless"
+    server: "163.8.195.241"
+    port: 2087
+    uuid: "56ba5d34-ef22-4ba6-8090-4188b807df54"
+    udp: true
   - name: "🇨🇭_CH_瑞士->🇫🇮_FI_芬兰"
     type: "vless"
     server: "31.76.4.128"
@@ -604,38 +631,49 @@ proxies:
     udp: true
   - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
     type: "vless"
-    server: "jp.sofast.live"
-    port: 52683
-    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
+    server: "us22.sofast.live"
+    port: 58011
+    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
     udp: true
-  - name: "🇩🇪_DE_德国"
-    type: "hysteria"
-    server: "5.83.129.153"
-    port: 20088
-    udp: true
-  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+  - name: "🇺🇸_US_美国"
     type: "vless"
-    server: "31.76.71.140"
+    server: "172.67.140.11"
     port: 443
-    uuid: "af00e0c4-decf-48f2-9013-56abe9c9efcd"
+    uuid: "a90c264d-3853-4eef-9a3d-628b2d02d15e"
+    udp: true
+  - name: "🇵🇱_PL_波兰->🇳🇱_NL_荷兰"
+    type: "vless"
+    server: "178.95.170.83"
+    port: 2087
+    uuid: "bf443e4a-aa9e-4509-abf0-d0f6828d57be"
+    udp: true
+  - name: "🇭🇰_HK_中国香港->🇬🇧_GB_英国"
+    type: "vmess"
+    server: "v36.hdacd.com"
+    port: 30836
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    cipher: "auto"
+    alterId: 2
+    tls: false
+    network: "tcp"
     udp: true
   - name: "自适应分流"
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "b1f2bcbb-16bb-425c-b5b8-4d35c826d1f9"
+    uuid: "fbe41716-05f6-4733-819f-d19074e57158"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "b1f2bcbb-16bb-425c-b5b8-4d35c826d1f9"
+    uuid: "fbe41716-05f6-4733-819f-d19074e57158"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "b1f2bcbb-16bb-425c-b5b8-4d35c826d1f9"
+    uuid: "fbe41716-05f6-4733-819f-d19074e57158"
     udp: true
   - name: "🇺🇸 美国 001"
     type: "vmess"
@@ -4199,6 +4237,14 @@ proxies:
     port: 443
     uuid: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
+  - name: "🇯🇵日本-05"
+    type: "hysteria2"
+    server: "jpsb01.xn--9kqp42aims.top"
+    port: 20000
+    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
   - name: "🇯🇵日本-06"
     type: "hysteria2"
     server: "45.192.203.190"
@@ -4241,7 +4287,7 @@ proxies:
     down: "100 Mbps"
   - name: "🇭🇰香港-03"
     type: "hysteria2"
-    server: "141.11.90.244"
+    server: "hkak3g.xn--9kqp42aims.top"
     port: 20000
     password: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
@@ -4249,7 +4295,7 @@ proxies:
     down: "100 Mbps"
   - name: "🇭🇰香港-04"
     type: "hysteria2"
-    server: "141.11.90.244"
+    server: "hkak3g.xn--9kqp42aims.top"
     port: 20000
     password: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
@@ -5451,90 +5497,6 @@ proxies:
     network: "tcp"
     udp: true
     skip-cert-verify: false
-  - name: "[IPLC]泰国 03 曼谷"
-    type: "vmess"
-    server: "board-03.ddnskunlun.com"
-    port: 11968
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-03.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]泰国 04 曼谷"
-    type: "vmess"
-    server: "board-04.ddnskunlun.com"
-    port: 11969
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-04.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]瑞典 01 斯德哥尔摩"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11920
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]瑞典 02 斯德哥尔摩"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11980
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]瑞士 01 日内瓦"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11918
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]瑞士 02 日内瓦"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11966
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]秘鲁 01 利马"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11948
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
 
 proxy-groups:
   - name: "Proxy"
@@ -5593,15 +5555,21 @@ proxy-groups:
       - "🇬🇧GB-20.90.249.210-0230"
       - "🇨🇦CA-134.195.198.147-0231"
       - "🇺🇸US-20.9.46.251-0232"
+      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
       - "🇩🇪_DE_德国"
       - "🇨🇳_CN_中国"
       - "🇳🇱_NL_荷兰"
-      - "🇳🇱_NL_荷兰"
-      - "🇺🇸_US_美国"
+      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+      - "🇩🇪_DE_德国"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国"
+      - "🇸🇪_SE_瑞典"
+      - "🇩🇪_DE_德国"
+      - "🇩🇪_DE_德国"
       - "🇨🇭_CH_瑞士->🇫🇮_FI_芬兰"
       - "🇨🇳_CN_中国->🇺🇸_US_美国"
-      - "🇩🇪_DE_德国"
-      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+      - "🇺🇸_US_美国"
+      - "🇵🇱_PL_波兰->🇳🇱_NL_荷兰"
+      - "🇭🇰_HK_中国香港->🇬🇧_GB_英国"
       - "自适应分流"
       - "电信分流"
       - "移动分流"
@@ -5925,6 +5893,7 @@ proxy-groups:
       - "🇺🇸美国-06"
       - "🇺🇸美国-07"
       - "🇯🇵日本 | 免费"
+      - "🇯🇵日本-05"
       - "🇯🇵日本-06"
       - "🇯🇵日本-07"
       - "🇯🇵日本-08"
@@ -6033,10 +6002,3 @@ proxy-groups:
       - "[IPLC]波兰 02 华沙"
       - "[IPLC]泰国 01 曼谷"
       - "[IPLC]泰国 02 曼谷"
-      - "[IPLC]泰国 03 曼谷"
-      - "[IPLC]泰国 04 曼谷"
-      - "[IPLC]瑞典 01 斯德哥尔摩"
-      - "[IPLC]瑞典 02 斯德哥尔摩"
-      - "[IPLC]瑞士 01 日内瓦"
-      - "[IPLC]瑞士 02 日内瓦"
-      - "[IPLC]秘鲁 01 利马"

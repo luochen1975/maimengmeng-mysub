@@ -1,5 +1,5 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-04 22:59:36
+# 生成时间: 2026-09-05 04:12:36
 # 节点数量: 500
 
 proxies:
@@ -1022,7 +1022,7 @@ proxies:
     password: "24ef7cf6-9997-4886-9ef7-9e8233c6766f"
     tls: true
     udp: true
-  - name: "[trojan]距离下次重置剩余：25 天"
+  - name: "[trojan]距离下次重置剩余：24 天"
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
@@ -1057,7 +1057,7 @@ proxies:
     password: "24ef7cf6-9997-4886-9ef7-9e8233c6766f"
     tls: true
     udp: true
-  - name: "[trojan]距离下次重置剩余：23 天"
+  - name: "[trojan]距离下次重置剩余：22 天"
     type: "trojan"
     server: "jp200m.jiasu.asia"
     port: 50000
@@ -1069,13 +1069,6 @@ proxies:
     server: "jp200m.jiasu.asia"
     port: 50000
     password: "0e2e0e96-5beb-4f91-8f88-24f60451e745"
-    tls: true
-    udp: true
-  - name: "[trojan]距离下次重置剩余：24 天"
-    type: "trojan"
-    server: "jp200m.jiasu.asia"
-    port: 50000
-    password: "fd43209f-d9d6-42aa-9bd9-6ecb7f171164"
     tls: true
     udp: true
   - name: "❗您当前客户端v2rayN不支持hy协议❗"
@@ -2255,96 +2248,75 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.152.210"
-    port: 443
-    password: "humanity"
-    tls: true
+  - name: "美国+V2CROSS.COM"
+    type: "vless"
+    server: "192.0.63.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
   - name: "美国+CloudFlare节点"
     type: "vless"
-    server: "172.64.158.146"
-    port: 2052
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    server: "deepl.com"
+    port: 8880
+    uuid: "6d73dc1e-1627-4b16-b471-53e63aa16c78"
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "join-telegram-channel-tirexnet.trex.kdns.fr"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.152.77"
+    server: "104.18.23.63"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "104.16.174.14"
+    server: "ip.myip2.qzz.io"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "英国+V2CROSS.COM"
-    type: "trojan"
-    server: "176.97.66.175"
-    port: 443
-    password: "humanity"
-    tls: true
+  - name: "法国+V2CROSS.COM"
+    type: "vless"
+    server: "94.140.0.100"
+    port: 8880
+    uuid: "78e6619e-e82a-cd8d-b482-0973d8498305"
     udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.16.174.124"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.17.111.1"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+加州"
-    type: "trojan"
-    server: "216.24.57.7"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "卢森堡+root.lu数据中心"
-    type: "trojan"
-    server: "188.42.145.180"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.152.73"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "亚太地区+AT&T"
-    type: "hysteria2"
-    server: "vpn-au-002.fastervpn.world"
-    port: 443
-    password: "H7mP2xY9kJ4nQ8wR5tF6vB3z"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
   - name: "美国+V2CROSS.COM"
+    type: "vless"
+    server: "45.130.125.96"
+    port: 443
+    uuid: "28607fa7-db30-47d6-942a-f5744e4be9ad"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "104.24.152.211"
+    port: 8880
+    uuid: "def8ed1e-e07b-40e0-9bc0-7a2ba2cedd56"
+    udp: true
+  - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "165.215.250.14"
+    server: "104.18.152.233"
     port: 443
     password: "humanity"
     tls: true
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.16.174.6"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "新加坡+Amazon数据中心"
+    type: "vless"
+    server: "13.212.45.128"
+    port: 12322
+    uuid: "a2d84cff-5a0f-4559-b793-355d363a4738"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "skk.moe"
+    port: 8880
+    uuid: "160ca353-676d-4b7f-a041-0289e388b865"
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
@@ -2353,38 +2325,58 @@ proxies:
     password: "humanity"
     tls: true
     udp: true
-  - name: "美国+CloudFlare节点"
+  - name: "巴西圣保罗+CloudFlare节点"
     type: "vless"
-    server: "172.64.158.146"
-    port: 8880
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    server: "188.114.97.6"
+    port: 2087
+    uuid: "3cb4c775-bf08-4158-a0e3-cbae9ac452d7"
     udp: true
-  - name: "美国+CloudFlare节点"
+  - name: "美国+加州"
     type: "trojan"
-    server: "104.18.152.143"
+    server: "render.com"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "英国+V2CROSS.COM"
+  - name: "美国+Fastly全球Anycast节点"
     type: "vless"
-    server: "31.76.4.128"
-    port: 5001
-    uuid: "5a92a9d2-3067-49cd-bfc5-989bbdfc5d52"
+    server: "151.101.1.242"
+    port: 443
+    uuid: "d643c485-eb5d-4085-a7f6-1889049384cb"
     udp: true
-  - name: "美国+CloudFlare节点"
+  - name: "美国+V2CROSS.COM"
     type: "trojan"
-    server: "104.17.177.143"
+    server: "45.130.125.158"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "104.19.229.21"
+    server: "104.18.152.152"
     port: 443
     password: "humanity"
     tls: true
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "www.ignitelimit.com"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.16.174.121"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "丹麦+V2CROSS.COM"
+    type: "vless"
+    server: "193.163.203.170"
+    port: 443
+    uuid: "11aabba0-5fd1-4f15-8068-74c1a466cefc"
     udp: true
   - name: "🇺🇸US-156.146.38.167-0081"
     type: "ss"
@@ -3571,14 +3563,13 @@ proxy-groups:
       - "🇦🇶 ㅤ"
       - "🇦🇶 ⚠️‼️ 订阅已过期 请续费 ‼️"
       - "[trojan]剩余流量：0"
-      - "[trojan]距离下次重置剩余：25 天"
+      - "[trojan]距离下次重置剩余：24 天"
       - "[trojan]套餐到期：2026-09-29"
       - "[trojan]jp-200m"
       - "[trojan]us-200m"
       - "[trojan]hk-200m"
-      - "[trojan]距离下次重置剩余：23 天"
+      - "[trojan]距离下次重置剩余：22 天"
       - "[trojan]套餐到期：2026-09-27"
-      - "[trojan]距离下次重置剩余：24 天"
       - "❗您当前客户端v2rayN不支持hy协议❗"
       - "❗请到我们文档中下载Clash Verge❗"
       - "❗文档 https://www.qf1.us/#/knowledge❗"
@@ -3764,25 +3755,26 @@ proxy-groups:
       - "[hy2]NL｜荷兰-阿姆斯特丹/1(ipv6)"
       - "[hy2]DE｜德国-法兰克福/1(ipv6)"
       - "🇦🇶 订阅于2026年09月05日 04:42已到期"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "英国+V2CROSS.COM"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+加州"
-      - "卢森堡+root.lu数据中心"
-      - "美国+CloudFlare节点"
-      - "亚太地区+AT&T"
       - "美国+V2CROSS.COM"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
-      - "英国+V2CROSS.COM"
+      - "法国+V2CROSS.COM"
+      - "美国+V2CROSS.COM"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "新加坡+Amazon数据中心"
+      - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "巴西圣保罗+CloudFlare节点"
+      - "美国+加州"
+      - "美国+Fastly全球Anycast节点"
+      - "美国+V2CROSS.COM"
+      - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "丹麦+V2CROSS.COM"
       - "🇺🇸US-156.146.38.167-0081"
       - "🇺🇸US-156.146.38.170-0097"
       - "🇺🇸US-156.146.38.168-0105"

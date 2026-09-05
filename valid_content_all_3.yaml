@@ -1,8 +1,92 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-04 22:59:36
-# 节点数量: 431
+# 生成时间: 2026-09-05 04:12:36
+# 节点数量: 438
 
 proxies:
+  - name: "[IPLC]泰国 03 曼谷"
+    type: "vmess"
+    server: "board-03.ddnskunlun.com"
+    port: 11968
+    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    servername: "board-03.ddnskunlun.com"
+    network: "tcp"
+    udp: true
+    skip-cert-verify: false
+  - name: "[IPLC]泰国 04 曼谷"
+    type: "vmess"
+    server: "board-04.ddnskunlun.com"
+    port: 11969
+    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    servername: "board-04.ddnskunlun.com"
+    network: "tcp"
+    udp: true
+    skip-cert-verify: false
+  - name: "[IPLC]瑞典 01 斯德哥尔摩"
+    type: "vmess"
+    server: "board-01.ddnskunlun.com"
+    port: 11920
+    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    servername: "board-01.ddnskunlun.com"
+    network: "tcp"
+    udp: true
+    skip-cert-verify: false
+  - name: "[IPLC]瑞典 02 斯德哥尔摩"
+    type: "vmess"
+    server: "board-02.ddnskunlun.com"
+    port: 11980
+    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    servername: "board-02.ddnskunlun.com"
+    network: "tcp"
+    udp: true
+    skip-cert-verify: false
+  - name: "[IPLC]瑞士 01 日内瓦"
+    type: "vmess"
+    server: "board-01.ddnskunlun.com"
+    port: 11918
+    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    servername: "board-01.ddnskunlun.com"
+    network: "tcp"
+    udp: true
+    skip-cert-verify: false
+  - name: "[IPLC]瑞士 02 日内瓦"
+    type: "vmess"
+    server: "board-02.ddnskunlun.com"
+    port: 11966
+    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    servername: "board-02.ddnskunlun.com"
+    network: "tcp"
+    udp: true
+    skip-cert-verify: false
+  - name: "[IPLC]秘鲁 01 利马"
+    type: "vmess"
+    server: "board-01.ddnskunlun.com"
+    port: 11948
+    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    servername: "board-01.ddnskunlun.com"
+    network: "tcp"
+    udp: true
+    skip-cert-verify: false
   - name: "[IPLC]秘鲁 02 利马"
     type: "vmess"
     server: "board-02.ddnskunlun.com"
@@ -2006,7 +2090,7 @@ proxies:
     port: 8443
     uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
-  - name: "距离下次重置剩余：29+天"
+  - name: "距离下次重置剩余：28+天"
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
@@ -2045,7 +2129,7 @@ proxies:
   - name: "香港家宽hy2🇭🇰"
     type: "hysteria2"
     server: "hkbn.388898.xyz"
-    port: 21640
+    port: 21943
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2119,7 +2203,7 @@ proxies:
   - name: "美国AT&T家宽-02套餐hy2"
     type: "hysteria2"
     server: "att-b-02.388898.xyz"
-    port: 31319
+    port: 31148
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2127,7 +2211,7 @@ proxies:
   - name: "美国AT&T家宽备用🇺🇸hy2"
     type: "hysteria2"
     server: "att-b-04.388898.xyz"
-    port: 31740
+    port: 31725
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2327,7 +2411,7 @@ proxies:
   - name: "加拿大家宽🇨🇦hy2"
     type: "hysteria2"
     server: "ca.388898.xyz"
-    port: 53790
+    port: 53652
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2335,7 +2419,7 @@ proxies:
   - name: "[01]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet02.388898.xyz"
-    port: 33013
+    port: 33124
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2343,7 +2427,7 @@ proxies:
   - name: "[02]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet10.388898.xyz"
-    port: 11838
+    port: 11650
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2351,7 +2435,7 @@ proxies:
   - name: "[03]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet30.388898.xyz"
-    port: 11590
+    port: 11079
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2371,7 +2455,7 @@ proxies:
   - name: "德国高速节点hy2🇩🇪"
     type: "hysteria2"
     server: "dodef.388898.xyz"
-    port: 31076
+    port: 31560
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2379,7 +2463,7 @@ proxies:
   - name: "【1】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 31279
+    port: 31344
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2387,7 +2471,7 @@ proxies:
   - name: "【2】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 32581
+    port: 32665
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2399,7 +2483,7 @@ proxies:
   - name: "香港家宽hy2🇭🇰"
     type: "hysteria2"
     server: "hkbn.388898.xyz"
-    port: 21620
+    port: 21313
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2407,7 +2491,7 @@ proxies:
   - name: "美国AT&T家宽-02套餐hy2"
     type: "hysteria2"
     server: "att-b-02.388898.xyz"
-    port: 31818
+    port: 31066
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2415,7 +2499,7 @@ proxies:
   - name: "美国AT&T家宽备用🇺🇸hy2"
     type: "hysteria2"
     server: "att-b-04.388898.xyz"
-    port: 31774
+    port: 31544
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2423,7 +2507,7 @@ proxies:
   - name: "加拿大家宽🇨🇦hy2"
     type: "hysteria2"
     server: "ca.388898.xyz"
-    port: 53883
+    port: 53048
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2431,7 +2515,7 @@ proxies:
   - name: "[01]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet02.388898.xyz"
-    port: 33059
+    port: 33435
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2439,7 +2523,7 @@ proxies:
   - name: "[02]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet10.388898.xyz"
-    port: 11952
+    port: 11903
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2447,7 +2531,7 @@ proxies:
   - name: "[03]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet30.388898.xyz"
-    port: 11442
+    port: 11232
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2455,7 +2539,7 @@ proxies:
   - name: "德国高速节点hy2🇩🇪"
     type: "hysteria2"
     server: "dodef.388898.xyz"
-    port: 31583
+    port: 31279
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2463,7 +2547,7 @@ proxies:
   - name: "【1】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 31751
+    port: 31781
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2471,7 +2555,7 @@ proxies:
   - name: "【2】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 32061
+    port: 32644
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -2644,7 +2728,7 @@ proxies:
     port: 10081
     cipher: "aes-256-gcm"
     password: "0_110abc"
-  - name: "剩余流量：19.17 GB"
+  - name: "剩余流量：18.06 GB"
     type: "vmess"
     server: "2605:e440:11::388"
     port: 16003
@@ -3421,7 +3505,7 @@ proxies:
     port: 443
     uuid: "7e26fd8f-d75a-473d-84ba-9f4e3f47d086"
     udp: true
-  - name: "剩余流量：497.06 GB"
+  - name: "剩余流量：473.23 GB"
     type: "ss"
     server: "ss.041.node-for-bigairport.win"
     port: 20006
@@ -3524,7 +3608,7 @@ proxies:
     behavior: "classical"
     format: "yaml"
     size-limit: 0
-  - name: "剩余流量：53.16 GB"
+  - name: "剩余流量：52.65 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -3535,6 +3619,13 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "[IPLC]泰国 03 曼谷"
+      - "[IPLC]泰国 04 曼谷"
+      - "[IPLC]瑞典 01 斯德哥尔摩"
+      - "[IPLC]瑞典 02 斯德哥尔摩"
+      - "[IPLC]瑞士 01 日内瓦"
+      - "[IPLC]瑞士 02 日内瓦"
+      - "[IPLC]秘鲁 01 利马"
       - "[IPLC]秘鲁 02 利马"
       - "[IPLC]芬兰 01 图苏拉"
       - "[IPLC]芬兰 02 图苏拉"
@@ -3748,7 +3839,7 @@ proxy-groups:
       - "🇦🇺 澳大利亚 02 专线"
       - "剩余流量：55.74 GB"
       - "剩余流量：0"
-      - "距离下次重置剩余：29+天"
+      - "距离下次重置剩余：28+天"
       - "套餐到期：2026-10-03"
       - "苏菲家宽官网地址：sufe.us/ai.sufe.pro"
       - "联通移动用中转"
@@ -3843,7 +3934,7 @@ proxy-groups:
       - "节点是否可用与订阅链接过期没关系"
       - "教程：doc.miyun.app"
       - "官网：miyun.de"
-      - "剩余流量：19.17 GB"
+      - "剩余流量：18.06 GB"
       - "距离下次重置剩余：25 天"
       - "套餐到期：2026-09-24"
       - "过滤掉28条线路"
@@ -3949,7 +4040,7 @@ proxy-groups:
       - "UN【机场推荐：https://a9a.xyz】95"
       - "UN【机场推荐：https://a9a.xyz】96"
       - "UN【机场推荐：https://a9a.xyz】97"
-      - "剩余流量：497.06 GB"
+      - "剩余流量：473.23 GB"
       - "距离下次重置剩余：25 天"
       - "套餐到期：2026-11-13"
       - "[1x] [E] [直连] [SS] 日本 1"
@@ -3965,4 +4056,4 @@ proxy-groups:
       - "国内入口：bigairport-mirror.com 固定入口：大机场.com  电报讨论群组：BigAirport_Group"
       - "套餐到期：2027-03-09"
       - "Unnamed"
-      - "剩余流量：53.16 GB"
+      - "剩余流量：52.65 GB"
