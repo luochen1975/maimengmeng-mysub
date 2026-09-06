@@ -1,8 +1,78 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-06 10:47:14
+# 生成时间: 2026-09-06 15:23:51
 # 节点数量: 500
 
 proxies:
+  - name: "🇭🇰香港 1"
+    type: "hysteria2"
+    server: "h1bbzqxxa.892622.xyz"
+    port: 8080
+    password: "903db0d3-08ff-4543-a55c-079d5181ea49"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇭🇰香港 2"
+    type: "hysteria2"
+    server: "h2cczlq.892622.xyz"
+    port: 8080
+    password: "903db0d3-08ff-4543-a55c-079d5181ea49"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇭🇰香港 3"
+    type: "hysteria2"
+    server: "h3bbzkq.892622.xyz"
+    port: 8080
+    password: "903db0d3-08ff-4543-a55c-079d5181ea49"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇸🇬新加坡 1"
+    type: "hysteria2"
+    server: "s1xasdg.892622.xyz"
+    port: 8080
+    password: "903db0d3-08ff-4543-a55c-079d5181ea49"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇸🇬新加坡 2"
+    type: "hysteria2"
+    server: "st2zsdfgsa.892622.xyz"
+    port: 8080
+    password: "903db0d3-08ff-4543-a55c-079d5181ea49"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇺🇸美国"
+    type: "hysteria2"
+    server: "us1.892622.xyz"
+    port: 26702
+    password: "903db0d3-08ff-4543-a55c-079d5181ea49"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇩🇪德国"
+    type: "hysteria2"
+    server: "de.892622.xyz"
+    port: 8080
+    password: "903db0d3-08ff-4543-a55c-079d5181ea49"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇳🇱荷兰"
+    type: "vless"
+    server: "rrr1.892622.xyz"
+    port: 25586
+    uuid: "903db0d3-08ff-4543-a55c-079d5181ea49"
+    udp: true
+  - name: "🇷🇺俄罗斯"
+    type: "hysteria2"
+    server: "elsxxx.892622.xyz"
+    port: 8080
+    password: "903db0d3-08ff-4543-a55c-079d5181ea49"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
   - name: "剩余流量：0"
     type: "vless"
     server: "sg001.421421.xyz"
@@ -1353,18 +1423,6 @@ proxies:
     port: 443
     uuid: "29794dae-06ca-4b62-94f2-220b5858d39b"
     udp: true
-  - name: "套餐到期:2025-10-15"
-    type: "ss"
-    server: "127.0.0.1"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "password"
-  - name: "续费方法在节点详情的<地址>"
-    type: "ss"
-    server: "lykeij.shvpn.xyz"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "password"
   - name: "套餐到期:2025-11-20"
     type: "ss"
     server: "127.0.0.1"
@@ -1389,42 +1447,54 @@ proxies:
     port: 443
     cipher: "aes-256-gcm"
     password: "password"
+  - name: "套餐到期:2025-10-15"
+    type: "ss"
+    server: "127.0.0.1"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "password"
+  - name: "续费方法在节点详情的<地址>"
+    type: "ss"
+    server: "lykeij.shvpn.xyz"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "password"
   - name: "🚫 账户已被封禁-1 🚫"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "🚫 账户已被封禁-2 🚫"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "🚫 账户已被封禁-3 🚫"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "📞 原因1：恶意滥用 📞"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "📋 原因2：超过免费套餐阈值 📋"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "🌐 官网地址：https://my.wazhua.org 🌐"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "⚠️ 过滤掉3条线路（升级客户端）"
     type: "ss"
     server: "gd.bjnet2.com"
@@ -2315,7 +2385,41 @@ proxies:
     type: "vless"
     server: "asaa.mmm.top"
     port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
+    udp: true
+  - name: "距离下次重置剩余：5 天"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
+    udp: true
+  - name: "套餐到期：2029-06-11"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
+    udp: true
+  - name: "⚠️保持软件为最新版"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
+    udp: true
+  - name: "⚠️使用前更新订阅"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
+    udp: true
+  - name: "🇺🇸美国 公益"
+    type: "vmess"
+    server: "p05.rghvf.sbs"
+    port: 1233
+    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "tcp"
     udp: true
   - name: "距离下次重置剩余：25 天"
     type: "vless"
@@ -2328,40 +2432,6 @@ proxies:
     server: "asaa.mmm.top"
     port: 10003
     uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
-  - name: "⚠️保持软件为最新版"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
-  - name: "⚠️使用前更新订阅"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
-  - name: "🇺🇸美国 公益"
-    type: "vmess"
-    server: "p05.rghvf.sbs"
-    port: 1233
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "tcp"
-    udp: true
-  - name: "距离下次重置剩余：6 天"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    udp: true
-  - name: "套餐到期：2029-06-11"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
     udp: true
   - name: "剩余流量：0"
     type: "hysteria2"
@@ -3817,119 +3887,20 @@ proxies:
     network: "tcp"
     udp: true
     skip-cert-verify: false
-  - name: "[IPLC]挪威 01 奥斯陆"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11912
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]挪威 02 奥斯陆"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11979
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]智利 01 圣地亚哥"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11938
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]智利 02 圣地亚哥"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11984
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]法国 01 巴黎"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11932
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]法国 02 巴黎"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11981
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]法国 03 巴黎"
-    type: "vmess"
-    server: "board-03.ddnskunlun.com"
-    port: 11982
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-03.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]法国 04 巴黎"
-    type: "vmess"
-    server: "board-04.ddnskunlun.com"
-    port: 11983
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-04.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]波兰 01 华沙"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11914
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇭🇰香港 1"
+      - "🇭🇰香港 2"
+      - "🇭🇰香港 3"
+      - "🇸🇬新加坡 1"
+      - "🇸🇬新加坡 2"
+      - "🇺🇸美国"
+      - "🇩🇪德国"
+      - "🇳🇱荷兰"
+      - "🇷🇺俄罗斯"
       - "剩余流量：0"
       - "套餐到期：长期有效"
       - "新加坡01|流媒体"
@@ -4116,11 +4087,11 @@ proxy-groups:
       - "US-LAX-DC12-004[TCP]"
       - "US-LAX-DC12-005[UDP]"
       - "US-LAX-DC12-005[TCP]"
-      - "套餐到期:2025-10-15"
-      - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-11-20"
       - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-12-13"
+      - "续费方法在节点详情的<地址>"
+      - "套餐到期:2025-10-15"
       - "续费方法在节点详情的<地址>"
       - "🚫 账户已被封禁-1 🚫"
       - "🚫 账户已被封禁-2 🚫"
@@ -4274,13 +4245,13 @@ proxy-groups:
       - "越南-IEPL-Basic专线-01"
       - "英国-IEPL-Basic专线-01"
       - "剩余流量：0"
-      - "距离下次重置剩余：25 天"
-      - "套餐到期：2027-09-01"
+      - "距离下次重置剩余：5 天"
+      - "套餐到期：2029-06-11"
       - "⚠️保持软件为最新版"
       - "⚠️使用前更新订阅"
       - "🇺🇸美国 公益"
-      - "距离下次重置剩余：6 天"
-      - "套餐到期：2029-06-11"
+      - "距离下次重置剩余：25 天"
+      - "套餐到期：2027-09-01"
       - "剩余流量：0"
       - "套餐到期：长期有效"
       - "🇺🇸官网:gz-cloud.top"
@@ -4421,12 +4392,3 @@ proxy-groups:
       - "[IPLC]希腊 02 雅典"
       - "[IPLC]德国 01 法兰克福"
       - "[IPLC]德国 02 法兰克福"
-      - "[IPLC]挪威 01 奥斯陆"
-      - "[IPLC]挪威 02 奥斯陆"
-      - "[IPLC]智利 01 圣地亚哥"
-      - "[IPLC]智利 02 圣地亚哥"
-      - "[IPLC]法国 01 巴黎"
-      - "[IPLC]法国 02 巴黎"
-      - "[IPLC]法国 03 巴黎"
-      - "[IPLC]法国 04 巴黎"
-      - "[IPLC]波兰 01 华沙"
