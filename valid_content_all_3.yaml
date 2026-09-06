@@ -1,8 +1,134 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-05 20:16:05
+# 生成时间: 2026-09-06 04:20:52
 # 节点数量: 500
 
 proxies:
+  - name: "🇳🇱 荷兰 006"
+    type: "vmess"
+    server: "46.182.107.39"
+    port: 443
+    uuid: "d3133484-f2bf-4b0c-8d38-f8e645b67947"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/footers"
+      headers:
+        Host: "46.182.107.39"
+  - name: "🇳🇱 荷兰 007"
+    type: "vmess"
+    server: "46.182.107.46"
+    port: 443
+    uuid: "fe5f69e7-e183-439b-950b-8221ef0651f2"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/footers"
+      headers:
+        Host: "46.182.107.46"
+  - name: "🇳🇱 荷兰 008"
+    type: "vmess"
+    server: "46.182.107.37"
+    port: 443
+    uuid: "65ea6727-4461-47a7-a5c4-fef2c67f2f68"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/footers"
+      headers:
+        Host: "46.182.107.37"
+  - name: "🇲🇩 摩尔多瓦 001"
+    type: "vmess"
+    server: "free-russian01-cdn.xiaohouzi.club"
+    port: 80
+    uuid: "3d31728e-064d-42b8-b945-f79c008f73fc"
+    cipher: "auto"
+    alterId: 233
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "free-russian01-cdn.xiaohouzi.club"
+  - name: "🇨🇿 捷克 003"
+    type: "vmess"
+    server: "rntwo.laoban666.xyz"
+    port: 443
+    uuid: "114f5786-a8a0-446a-a32f-446893480560"
+    cipher: "auto"
+    alterId: 10
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/27353486f3a1d4f/"
+      headers:
+        Host: "rntwo.laoban666.xyz"
+  - name: "🇺🇸 美国 289"
+    type: "vmess"
+    server: "ping.pe"
+    port: 443
+    uuid: "3a3e263d-223f-49cc-bbdb-f7e07a55e6fe"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/111111.online"
+      headers:
+        Host: "by.6111.online"
+  - name: "🇳🇱 荷兰 009"
+    type: "vmess"
+    server: "46.182.107.44"
+    port: 443
+    uuid: "fe5f69e7-e183-439b-950b-8221ef0651f2"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/footers"
+      headers:
+        Host: "46.182.107.44"
+  - name: "🇺🇸 美国 290"
+    type: "vmess"
+    server: "104.19.110.34"
+    port: 443
+    uuid: "4cdb016f-f14e-30b3-97d6-453c741a5c80"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/y475"
+      headers:
+        Host: "free.frli.xyz"
+  - name: "🇺🇸 美国 291"
+    type: "vmess"
+    server: "107.175.44.154"
+    port: 443
+    uuid: "114f5786-a8a0-446a-a32f-446893480560"
+    cipher: "auto"
+    alterId: 10
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/27353486f3a1d4f/"
+      headers:
+        Host: "107.175.44.154"
   - name: "🇸🇬 新加坡 005"
     type: "vmess"
     server: "104.248.148.147"
@@ -4695,65 +4821,20 @@ proxies:
     port: 2053
     uuid: "4c41d237-630a-4d02-8ec0-c3b775190ee5"
     udp: true
-  - name: "🇺🇸 美国 550"
-    type: "vless"
-    server: "172.64.80.1"
-    port: 443
-    uuid: "4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633"
-    udp: true
-  - name: "🇺🇸 美国 551"
-    type: "vless"
-    server: "162.159.137.54"
-    port: 443
-    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
-    udp: true
-  - name: "🇺🇸 美国 552"
-    type: "vless"
-    server: "172.66.44.97"
-    port: 443
-    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
-    udp: true
-  - name: "🇺🇸 美国 553"
-    type: "vless"
-    server: "51.91.251.198"
-    port: 443
-    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
-    udp: true
-  - name: "🇩🇪 德国 038"
-    type: "vless"
-    server: "3.120.187.17"
-    port: 36632
-    uuid: "4d259f79-e02b-4aa3-ebde-92c177df2d87"
-    udp: true
-  - name: "🇧🇷 巴西 025"
-    type: "vless"
-    server: "188.114.96.3"
-    port: 80
-    uuid: "4d6d8e9b-0738-43c6-994f-ab475a7b3381"
-    udp: true
-  - name: "🇧🇷 巴西 026"
-    type: "vless"
-    server: "188.114.97.3"
-    port: 443
-    uuid: "4d6d8e9b-0738-43c6-994f-ab475a7b3381"
-    udp: true
-  - name: "🇧🇷 巴西 027"
-    type: "vless"
-    server: "188.114.97.3"
-    port: 80
-    uuid: "4d6d8e9b-0738-43c6-994f-ab475a7b3381"
-    udp: true
-  - name: "🇺🇸 美国 554"
-    type: "vless"
-    server: "104.23.107.241"
-    port: 2087
-    uuid: "4db5388a-02df-4db8-9be1-15b9a146f05e"
-    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇳🇱 荷兰 006"
+      - "🇳🇱 荷兰 007"
+      - "🇳🇱 荷兰 008"
+      - "🇲🇩 摩尔多瓦 001"
+      - "🇨🇿 捷克 003"
+      - "🇺🇸 美国 289"
+      - "🇳🇱 荷兰 009"
+      - "🇺🇸 美国 290"
+      - "🇺🇸 美国 291"
       - "🇸🇬 新加坡 005"
       - "🇺🇸 美国 292"
       - "🇺🇸 美国 293"
@@ -5245,12 +5326,3 @@ proxy-groups:
       - "🇩🇪 德国 037"
       - "🇷🇺 俄罗斯 017"
       - "🇺🇸 美国 549"
-      - "🇺🇸 美国 550"
-      - "🇺🇸 美国 551"
-      - "🇺🇸 美国 552"
-      - "🇺🇸 美国 553"
-      - "🇩🇪 德国 038"
-      - "🇧🇷 巴西 025"
-      - "🇧🇷 巴西 026"
-      - "🇧🇷 巴西 027"
-      - "🇺🇸 美国 554"

@@ -1,8 +1,62 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-05 20:16:05
+# 生成时间: 2026-09-06 04:20:52
 # 节点数量: 500
 
 proxies:
+  - name: "🇺🇸 美国 550"
+    type: "vless"
+    server: "172.64.80.1"
+    port: 443
+    uuid: "4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633"
+    udp: true
+  - name: "🇺🇸 美国 551"
+    type: "vless"
+    server: "162.159.137.54"
+    port: 443
+    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
+    udp: true
+  - name: "🇺🇸 美国 552"
+    type: "vless"
+    server: "172.66.44.97"
+    port: 443
+    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
+    udp: true
+  - name: "🇺🇸 美国 553"
+    type: "vless"
+    server: "51.91.251.198"
+    port: 443
+    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
+    udp: true
+  - name: "🇩🇪 德国 038"
+    type: "vless"
+    server: "3.120.187.17"
+    port: 36632
+    uuid: "4d259f79-e02b-4aa3-ebde-92c177df2d87"
+    udp: true
+  - name: "🇧🇷 巴西 025"
+    type: "vless"
+    server: "188.114.96.3"
+    port: 80
+    uuid: "4d6d8e9b-0738-43c6-994f-ab475a7b3381"
+    udp: true
+  - name: "🇧🇷 巴西 026"
+    type: "vless"
+    server: "188.114.97.3"
+    port: 443
+    uuid: "4d6d8e9b-0738-43c6-994f-ab475a7b3381"
+    udp: true
+  - name: "🇧🇷 巴西 027"
+    type: "vless"
+    server: "188.114.97.3"
+    port: 80
+    uuid: "4d6d8e9b-0738-43c6-994f-ab475a7b3381"
+    udp: true
+  - name: "🇺🇸 美国 554"
+    type: "vless"
+    server: "104.23.107.241"
+    port: 2087
+    uuid: "4db5388a-02df-4db8-9be1-15b9a146f05e"
+    udp: true
   - name: "🇺🇸 美国 555"
     type: "vless"
     server: "141.101.115.71"
@@ -2949,65 +3003,20 @@ proxies:
     port: 46601
     cipher: "chacha20-ietf-poly1305"
     password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "台湾-Basic-BGP-02"
-    type: "ss"
-    server: "tw02.network-cdn-gw-yd.net"
-    port: 46602
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "新加坡-IEPL-Basic专线-01"
-    type: "ss"
-    server: "sgp01.network-cdn-gw-yd.net"
-    port: 45506
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "韩国-IEPL-Basic专线-|X2|"
-    type: "ss"
-    server: "kr03.network-cdn-gw-yd.net"
-    port: 36220
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "越南-IEPL-Basic专线-01"
-    type: "ss"
-    server: "vn01.network-cdn-gw-yd.net"
-    port: 20011
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "英国-IEPL-Basic专线-01"
-    type: "ss"
-    server: "uks1.network-cdn-gw-yd.net"
-    port: 10014
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "剩余流量：0"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
-  - name: "距离下次重置剩余：26 天"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
-  - name: "套餐到期：2027-09-01"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
-  - name: "⚠️保持软件为最新版"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇺🇸 美国 550"
+      - "🇺🇸 美国 551"
+      - "🇺🇸 美国 552"
+      - "🇺🇸 美国 553"
+      - "🇩🇪 德国 038"
+      - "🇧🇷 巴西 025"
+      - "🇧🇷 巴西 026"
+      - "🇧🇷 巴西 027"
+      - "🇺🇸 美国 554"
       - "🇺🇸 美国 555"
       - "🇺🇸 美国 556"
       - "🇺🇸 美国 557"
@@ -3499,12 +3508,3 @@ proxy-groups:
       - "日本-Basic-BGP-01"
       - "日本-Basic-BGP-02"
       - "台湾-Basic-BGP-01"
-      - "台湾-Basic-BGP-02"
-      - "新加坡-IEPL-Basic专线-01"
-      - "韩国-IEPL-Basic专线-|X2|"
-      - "越南-IEPL-Basic专线-01"
-      - "英国-IEPL-Basic专线-01"
-      - "剩余流量：0"
-      - "距离下次重置剩余：26 天"
-      - "套餐到期：2027-09-01"
-      - "⚠️保持软件为最新版"
