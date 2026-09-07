@@ -1,5 +1,5 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-07 04:20:05
+# 生成时间: 2026-09-07 12:17:42
 # 节点数量: 500
 
 proxies:
@@ -546,63 +546,93 @@ proxies:
     udp: true
   - name: "剩余流量：1000000000 GB"
     type: "ss"
-    server: "15.204.247.244"
-    port: 4444
-    cipher: "aes-256-gcm"
-    password: "pKEW8JPByTVTLtM"
+    server: "129.151.82.157"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "MGRmZWExN2Q3MjE4ZjYyN2EzNGIyZWMyNTYxYzM1NGU=:bnFxdGROTlBYaUhYR1hQSTBzSVFTeE12ZE5nemxWd0Y="
   - name: "距离下次重置剩余：6 天"
     type: "ss"
-    server: "15.204.247.244"
-    port: 4444
-    cipher: "aes-256-gcm"
-    password: "pKEW8JPByTVTLtM"
+    server: "129.151.82.157"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "MGRmZWExN2Q3MjE4ZjYyN2EzNGIyZWMyNTYxYzM1NGU=:bnFxdGROTlBYaUhYR1hQSTBzSVFTeE12ZE5nemxWd0Y="
   - name: "套餐到期：13433-12-13"
     type: "ss"
-    server: "15.204.247.244"
-    port: 4444
-    cipher: "aes-256-gcm"
-    password: "pKEW8JPByTVTLtM"
-  - name: "美国 -超时更新-01"
+    server: "129.151.82.157"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "MGRmZWExN2Q3MjE4ZjYyN2EzNGIyZWMyNTYxYzM1NGU=:bnFxdGROTlBYaUhYR1hQSTBzSVFTeE12ZE5nemxWd0Y="
+  - name: "英国 -超时更新-01"
     type: "ss"
-    server: "15.204.247.244"
-    port: 4444
-    cipher: "aes-256-gcm"
-    password: "pKEW8JPByTVTLtM"
+    server: "129.151.82.157"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "MGRmZWExN2Q3MjE4ZjYyN2EzNGIyZWMyNTYxYzM1NGU=:bnFxdGROTlBYaUhYR1hQSTBzSVFTeE12ZE5nemxWd0Y="
+  - name: "德国 -超时更新-02"
+    type: "ss"
+    server: "130.61.237.108"
+    port: 59924
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "ZjE5Nzc3NWNlYTBjZWRlOTFkYThkYmEyYzcwNWI3OWE=:ZTBzVDdkcWw2aFVaVFRXTE90ejg5dEkyK1B4anRTQ3E="
+  - name: "英国 -超时更新-03"
+    type: "ss"
+    server: "129.151.69.35"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "ZTgyYjhjYWExY2Q1MGYxNDg0YmE3OGZhZmFiM2RhY2Y=:NlltWEJzOTNJU2lMNkJRWEZQV201SDVjTlpDd3lqbGI="
+  - name: "英国 -超时更新-04"
+    type: "ss"
+    server: "134.65.60.243"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "YTg2ZjYyYTdkZGI1Y2I0OTk4OGExYWJlNTc5OTljYWY=:RXhQTkRCWnpVQy9KanMxK0pwVmxvdnpBK0xFMFJ4UU4="
+  - name: "英国 -超时更新-05"
+    type: "ss"
+    server: "134.65.58.203"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "NjljNzNhYjMyNzA2MmViYTViYjI5MDgwOGY0ZWIxMzc=:bVVlTU85YWw0QzIvMEl2ejJlSGVQUGdpdkN2THEvcGs="
+  - name: "德国 -超时更新-03"
+    type: "ss"
+    server: "51.195.126.38"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "2YdE4lFOid5a"
   - name: "法国 -超时更新-01"
     type: "ss"
     server: "51.255.13.232"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "BqnqToih0PbU"
-  - name: "英国 -超时更新-03"
+  - name: "美国 -超时更新-02"
     type: "ss"
-    server: "129.151.69.35"
-    port: 61312
+    server: "15.204.247.175"
+    port: 8008
+    cipher: "aes-256-gcm"
+    password: "XKFKl2rULjIp74"
+  - name: "荷兰 -超时更新-01"
+    type: "ss"
+    server: "158.178.148.195"
+    port: 45819
     cipher: "2022-blake3-chacha20-poly1305"
-    password: "M2YzZjEzODU2ZThkZmU2ZmJiMmQyNGNlOTcyMWZkNDg=:NlltWEJzOTNJU2lMNkJRWEZQV201SDVjTlpDd3lqbGI="
-  - name: "英国 -超时更新-04"
+    password: "ZGY1NjYxYzQwMTQ1ZGIxYmJmMjMxNjA5OTZhNDcyY2U=:aVVFU3ErVExBREJYaysyZkhiTFMwQmpjRW1NMjY5dzY="
+  - name: "德国 -超时更新-04"
     type: "ss"
-    server: "134.65.60.243"
-    port: 61312
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "ZjQ2MDVhMmZmMTE2MzAyZjRjZjEwNzJjM2EwNzViOTI=:RXhQTkRCWnpVQy9KanMxK0pwVmxvdnpBK0xFMFJ4UU4="
-  - name: "德国 -超时更新-03"
-    type: "ss"
-    server: "130.61.237.108"
+    server: "130.61.41.3"
     port: 59924
     cipher: "2022-blake3-chacha20-poly1305"
-    password: "ZGQ5Y2RjZWJkOWQ2MmU5NzhjZjQ1NzUxYzlhMDI1MDc=:ZTBzVDdkcWw2aFVaVFRXTE90ejg5dEkyK1B4anRTQ3E="
-  - name: "英国 -超时更新-05"
+    password: "NDAxZjljZTI3M2YwNDAzNTQ2ZDg3YWZiMzRkOTM2NmM=:RVcxREI4U1dDaTNXcGxJMkRwa2ZNZTg3cGlRRjM3bXo="
+  - name: "英国 -超时更新-07"
     type: "ss"
-    server: "129.151.82.157"
+    server: "129.151.68.141"
     port: 61312
     cipher: "2022-blake3-chacha20-poly1305"
-    password: "ZjM3ODNjODFlZDllMjBhOGQwOWExM2NlODhmZDVhZGU=:bnFxdGROTlBYaUhYR1hQSTBzSVFTeE12ZE5nemxWd0Y="
-  - name: "德国 -超时更新-01"
+    password: "Mjc2YWRiMjcyMmE2YjdjMjQ0YjkxMjUxZWYwODk0N2U=:cnlwc2JFaGRVQkRtMTE1UGxNYW1JVmI0dXMra2k2SGU="
+  - name: "加拿大 -超时更新-01"
     type: "vless"
-    server: "82.24.203.10"
-    port: 2087
-    uuid: "3165b4d0-40f7-4df0-9f59-4c89ccdac92d"
+    server: "maple.adaspoloandco.com"
+    port: 8443
+    uuid: "db3f09ae-23f2-42b8-abee-7b89fb392c5e"
     udp: true
   - name: "澳大利亚 -超时更新-01"
     type: "vless"
@@ -610,17 +640,29 @@ proxies:
     port: 2087
     uuid: "56ba5d34-ef22-4ba6-8090-4188b807df54"
     udp: true
-  - name: "英国 -超时更新-01"
-    type: "vless"
-    server: "188.220.67.245"
-    port: 2087
-    uuid: "90da514d-8888-4a53-912e-ac2981c8c6ee"
-    udp: true
   - name: "土耳其 -超时更新-01"
     type: "vless"
     server: "156.67.63.231"
     port: 443
     uuid: "b052df40-d51c-456c-9bd6-57af01a87e4e"
+    udp: true
+  - name: "德国 -超时更新-01"
+    type: "vless"
+    server: "82.24.203.10"
+    port: 2087
+    uuid: "3165b4d0-40f7-4df0-9f59-4c89ccdac92d"
+    udp: true
+  - name: "英国 -超时更新-02"
+    type: "vless"
+    server: "188.220.67.245"
+    port: 2087
+    uuid: "90da514d-8888-4a53-912e-ac2981c8c6ee"
+    udp: true
+  - name: "美国 -超时更新-01"
+    type: "vless"
+    server: "5.152.223.192"
+    port: 443
+    uuid: "5bd820f0-69cb-4d6a-b42d-c0dfe2edffcd"
     udp: true
   - name: "乌克兰 -超时更新-01"
     type: "vless"
@@ -628,40 +670,40 @@ proxies:
     port: 2087
     uuid: "bf443e4a-aa9e-4509-abf0-d0f6828d57be"
     udp: true
-  - name: "加拿大 -超时更新-01"
+  - name: "法国 -超时更新-02"
     type: "vless"
-    server: "maple.adaspoloandco.com"
-    port: 8443
-    uuid: "db3f09ae-23f2-42b8-abee-7b89fb392c5e"
-    udp: true
-  - name: "美国 -超时更新-02"
-    type: "vless"
-    server: "138.124.125.211"
-    port: 443
-    uuid: "1996007c-e7bc-464b-999b-cac28cec6c3e"
+    server: "152.228.162.19"
+    port: 80
+    uuid: "25f86cb1-2140-4085-abcb-c3a0ea7a4be0"
     udp: true
   - name: "海外 -超时更新-01"
     type: "vless"
-    server: "108.162.198.178"
-    port: 2082
+    server: "104.18.39.218"
+    port: 80
     uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
     udp: true
   - name: "海外 -超时更新-02"
     type: "vless"
     server: "108.162.198.178"
-    port: 2095
+    port: 2082
     uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    udp: true
+  - name: "俄罗斯联邦 -超时更新-01"
+    type: "vless"
+    server: "150.241.101.80"
+    port: 8443
+    uuid: "47d9b534-8a0a-4bd2-90f1-1d6ade14427e"
     udp: true
   - name: "海外 -超时更新-03"
     type: "vless"
-    server: "108.162.198.178"
-    port: 8080
+    server: "162.159.48.32"
+    port: 8880
     uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
     udp: true
   - name: "海外 -超时更新-04"
     type: "vless"
-    server: "108.162.198.178"
-    port: 8880
+    server: "188.114.97.6"
+    port: 2052
     uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
     udp: true
   - name: "海外 -超时更新-05"
@@ -670,47 +712,53 @@ proxies:
     port: 8080
     uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
     udp: true
-  - name: "美国 -超时更新-03"
+  - name: "海外 -超时更新-06"
     type: "vless"
-    server: "5.152.223.192"
-    port: 443
-    uuid: "5bd820f0-69cb-4d6a-b42d-c0dfe2edffcd"
+    server: "188.114.97.6"
+    port: 8880
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
     udp: true
-  - name: "德国 -超时更新-02"
+  - name: "海外 -超时更新-07"
     type: "vless"
-    server: "185.204.171.221"
+    server: "104.21.238.93"
     port: 443
-    uuid: "5fca9c0b-5575-4e98-8af2-8cd867ab731d"
+    uuid: "50414e45-4c5f-5a45-5553-44890b90d17e"
     udp: true
-  - name: "英国 -超时更新-02"
+  - name: "海外 -超时更新-08"
+    type: "vless"
+    server: "151.242.168.187"
+    port: 443
+    uuid: "65ca8fd3-5b79-4f9a-b881-ffeb23b899a2"
+    udp: true
+  - name: "英国 -超时更新-06"
     type: "vless"
     server: "188.220.67.181"
     port: 2087
     uuid: "90da514d-8888-4a53-912e-ac2981c8c6ee"
     udp: true
-  - name: "荷兰 -超时更新-01"
+  - name: "海外 -超时更新-09"
     type: "vless"
-    server: "152.70.56.139"
-    port: 62145
-    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+    server: "188.114.97.6"
+    port: 8080
+    uuid: "73796e63-0000-4000-8000-000000000000"
     udp: true
-  - name: "法国 -超时更新-02"
+  - name: "美国 -超时更新-03"
     type: "vless"
-    server: "bridge2.kolhoz.fuck-rkn.xyz"
-    port: 443
-    uuid: "ef5f6054-61c7-4ce8-a35b-dbcec449f242"
-    udp: true
-  - name: "美国 -超时更新-05"
-    type: "vless"
-    server: "162.159.43.187"
-    port: 2082
+    server: "104.18.46.234"
+    port: 2095
     uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
     udp: true
   - name: "美国 -超时更新-04"
+    type: "vless"
+    server: "172.64.158.146"
+    port: 8880
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    udp: true
+  - name: "毛里求斯 -超时更新-01"
     type: "hysteria2"
-    server: "replay.wwwinternetvideo.click"
+    server: "admin.wwwinternetvideo.click"
     port: 443
-    password: "2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f"
+    password: "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -1385,6 +1433,24 @@ proxies:
     port: 443
     uuid: "29794dae-06ca-4b62-94f2-220b5858d39b"
     udp: true
+  - name: "官网: www.雨燕云.com"
+    type: "ss"
+    server: "1.1.1.1"
+    port: 10001
+    cipher: "chacha20-ietf-poly1305"
+    password: "53db9c44-94a1-4976-8682-5d1c3642058d"
+  - name: "套餐到期:2025-10-15"
+    type: "ss"
+    server: "127.0.0.1"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "password"
+  - name: "续费方法在节点详情的<地址>"
+    type: "ss"
+    server: "lykeij.shvpn.xyz"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "password"
   - name: "套餐到期:2025-12-13"
     type: "ss"
     server: "127.0.0.1"
@@ -1409,54 +1475,42 @@ proxies:
     port: 443
     cipher: "aes-256-gcm"
     password: "password"
-  - name: "套餐到期:2025-10-15"
-    type: "ss"
-    server: "127.0.0.1"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "password"
-  - name: "续费方法在节点详情的<地址>"
-    type: "ss"
-    server: "lykeij.shvpn.xyz"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "password"
   - name: "🚫 账户已被封禁-1 🚫"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
   - name: "🚫 账户已被封禁-2 🚫"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
   - name: "🚫 账户已被封禁-3 🚫"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
   - name: "📞 原因1：恶意滥用 📞"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
   - name: "📋 原因2：超过免费套餐阈值 📋"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
   - name: "🌐 官网地址：https://my.wazhua.org 🌐"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
+    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
   - name: "⚠️ 过滤掉3条线路（升级客户端）"
     type: "ss"
     server: "gd.bjnet2.com"
@@ -1565,16 +1619,6 @@ proxies:
     port: 1
     cipher: "aes-128-gcm"
     password: "unsupported-client"
-  - name: "🇦🇶 订阅于2026年05月25日 21:50已到期"
-    type: "vmess"
-    server: "127.0.0.1"
-    port: 80
-    uuid: "9e51eb62-797c-42fa-a6af-e993a99e6ece"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "tcp"
-    udp: true
   - name: "只有爱懂的人才能用"
     type: "vmess"
     server: "43.199.24.247"
@@ -2131,6 +2175,16 @@ proxies:
     port: 21007
     cipher: "aes-256-gcm"
     password: "HW53Y12FTZE6VVDT"
+  - name: "🇦🇶 订阅于2026年05月25日 21:50已到期"
+    type: "vmess"
+    server: "127.0.0.1"
+    port: 80
+    uuid: "9e51eb62-797c-42fa-a6af-e993a99e6ece"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
   - name: "剩余流量：0"
     type: "ss"
     server: "127.0.0.1"
@@ -2349,7 +2403,7 @@ proxies:
     port: 10003
     uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
     udp: true
-  - name: "距离下次重置剩余：25 天"
+  - name: "距离下次重置剩余：24 天"
     type: "vless"
     server: "asaa.mmm.top"
     port: 10003
@@ -2432,6 +2486,13 @@ proxies:
     server: "hk-alicdn.xn--9kqp42aims.top"
     port: 443
     uuid: "ceeb8370-d87a-40c7-b8b9-566716210763"
+    udp: true
+  - name: "🇯🇵日本 | GCP"
+    type: "tuic"
+    server: "2778.qwq1145.com"
+    port: 2001
+    uuid: "ceeb8370-d87a-40c7-b8b9-566716210763"
+    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
   - name: "🇺🇸美国-01 | 免费"
     type: "vless"
@@ -2527,38 +2588,6 @@ proxies:
     type: "hysteria2"
     server: "hkak3g.xn--9kqp42aims.top"
     port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇭🇰香港-05 | 电信优化 | x2"
-    type: "hysteria2"
-    server: "hk-alicdn.xn--9kqp42aims.top"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇭🇰香港-06 | 电信优化 | x2"
-    type: "hysteria2"
-    server: "hk-alicdn.xn--9kqp42aims.top"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇭🇰香港-07 | 三网"
-    type: "hysteria2"
-    server: "hk-alicdn.xn--9kqp42aims.top"
-    port: 55001
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇭🇰香港-08 | 三网"
-    type: "hysteria2"
-    server: "hk-alicdn.xn--9kqp42aims.top"
-    port: 55001
     password: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
     up: "50 Mbps"
@@ -3831,78 +3860,6 @@ proxies:
     network: "tcp"
     udp: true
     skip-cert-verify: false
-  - name: "[IPLC]挪威 01 奥斯陆"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11912
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]挪威 02 奥斯陆"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11979
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]智利 01 圣地亚哥"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11938
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]智利 02 圣地亚哥"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11984
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]法国 01 巴黎"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11932
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
-  - name: "[IPLC]法国 02 巴黎"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11981
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
 
 proxy-groups:
   - name: "Proxy"
@@ -3985,31 +3942,39 @@ proxy-groups:
       - "剩余流量：1000000000 GB"
       - "距离下次重置剩余：6 天"
       - "套餐到期：13433-12-13"
-      - "美国 -超时更新-01"
-      - "法国 -超时更新-01"
+      - "英国 -超时更新-01"
+      - "德国 -超时更新-02"
       - "英国 -超时更新-03"
       - "英国 -超时更新-04"
-      - "德国 -超时更新-03"
       - "英国 -超时更新-05"
-      - "德国 -超时更新-01"
-      - "澳大利亚 -超时更新-01"
-      - "英国 -超时更新-01"
-      - "土耳其 -超时更新-01"
-      - "乌克兰 -超时更新-01"
-      - "加拿大 -超时更新-01"
+      - "德国 -超时更新-03"
+      - "法国 -超时更新-01"
       - "美国 -超时更新-02"
+      - "荷兰 -超时更新-01"
+      - "德国 -超时更新-04"
+      - "英国 -超时更新-07"
+      - "加拿大 -超时更新-01"
+      - "澳大利亚 -超时更新-01"
+      - "土耳其 -超时更新-01"
+      - "德国 -超时更新-01"
+      - "英国 -超时更新-02"
+      - "美国 -超时更新-01"
+      - "乌克兰 -超时更新-01"
+      - "法国 -超时更新-02"
       - "海外 -超时更新-01"
       - "海外 -超时更新-02"
+      - "俄罗斯联邦 -超时更新-01"
       - "海外 -超时更新-03"
       - "海外 -超时更新-04"
       - "海外 -超时更新-05"
+      - "海外 -超时更新-06"
+      - "海外 -超时更新-07"
+      - "海外 -超时更新-08"
+      - "英国 -超时更新-06"
+      - "海外 -超时更新-09"
       - "美国 -超时更新-03"
-      - "德国 -超时更新-02"
-      - "英国 -超时更新-02"
-      - "荷兰 -超时更新-01"
-      - "法国 -超时更新-02"
-      - "美国 -超时更新-05"
       - "美国 -超时更新-04"
+      - "毛里求斯 -超时更新-01"
       - "防失联 dogfabu.com"
       - "香港 01"
       - "香港 02"
@@ -4099,11 +4064,12 @@ proxy-groups:
       - "US-LAX-DC12-004[TCP]"
       - "US-LAX-DC12-005[UDP]"
       - "US-LAX-DC12-005[TCP]"
+      - "官网: www.雨燕云.com"
+      - "套餐到期:2025-10-15"
+      - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-12-13"
       - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-11-20"
-      - "续费方法在节点详情的<地址>"
-      - "套餐到期:2025-10-15"
       - "续费方法在节点详情的<地址>"
       - "🚫 账户已被封禁-1 🚫"
       - "🚫 账户已被封禁-2 🚫"
@@ -4129,7 +4095,6 @@ proxy-groups:
       - "套餐过期或流量用完"
       - "冲上云霄官网vpnpn.com"
       - "请使用支持Clash.Meta内核的软件订阅或Shadowrocket，相关软件可在知识库获取"
-      - "🇦🇶 订阅于2026年05月25日 21:50已到期"
       - "只有爱懂的人才能用"
       - "🇭🇰 HK-04"
       - "🇭🇰 HK-06"
@@ -4222,6 +4187,7 @@ proxy-groups:
       - "🇨🇳 TW-05"
       - "🇨🇳 TW-06"
       - "🇨🇳 TW-07"
+      - "🇦🇶 订阅于2026年05月25日 21:50已到期"
       - "剩余流量：0"
       - "距离下次重置剩余：24 天"
       - "套餐到期：2027-04-01"
@@ -4257,7 +4223,7 @@ proxy-groups:
       - "越南-IEPL-Basic专线-01"
       - "英国-IEPL-Basic专线-01"
       - "剩余流量：0"
-      - "距离下次重置剩余：25 天"
+      - "距离下次重置剩余：24 天"
       - "套餐到期：2027-09-01"
       - "⚠️保持软件为最新版"
       - "⚠️使用前更新订阅"
@@ -4269,6 +4235,7 @@ proxy-groups:
       - "🇺🇸官网:gz-cloud.top"
       - "🇺🇸频道:@gzcloudpd"
       - "🇭🇰香港 | 三网"
+      - "🇯🇵日本 | GCP"
       - "🇺🇸美国-01 | 免费"
       - "🇺🇸美国-02 | 免费"
       - "🇺🇸美国-03 | 免费"
@@ -4282,10 +4249,6 @@ proxy-groups:
       - "🇭🇰香港-02"
       - "🇭🇰香港-03"
       - "🇭🇰香港-04"
-      - "🇭🇰香港-05 | 电信优化 | x2"
-      - "🇭🇰香港-06 | 电信优化 | x2"
-      - "🇭🇰香港-07 | 三网"
-      - "🇭🇰香港-08 | 三网"
       - "AA-香港HKT1"
       - "AA-香港HKT2"
       - "AA-香港HKT4"
@@ -4402,9 +4365,3 @@ proxy-groups:
       - "[IPLC]希腊 02 雅典"
       - "[IPLC]德国 01 法兰克福"
       - "[IPLC]德国 02 法兰克福"
-      - "[IPLC]挪威 01 奥斯陆"
-      - "[IPLC]挪威 02 奥斯陆"
-      - "[IPLC]智利 01 圣地亚哥"
-      - "[IPLC]智利 02 圣地亚哥"
-      - "[IPLC]法国 01 巴黎"
-      - "[IPLC]法国 02 巴黎"
