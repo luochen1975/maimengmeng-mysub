@@ -1,8 +1,20 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-07 19:07:59
+# 生成时间: 2026-09-07 23:27:16
 # 节点数量: 500
 
 proxies:
+  - name: "🇧🇷 巴西 024"
+    type: "vless"
+    server: "152.233.35.228"
+    port: 8443
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    udp: true
+  - name: "🇺🇸 美国 563"
+    type: "vless"
+    server: "172.64.152.23"
+    port: 443
+    uuid: "396c904b-4b62-4334-b793-ee25fc0c61cc"
+    udp: true
   - name: "🇧🇷 巴西 025"
     type: "vless"
     server: "188.114.96.3"
@@ -2991,23 +3003,13 @@ proxies:
     port: 22224
     uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
     udp: true
-  - name: "🇺🇸 美国 869"
-    type: "vless"
-    server: "63.187.248.131"
-    port: 22222
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "🇺🇸 美国 870"
-    type: "vless"
-    server: "63.187.248.131"
-    port: 22223
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇧🇷 巴西 024"
+      - "🇺🇸 美国 563"
       - "🇧🇷 巴西 025"
       - "🇺🇸 美国 564"
       - "🇺🇸 美国 565"
@@ -3506,5 +3508,3 @@ proxy-groups:
       - "🇺🇸 美国 866"
       - "🇺🇸 美国 867"
       - "🇺🇸 美国 868"
-      - "🇺🇸 美国 869"
-      - "🇺🇸 美国 870"

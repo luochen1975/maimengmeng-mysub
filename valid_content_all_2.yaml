@@ -1,8 +1,36 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-07 19:07:59
+# 生成时间: 2026-09-07 23:27:16
 # 节点数量: 500
 
 proxies:
+  - name: "🇭🇰HK-18.167.20.169-0021"
+    type: "vmess"
+    server: "18.167.20.169"
+    port: 8080
+    uuid: "e1f97064-adcd-40d3-91a0-3f0bea035fca"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇭🇰HK-143.14.189.125-0208"
+    type: "vmess"
+    server: "143.14.189.125"
+    port: 21316
+    uuid: "116f6ecd-275e-4b50-921d-780e78a526cb"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "pull.free.video.10010.com"
   - name: "🏁RELAY-104.17.77.77-0209"
     type: "vmess"
     server: "104.17.77.77"
@@ -485,19 +513,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "c995c6b1-28fe-414c-bca2-1d1b062c2bd4"
+    uuid: "a665b04c-b448-4a23-8191-11aef5d29275"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "c995c6b1-28fe-414c-bca2-1d1b062c2bd4"
+    uuid: "a665b04c-b448-4a23-8191-11aef5d29275"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "c995c6b1-28fe-414c-bca2-1d1b062c2bd4"
+    uuid: "a665b04c-b448-4a23-8191-11aef5d29275"
     udp: true
   - name: "🇺🇸 美国 001"
     type: "vmess"
@@ -6112,39 +6140,13 @@ proxies:
       path: "/d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess"
       headers:
         Host: "ac2088.herokuapp.com"
-  - name: "🇺🇸 美国 288"
-    type: "vmess"
-    server: "104.19.45.117"
-    port: 443
-    uuid: "3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2"
-    cipher: "auto"
-    alterId: 64
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "cdnde.irteyz.today"
-  - name: "🇰🇷 韩国 003"
-    type: "vmess"
-    server: "54.180.96.67"
-    port: 8888
-    uuid: "ae7486f9-d7b7-4f26-97a0-dc5b093dfa89"
-    cipher: "auto"
-    alterId: 1
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "54.180.96.67"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇭🇰HK-18.167.20.169-0021"
+      - "🇭🇰HK-143.14.189.125-0208"
       - "🏁RELAY-104.17.77.77-0209"
       - "🇰🇷KR-218.237.185.230-0210"
       - "🇨🇳CN-183.245.146.20-0020"
@@ -6643,5 +6645,3 @@ proxy-groups:
       - "🇺🇸 美国 285"
       - "🇺🇸 美国 286"
       - "🇺🇸 美国 287"
-      - "🇺🇸 美国 288"
-      - "🇰🇷 韩国 003"

@@ -1,8 +1,20 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-07 19:07:59
+# 生成时间: 2026-09-07 23:27:16
 # 节点数量: 500
 
 proxies:
+  - name: "🇺🇸 美国 869"
+    type: "vless"
+    server: "63.187.248.131"
+    port: 22222
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    udp: true
+  - name: "🇺🇸 美国 870"
+    type: "vless"
+    server: "63.187.248.131"
+    port: 22223
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    udp: true
   - name: "🇺🇸 美国 871"
     type: "vless"
     server: "172.64.150.28"
@@ -726,6 +738,254 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
+  - name: "AA-香港HKT1"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 1030
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "hkt1.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "AA-香港HKT2"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2570
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "hkt2.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "AA-香港HKT4"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 2020
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "hkt4.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "AA-香港HKT5"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 2840
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "hkt5.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-B台湾01"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 2980
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "tpe01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-B台湾02"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2990
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "tpe02.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-B台湾03"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 1320
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "tpe03.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-C日本(语音游戏)05"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 2720
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "jp05.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-C日本直连-07"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1730
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "jp07.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-美国高速-01"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 1580
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "us01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-美国高速-05"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2930
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "us05.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-美国高速-06"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 2740
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "us06.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-美国高速-07"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2220
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "us07.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-E新加坡解锁02"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2160
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "sg02.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-E新加坡解锁04"
+    type: "trojan"
+    server: "zzcmaa.bbapi01.com"
+    port: 2670
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "sg04.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-俄罗斯-01"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1150
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "ru01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-俄罗斯-02"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1260
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "ru02.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-越南（原生ip）"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2800
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "vn01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-智利"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1060
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "cl01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-加拿大高速-01"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1370
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "ca01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-加拿大高速-02"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1570
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "ca02.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-印度"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1980
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "in01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-爱尔兰原生IP"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1560
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "ie01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-德国-01 DE"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1350
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "de01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-德国原生IP-02"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1550
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "de02.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-L立陶宛-01"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 3170
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "lt01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-英国-01"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1360
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "uk01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-法国-01"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2920
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "fr01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-芬兰原生IP"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 1930
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "fi01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-巴西原生IP"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 2870
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "br01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
+  - name: "SVIP-南非原生IP"
+    type: "trojan"
+    server: "zzgme.bbapi01.com"
+    port: 3000
+    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
+    sni: "za01.bbprovm.com"
+    udp: true
+    skip-cert-verify: false
   - name: "[IPV6]网络支持IPV6可用 台湾01"
     type: "vmess"
     server: "ipv6-tw01.cnddns.com"
@@ -3018,254 +3278,6 @@ proxies:
     network: "tcp"
     udp: true
     skip-cert-verify: false
-  - name: "AA-香港HKT1"
-    type: "trojan"
-    server: "zzcmaa.bbapi01.com"
-    port: 1030
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "hkt1.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "AA-香港HKT2"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 2570
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "hkt2.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "AA-香港HKT4"
-    type: "trojan"
-    server: "zzcmaa.bbapi01.com"
-    port: 2020
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "hkt4.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "AA-香港HKT5"
-    type: "trojan"
-    server: "zzcmaa.bbapi01.com"
-    port: 2840
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "hkt5.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-B台湾01"
-    type: "trojan"
-    server: "zzcmaa.bbapi01.com"
-    port: 2980
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "tpe01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-B台湾02"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 2990
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "tpe02.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-B台湾03"
-    type: "trojan"
-    server: "zzcmaa.bbapi01.com"
-    port: 1320
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "tpe03.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-C日本(语音游戏)05"
-    type: "trojan"
-    server: "zzcmaa.bbapi01.com"
-    port: 2720
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "jp05.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-C日本直连-07"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 1730
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "jp07.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-美国高速-01"
-    type: "trojan"
-    server: "zzcmaa.bbapi01.com"
-    port: 1580
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "us01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-美国高速-05"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 2930
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "us05.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-美国高速-06"
-    type: "trojan"
-    server: "zzcmaa.bbapi01.com"
-    port: 2740
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "us06.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-美国高速-07"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 2220
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "us07.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-E新加坡解锁02"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 2160
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "sg02.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-E新加坡解锁04"
-    type: "trojan"
-    server: "zzcmaa.bbapi01.com"
-    port: 2670
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "sg04.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-俄罗斯-01"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 1150
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "ru01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-俄罗斯-02"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 1260
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "ru02.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-越南（原生ip）"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 2800
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "vn01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-智利"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 1060
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "cl01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-加拿大高速-01"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 1370
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "ca01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-加拿大高速-02"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 1570
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "ca02.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-印度"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 1980
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "in01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-爱尔兰原生IP"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 1560
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "ie01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-德国-01 DE"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 1350
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "de01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-德国原生IP-02"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 1550
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "de02.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-L立陶宛-01"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 3170
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "lt01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-英国-01"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 1360
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "uk01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-法国-01"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 2920
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "fr01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-芬兰原生IP"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 1930
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "fi01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-巴西原生IP"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 2870
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "br01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
-  - name: "SVIP-南非原生IP"
-    type: "trojan"
-    server: "zzgme.bbapi01.com"
-    port: 3000
-    password: "9f1b36f6-804a-3fc3-9e84-1149bade1c1f"
-    sni: "za01.bbprovm.com"
-    udp: true
-    skip-cert-verify: false
   - name: "Traffic: 0"
     type: "vmess"
     server: "127.0.0.2"
@@ -3965,10 +3977,6 @@ proxies:
     port: 28048
     cipher: "aes-128-gcm"
     password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "Shadowsocks"
-    type: "socks5"
-    server: "127.0.0.1"
-    port: 1080
   - name: "剩余流量：0"
     type: "vless"
     server: "cf.090227.xyz"
@@ -4014,7 +4022,7 @@ proxies:
   - name: "香港家宽hy2🇭🇰"
     type: "hysteria2"
     server: "hkbn.388898.xyz"
-    port: 21626
+    port: 21921
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4088,7 +4096,7 @@ proxies:
   - name: "美国AT&T家宽-02套餐hy2"
     type: "hysteria2"
     server: "att-b-02.388898.xyz"
-    port: 31111
+    port: 31985
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4096,7 +4104,7 @@ proxies:
   - name: "美国AT&T家宽备用🇺🇸hy2"
     type: "hysteria2"
     server: "att-b-04.388898.xyz"
-    port: 31654
+    port: 31129
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4296,7 +4304,7 @@ proxies:
   - name: "加拿大家宽🇨🇦hy2"
     type: "hysteria2"
     server: "ca.388898.xyz"
-    port: 53019
+    port: 53815
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4304,7 +4312,7 @@ proxies:
   - name: "[01]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet02.388898.xyz"
-    port: 33716
+    port: 33538
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4312,7 +4320,7 @@ proxies:
   - name: "[02]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet10.388898.xyz"
-    port: 11312
+    port: 11140
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4320,7 +4328,7 @@ proxies:
   - name: "[03]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet30.388898.xyz"
-    port: 11374
+    port: 11213
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4340,7 +4348,7 @@ proxies:
   - name: "德国高速节点hy2🇩🇪"
     type: "hysteria2"
     server: "dodef.388898.xyz"
-    port: 31009
+    port: 31688
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4348,7 +4356,7 @@ proxies:
   - name: "【1】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 31936
+    port: 31206
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4356,7 +4364,7 @@ proxies:
   - name: "【2】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 32447
+    port: 32536
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4364,7 +4372,7 @@ proxies:
   - name: "香港家宽hy2🇭🇰"
     type: "hysteria2"
     server: "hkbn.388898.xyz"
-    port: 21995
+    port: 21567
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4372,7 +4380,7 @@ proxies:
   - name: "美国AT&T家宽-02套餐hy2"
     type: "hysteria2"
     server: "att-b-02.388898.xyz"
-    port: 31011
+    port: 31542
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4380,7 +4388,7 @@ proxies:
   - name: "美国AT&T家宽备用🇺🇸hy2"
     type: "hysteria2"
     server: "att-b-04.388898.xyz"
-    port: 31512
+    port: 31600
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4388,7 +4396,7 @@ proxies:
   - name: "加拿大家宽🇨🇦hy2"
     type: "hysteria2"
     server: "ca.388898.xyz"
-    port: 53416
+    port: 53074
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4396,7 +4404,7 @@ proxies:
   - name: "[01]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet02.388898.xyz"
-    port: 33504
+    port: 33987
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4404,15 +4412,7 @@ proxies:
   - name: "[02]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet10.388898.xyz"
-    port: 11562
-    password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "[03]台湾hinet家宽🇨🇳hy2"
-    type: "hysteria2"
-    server: "hinet30.388898.xyz"
-    port: 11743
+    port: 11478
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -4422,6 +4422,8 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇺🇸 美国 869"
+      - "🇺🇸 美国 870"
       - "🇺🇸 美国 871"
       - "🇳🇱 荷兰 039"
       - "🇷🇺 俄罗斯 027"
@@ -4537,6 +4539,37 @@ proxy-groups:
       - "🇭🇰香港-02"
       - "🇭🇰香港-03"
       - "🇭🇰香港-04"
+      - "AA-香港HKT1"
+      - "AA-香港HKT2"
+      - "AA-香港HKT4"
+      - "AA-香港HKT5"
+      - "SVIP-B台湾01"
+      - "SVIP-B台湾02"
+      - "SVIP-B台湾03"
+      - "SVIP-C日本(语音游戏)05"
+      - "SVIP-C日本直连-07"
+      - "SVIP-美国高速-01"
+      - "SVIP-美国高速-05"
+      - "SVIP-美国高速-06"
+      - "SVIP-美国高速-07"
+      - "SVIP-E新加坡解锁02"
+      - "SVIP-E新加坡解锁04"
+      - "SVIP-俄罗斯-01"
+      - "SVIP-俄罗斯-02"
+      - "SVIP-越南（原生ip）"
+      - "SVIP-智利"
+      - "SVIP-加拿大高速-01"
+      - "SVIP-加拿大高速-02"
+      - "SVIP-印度"
+      - "SVIP-爱尔兰原生IP"
+      - "SVIP-德国-01 DE"
+      - "SVIP-德国原生IP-02"
+      - "SVIP-L立陶宛-01"
+      - "SVIP-英国-01"
+      - "SVIP-法国-01"
+      - "SVIP-芬兰原生IP"
+      - "SVIP-巴西原生IP"
+      - "SVIP-南非原生IP"
       - "[IPV6]网络支持IPV6可用 台湾01"
       - "[IPV6]网络支持IPV6可用 台湾02"
       - "[IPV6]网络支持IPV6可用 台湾03"
@@ -4728,37 +4761,6 @@ proxy-groups:
       - "[IPLC]斯洛文尼亚 02 克拉尼"
       - "[IPLC]沙特阿拉伯 01 利雅得"
       - "[IPLC]沙特阿拉伯 02 利雅得"
-      - "AA-香港HKT1"
-      - "AA-香港HKT2"
-      - "AA-香港HKT4"
-      - "AA-香港HKT5"
-      - "SVIP-B台湾01"
-      - "SVIP-B台湾02"
-      - "SVIP-B台湾03"
-      - "SVIP-C日本(语音游戏)05"
-      - "SVIP-C日本直连-07"
-      - "SVIP-美国高速-01"
-      - "SVIP-美国高速-05"
-      - "SVIP-美国高速-06"
-      - "SVIP-美国高速-07"
-      - "SVIP-E新加坡解锁02"
-      - "SVIP-E新加坡解锁04"
-      - "SVIP-俄罗斯-01"
-      - "SVIP-俄罗斯-02"
-      - "SVIP-越南（原生ip）"
-      - "SVIP-智利"
-      - "SVIP-加拿大高速-01"
-      - "SVIP-加拿大高速-02"
-      - "SVIP-印度"
-      - "SVIP-爱尔兰原生IP"
-      - "SVIP-德国-01 DE"
-      - "SVIP-德国原生IP-02"
-      - "SVIP-L立陶宛-01"
-      - "SVIP-英国-01"
-      - "SVIP-法国-01"
-      - "SVIP-芬兰原生IP"
-      - "SVIP-巴西原生IP"
-      - "SVIP-南非原生IP"
       - "Traffic: 0"
       - "Expire: Permanent validity"
       - "订阅套餐已过期/SubscriptionExpired"
@@ -4852,7 +4854,6 @@ proxy-groups:
       - "🇨🇦 加拿大 02 专线"
       - "🇦🇺 澳大利亚 01 专线"
       - "🇦🇺 澳大利亚 02 专线"
-      - "Shadowsocks"
       - "剩余流量：0"
       - "距离下次重置剩余：26+天"
       - "套餐到期：2026-10-03"
@@ -4921,4 +4922,3 @@ proxy-groups:
       - "加拿大家宽🇨🇦hy2"
       - "[01]台湾hinet家宽🇨🇳hy2"
       - "[02]台湾hinet家宽🇨🇳hy2"
-      - "[03]台湾hinet家宽🇨🇳hy2"
