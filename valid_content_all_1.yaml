@@ -1,5 +1,5 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-06 22:53:00
+# 生成时间: 2026-09-07 04:20:05
 # 节点数量: 500
 
 proxies:
@@ -423,6 +423,22 @@ proxies:
   - name: "日本10aws"
     type: "hysteria2"
     server: "7a322d16.459292.xyz"
+    port: 8443
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "日本11aws"
+    type: "hysteria2"
+    server: "d3e887dc.459292.xyz"
+    port: 8443
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "日本12aws"
+    type: "hysteria2"
+    server: "5e6b6eb1.459292.xyz"
     port: 8443
     password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
@@ -2411,6 +2427,12 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
+  - name: "🇭🇰香港 | 三网"
+    type: "vless"
+    server: "hk-alicdn.xn--9kqp42aims.top"
+    port: 443
+    uuid: "ceeb8370-d87a-40c7-b8b9-566716210763"
+    udp: true
   - name: "🇺🇸美国-01 | 免费"
     type: "vless"
     server: "us-host.xn--9kqp42aims.top"
@@ -2469,33 +2491,9 @@ proxies:
     port: 443
     uuid: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
-  - name: "🇯🇵日本-05"
-    type: "hysteria2"
-    server: "jpsb01.xn--9kqp42aims.top"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇯🇵日本-06"
-    type: "hysteria2"
-    server: "45.192.203.190"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
   - name: "🇯🇵日本-07"
     type: "hysteria2"
     server: "jpyh.xn--9kqp42aims.top"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇯🇵日本-08"
-    type: "hysteria2"
-    server: "45.192.201.94"
     port: 20000
     password: "ceeb8370-d87a-40c7-b8b9-566716210763"
     udp: true
@@ -3969,6 +3967,8 @@ proxy-groups:
       - "日本08aws"
       - "日本09aws"
       - "日本10aws"
+      - "日本11aws"
+      - "日本12aws"
       - "hy2台湾01"
       - "hy2台湾02"
       - "hy2台湾03"
@@ -4268,6 +4268,7 @@ proxy-groups:
       - "套餐到期：长期有效"
       - "🇺🇸官网:gz-cloud.top"
       - "🇺🇸频道:@gzcloudpd"
+      - "🇭🇰香港 | 三网"
       - "🇺🇸美国-01 | 免费"
       - "🇺🇸美国-02 | 免费"
       - "🇺🇸美国-03 | 免费"
@@ -4276,10 +4277,7 @@ proxy-groups:
       - "🇺🇸美国-06"
       - "🇺🇸美国-07"
       - "🇯🇵日本 | 免费"
-      - "🇯🇵日本-05"
-      - "🇯🇵日本-06"
       - "🇯🇵日本-07"
-      - "🇯🇵日本-08"
       - "🇭🇰香港-01"
       - "🇭🇰香港-02"
       - "🇭🇰香港-03"
