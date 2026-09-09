@@ -1,41 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-09 04:26:06
+# 生成时间: 2026-09-09 11:11:26
 # 节点数量: 500
 
 proxies:
-  - name: "🇦🇺AU-103.224.212.142-0196"
-    type: "vmess"
-    server: "mpdee-1042-v2-0.tyo-d-kcd.ap.cjhh.beauty"
-    port: 888
-    uuid: "fbc2efb0-786a-4074-81ea-8ab12ca5422c"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "s3.cjhh.beauty"
-  - name: "🇳🇱NL-37.1.220.158-0197"
-    type: "trojan"
-    server: "tr04.kaochangonline.online"
-    port: 443
-    password: "62b78c9b-16cb-4ee6-824b-a4f856cf18f3"
-    tls: true
-    udp: true
-  - name: "🇨🇳CN-117.164.185.222-0199"
-    type: "ss"
-    server: "117.164.185.222"
-    port: 61001
-    cipher: "chacha20-ietf-poly1305"
-    password: "ded86ba8-2e5d-4794-8b35-b967e59497bf"
-  - name: "🇨🇳CN-117.164.185.220-0200"
-    type: "ss"
-    server: "117.164.185.220"
-    port: 21003
-    cipher: "chacha20-ietf-poly1305"
-    password: "ded86ba8-2e5d-4794-8b35-b967e59497bf"
   - name: "🇨🇳CN-36.133.55.163-0201"
     type: "ss"
     server: "36.133.55.163"
@@ -1652,7 +1619,7 @@ proxies:
     password: "humanity"
     tls: true
     udp: true
-  - name: "SOCKS5-399"
+  - name: "SOCKS5-398"
     type: "socks5"
     server: "104.168.249.36"
     port: 1080
@@ -1671,7 +1638,7 @@ proxies:
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
-  - name: "HTTP-402"
+  - name: "HTTP-401"
     type: "http"
     server: "212.34.144.13"
     port: 18080
@@ -1688,12 +1655,12 @@ proxies:
     port: 8118
     uuid: "8b54a46a-e66b-48cc-bf5a-88f0855a3598"
     udp: true
-  - name: "HTTP-405"
+  - name: "HTTP-404"
     type: "http"
     server: "189.51.168.164"
     port: 999
     udp: true
-  - name: "HTTP-406"
+  - name: "HTTP-405"
     type: "http"
     server: "89.46.78.17"
     port: 3133
@@ -1768,7 +1735,7 @@ proxies:
     port: 443
     uuid: "6429d27e-a7d4-4e04-ae57-e88243fbbfe3"
     udp: true
-  - name: "SOCKS5-418"
+  - name: "SOCKS5-417"
     type: "socks5"
     server: "45.144.54.40"
     port: 1080
@@ -2256,19 +2223,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "4e0a52e8-5bec-4e8a-adb5-9b8675f161b9"
+    uuid: "13c056fe-ef68-47fe-9e19-b26f6135a624"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "4e0a52e8-5bec-4e8a-adb5-9b8675f161b9"
+    uuid: "13c056fe-ef68-47fe-9e19-b26f6135a624"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "4e0a52e8-5bec-4e8a-adb5-9b8675f161b9"
+    uuid: "13c056fe-ef68-47fe-9e19-b26f6135a624"
     udp: true
   - name: "🇨🇳 中国 001"
     type: "vmess"
@@ -4626,15 +4593,67 @@ proxies:
       path: "linkvws"
       headers:
         Host: "waynn.makeup"
+  - name: "🇺🇸 美国 079"
+    type: "vmess"
+    server: "104.21.53.12"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "ophelia.mom"
+  - name: "🇺🇸 美国 080"
+    type: "vmess"
+    server: "104.21.75.246"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/ophelia.mom:443/linkvws"
+      headers:
+        Host: "cf.tonyluk.link"
+  - name: "🇺🇸 美国 081"
+    type: "vmess"
+    server: "172.67.131.150"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "oliv.beauty"
+  - name: "🇺🇸 美国 082"
+    type: "vmess"
+    server: "104.21.91.254"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "waynn.makeup"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇦🇺AU-103.224.212.142-0196"
-      - "🇳🇱NL-37.1.220.158-0197"
-      - "🇨🇳CN-117.164.185.222-0199"
-      - "🇨🇳CN-117.164.185.220-0200"
       - "🇨🇳CN-36.133.55.163-0201"
       - "🇨🇳CN-36.133.194.43-0202"
       - "🇨🇳CN-117.164.185.220-0203"
@@ -4843,14 +4862,14 @@ proxy-groups:
       - "🇬🇧GB_2|3.9MB/s"
       - "🇬🇧GB_3|4.1MB/s"
       - "🇫🇷FR_1|1.4MB/s"
-      - "SOCKS5-399"
+      - "SOCKS5-398"
       - "🇮🇪IE_1|1.3MB/s"
       - "🇬🇧GB_5|5.3MB/s"
-      - "HTTP-402"
+      - "HTTP-401"
       - "🇨🇦CA_1|3.9MB/s"
       - "🇵🇱PL_1|1.1MB/s"
+      - "HTTP-404"
       - "HTTP-405"
-      - "HTTP-406"
       - "🇺🇸US_28|3.1MB/s"
       - "🇭🇰HK_1|4.0MB/s"
       - "🇦🇫AF_1|3.5MB/s"
@@ -4862,7 +4881,7 @@ proxy-groups:
       - "🇩🇪DE_7|2.0MB/s"
       - "🇬🇧GB_15|3.2MB/s"
       - "🇬🇧GB_16|4.2MB/s"
-      - "SOCKS5-418"
+      - "SOCKS5-417"
       - "US_speednode_0130"
       - "US_speednode_0132"
       - "US_speednode_0135"
@@ -5131,3 +5150,7 @@ proxy-groups:
       - "其他 056"
       - "🇺🇸 美国 077"
       - "🇺🇸 美国 078"
+      - "🇺🇸 美国 079"
+      - "🇺🇸 美国 080"
+      - "🇺🇸 美国 081"
+      - "🇺🇸 美国 082"

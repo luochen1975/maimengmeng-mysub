@@ -1,38 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-09 04:26:06
-# 节点数量: 106
+# 生成时间: 2026-09-09 11:11:26
+# 节点数量: 102
 
 proxies:
-  - name: "🇺🇸美国芝加哥 [0.5×]"
-    type: "hysteria2"
-    server: "172.245.234.168"
-    port: 55001
-    password: "8e2419a7-ef0d-4b19-b52b-3333a0edcba8"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇺🇸美国纽约 [0.5×]"
-    type: "hysteria2"
-    server: "23.95.75.23"
-    port: 55932
-    password: "8e2419a7-ef0d-4b19-b52b-3333a0edcba8"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇺🇸美国纽约2+[0.5×]"
-    type: "vless"
-    server: "23.95.75.23"
-    port: 443
-    uuid: "8e2419a7-ef0d-4b19-b52b-3333a0edcba8"
-    udp: true
-  - name: "🇦🇺澳大利亚悉尼"
-    type: "hysteria2"
-    server: "103.75.119.17"
-    port: 55338
-    password: "8e2419a7-ef0d-4b19-b52b-3333a0edcba8"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
   - name: "🇦🇺澳大利亚悉尼2"
     type: "vless"
     server: "103.75.119.17"
@@ -792,10 +762,6 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇺🇸美国芝加哥 [0.5×]"
-      - "🇺🇸美国纽约 [0.5×]"
-      - "🇺🇸美国纽约2+[0.5×]"
-      - "🇦🇺澳大利亚悉尼"
       - "🇦🇺澳大利亚悉尼2"
       - "🇬🇧英国伦敦"
       - "🇬🇧英国伦敦2"
