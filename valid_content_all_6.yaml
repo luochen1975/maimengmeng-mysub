@@ -1,6 +1,6 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-09 20:52:59
-# 节点数量: 305
+# 生成时间: 2026-09-09 23:10:28
+# 节点数量: 311
 
 proxies:
   - name: "[IPLC]保加利亚 01 索菲亚"
@@ -343,7 +343,7 @@ proxies:
     type: "vmess"
     server: "127.0.0.2"
     port: 53
-    uuid: "09413bf9-6dd4-4bd3-a0fb-b199964eb984"
+    uuid: "f662dd33-56ff-4a47-bfac-e2e469e151d4"
     cipher: "auto"
     alterId: 0
     tls: false
@@ -357,7 +357,7 @@ proxies:
     type: "vmess"
     server: "127.0.0.2"
     port: 53
-    uuid: "09413bf9-6dd4-4bd3-a0fb-b199964eb984"
+    uuid: "f662dd33-56ff-4a47-bfac-e2e469e151d4"
     cipher: "auto"
     alterId: 0
     tls: false
@@ -371,7 +371,7 @@ proxies:
     type: "vmess"
     server: "127.0.0.2"
     port: 53
-    uuid: "09413bf9-6dd4-4bd3-a0fb-b199964eb984"
+    uuid: "f662dd33-56ff-4a47-bfac-e2e469e151d4"
     cipher: "auto"
     alterId: 0
     tls: false
@@ -385,7 +385,7 @@ proxies:
     type: "vmess"
     server: "127.0.0.2"
     port: 53
-    uuid: "09413bf9-6dd4-4bd3-a0fb-b199964eb984"
+    uuid: "f662dd33-56ff-4a47-bfac-e2e469e151d4"
     cipher: "auto"
     alterId: 0
     tls: false
@@ -399,7 +399,7 @@ proxies:
     type: "vmess"
     server: "127.0.0.2"
     port: 53
-    uuid: "09413bf9-6dd4-4bd3-a0fb-b199964eb984"
+    uuid: "f662dd33-56ff-4a47-bfac-e2e469e151d4"
     cipher: "auto"
     alterId: 0
     tls: false
@@ -413,7 +413,7 @@ proxies:
     type: "vmess"
     server: "127.0.0.2"
     port: 53
-    uuid: "09413bf9-6dd4-4bd3-a0fb-b199964eb984"
+    uuid: "f662dd33-56ff-4a47-bfac-e2e469e151d4"
     cipher: "auto"
     alterId: 0
     tls: false
@@ -427,7 +427,7 @@ proxies:
     type: "vmess"
     server: "127.0.0.2"
     port: 53
-    uuid: "09413bf9-6dd4-4bd3-a0fb-b199964eb984"
+    uuid: "f662dd33-56ff-4a47-bfac-e2e469e151d4"
     cipher: "auto"
     alterId: 0
     tls: false
@@ -443,6 +443,36 @@ proxies:
     port: 1
     cipher: "aes-256-gcm"
     password: "expired"
+    udp: true
+  - name: "官网:miaopu.xyz 书签:no404.tk"
+    type: "vmess"
+    server: "www.google.com"
+    port: 10086
+    uuid: "60f45be4-65e1-354e-8e0e-9d775e699723"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "等级到期，可签到使用"
+    type: "vmess"
+    server: "www.google.com"
+    port: 10086
+    uuid: "60f45be4-65e1-354e-8e0e-9d775e699723"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "账户已过期，请续费后使用"
+    type: "vmess"
+    server: "www.google.com"
+    port: 10086
+    uuid: "60f45be4-65e1-354e-8e0e-9d775e699723"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
     udp: true
   - name: "A01-华沙 倍率:0.1 waw"
     type: "vmess"
@@ -570,36 +600,6 @@ proxies:
       path: "/hls/cctv5phd.m3u8"
       headers:
         host: "brv21826.902222.xyz"
-  - name: "官网:miaopu.xyz 书签:no404.tk"
-    type: "vmess"
-    server: "www.google.com"
-    port: 10086
-    uuid: "60f45be4-65e1-354e-8e0e-9d775e699723"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "tcp"
-    udp: true
-  - name: "等级到期，可签到使用"
-    type: "vmess"
-    server: "www.google.com"
-    port: 10086
-    uuid: "60f45be4-65e1-354e-8e0e-9d775e699723"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "tcp"
-    udp: true
-  - name: "账户已过期，请续费后使用"
-    type: "vmess"
-    server: "www.google.com"
-    port: 10086
-    uuid: "60f45be4-65e1-354e-8e0e-9d775e699723"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "tcp"
-    udp: true
   - name: "🔄 订阅地址已失效 · 请到 yangfanhome.com 重新复制订阅链接"
     type: "ss"
     server: "1.1.1.1"
@@ -1038,16 +1038,12 @@ proxies:
     port: 28048
     cipher: "aes-128-gcm"
     password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "剩余流量：52.27 GB"
+  - name: "剩余流量：52.16 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
     cipher: "aes-128-gcm"
     password: "66fc385b-2626-49c4-8d2d-bc330f7500a8"
-  - name: "Shadowsocks"
-    type: "socks5"
-    server: "127.0.0.1"
-    port: 1080
   - name: "剩余流量：0"
     type: "vless"
     server: "cf.090227.xyz"
@@ -1093,7 +1089,7 @@ proxies:
   - name: "香港家宽hy2🇭🇰"
     type: "hysteria2"
     server: "hkbn.388898.xyz"
-    port: 21448
+    port: 21188
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1167,7 +1163,7 @@ proxies:
   - name: "美国AT&T家宽-02套餐hy2"
     type: "hysteria2"
     server: "att-b-02.388898.xyz"
-    port: 31548
+    port: 31284
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1175,7 +1171,7 @@ proxies:
   - name: "美国AT&T家宽备用🇺🇸hy2"
     type: "hysteria2"
     server: "att-b-04.388898.xyz"
-    port: 31426
+    port: 31019
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1375,7 +1371,7 @@ proxies:
   - name: "加拿大家宽🇨🇦hy2"
     type: "hysteria2"
     server: "ca.388898.xyz"
-    port: 53817
+    port: 53089
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1383,7 +1379,7 @@ proxies:
   - name: "[01]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet02.388898.xyz"
-    port: 33749
+    port: 33702
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1391,7 +1387,7 @@ proxies:
   - name: "[02]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet10.388898.xyz"
-    port: 11877
+    port: 11509
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1399,7 +1395,7 @@ proxies:
   - name: "[03]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet30.388898.xyz"
-    port: 11031
+    port: 11313
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1413,7 +1409,7 @@ proxies:
   - name: "日本樱花10gbps🌸hy2"
     type: "hysteria2"
     server: "sakuraweb.388898.xyz"
-    port: 31119
+    port: 31237
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1427,7 +1423,7 @@ proxies:
   - name: "德国高速节点hy2🇩🇪"
     type: "hysteria2"
     server: "dodef.388898.xyz"
-    port: 31516
+    port: 31364
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1435,7 +1431,7 @@ proxies:
   - name: "【1】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 31270
+    port: 31584
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1443,15 +1439,19 @@ proxies:
   - name: "【2】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 32445
+    port: 32885
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
+  - name: "Shadowsocks"
+    type: "socks5"
+    server: "127.0.0.1"
+    port: 1080
   - name: "香港家宽hy2🇭🇰"
     type: "hysteria2"
     server: "hkbn.388898.xyz"
-    port: 21259
+    port: 21443
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1459,7 +1459,7 @@ proxies:
   - name: "美国AT&T家宽-02套餐hy2"
     type: "hysteria2"
     server: "att-b-02.388898.xyz"
-    port: 31437
+    port: 31998
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1467,7 +1467,7 @@ proxies:
   - name: "美国AT&T家宽备用🇺🇸hy2"
     type: "hysteria2"
     server: "att-b-04.388898.xyz"
-    port: 31927
+    port: 31986
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1475,7 +1475,7 @@ proxies:
   - name: "加拿大家宽🇨🇦hy2"
     type: "hysteria2"
     server: "ca.388898.xyz"
-    port: 53509
+    port: 53110
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1483,7 +1483,7 @@ proxies:
   - name: "[01]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet02.388898.xyz"
-    port: 33527
+    port: 33483
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1491,7 +1491,7 @@ proxies:
   - name: "[02]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet10.388898.xyz"
-    port: 11406
+    port: 11536
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1499,7 +1499,7 @@ proxies:
   - name: "[03]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet30.388898.xyz"
-    port: 11916
+    port: 11860
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1507,7 +1507,7 @@ proxies:
   - name: "日本樱花10gbps🌸hy2"
     type: "hysteria2"
     server: "sakuraweb.388898.xyz"
-    port: 31751
+    port: 31940
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1515,7 +1515,7 @@ proxies:
   - name: "德国高速节点hy2🇩🇪"
     type: "hysteria2"
     server: "dodef.388898.xyz"
-    port: 31284
+    port: 31816
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1523,7 +1523,7 @@ proxies:
   - name: "【1】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 31171
+    port: 31021
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1531,7 +1531,7 @@ proxies:
   - name: "【2】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 32074
+    port: 32544
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1626,42 +1626,6 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
-  - name: "订阅链接过期了"
-    type: "ss"
-    server: "www.baidu.com"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "0_110abc"
-  - name: "订阅链接为短时间有效模式"
-    type: "ss"
-    server: "www.baidu.com"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "0_110abc"
-  - name: "去官网获取最新有效链接"
-    type: "ss"
-    server: "www.baidu.com"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "0_110abc"
-  - name: "节点是否可用与订阅链接过期没关系"
-    type: "ss"
-    server: "www.baidu.com"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "0_110abc"
-  - name: "教程：doc.miyun.app"
-    type: "ss"
-    server: "www.baidu.com"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "0_110abc"
-  - name: "官网：miyun.de"
-    type: "ss"
-    server: "www.baidu.com"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "0_110abc"
   - name: "剩余流量：0"
     type: "vmess"
     server: "2605:e440:11::388"
@@ -1774,232 +1738,275 @@ proxies:
       path: ""
       headers:
         Host: ""
-  - name: "节点日期：2026-09-09"
-    type: "vless"
-    server: "freshjuniper.download"
-    port: 443
-    uuid: "6429d27e-a7d4-4e04-ae57-e88243fbbfe3"
-    udp: true
-  - name: "US【机场推荐：https://a9a.xyz】1"
-    type: "vless"
-    server: "188.137.242.143"
-    port: 443
-    uuid: "d9d0f208-d582-41d5-bb7b-742671402810"
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】2"
-    type: "trojan"
-    server: "104.26.15.137"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】3"
-    type: "trojan"
-    server: "172.67.74.2"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】4"
-    type: "trojan"
-    server: "104.16.174.124"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】5"
-    type: "trojan"
-    server: "104.17.111.8"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】6"
-    type: "trojan"
-    server: "join-telegram-channel.tirexnet.kdns.fr"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】7"
-    type: "trojan"
-    server: "104.18.152.77"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】8"
-    type: "trojan"
-    server: "104.18.152.161"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "US【机场推荐：https://a9a.xyz】9"
-    type: "trojan"
-    server: "8.6.112.0"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】10"
-    type: "trojan"
-    server: "104.18.152.108"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】11"
-    type: "trojan"
-    server: "104.19.229.21"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】12"
-    type: "trojan"
-    server: "104.18.152.229"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】13"
-    type: "trojan"
-    server: "104.18.22.63"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】14"
-    type: "trojan"
-    server: "104.16.174.185"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "FR【机场推荐：https://a9a.xyz】15"
-    type: "vless"
-    server: "13.36.253.48"
-    port: 22223
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "DE【机场推荐：https://a9a.xyz】16"
-    type: "vless"
-    server: "45.145.40.99"
-    port: 443
-    uuid: "14f4be39-cb89-4f2b-8200-704666b6fa4e"
-    udp: true
-  - name: "IN【机场推荐：https://a9a.xyz】17"
-    type: "vless"
-    server: "179.61.227.145"
-    port: 2083
-    uuid: "e0b9fb0f-1bbd-478b-9580-c2294778338b"
-    udp: true
-  - name: "CN【机场推荐：https://a9a.xyz】18"
-    type: "vless"
-    server: "jp.sofast.live"
-    port: 52683
-    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
-    udp: true
-  - name: "CN【机场推荐：https://a9a.xyz】19"
-    type: "vless"
-    server: "us22.sofast.live"
-    port: 58011
-    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
-    udp: true
-  - name: "HK【机场推荐：https://a9a.xyz】20"
-    type: "vless"
-    server: "130.12.102.125"
-    port: 443
-    uuid: "6429d27e-a7d4-4e04-ae57-e88243fbbfe3"
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】21"
+  - name: "订阅链接过期了"
+    type: "ss"
+    server: "www.baidu.com"
+    port: 10081
+    cipher: "aes-256-gcm"
+    password: "0_110abc"
+  - name: "订阅链接为短时间有效模式"
+    type: "ss"
+    server: "www.baidu.com"
+    port: 10081
+    cipher: "aes-256-gcm"
+    password: "0_110abc"
+  - name: "去官网获取最新有效链接"
+    type: "ss"
+    server: "www.baidu.com"
+    port: 10081
+    cipher: "aes-256-gcm"
+    password: "0_110abc"
+  - name: "节点是否可用与订阅链接过期没关系"
+    type: "ss"
+    server: "www.baidu.com"
+    port: 10081
+    cipher: "aes-256-gcm"
+    password: "0_110abc"
+  - name: "教程：doc.miyun.app"
+    type: "ss"
+    server: "www.baidu.com"
+    port: 10081
+    cipher: "aes-256-gcm"
+    password: "0_110abc"
+  - name: "官网：miyun.de"
+    type: "ss"
+    server: "www.baidu.com"
+    port: 10081
+    cipher: "aes-256-gcm"
+    password: "0_110abc"
+  - name: "节点日期：2026-09-10"
     type: "trojan"
     server: "www.ignitelimit.com"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】22"
+  - name: "US【机场推荐：https://a9a.xyz】1"
+    type: "vmess"
+    server: "165.140.217.2"
+    port: 443
+    uuid: "b65a2d69-5634-42a2-e4be-54e8a6176900"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "NL【机场推荐：https://a9a.xyz】2"
+    type: "vless"
+    server: "31.59.150.174"
+    port: 9443
+    uuid: "92089155-6602-4122-86d4-fe6de20e8c4d"
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】3"
     type: "trojan"
-    server: "104.26.14.137"
+    server: "104.18.152.207"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】23"
+  - name: "CA【机场推荐：https://a9a.xyz】4"
     type: "trojan"
-    server: "104.18.152.144"
+    server: "104.18.152.113"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】24"
-    type: "trojan"
-    server: "104.20.6.134"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】25"
-    type: "trojan"
-    server: "104.18.152.208"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "TR【机场推荐：https://a9a.xyz】26"
-    type: "trojan"
-    server: "86.38.214.205"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】27"
+  - name: "CA【机场推荐：https://a9a.xyz】5"
     type: "trojan"
     server: "104.18.152.50"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】28"
+  - name: "CA【机场推荐：https://a9a.xyz】6"
     type: "trojan"
-    server: "104.16.174.121"
+    server: "104.16.174.185"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】29"
+  - name: "CA【机场推荐：https://a9a.xyz】7"
     type: "trojan"
-    server: "104.16.174.148"
+    server: "104.16.7.70"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "UN【机场推荐：https://a9a.xyz】30"
+  - name: "CA【机场推荐：https://a9a.xyz】8"
+    type: "trojan"
+    server: "104.16.174.117"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】9"
+    type: "trojan"
+    server: "104.18.152.208"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】10"
+    type: "trojan"
+    server: "104.16.174.14"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】11"
+    type: "trojan"
+    server: "104.18.152.179"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】12"
+    type: "trojan"
+    server: "104.16.174.33"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "US【机场推荐：https://a9a.xyz】13"
+    type: "vless"
+    server: "brightharbor.download"
+    port: 443
+    uuid: "6429d27e-a7d4-4e04-ae57-e88243fbbfe3"
+    udp: true
+  - name: "CN【机场推荐：https://a9a.xyz】14"
+    type: "vless"
+    server: "us22.sofast.live"
+    port: 58011
+    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】15"
+    type: "vless"
+    server: "104.26.0.113"
+    port: 2053
+    uuid: "8666ab45-8e3d-4988-841b-2561d91e32d5"
+    udp: true
+  - name: "LV【机场推荐：https://a9a.xyz】16"
+    type: "vless"
+    server: "195.123.213.28"
+    port: 443
+    uuid: "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24"
+    udp: true
+  - name: "US【机场推荐：https://a9a.xyz】17"
+    type: "vless"
+    server: "8.35.211.145"
+    port: 8443
+    uuid: "8666ab45-8e3d-4988-841b-2561d91e32d5"
+    udp: true
+  - name: "TR【机场推荐：https://a9a.xyz】18"
+    type: "vmess"
+    server: "188.132.232.85"
+    port: 2086
+    uuid: "f6361af8-bb8f-4609-bf5d-3fc0f688f47b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "RU【机场推荐：https://a9a.xyz】19"
+    type: "vless"
+    server: "pr-media.pepro.site"
+    port: 14443
+    uuid: "fb67fd37-8d41-43a9-a093-c0b807fc5299"
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】20"
+    type: "trojan"
+    server: "172.67.188.109"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】21"
+    type: "trojan"
+    server: "104.18.152.155"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】22"
+    type: "trojan"
+    server: "104.18.152.187"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】23"
     type: "trojan"
     server: "104.16.174.22"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】31"
+  - name: "CA【机场推荐：https://a9a.xyz】24"
     type: "trojan"
-    server: "104.16.174.34"
+    server: "104.19.229.21"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】32"
+  - name: "DE【机场推荐：https://a9a.xyz】25"
     type: "trojan"
-    server: "104.16.174.109"
+    server: "141.101.90.101"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】26"
+    type: "trojan"
+    server: "104.18.152.233"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "US【机场推荐：https://a9a.xyz】27"
+    type: "trojan"
+    server: "216.24.57.7"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】28"
+    type: "trojan"
+    server: "www.speedtest.net"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】29"
+    type: "trojan"
+    server: "104.18.152.140"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】30"
+    type: "trojan"
+    server: "104.18.152.229"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "CA【机场推荐：https://a9a.xyz】31"
+    type: "trojan"
+    server: "104.18.152.246"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "TR【机场推荐：https://a9a.xyz】32"
+    type: "trojan"
+    server: "86.38.214.205"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "CA【机场推荐：https://a9a.xyz】33"
     type: "trojan"
-    server: "104.18.152.155"
+    server: "104.16.174.101"
     port: 443
     password: "humanity"
     tls: true
@@ -2013,104 +2020,105 @@ proxies:
     udp: true
   - name: "CA【机场推荐：https://a9a.xyz】35"
     type: "trojan"
-    server: "104.17.111.1"
+    server: "104.18.152.219"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "CA【机场推荐：https://a9a.xyz】36"
     type: "trojan"
-    server: "104.16.7.70"
+    server: "104.18.152.149"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "CA【机场推荐：https://a9a.xyz】37"
     type: "trojan"
-    server: "104.16.174.72"
+    server: "104.18.152.225"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "CA【机场推荐：https://a9a.xyz】38"
     type: "trojan"
-    server: "104.18.23.63"
+    server: "104.16.174.44"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "RU【机场推荐：https://a9a.xyz】39"
-    type: "vless"
-    server: "pr-media.pepro.site"
-    port: 14443
-    uuid: "fb67fd37-8d41-43a9-a093-c0b807fc5299"
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】40"
+  - name: "CA【机场推荐：https://a9a.xyz】39"
     type: "trojan"
-    server: "104.17.177.143"
+    server: "104.16.174.72"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "US【机场推荐：https://a9a.xyz】40"
+    type: "trojan"
+    server: "8.6.112.0"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "CA【机场推荐：https://a9a.xyz】41"
     type: "trojan"
-    server: "104.16.174.44"
+    server: "104.16.174.34"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "CA【机场推荐：https://a9a.xyz】42"
     type: "trojan"
-    server: "104.18.152.219"
+    server: "104.18.152.204"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "CA【机场推荐：https://a9a.xyz】43"
     type: "trojan"
-    server: "104.18.152.244"
+    server: "104.16.174.121"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "SC【机场推荐：https://a9a.xyz】44"
+  - name: "CA【机场推荐：https://a9a.xyz】44"
     type: "trojan"
-    server: "45.130.125.158"
+    server: "104.16.174.46"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】45"
     type: "trojan"
-    server: "104.18.152.187"
+    server: "104.16.174.6"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "CA【机场推荐：https://a9a.xyz】46"
     type: "trojan"
-    server: "ip.myip2.qzz.io"
+    server: "104.18.12.149"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】47"
     type: "trojan"
-    server: "104.16.174.117"
+    server: "216.24.57.1"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】48"
     type: "trojan"
-    server: "104.16.174.6"
+    server: "104.18.152.230"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】49"
     type: "trojan"
-    server: "104.18.152.73"
+    server: "104.18.152.144"
     port: 443
     password: "humanity"
     tls: true
@@ -2124,104 +2132,152 @@ proxies:
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】51"
     type: "trojan"
-    server: "104.18.152.225"
+    server: "104.17.111.3"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】52"
     type: "trojan"
-    server: "104.16.174.101"
+    server: "104.18.152.103"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】53"
     type: "trojan"
-    server: "104.18.152.175"
+    server: "104.16.174.37"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】54"
     type: "trojan"
-    server: "172.67.149.60"
+    server: "104.16.174.148"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】55"
     type: "trojan"
-    server: "104.16.174.33"
+    server: "104.16.73.213"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】56"
     type: "trojan"
-    server: "141.101.90.101"
+    server: "130.250.137.171"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】57"
     type: "trojan"
-    server: "188.114.97.7"
+    server: "render.com"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】58"
     type: "trojan"
-    server: "172.67.221.242"
+    server: "104.17.111.8"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】59"
-    type: "vless"
-    server: "167.104.104.138"
-    port: 8443
-    uuid: "a5194487-9b9a-462f-a047-ac7580d80201"
+    type: "trojan"
+    server: "104.18.152.133"
+    port: 443
+    password: "humanity"
+    tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】60"
     type: "trojan"
-    server: "join-telegram-channel-tirexnet.trex.kdns.fr"
+    server: "104.16.174.12"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】61"
     type: "trojan"
-    server: "176.97.66.175"
+    server: "188.114.97.7"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】62"
     type: "trojan"
-    server: "172.67.188.109"
+    server: "172.67.221.242"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】63"
-    type: "vless"
-    server: "82.47.169.33"
-    port: 2096
-    uuid: "e666041f-8a25-4f05-812d-a5984e748497"
+    type: "trojan"
+    server: "104.18.22.63"
+    port: 443
+    password: "humanity"
+    tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】64"
-    type: "vless"
-    server: "eu-north-sw-1.hanvpn.biz"
+    type: "trojan"
+    server: "104.20.6.134"
     port: 443
-    uuid: "d9d0f208-d582-41d5-bb7b-742671402810"
+    password: "humanity"
+    tls: true
     udp: true
   - name: "UN【机场推荐：https://a9a.xyz】65"
-    type: "vless"
-    server: "104.21.13.79"
+    type: "trojan"
+    server: "104.26.14.137"
     port: 443
-    uuid: "2240d8f8-898f-4988-8c08-ac724aa06ddb"
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】66"
+    type: "trojan"
+    server: "172.67.74.2"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】67"
+    type: "vless"
+    server: "213.176.77.138"
+    port: 443
+    uuid: "ca19c24a-e5ec-45f8-8cd1-c97d84da5e35"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】68"
+    type: "vless"
+    server: "15.188.69.42"
+    port: 22223
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】69"
+    type: "vless"
+    server: "a2.arshia-nova.ir"
+    port: 443
+    uuid: "d9eda159-18d6-4457-8983-55523a21658c"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】70"
+    type: "trojan"
+    server: "176.97.66.175"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】71"
+    type: "vless"
+    server: "167.104.104.138"
+    port: 8443
+    uuid: "a5194487-9b9a-462f-a047-ac7580d80201"
+    udp: true
+  - name: "UN【机场推荐：https://a9a.xyz】72"
+    type: "vless"
+    server: "jp.sofast.live"
+    port: 52683
+    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
     udp: true
   - name: "剩余流量：-0.029999999999973 GB"
     type: "ss"
@@ -2317,16 +2373,7 @@ proxies:
     port: 80
     cipher: "aes-128-gcm"
     password: "afa31ea7-0b97-4bc9-b043-daaeca4aef70"
-  - name: "Unnamed"
-    type: "http"
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geosite/classical/cn.yaml"
-    path: "./ruleset/cn.yaml"
-    interval: 86400
-    proxy: "DIRECT"
-    behavior: "classical"
-    format: "yaml"
-    size-limit: 0
-  - name: "剩余流量：42.15 GB"
+  - name: "剩余流量：41.64 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -2373,6 +2420,9 @@ proxy-groups:
       - "官网: https://bit.ly/easyinte"
       - "Website: https://bit.ly/easyinte"
       - "官网: www.iplc0.top"
+      - "官网:miaopu.xyz 书签:no404.tk"
+      - "等级到期，可签到使用"
+      - "账户已过期，请续费后使用"
       - "A01-华沙 倍率:0.1 waw"
       - "A01b-华沙 倍率:0.1 waw"
       - "A02-荷兰 倍率:0.1 ams"
@@ -2382,9 +2432,6 @@ proxy-groups:
       - "AB01-美国 倍率:0.01 hcc"
       - "AB01b-美国 倍率:0.01 hcc"
       - "AC04-巴西 倍率:0.01"
-      - "官网:miaopu.xyz 书签:no404.tk"
-      - "等级到期，可签到使用"
-      - "账户已过期，请续费后使用"
       - "🔄 订阅地址已失效 · 请到 yangfanhome.com 重新复制订阅链接"
       - "invalid share"
       - "剩余流量：0"
@@ -2458,8 +2505,7 @@ proxy-groups:
       - "🇨🇦 加拿大 02 专线"
       - "🇦🇺 澳大利亚 01 专线"
       - "🇦🇺 澳大利亚 02 专线"
-      - "剩余流量：52.27 GB"
-      - "Shadowsocks"
+      - "剩余流量：52.16 GB"
       - "剩余流量：0"
       - "距离下次重置剩余：24+天"
       - "套餐到期：2026-10-03"
@@ -2523,6 +2569,7 @@ proxy-groups:
       - "德国高速节点hy2🇩🇪"
       - "【1】新加坡高速节点🇸🇬hy2"
       - "【2】新加坡高速节点🇸🇬hy2"
+      - "Shadowsocks"
       - "香港家宽hy2🇭🇰"
       - "美国AT&T家宽-02套餐hy2"
       - "美国AT&T家宽备用🇺🇸hy2"
@@ -2545,12 +2592,6 @@ proxy-groups:
       - "🇦🇶 请登陆官网 导入新订阅"
       - "🇦🇶 登陆网站导入新的订阅URL"
       - "🇦🇶 ⚠️‼️ 订阅请勿泄露"
-      - "订阅链接过期了"
-      - "订阅链接为短时间有效模式"
-      - "去官网获取最新有效链接"
-      - "节点是否可用与订阅链接过期没关系"
-      - "教程：doc.miyun.app"
-      - "官网：miyun.de"
       - "剩余流量：0"
       - "距离下次重置剩余：20 天"
       - "套餐到期：2026-09-24"
@@ -2559,51 +2600,57 @@ proxy-groups:
       - "louwangzhiyu.org@gmail.com"
       - "请在系统设置及翻墙软件的设置中同时启用 IPv6"
       - "请使用支持Hy2协议的最新版客户端，老版本识别不了节点"
-      - "节点日期：2026-09-09"
+      - "订阅链接过期了"
+      - "订阅链接为短时间有效模式"
+      - "去官网获取最新有效链接"
+      - "节点是否可用与订阅链接过期没关系"
+      - "教程：doc.miyun.app"
+      - "官网：miyun.de"
+      - "节点日期：2026-09-10"
       - "US【机场推荐：https://a9a.xyz】1"
-      - "CA【机场推荐：https://a9a.xyz】2"
+      - "NL【机场推荐：https://a9a.xyz】2"
       - "CA【机场推荐：https://a9a.xyz】3"
       - "CA【机场推荐：https://a9a.xyz】4"
       - "CA【机场推荐：https://a9a.xyz】5"
       - "CA【机场推荐：https://a9a.xyz】6"
       - "CA【机场推荐：https://a9a.xyz】7"
       - "CA【机场推荐：https://a9a.xyz】8"
-      - "US【机场推荐：https://a9a.xyz】9"
+      - "CA【机场推荐：https://a9a.xyz】9"
       - "CA【机场推荐：https://a9a.xyz】10"
       - "CA【机场推荐：https://a9a.xyz】11"
       - "CA【机场推荐：https://a9a.xyz】12"
-      - "CA【机场推荐：https://a9a.xyz】13"
-      - "CA【机场推荐：https://a9a.xyz】14"
-      - "FR【机场推荐：https://a9a.xyz】15"
-      - "DE【机场推荐：https://a9a.xyz】16"
-      - "IN【机场推荐：https://a9a.xyz】17"
-      - "CN【机场推荐：https://a9a.xyz】18"
-      - "CN【机场推荐：https://a9a.xyz】19"
-      - "HK【机场推荐：https://a9a.xyz】20"
+      - "US【机场推荐：https://a9a.xyz】13"
+      - "CN【机场推荐：https://a9a.xyz】14"
+      - "CA【机场推荐：https://a9a.xyz】15"
+      - "LV【机场推荐：https://a9a.xyz】16"
+      - "US【机场推荐：https://a9a.xyz】17"
+      - "TR【机场推荐：https://a9a.xyz】18"
+      - "RU【机场推荐：https://a9a.xyz】19"
+      - "CA【机场推荐：https://a9a.xyz】20"
       - "CA【机场推荐：https://a9a.xyz】21"
       - "CA【机场推荐：https://a9a.xyz】22"
       - "CA【机场推荐：https://a9a.xyz】23"
       - "CA【机场推荐：https://a9a.xyz】24"
-      - "CA【机场推荐：https://a9a.xyz】25"
-      - "TR【机场推荐：https://a9a.xyz】26"
-      - "CA【机场推荐：https://a9a.xyz】27"
+      - "DE【机场推荐：https://a9a.xyz】25"
+      - "CA【机场推荐：https://a9a.xyz】26"
+      - "US【机场推荐：https://a9a.xyz】27"
       - "CA【机场推荐：https://a9a.xyz】28"
       - "CA【机场推荐：https://a9a.xyz】29"
       - "UN【机场推荐：https://a9a.xyz】30"
       - "CA【机场推荐：https://a9a.xyz】31"
-      - "CA【机场推荐：https://a9a.xyz】32"
+      - "TR【机场推荐：https://a9a.xyz】32"
       - "CA【机场推荐：https://a9a.xyz】33"
       - "CA【机场推荐：https://a9a.xyz】34"
       - "CA【机场推荐：https://a9a.xyz】35"
       - "CA【机场推荐：https://a9a.xyz】36"
       - "CA【机场推荐：https://a9a.xyz】37"
       - "CA【机场推荐：https://a9a.xyz】38"
-      - "RU【机场推荐：https://a9a.xyz】39"
-      - "CA【机场推荐：https://a9a.xyz】40"
+      - "CA【机场推荐：https://a9a.xyz】39"
+      - "US【机场推荐：https://a9a.xyz】40"
       - "CA【机场推荐：https://a9a.xyz】41"
       - "CA【机场推荐：https://a9a.xyz】42"
       - "CA【机场推荐：https://a9a.xyz】43"
-      - "SC【机场推荐：https://a9a.xyz】44"
+      - "CA【机场推荐：https://a9a.xyz】44"
       - "UN【机场推荐：https://a9a.xyz】45"
       - "CA【机场推荐：https://a9a.xyz】46"
       - "UN【机场推荐：https://a9a.xyz】47"
@@ -2625,6 +2672,13 @@ proxy-groups:
       - "UN【机场推荐：https://a9a.xyz】63"
       - "UN【机场推荐：https://a9a.xyz】64"
       - "UN【机场推荐：https://a9a.xyz】65"
+      - "UN【机场推荐：https://a9a.xyz】66"
+      - "UN【机场推荐：https://a9a.xyz】67"
+      - "UN【机场推荐：https://a9a.xyz】68"
+      - "UN【机场推荐：https://a9a.xyz】69"
+      - "UN【机场推荐：https://a9a.xyz】70"
+      - "UN【机场推荐：https://a9a.xyz】71"
+      - "UN【机场推荐：https://a9a.xyz】72"
       - "剩余流量：-0.029999999999973 GB"
       - "距离下次重置剩余：20 天"
       - "套餐到期：2026-11-13"
@@ -2640,5 +2694,4 @@ proxy-groups:
       - "[1x] [E] [直连] [SS] 新加坡 10"
       - "国内入口：bigairport-mirror.com 固定入口：大机场.com  电报讨论群组：BigAirport_Group"
       - "套餐到期：2027-03-09"
-      - "Unnamed"
-      - "剩余流量：42.15 GB"
+      - "剩余流量：41.64 GB"

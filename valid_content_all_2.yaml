@@ -1,5 +1,5 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-09 20:52:59
+# 生成时间: 2026-09-09 23:10:28
 # 节点数量: 500
 
 proxies:
@@ -1789,7 +1789,7 @@ proxies:
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
-  - name: "SOCKS5-411"
+  - name: "SOCKS5-410"
     type: "socks5"
     server: "45.144.54.40"
     port: 1080
@@ -2282,19 +2282,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "1f0aff6b-dd64-4b43-9c08-d9070ec17481"
+    uuid: "7821193b-d251-40a9-8241-94a9ac3dac1f"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "1f0aff6b-dd64-4b43-9c08-d9070ec17481"
+    uuid: "7821193b-d251-40a9-8241-94a9ac3dac1f"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "1f0aff6b-dd64-4b43-9c08-d9070ec17481"
+    uuid: "7821193b-d251-40a9-8241-94a9ac3dac1f"
     udp: true
   - name: "🇨🇳 中国 001"
     type: "vmess"
@@ -4976,7 +4976,7 @@ proxy-groups:
       - "🇩🇪DE_2|1.2MB/s"
       - "🇸🇬SG_1|4.1MB/s"
       - "🇬🇧GB_5|3.8MB/s"
-      - "SOCKS5-411"
+      - "SOCKS5-410"
       - "US_speednode_0130"
       - "US_speednode_0132"
       - "US_speednode_0135"
