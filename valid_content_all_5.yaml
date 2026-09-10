@@ -1,8 +1,14 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-09 23:10:28
+# 生成时间: 2026-09-10 04:23:56
 # 节点数量: 500
 
 proxies:
+  - name: "🇨🇳 中国 070"
+    type: "vless"
+    server: "154.219.5.89"
+    port: 443
+    uuid: "a98d1e7d-e794-449c-b8a0-34fa6d4478b4"
+    udp: true
   - name: "🇺🇸 美国 707"
     type: "vless"
     server: "104.16.2.90"
@@ -1681,41 +1687,7 @@ proxies:
     type: "vless"
     server: "asaa.mmm.top"
     port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    udp: true
-  - name: "距离下次重置剩余：2 天"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    udp: true
-  - name: "套餐到期：2029-06-11"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    udp: true
-  - name: "⚠️保持软件为最新版"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    udp: true
-  - name: "⚠️使用前更新订阅"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    udp: true
-  - name: "🇺🇸美国 公益"
-    type: "vmess"
-    server: "p05.rghvf.sbs"
-    port: 1233
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "tcp"
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
     udp: true
   - name: "距离下次重置剩余：22 天"
     type: "vless"
@@ -1728,6 +1700,40 @@ proxies:
     server: "asaa.mmm.top"
     port: 10003
     uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
+  - name: "⚠️保持软件为最新版"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
+  - name: "⚠️使用前更新订阅"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    udp: true
+  - name: "🇺🇸美国 公益"
+    type: "vmess"
+    server: "p05.rghvf.sbs"
+    port: 1233
+    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "tcp"
+    udp: true
+  - name: "距离下次重置剩余：2 天"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
+    udp: true
+  - name: "套餐到期：2029-06-11"
+    type: "vless"
+    server: "asaa.mmm.top"
+    port: 10003
+    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
     udp: true
   - name: "剩余流量：0"
     type: "hysteria2"
@@ -4064,23 +4070,12 @@ proxies:
     network: "tcp"
     udp: true
     skip-cert-verify: false
-  - name: "[IPLC]阿联酋 02 迪拜"
-    type: "vmess"
-    server: "board-02.ddnskunlun.com"
-    port: 11987
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-02.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇨🇳 中国 070"
       - "🇺🇸 美国 707"
       - "🇺🇸 美国 708"
       - "🇳🇱 荷兰 032"
@@ -4361,13 +4356,13 @@ proxy-groups:
       - "越南-IEPL-Basic专线-01"
       - "英国-IEPL-Basic专线-01"
       - "剩余流量：0"
-      - "距离下次重置剩余：2 天"
-      - "套餐到期：2029-06-11"
+      - "距离下次重置剩余：22 天"
+      - "套餐到期：2027-09-01"
       - "⚠️保持软件为最新版"
       - "⚠️使用前更新订阅"
       - "🇺🇸美国 公益"
-      - "距离下次重置剩余：22 天"
-      - "套餐到期：2027-09-01"
+      - "距离下次重置剩余：2 天"
+      - "套餐到期：2029-06-11"
       - "剩余流量：0"
       - "套餐到期：长期有效"
       - "🇺🇸官网:gz-cloud.top"
@@ -4580,4 +4575,3 @@ proxy-groups:
       - "[IPLC]阿根廷 03 布宜诺斯"
       - "[IPLC]阿根廷 04 布宜诺斯"
       - "[IPLC]阿联酋 01 迪拜"
-      - "[IPLC]阿联酋 02 迪拜"

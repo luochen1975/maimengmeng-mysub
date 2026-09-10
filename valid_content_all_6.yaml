@@ -1,8 +1,20 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-09 23:10:28
-# 节点数量: 311
+# 生成时间: 2026-09-10 04:23:56
+# 节点数量: 313
 
 proxies:
+  - name: "[IPLC]阿联酋 02 迪拜"
+    type: "vmess"
+    server: "board-02.ddnskunlun.com"
+    port: 11987
+    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    servername: "board-02.ddnskunlun.com"
+    network: "tcp"
+    udp: true
+    skip-cert-verify: false
   - name: "[IPLC]保加利亚 01 索菲亚"
     type: "vmess"
     server: "board-01.ddnskunlun.com"
@@ -744,6 +756,12 @@ proxies:
     port: 42142
     cipher: "chacha20-ietf-poly1305"
     password: "0305e0ec-ec7e-4770-9aa3-81e3427f91b6"
+  - name: "剩余流量：52.15 GB"
+    type: "ss"
+    server: "127.0.0.1"
+    port: 80
+    cipher: "aes-128-gcm"
+    password: "66fc385b-2626-49c4-8d2d-bc330f7500a8"
   - name: "防失联 catnetfabu.com"
     type: "ss"
     server: "127.0.0.1"
@@ -1038,19 +1056,13 @@ proxies:
     port: 28048
     cipher: "aes-128-gcm"
     password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "剩余流量：52.16 GB"
-    type: "ss"
-    server: "127.0.0.1"
-    port: 80
-    cipher: "aes-128-gcm"
-    password: "66fc385b-2626-49c4-8d2d-bc330f7500a8"
   - name: "剩余流量：0"
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
     uuid: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
-  - name: "距离下次重置剩余：24+天"
+  - name: "距离下次重置剩余：23+天"
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
@@ -1089,7 +1101,7 @@ proxies:
   - name: "香港家宽hy2🇭🇰"
     type: "hysteria2"
     server: "hkbn.388898.xyz"
-    port: 21188
+    port: 21696
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1163,7 +1175,7 @@ proxies:
   - name: "美国AT&T家宽-02套餐hy2"
     type: "hysteria2"
     server: "att-b-02.388898.xyz"
-    port: 31284
+    port: 31435
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1171,7 +1183,7 @@ proxies:
   - name: "美国AT&T家宽备用🇺🇸hy2"
     type: "hysteria2"
     server: "att-b-04.388898.xyz"
-    port: 31019
+    port: 31123
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1371,7 +1383,7 @@ proxies:
   - name: "加拿大家宽🇨🇦hy2"
     type: "hysteria2"
     server: "ca.388898.xyz"
-    port: 53089
+    port: 53517
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1379,7 +1391,7 @@ proxies:
   - name: "[01]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet02.388898.xyz"
-    port: 33702
+    port: 33734
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1387,7 +1399,7 @@ proxies:
   - name: "[02]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet10.388898.xyz"
-    port: 11509
+    port: 11132
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1395,7 +1407,7 @@ proxies:
   - name: "[03]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet30.388898.xyz"
-    port: 11313
+    port: 11737
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1409,7 +1421,7 @@ proxies:
   - name: "日本樱花10gbps🌸hy2"
     type: "hysteria2"
     server: "sakuraweb.388898.xyz"
-    port: 31237
+    port: 31269
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1423,7 +1435,7 @@ proxies:
   - name: "德国高速节点hy2🇩🇪"
     type: "hysteria2"
     server: "dodef.388898.xyz"
-    port: 31364
+    port: 31854
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1431,7 +1443,7 @@ proxies:
   - name: "【1】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 31584
+    port: 31696
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1439,7 +1451,7 @@ proxies:
   - name: "【2】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 32885
+    port: 32673
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1451,7 +1463,7 @@ proxies:
   - name: "香港家宽hy2🇭🇰"
     type: "hysteria2"
     server: "hkbn.388898.xyz"
-    port: 21443
+    port: 21351
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1459,7 +1471,7 @@ proxies:
   - name: "美国AT&T家宽-02套餐hy2"
     type: "hysteria2"
     server: "att-b-02.388898.xyz"
-    port: 31998
+    port: 31412
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1467,7 +1479,7 @@ proxies:
   - name: "美国AT&T家宽备用🇺🇸hy2"
     type: "hysteria2"
     server: "att-b-04.388898.xyz"
-    port: 31986
+    port: 31451
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1475,7 +1487,7 @@ proxies:
   - name: "加拿大家宽🇨🇦hy2"
     type: "hysteria2"
     server: "ca.388898.xyz"
-    port: 53110
+    port: 53152
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1483,7 +1495,7 @@ proxies:
   - name: "[01]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet02.388898.xyz"
-    port: 33483
+    port: 33461
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1491,7 +1503,7 @@ proxies:
   - name: "[02]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet10.388898.xyz"
-    port: 11536
+    port: 11489
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1499,7 +1511,7 @@ proxies:
   - name: "[03]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet30.388898.xyz"
-    port: 11860
+    port: 11662
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1507,7 +1519,7 @@ proxies:
   - name: "日本樱花10gbps🌸hy2"
     type: "hysteria2"
     server: "sakuraweb.388898.xyz"
-    port: 31940
+    port: 31483
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1515,7 +1527,7 @@ proxies:
   - name: "德国高速节点hy2🇩🇪"
     type: "hysteria2"
     server: "dodef.388898.xyz"
-    port: 31816
+    port: 31135
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1523,7 +1535,7 @@ proxies:
   - name: "【1】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 31021
+    port: 31705
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1531,7 +1543,7 @@ proxies:
   - name: "【2】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 32544
+    port: 32821
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1626,6 +1638,42 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
+  - name: "订阅链接过期了"
+    type: "ss"
+    server: "www.baidu.com"
+    port: 10081
+    cipher: "aes-256-gcm"
+    password: "0_110abc"
+  - name: "订阅链接为短时间有效模式"
+    type: "ss"
+    server: "www.baidu.com"
+    port: 10081
+    cipher: "aes-256-gcm"
+    password: "0_110abc"
+  - name: "去官网获取最新有效链接"
+    type: "ss"
+    server: "www.baidu.com"
+    port: 10081
+    cipher: "aes-256-gcm"
+    password: "0_110abc"
+  - name: "节点是否可用与订阅链接过期没关系"
+    type: "ss"
+    server: "www.baidu.com"
+    port: 10081
+    cipher: "aes-256-gcm"
+    password: "0_110abc"
+  - name: "教程：doc.miyun.app"
+    type: "ss"
+    server: "www.baidu.com"
+    port: 10081
+    cipher: "aes-256-gcm"
+    password: "0_110abc"
+  - name: "官网：miyun.de"
+    type: "ss"
+    server: "www.baidu.com"
+    port: 10081
+    cipher: "aes-256-gcm"
+    password: "0_110abc"
   - name: "剩余流量：0"
     type: "vmess"
     server: "2605:e440:11::388"
@@ -1738,42 +1786,6 @@ proxies:
       path: ""
       headers:
         Host: ""
-  - name: "订阅链接过期了"
-    type: "ss"
-    server: "www.baidu.com"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "0_110abc"
-  - name: "订阅链接为短时间有效模式"
-    type: "ss"
-    server: "www.baidu.com"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "0_110abc"
-  - name: "去官网获取最新有效链接"
-    type: "ss"
-    server: "www.baidu.com"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "0_110abc"
-  - name: "节点是否可用与订阅链接过期没关系"
-    type: "ss"
-    server: "www.baidu.com"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "0_110abc"
-  - name: "教程：doc.miyun.app"
-    type: "ss"
-    server: "www.baidu.com"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "0_110abc"
-  - name: "官网：miyun.de"
-    type: "ss"
-    server: "www.baidu.com"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "0_110abc"
   - name: "节点日期：2026-09-10"
     type: "trojan"
     server: "www.ignitelimit.com"
@@ -2373,7 +2385,16 @@ proxies:
     port: 80
     cipher: "aes-128-gcm"
     password: "afa31ea7-0b97-4bc9-b043-daaeca4aef70"
-  - name: "剩余流量：41.64 GB"
+  - name: "Unnamed"
+    type: "http"
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geosite/classical/cn.yaml"
+    path: "./ruleset/cn.yaml"
+    interval: 86400
+    proxy: "DIRECT"
+    behavior: "classical"
+    format: "yaml"
+    size-limit: 0
+  - name: "剩余流量：40.97 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -2384,6 +2405,7 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "[IPLC]阿联酋 02 迪拜"
       - "[IPLC]保加利亚 01 索菲亚"
       - "[IPLC]保加利亚 02 索非亚"
       - "[IPLC]克罗地亚 01 萨格勒布"
@@ -2456,6 +2478,7 @@ proxy-groups:
       - "🇮🇳India-印度2"
       - "🇦🇺Australia-澳大利亚1"
       - "🇦🇺Australia-澳大利亚2"
+      - "剩余流量：52.15 GB"
       - "防失联 catnetfabu.com"
       - "🇭🇰 香港 01 专线"
       - "🇭🇰 香港 02 专线"
@@ -2505,9 +2528,8 @@ proxy-groups:
       - "🇨🇦 加拿大 02 专线"
       - "🇦🇺 澳大利亚 01 专线"
       - "🇦🇺 澳大利亚 02 专线"
-      - "剩余流量：52.16 GB"
       - "剩余流量：0"
-      - "距离下次重置剩余：24+天"
+      - "距离下次重置剩余：23+天"
       - "套餐到期：2026-10-03"
       - "苏菲家宽官网地址：sufe.us/ai.sufe.pro"
       - "联通移动用中转"
@@ -2592,6 +2614,12 @@ proxy-groups:
       - "🇦🇶 请登陆官网 导入新订阅"
       - "🇦🇶 登陆网站导入新的订阅URL"
       - "🇦🇶 ⚠️‼️ 订阅请勿泄露"
+      - "订阅链接过期了"
+      - "订阅链接为短时间有效模式"
+      - "去官网获取最新有效链接"
+      - "节点是否可用与订阅链接过期没关系"
+      - "教程：doc.miyun.app"
+      - "官网：miyun.de"
       - "剩余流量：0"
       - "距离下次重置剩余：20 天"
       - "套餐到期：2026-09-24"
@@ -2600,12 +2628,6 @@ proxy-groups:
       - "louwangzhiyu.org@gmail.com"
       - "请在系统设置及翻墙软件的设置中同时启用 IPv6"
       - "请使用支持Hy2协议的最新版客户端，老版本识别不了节点"
-      - "订阅链接过期了"
-      - "订阅链接为短时间有效模式"
-      - "去官网获取最新有效链接"
-      - "节点是否可用与订阅链接过期没关系"
-      - "教程：doc.miyun.app"
-      - "官网：miyun.de"
       - "节点日期：2026-09-10"
       - "US【机场推荐：https://a9a.xyz】1"
       - "NL【机场推荐：https://a9a.xyz】2"
@@ -2694,4 +2716,5 @@ proxy-groups:
       - "[1x] [E] [直连] [SS] 新加坡 10"
       - "国内入口：bigairport-mirror.com 固定入口：大机场.com  电报讨论群组：BigAirport_Group"
       - "套餐到期：2027-03-09"
-      - "剩余流量：41.64 GB"
+      - "Unnamed"
+      - "剩余流量：40.97 GB"
