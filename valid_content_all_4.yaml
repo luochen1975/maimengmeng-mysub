@@ -1,8 +1,14 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-10 04:23:56
+# 生成时间: 2026-09-10 11:08:31
 # 节点数量: 500
 
 proxies:
+  - name: "🇬🇧 英国 012"
+    type: "vless"
+    server: "37.221.110.245"
+    port: 2085
+    uuid: "02c05088-fcb4-4366-b8d3-98d68c7bdb98"
+    udp: true
   - name: "🇺🇸 美国 410"
     type: "vless"
     server: "172.67.148.180"
@@ -2997,17 +3003,12 @@ proxies:
     port: 443
     uuid: "a90c264d-3853-4eef-9a3d-628b2d02d15e"
     udp: true
-  - name: "🇳🇱 荷兰 031"
-    type: "vless"
-    server: "45.135.194.196"
-    port: 27618
-    uuid: "a91a968c-1533-434a-b81e-a1fb61714080"
-    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇬🇧 英国 012"
       - "🇺🇸 美国 410"
       - "🇺🇸 美国 411"
       - "🇺🇸 美国 412"
@@ -3507,4 +3508,3 @@ proxy-groups:
       - "🇺🇸 美国 704"
       - "🇺🇸 美国 705"
       - "🇺🇸 美国 706"
-      - "🇳🇱 荷兰 031"

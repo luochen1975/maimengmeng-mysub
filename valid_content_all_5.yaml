@@ -1,8 +1,14 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-10 04:23:56
+# 生成时间: 2026-09-10 11:08:31
 # 节点数量: 500
 
 proxies:
+  - name: "🇳🇱 荷兰 031"
+    type: "vless"
+    server: "45.135.194.196"
+    port: 27618
+    uuid: "a91a968c-1533-434a-b81e-a1fb61714080"
+    udp: true
   - name: "🇨🇳 中国 070"
     type: "vless"
     server: "154.219.5.89"
@@ -1689,7 +1695,7 @@ proxies:
     port: 10003
     uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
     udp: true
-  - name: "距离下次重置剩余：22 天"
+  - name: "距离下次重置剩余：21 天"
     type: "vless"
     server: "asaa.mmm.top"
     port: 10003
@@ -4058,23 +4064,12 @@ proxies:
     network: "tcp"
     udp: true
     skip-cert-verify: false
-  - name: "[IPLC]阿联酋 01 迪拜"
-    type: "vmess"
-    server: "board-01.ddnskunlun.com"
-    port: 11905
-    uuid: "4d6a19fd-ba4f-36c5-89ad-97224cca5484"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    servername: "board-01.ddnskunlun.com"
-    network: "tcp"
-    udp: true
-    skip-cert-verify: false
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇳🇱 荷兰 031"
       - "🇨🇳 中国 070"
       - "🇺🇸 美国 707"
       - "🇺🇸 美国 708"
@@ -4356,7 +4351,7 @@ proxy-groups:
       - "越南-IEPL-Basic专线-01"
       - "英国-IEPL-Basic专线-01"
       - "剩余流量：0"
-      - "距离下次重置剩余：22 天"
+      - "距离下次重置剩余：21 天"
       - "套餐到期：2027-09-01"
       - "⚠️保持软件为最新版"
       - "⚠️使用前更新订阅"
@@ -4574,4 +4569,3 @@ proxy-groups:
       - "[IPLC]阿根廷 02 布宜诺斯"
       - "[IPLC]阿根廷 03 布宜诺斯"
       - "[IPLC]阿根廷 04 布宜诺斯"
-      - "[IPLC]阿联酋 01 迪拜"
