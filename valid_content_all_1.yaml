@@ -1,5 +1,5 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-10 11:08:31
+# 生成时间: 2026-09-10 16:18:37
 # 节点数量: 500
 
 proxies:
@@ -550,7 +550,7 @@ proxies:
     port: 4444
     cipher: "aes-256-gcm"
     password: "pKEW8JPByTVTLtM"
-  - name: "距离下次重置剩余：3 天"
+  - name: "距离下次重置剩余：2 天"
     type: "ss"
     server: "15.204.247.244"
     port: 4444
@@ -1333,6 +1333,18 @@ proxies:
     port: 443
     uuid: "29794dae-06ca-4b62-94f2-220b5858d39b"
     udp: true
+  - name: "套餐到期:2025-12-13"
+    type: "ss"
+    server: "127.0.0.1"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "password"
+  - name: "续费方法在节点详情的<地址>"
+    type: "ss"
+    server: "qpwhjq.shvpn.xyz"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "password"
   - name: "套餐到期:2025-10-15"
     type: "ss"
     server: "127.0.0.1"
@@ -1357,54 +1369,42 @@ proxies:
     port: 443
     cipher: "aes-256-gcm"
     password: "password"
-  - name: "套餐到期:2025-12-13"
-    type: "ss"
-    server: "127.0.0.1"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "password"
-  - name: "续费方法在节点详情的<地址>"
-    type: "ss"
-    server: "qpwhjq.shvpn.xyz"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "password"
   - name: "🚫 账户已被封禁-1 🚫"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "🚫 账户已被封禁-2 🚫"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "🚫 账户已被封禁-3 🚫"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "📞 原因1：恶意滥用 📞"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "📋 原因2：超过免费套餐阈值 📋"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "🌐 官网地址：https://my.wazhua.org 🌐"
     type: "ss"
     server: "1.1.1.1"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "5f0d539b-9cb8-4299-ad39-fc1d87ba116b"
+    password: "29ebf865-1de9-4e8d-93d0-dcf61dd448c8"
   - name: "⚠️ 过滤掉3条线路（升级客户端）"
     type: "ss"
     server: "gd.bjnet2.com"
@@ -2085,7 +2085,7 @@ proxies:
     port: 80
     cipher: "aes-128-gcm"
     password: "cc8b3b88-4ce7-4420-9793-c230f1191246"
-  - name: "距离下次重置剩余：21 天"
+  - name: "距离下次重置剩余：20 天"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -2119,16 +2119,6 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
-  - name: "🇦🇶 订阅于2026年09月05日 04:42已到期"
-    type: "vmess"
-    server: "127.0.0.1"
-    port: 80
-    uuid: "eed25fb8-7c22-49d1-8ca0-0e2c0ad16b6a"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "tcp"
-    udp: true
   - name: "🇦🇶 订阅于2026年09月10日 08:00已到期"
     type: "vmess"
     server: "127.0.0.1"
@@ -2139,18 +2129,21 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
-  - name: "伊朗+V2CROSS.COM"
-    type: "vless"
-    server: "151.244.30.176"
-    port: 443
-    uuid: "c928859b-424d-429c-b1fe-c99137af7c4b"
+  - name: "🇦🇶 订阅于2026年09月05日 04:42已到期"
+    type: "vmess"
+    server: "127.0.0.1"
+    port: 80
+    uuid: "eed25fb8-7c22-49d1-8ca0-0e2c0ad16b6a"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
     udp: true
-  - name: "美国+V2CROSS.COM"
-    type: "trojan"
-    server: "165.215.250.14"
+  - name: "英国+V2CROSS.COM"
+    type: "vless"
+    server: "31.76.55.181"
     port: 443
-    password: "humanity"
-    tls: true
+    uuid: "c09cfd91-b234-4998-9bed-a0211b7f5c3c"
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
@@ -2161,56 +2154,95 @@ proxies:
     udp: true
   - name: "美国+CloudFlare节点"
     type: "vless"
-    server: "skk.moe"
-    port: 8880
-    uuid: "3fe8191f-52ae-4e38-8385-5869ab47fb70"
+    server: "172.64.150.28"
+    port: 2082
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "172.67.221.242"
+    port: 443
+    password: "humanity"
+    tls: true
     udp: true
   - name: "美国+CloudFlare节点"
     type: "vless"
-    server: "104.21.83.140"
+    server: "104.21.58.93"
     port: 443
-    uuid: "ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba"
+    uuid: "1aa96574-c28b-4ee9-855d-ebdbbf1f7e90"
     udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.17.111.1"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.17.111.3"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+V2CROSS.COM"
-    type: "trojan"
-    server: "199.232.78.160"
-    port: 443
-    password: "MiTiVPN"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "join-telegram-channel.tirexnet.kdns.fr"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+乔治亚洲亚特兰大Fastly节点"
+  - name: "荷兰+V2CROSS.COM"
     type: "vless"
-    server: "151.101.56.6"
+    server: "89.105.202.115"
     port: 443
-    uuid: "d9eda159-18d6-4457-8983-55523a21658c"
+    uuid: "4550993c-2191-493a-a612-aaba4a4ec083"
     udp: true
-  - name: "英国+V2CROSS.COM"
+  - name: "澳大利亚+V2CROSS.COM"
+    type: "hysteria2"
+    server: "de1.xiaoliyu.cyou"
+    port: 4433
+    password: "19f72087-4591-4d72-930b-2697078ec2be"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "104.21.92.49"
+    port: 443
+    uuid: "a90c264d-3853-4eef-9a3d-628b2d02d15e"
+    udp: true
+  - name: "加拿大+安大略省研究网络"
+    type: "vless"
+    server: "130.12.102.125"
+    port: 443
+    uuid: "6429d27e-a7d4-4e04-ae57-e88243fbbfe3"
+    udp: true
+  - name: "巴西圣保罗+CloudFlare节点"
     type: "trojan"
-    server: "176.97.66.175"
+    server: "188.114.97.7"
     port: 443
     password: "humanity"
     tls: true
+    udp: true
+  - name: "西班牙+V2CROSS.COM"
+    type: "vless"
+    server: "150.241.68.208"
+    port: 443
+    uuid: "b8201bab-fa6c-4f6e-b289-b5da660c6f69"
+    udp: true
+  - name: "美国 V2CROSS.COM"
+    type: "vmess"
+    server: "165.140.217.2"
+    port: 443
+    uuid: "b65a2d69-5634-42a2-e4be-54e8a6176900"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "172.67.223.223"
+    port: 443
+    uuid: "7e26fd8f-d75a-473d-84ba-9f4e3f47d086"
+    udp: true
+  - name: "伊朗+University+of+Arak"
+    type: "vless"
+    server: "213.176.77.138"
+    port: 443
+    uuid: "ca19c24a-e5ec-45f8-8cd1-c97d84da5e35"
+    udp: true
+  - name: "VLESS-14"
+    type: "vless"
+    server: "104.21.33.59"
+    port: 443
+    uuid: "9b18ccef-b9e0-41d1-8990-9d970569e142"
+    udp: true
+  - name: "伊朗+V2CROSS.COM"
+    type: "vless"
+    server: "151.242.17.99"
+    port: 8443
+    uuid: "a04814d9-d006-4e7b-ae20-8ab304b3b429"
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
@@ -2219,48 +2251,9 @@ proxies:
     password: "humanity"
     tls: true
     udp: true
-  - name: "美国+加州"
-    type: "trojan"
-    server: "render.com"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "巴西圣保罗+CloudFlare节点"
-    type: "vless"
-    server: "188.114.97.6"
-    port: 2052
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
-    udp: true
-  - name: "美国+乔治亚洲亚特兰大Fastly节点"
-    type: "trojan"
-    server: "151.101.56.7"
-    port: 443
-    password: "MiTiVPN"
-    tls: true
-    udp: true
-  - name: "加拿大+安大略省研究网络"
-    type: "vless"
-    server: "130.12.102.26"
-    port: 443
-    uuid: "6429d27e-a7d4-4e04-ae57-e88243fbbfe3"
-    udp: true
-  - name: "乌克兰+V2CROSS.COM"
-    type: "vless"
-    server: "213.155.20.83"
-    port: 443
-    uuid: "6fb79584-30b8-4888-b358-98f7ef6b8697"
-    udp: true
-  - name: "美国+V2CROSS.COM"
-    type: "trojan"
-    server: "45.130.125.160"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "join-telegram-channel-tirexnet.trex.kdns.fr"
+    server: "104.26.14.137"
     port: 443
     password: "humanity"
     tls: true
@@ -3421,6 +3414,12 @@ proxies:
       path: "/"
       headers:
         Host: ""
+  - name: "🇨🇷CR-138.59.16.146-0205"
+    type: "ss"
+    server: "138.59.16.146"
+    port: 989
+    cipher: "aes-256-cfb"
+    password: "f8f7aCzcPKbsF8p3"
 
 proxy-groups:
   - name: "Proxy"
@@ -3501,7 +3500,7 @@ proxy-groups:
       - "电报群https://t.me/feiniaoyunjichang"
       - "防失联页https://github.com/feiniaoyun"
       - "剩余流量：1000000000 GB"
-      - "距离下次重置剩余：3 天"
+      - "距离下次重置剩余：2 天"
       - "套餐到期：13433-12-13"
       - "美国 -超时更新-03"
       - "德国 -超时更新-01"
@@ -3608,11 +3607,11 @@ proxy-groups:
       - "US-LAX-DC12-004[TCP]"
       - "US-LAX-DC12-005[UDP]"
       - "US-LAX-DC12-005[TCP]"
+      - "套餐到期:2025-12-13"
+      - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-10-15"
       - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-11-20"
-      - "续费方法在节点详情的<地址>"
-      - "套餐到期:2025-12-13"
       - "续费方法在节点详情的<地址>"
       - "🚫 账户已被封禁-1 🚫"
       - "🚫 账户已被封禁-2 🚫"
@@ -3732,31 +3731,30 @@ proxy-groups:
       - "🇨🇳 TW-07"
       - "🇦🇶 订阅于2026年05月25日 21:50已到期"
       - "剩余流量：0"
-      - "距离下次重置剩余：21 天"
+      - "距离下次重置剩余：20 天"
       - "套餐到期：2027-04-01"
       - "提示:若失效请重新拉取节点 | 站点：https://dh.221345.xyz"
       - "[hy2]NL｜荷兰-阿姆斯特丹/1(ipv6)"
       - "[hy2]DE｜德国-法兰克福/1(ipv6)"
-      - "🇦🇶 订阅于2026年09月05日 04:42已到期"
       - "🇦🇶 订阅于2026年09月10日 08:00已到期"
-      - "伊朗+V2CROSS.COM"
-      - "美国+V2CROSS.COM"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+V2CROSS.COM"
-      - "美国+CloudFlare节点"
-      - "美国+乔治亚洲亚特兰大Fastly节点"
+      - "🇦🇶 订阅于2026年09月05日 04:42已到期"
       - "英国+V2CROSS.COM"
       - "美国+CloudFlare节点"
-      - "美国+加州"
-      - "巴西圣保罗+CloudFlare节点"
-      - "美国+乔治亚洲亚特兰大Fastly节点"
+      - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "荷兰+V2CROSS.COM"
+      - "澳大利亚+V2CROSS.COM"
+      - "美国+CloudFlare节点"
       - "加拿大+安大略省研究网络"
-      - "乌克兰+V2CROSS.COM"
-      - "美国+V2CROSS.COM"
+      - "巴西圣保罗+CloudFlare节点"
+      - "西班牙+V2CROSS.COM"
+      - "美国 V2CROSS.COM"
+      - "美国+CloudFlare节点"
+      - "伊朗+University+of+Arak"
+      - "VLESS-14"
+      - "伊朗+V2CROSS.COM"
+      - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "🇺🇸US-37.19.198.244-0185"
       - "🇺🇸US-37.19.198.236-0184"
@@ -3926,3 +3924,4 @@ proxy-groups:
       - "🇨🇳CN-36.138.100.57-0032"
       - "🇨🇦CA-196.247.59.156-0031"
       - "🇳🇱NL-195.54.174.18-0204"
+      - "🇨🇷CR-138.59.16.146-0205"
