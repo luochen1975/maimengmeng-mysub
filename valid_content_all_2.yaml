@@ -1,99 +1,65 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-11 04:23:04
+# 生成时间: 2026-09-11 11:07:06
 # 节点数量: 500
 
 proxies:
-  - name: "🇨🇳CN-117.164.185.222-0021"
-    type: "trojan"
-    server: "117.164.185.222"
-    port: 21001
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇬🇧GB-82.38.31.35-0222"
-    type: "ss"
-    server: "82.38.31.35"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "🇲🇽MX-64.177.90.30-0237"
-    type: "ss"
-    server: "64.177.90.30"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "BWyPPTusFKhGgzKh"
-  - name: "🏁RELAY-172.67.167.120-0238"
-    type: "vmess"
-    server: "172.67.167.120"
-    port: 443
-    uuid: "f5e74e66-0241-447c-83a4-a4005f438536"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "m4.v2rayfree1.xyz"
-  - name: "🇬🇧GB-82.38.31.57-0246"
-    type: "ss"
-    server: "82.38.31.57"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "🇨🇳CN-183.245.146.20-0020"
+  - name: "🇨🇳CN-183.245.146.20-0194"
     type: "trojan"
     server: "183.245.146.20"
-    port: 21001
+    port: 11001
     password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
     tls: true
     udp: true
-  - name: "🇨🇳CN-120.240.55.137-0257"
-    type: "vmess"
-    server: "120.240.55.137"
-    port: 38201
-    uuid: "79386685-16da-327c-9e14-aa6d702d86bc"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "120.240.55.137"
-  - name: "🇨🇳CN-120.240.55.137-0259"
-    type: "vmess"
-    server: "120.240.55.137"
-    port: 38201
-    uuid: "79386685-16da-327c-9e14-aa6d702d86bc"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
-  - name: "🇦🇺AU-103.224.212.142-0260"
-    type: "vmess"
-    server: "akazz-1048-v2-2.tyo-r-kcd-a.nd.cjhh.mom"
-    port: 39928
-    uuid: "fbc2efb0-786a-4074-81ea-8ab12ca5422c"
-    cipher: "auto"
-    alterId: 0
+  - name: "🇨🇳CN-117.164.185.220-0195"
+    type: "trojan"
+    server: "117.164.185.220"
+    port: 11002
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
     tls: true
-    network: "ws"
     udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge.cjhh.mom"
-  - name: "🇦🇺AU-103.224.212.142-0263"
+  - name: "🇨🇳CN-117.164.185.220-0196"
+    type: "trojan"
+    server: "117.164.185.220"
+    port: 11001
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇨🇳CN-36.138.100.57-0197"
+    type: "trojan"
+    server: "36.138.100.57"
+    port: 11002
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇨🇳CN-36.138.100.57-0198"
+    type: "trojan"
+    server: "36.138.100.57"
+    port: 11001
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇨🇳CN-121.46.230.233-0199"
+    type: "ss"
+    server: "121.46.230.233"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+  - name: "🇨🇦CA-196.247.59.156-0200"
+    type: "ss"
+    server: "196.247.59.156"
+    port: 808
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+  - name: "🇨🇳CN-183.245.146.20-0201"
+    type: "trojan"
+    server: "183.245.146.20"
+    port: 41001
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇦🇺AU-103.224.212.142-0202"
     type: "vmess"
-    server: "mpdee-1042-v2-0.tyo-d-kcd.ap.cjhh.beauty"
+    server: "asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom"
     port: 888
     uuid: "fbc2efb0-786a-4074-81ea-8ab12ca5422c"
     cipher: "auto"
@@ -104,8 +70,148 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-        Host: "s3.cjhh.beauty"
-  - name: "🇲🇾MY-47.250.45.234-0265"
+        Host: "edge.cjhh.mom"
+  - name: "🇨🇳CN-117.164.185.222-0203"
+    type: "trojan"
+    server: "117.164.185.222"
+    port: 21005
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇨🇳CN-117.164.185.222-0204"
+    type: "trojan"
+    server: "117.164.185.222"
+    port: 21004
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇨🇳CN-117.164.185.222-0205"
+    type: "trojan"
+    server: "117.164.185.222"
+    port: 21003
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇨🇳CN-117.164.185.222-0206"
+    type: "trojan"
+    server: "117.164.185.222"
+    port: 21002
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇲🇾MY-118.107.222.231-0207"
+    type: "ss"
+    server: "118.107.222.231"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+  - name: "🏁RELAY-172.64.145.93-0113"
+    type: "vmess"
+    server: "www.shopify.com"
+    port: 443
+    uuid: "d187a23a-76a9-4d55-84e3-ea3b8b222cbf"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "dimensional-regularly-buildings-keys.trycloudflare.com"
+  - name: "🇮🇪IE-108.129.176.139-0097"
+    type: "ss"
+    server: "108.129.176.139"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "🇭🇰HK-47.244.120.197-0210"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 36703
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇭🇰HK-47.244.120.197-0211"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: ""
+  - name: "🇳🇱NL-158.173.20.171-0096"
+    type: "ss"
+    server: "158.173.20.171"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🏁RELAY-104.16.89.44-0214"
+    type: "vmess"
+    server: "104.16.89.44"
+    port: 443
+    uuid: "9a18cbb1-81d2-4720-9f09-46ea276b6ddb"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "zhuyong.hucloud-dns.xyz"
+  - name: "🇺🇸US-167.88.63.59-0215"
+    type: "ss"
+    server: "167.88.63.59"
+    port: 6379
+    cipher: "aes-256-gcm"
+    password: "zDNVedRFPQexG9v"
+  - name: "🇨🇳CN-117.164.185.222-0216"
+    type: "trojan"
+    server: "117.164.185.222"
+    port: 21001
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇬🇧GB-82.38.31.35-0217"
+    type: "ss"
+    server: "82.38.31.35"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇲🇽MX-64.177.90.30-0218"
+    type: "ss"
+    server: "64.177.90.30"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "BWyPPTusFKhGgzKh"
+  - name: "🇬🇧GB-82.38.31.57-0220"
+    type: "ss"
+    server: "82.38.31.57"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇨🇳CN-183.245.146.20-0221"
+    type: "trojan"
+    server: "183.245.146.20"
+    port: 21001
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇲🇾MY-47.250.45.234-0226"
     type: "vmess"
     server: "47.250.45.234"
     port: 43063
@@ -119,38 +225,38 @@ proxies:
       path: "/"
       headers:
         Host: ""
-  - name: "🇹🇼TW-36.224.151.80-0270"
+  - name: "🇹🇼TW-36.224.151.80-0227"
     type: "ss"
     server: "r3mrcg00129437x.cybervena.com"
     port: 50099
     cipher: "chacha20-ietf-poly1305"
     password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-  - name: "🇪🇸ES-5.188.181.201-0273"
+  - name: "🇪🇸ES-5.188.181.201-0228"
     type: "ss"
     server: "5.188.181.201"
     port: 9001
     cipher: "aes-256-cfb"
     password: "UkXRsXvR6buDMG2Y"
-  - name: "🇨🇳CN-183.245.146.20-0019"
+  - name: "🇨🇳CN-183.245.146.20-0229"
     type: "trojan"
     server: "183.245.146.20"
     port: 21002
     password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
     tls: true
     udp: true
-  - name: "🇭🇰HK-103.149.182.79-0276"
+  - name: "🇭🇰HK-103.149.182.79-0230"
     type: "ss"
     server: "103.149.182.79"
     port: 8388
     cipher: "chacha20-ietf"
     password: "asd123456"
-  - name: "🇯🇵JP-64.83.33.45-0278"
+  - name: "🇯🇵JP-64.83.33.45-0231"
     type: "ss"
     server: "64.83.33.45"
     port: 443
     cipher: "aes-256-gcm"
     password: "AyqX8KynyyQLReOZorQRQbsvmiwxBQOf"
-  - name: "🇳🇱NL-195.54.174.18-0282"
+  - name: "🇳🇱NL-195.54.174.18-0232"
     type: "vmess"
     server: "195.54.174.18"
     port: 80
@@ -164,63 +270,33 @@ proxies:
       path: "/"
       headers:
         Host: ""
-  - name: "🇨🇷CR-138.59.16.146-0283"
+  - name: "🇨🇷CR-138.59.16.146-0233"
     type: "ss"
     server: "138.59.16.146"
     port: 989
     cipher: "aes-256-cfb"
     password: "f8f7aCzcPKbsF8p3"
-  - name: "🇨🇳CN-36.138.100.57-0018"
+  - name: "🇨🇳CN-36.138.100.57-0234"
     type: "trojan"
     server: "36.138.100.57"
     port: 21003
     password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
     tls: true
     udp: true
-  - name: "🇨🇳CN-36.138.100.57-0017"
+  - name: "🇨🇳CN-36.138.100.57-0235"
     type: "trojan"
     server: "36.138.100.57"
     port: 21002
     password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
     tls: true
     udp: true
-  - name: "🇺🇸US-38.121.43.71-0287"
-    type: "ss"
-    server: "38.121.43.71"
-    port: 6697
-    cipher: "aes-256-gcm"
-    password: "TEzjfAYq2IjtuoS"
-  - name: "🇺🇸US-45.33.109.70-0288"
+  - name: "🇺🇸US-45.33.109.70-0237"
     type: "trojan"
     server: "45.33.109.70"
     port: 443
     password: "a1e12464-9208-4583-bd21-ab6889fdd242"
     tls: true
     udp: true
-  - name: "🇺🇸US-38.68.134.191-0289"
-    type: "ss"
-    server: "38.68.134.191"
-    port: 5003
-    cipher: "aes-256-gcm"
-    password: "g5MeD6Ft3CWlJId"
-  - name: "🇨🇦CA-196.247.59.156-0290"
-    type: "ss"
-    server: "196.247.59.156"
-    port: 809
-    cipher: "chacha20-ietf-poly1305"
-    password: "G!yBwPWH3Vao"
-  - name: "🇨🇦CA-85.208.108.19-0291"
-    type: "ss"
-    server: "85.208.108.19"
-    port: 5000
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
-  - name: "🇨🇦CA-85.208.108.58-0292"
-    type: "ss"
-    server: "85.208.108.58"
-    port: 8888
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
   - name: "🇳🇱_NL_荷兰->🇲🇩_MD_摩尔多瓦"
     type: "vless"
     server: "31.59.150.174"
@@ -2208,19 +2284,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "09b1d30d-7ddd-4564-8783-694418215ee7"
+    uuid: "cc1a8aca-1f0b-4b83-9b8f-67416016a774"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "09b1d30d-7ddd-4564-8783-694418215ee7"
+    uuid: "cc1a8aca-1f0b-4b83-9b8f-67416016a774"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "09b1d30d-7ddd-4564-8783-694418215ee7"
+    uuid: "cc1a8aca-1f0b-4b83-9b8f-67416016a774"
     udp: true
   - name: "🇺🇸 美国 001"
     type: "vmess"
@@ -4618,187 +4694,48 @@ proxies:
       path: "linkvws"
       headers:
         Host: "waynn.makeup"
-  - name: "🇺🇸 美国 091"
-    type: "vmess"
-    server: "104.21.4.29"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "oliv.beauty"
-  - name: "🇺🇸 美国 092"
-    type: "vmess"
-    server: "vps-837611db.vps.ovh.us"
-    port: 443
-    uuid: "3e1c1355-ffb5-48c3-8e7d-f6be7b8fece4"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "tcp"
-    udp: true
-  - name: "🇺🇸 美国 093"
-    type: "vmess"
-    server: "30.vmessprotocol.telegram-vmessprotocol-channel.space"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    cipher: "auto"
-    alterId: 1
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "ophelia.mom"
-  - name: "其他 047"
-    type: "vmess"
-    server: "linde06.indiavideo.sbs"
-    port: 443
-    uuid: "edbb1059-1633-4271-b66e-ed4fba47a1bf"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/linkws"
-      headers:
-        Host: "linde06.indiavideo.sbs"
-  - name: "🇺🇸 美国 094"
-    type: "vmess"
-    server: "172.67.164.184"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    cipher: "auto"
-    alterId: 1
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "alvvin.click"
-  - name: "🇺🇸 美国 095"
-    type: "vmess"
-    server: "104.21.50.177"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "alvvin.click"
-  - name: "🇺🇸 美国 096"
-    type: "vmess"
-    server: "172.67.207.114"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    cipher: "auto"
-    alterId: 1
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "ophelia.mom"
-  - name: "🇺🇸 美国 097"
-    type: "vmess"
-    server: "172.67.215.202"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    cipher: "auto"
-    alterId: 1
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "octavi.cfd"
-  - name: "🇺🇸 美国 098"
-    type: "vmess"
-    server: "172.67.179.37"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    cipher: "auto"
-    alterId: 1
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "octavi.cfd"
-  - name: "🇺🇸 美国 099"
-    type: "vmess"
-    server: "104.21.27.139"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "edeen.makeup"
-  - name: "🇺🇸 美国 100"
-    type: "vmess"
-    server: "172.67.142.191"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "edeen.makeup"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇨🇳CN-117.164.185.222-0021"
-      - "🇬🇧GB-82.38.31.35-0222"
-      - "🇲🇽MX-64.177.90.30-0237"
-      - "🏁RELAY-172.67.167.120-0238"
-      - "🇬🇧GB-82.38.31.57-0246"
-      - "🇨🇳CN-183.245.146.20-0020"
-      - "🇨🇳CN-120.240.55.137-0257"
-      - "🇨🇳CN-120.240.55.137-0259"
-      - "🇦🇺AU-103.224.212.142-0260"
-      - "🇦🇺AU-103.224.212.142-0263"
-      - "🇲🇾MY-47.250.45.234-0265"
-      - "🇹🇼TW-36.224.151.80-0270"
-      - "🇪🇸ES-5.188.181.201-0273"
-      - "🇨🇳CN-183.245.146.20-0019"
-      - "🇭🇰HK-103.149.182.79-0276"
-      - "🇯🇵JP-64.83.33.45-0278"
-      - "🇳🇱NL-195.54.174.18-0282"
-      - "🇨🇷CR-138.59.16.146-0283"
-      - "🇨🇳CN-36.138.100.57-0018"
-      - "🇨🇳CN-36.138.100.57-0017"
-      - "🇺🇸US-38.121.43.71-0287"
-      - "🇺🇸US-45.33.109.70-0288"
-      - "🇺🇸US-38.68.134.191-0289"
-      - "🇨🇦CA-196.247.59.156-0290"
-      - "🇨🇦CA-85.208.108.19-0291"
-      - "🇨🇦CA-85.208.108.58-0292"
+      - "🇨🇳CN-183.245.146.20-0194"
+      - "🇨🇳CN-117.164.185.220-0195"
+      - "🇨🇳CN-117.164.185.220-0196"
+      - "🇨🇳CN-36.138.100.57-0197"
+      - "🇨🇳CN-36.138.100.57-0198"
+      - "🇨🇳CN-121.46.230.233-0199"
+      - "🇨🇦CA-196.247.59.156-0200"
+      - "🇨🇳CN-183.245.146.20-0201"
+      - "🇦🇺AU-103.224.212.142-0202"
+      - "🇨🇳CN-117.164.185.222-0203"
+      - "🇨🇳CN-117.164.185.222-0204"
+      - "🇨🇳CN-117.164.185.222-0205"
+      - "🇨🇳CN-117.164.185.222-0206"
+      - "🇲🇾MY-118.107.222.231-0207"
+      - "🏁RELAY-172.64.145.93-0113"
+      - "🇮🇪IE-108.129.176.139-0097"
+      - "🇭🇰HK-47.244.120.197-0210"
+      - "🇭🇰HK-47.244.120.197-0211"
+      - "🇳🇱NL-158.173.20.171-0096"
+      - "🏁RELAY-104.16.89.44-0214"
+      - "🇺🇸US-167.88.63.59-0215"
+      - "🇨🇳CN-117.164.185.222-0216"
+      - "🇬🇧GB-82.38.31.35-0217"
+      - "🇲🇽MX-64.177.90.30-0218"
+      - "🇬🇧GB-82.38.31.57-0220"
+      - "🇨🇳CN-183.245.146.20-0221"
+      - "🇲🇾MY-47.250.45.234-0226"
+      - "🇹🇼TW-36.224.151.80-0227"
+      - "🇪🇸ES-5.188.181.201-0228"
+      - "🇨🇳CN-183.245.146.20-0229"
+      - "🇭🇰HK-103.149.182.79-0230"
+      - "🇯🇵JP-64.83.33.45-0231"
+      - "🇳🇱NL-195.54.174.18-0232"
+      - "🇨🇷CR-138.59.16.146-0233"
+      - "🇨🇳CN-36.138.100.57-0234"
+      - "🇨🇳CN-36.138.100.57-0235"
+      - "🇺🇸US-45.33.109.70-0237"
       - "🇳🇱_NL_荷兰->🇲🇩_MD_摩尔多瓦"
       - "🇭🇰_HK_中国香港"
       - "🇯🇵_JP_日本->🇾🇪_YE_也门"
@@ -5262,14 +5199,3 @@ proxy-groups:
       - "🇺🇸 美国 088"
       - "🇺🇸 美国 089"
       - "🇺🇸 美国 090"
-      - "🇺🇸 美国 091"
-      - "🇺🇸 美国 092"
-      - "🇺🇸 美国 093"
-      - "其他 047"
-      - "🇺🇸 美国 094"
-      - "🇺🇸 美国 095"
-      - "🇺🇸 美国 096"
-      - "🇺🇸 美国 097"
-      - "🇺🇸 美国 098"
-      - "🇺🇸 美国 099"
-      - "🇺🇸 美国 100"
