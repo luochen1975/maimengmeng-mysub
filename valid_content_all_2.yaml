@@ -1,391 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-11 20:53:57
+# 生成时间: 2026-09-11 23:11:57
 # 节点数量: 500
 
 proxies:
-  - name: "🇨🇳CN-121.46.230.233-0199"
-    type: "ss"
-    server: "121.46.230.233"
-    port: 65443
-    cipher: "aes-256-cfb"
-    password: "7eadc6dbe2ae"
-  - name: "🇨🇦CA-196.247.59.156-0200"
-    type: "ss"
-    server: "196.247.59.156"
-    port: 808
-    cipher: "chacha20-ietf-poly1305"
-    password: "G!yBwPWH3Vao"
-  - name: "🇨🇳CN-183.245.146.20-0201"
-    type: "trojan"
-    server: "183.245.146.20"
-    port: 41001
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇦🇺AU-103.224.212.142-0202"
-    type: "vmess"
-    server: "asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom"
-    port: 888
-    uuid: "fbc2efb0-786a-4074-81ea-8ab12ca5422c"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge.cjhh.mom"
-  - name: "🇨🇳CN-117.164.185.222-0203"
-    type: "trojan"
-    server: "117.164.185.222"
-    port: 21005
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇨🇳CN-117.164.185.222-0204"
-    type: "trojan"
-    server: "117.164.185.222"
-    port: 21004
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇨🇳CN-117.164.185.222-0205"
-    type: "trojan"
-    server: "117.164.185.222"
-    port: 21003
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇨🇳CN-117.164.185.222-0206"
-    type: "trojan"
-    server: "117.164.185.222"
-    port: 21002
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇨🇦CA-137.184.174.93-0048"
-    type: "ss"
-    server: "137.184.174.93"
-    port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
-  - name: "🇰🇷KR-218.237.185.230-0208"
-    type: "ss"
-    server: "p141.panda001.net"
-    port: 4652
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-  - name: "🇮🇹IT-194.156.133.48-0036"
-    type: "ss"
-    server: "194.156.133.48"
-    port: 17002
-    cipher: "chacha20-ietf-poly1305"
-    password: "bb7eeda8-9be7-4f43-9066-b730aadccdf7"
-  - name: "🇭🇰HK-47.244.120.197-0210"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 36703
-    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
-  - name: "🇭🇰HK-47.244.120.197-0211"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
-  - name: "🇺🇸US-38.121.43.71-0035"
-    type: "ss"
-    server: "38.121.43.71"
-    port: 6697
-    cipher: "aes-256-gcm"
-    password: "TEzjfAYq2IjtuoS"
-  - name: "🏁RELAY-104.16.89.44-0214"
-    type: "vmess"
-    server: "104.16.89.44"
-    port: 443
-    uuid: "9a18cbb1-81d2-4720-9f09-46ea276b6ddb"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "zhuyong.hucloud-dns.xyz"
-  - name: "🇺🇸US-167.88.63.59-0215"
-    type: "ss"
-    server: "167.88.63.59"
-    port: 6379
-    cipher: "aes-256-gcm"
-    password: "zDNVedRFPQexG9v"
-  - name: "🇨🇳CN-117.164.185.222-0216"
-    type: "trojan"
-    server: "117.164.185.222"
-    port: 21001
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇬🇧GB-82.38.31.35-0217"
-    type: "ss"
-    server: "82.38.31.35"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "🇲🇽MX-64.177.90.30-0218"
-    type: "ss"
-    server: "64.177.90.30"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "BWyPPTusFKhGgzKh"
-  - name: "🇬🇧GB-82.38.31.57-0220"
-    type: "ss"
-    server: "82.38.31.57"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "🇨🇳CN-183.245.146.20-0221"
-    type: "trojan"
-    server: "183.245.146.20"
-    port: 21001
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇲🇾MY-47.250.45.234-0226"
-    type: "vmess"
-    server: "47.250.45.234"
-    port: 43063
-    uuid: "c77f48f5-4be3-4461-b52b-49998e7b897b"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
-  - name: "🇹🇼TW-36.224.151.80-0227"
-    type: "ss"
-    server: "r3mrcg00129437x.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-  - name: "🇪🇸ES-5.188.181.201-0228"
-    type: "ss"
-    server: "5.188.181.201"
-    port: 9001
-    cipher: "aes-256-cfb"
-    password: "UkXRsXvR6buDMG2Y"
-  - name: "🇨🇳CN-183.245.146.20-0229"
-    type: "trojan"
-    server: "183.245.146.20"
-    port: 21002
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇭🇰HK-103.149.182.79-0230"
-    type: "ss"
-    server: "103.149.182.79"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
-  - name: "🇯🇵JP-64.83.33.45-0231"
-    type: "ss"
-    server: "64.83.33.45"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "AyqX8KynyyQLReOZorQRQbsvmiwxBQOf"
-  - name: "🇳🇱NL-195.54.174.18-0232"
-    type: "vmess"
-    server: "195.54.174.18"
-    port: 80
-    uuid: "6d6f413f-3dc2-4d02-8d35-8b45e39feb72"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ""
-  - name: "🇨🇷CR-138.59.16.146-0233"
-    type: "ss"
-    server: "138.59.16.146"
-    port: 989
-    cipher: "aes-256-cfb"
-    password: "f8f7aCzcPKbsF8p3"
-  - name: "🇨🇳CN-36.138.100.57-0234"
-    type: "trojan"
-    server: "36.138.100.57"
-    port: 21003
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇨🇳CN-36.138.100.57-0235"
-    type: "trojan"
-    server: "36.138.100.57"
-    port: 21002
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇺🇸US-45.33.109.70-0237"
-    type: "trojan"
-    server: "45.33.109.70"
-    port: 443
-    password: "a1e12464-9208-4583-bd21-ab6889fdd242"
-    tls: true
-    udp: true
-  - name: "🇩🇪_DE_德国"
-    type: "vless"
-    server: "176.96.138.122"
-    port: 443
-    uuid: "b229d38c-35ec-4a0b-9c86-8fceba243d6c"
-    udp: true
-  - name: "🇬🇧_GB_英国->🇸🇬_SG_新加坡"
-    type: "vless"
-    server: "91.193.58.45"
-    port: 2096
-    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
-    udp: true
-  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
-    type: "vless"
-    server: "us22.sofast.live"
-    port: 58011
-    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
-    udp: true
-  - name: "🇦🇺_AU_澳大利亚"
-    type: "hysteria2"
-    server: "152.67.115.203"
-    port: 443
-    password: "633bc3be486b646190661ac2387c150a"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇷🇺_RU_俄罗斯"
-    type: "hysteria2"
-    server: "msk.frkn.org"
-    port: 443
-    password: "f317b5d6-d399-4d3d-a051-89d674ae953c"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇩🇪_DE_德国"
-    type: "vless"
-    server: "2.59.134.226"
-    port: 443
-    uuid: "88281d02-b387-4fe3-918e-26ed331e6d08"
-    udp: true
-  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
-    type: "vless"
-    server: "jp.sofast.live"
-    port: 52683
-    uuid: "399b6b23-cc40-4831-a494-61948e2df133"
-    udp: true
-  - name: "🇺🇸_US_美国"
-    type: "vmess"
-    server: "www.shopify.com"
-    port: 443
-    uuid: "6a89a215-22bf-4bd7-9642-b95b2e09583a"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/hls/cctv5phd.m3u8"
-      headers:
-        Host: "guanwang.awsno.com"
-  - name: "🇬🇧_GB_英国->🇸🇬_SG_新加坡"
-    type: "vless"
-    server: "91.193.58.218"
-    port: 2096
-    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
-    udp: true
-  - name: "🇰🇷_KR_韩国"
-    type: "hysteria2"
-    server: "152.70.237.123"
-    port: 2053
-    password: "maintell"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
-    type: "hysteria2"
-    server: "gta.internet-card.sbs"
-    port: 443
-    password: "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇨🇭_CH_瑞士"
-    type: "vless"
-    server: "45.90.59.15"
-    port: 443
-    uuid: "3950b45e-740d-4dca-ac95-505ec8534592"
-    udp: true
-  - name: "🇳🇱_NL_荷兰->🇲🇩_MD_摩尔多瓦"
-    type: "vless"
-    server: "31.59.150.174"
-    port: 9443
-    uuid: "92089155-6602-4122-86d4-fe6de20e8c4d"
-    udp: true
-  - name: "🇨🇳_CN_中国"
-    type: "vmess"
-    server: "112.132.215.108"
-    port: 50002
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    cipher: "auto"
-    alterId: 64
-    tls: false
-    network: "tcp"
-    udp: true
-  - name: "🇭🇰_HK_中国香港->🇺🇸_US_美国"
-    type: "vmess"
-    server: "v24.hdacd.com"
-    port: 30824
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    cipher: "auto"
-    alterId: 2
-    tls: false
-    network: "tcp"
-    udp: true
-  - name: "🇨🇭_CH_瑞士"
-    type: "hysteria2"
-    server: "152.67.75.161"
-    port: 443
-    password: "3a702d4d1de4949005d8431220e040fb"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇭🇰_HK_中国香港->🇯🇵_JP_日本"
-    type: "vmess"
-    server: "v6.hdacd.com"
-    port: 30806
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    cipher: "auto"
-    alterId: 2
-    tls: false
-    network: "tcp"
-    udp: true
   - name: "🇭🇰_HK_中国香港->🇺🇸_US_美国"
     type: "vmess"
     server: "v4.hdacd.com"
@@ -1993,19 +1610,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "a0c8a4c9-fa90-44a3-825f-cd51e6e0bbdc"
+    uuid: "8b796269-9043-4996-a354-9b5380ce56f0"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "a0c8a4c9-fa90-44a3-825f-cd51e6e0bbdc"
+    uuid: "8b796269-9043-4996-a354-9b5380ce56f0"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "a0c8a4c9-fa90-44a3-825f-cd51e6e0bbdc"
+    uuid: "8b796269-9043-4996-a354-9b5380ce56f0"
     udp: true
   - name: "其他 001"
     type: "vmess"
@@ -4168,60 +3785,305 @@ proxies:
     port: 80
     uuid: "1737df47-a4b2-4096-9fc3-1d869aa50c08"
     udp: true
+  - name: "🇺🇸 美国 115"
+    type: "vless"
+    server: "104.21.32.1"
+    port: 443
+    uuid: "1737df47-a4b2-4096-9fc3-1d869aa50c08"
+    udp: true
+  - name: "🇺🇸 美国 116"
+    type: "vless"
+    server: "104.21.48.1"
+    port: 8080
+    uuid: "1737df47-a4b2-4096-9fc3-1d869aa50c08"
+    udp: true
+  - name: "🇺🇸 美国 117"
+    type: "vless"
+    server: "104.21.64.1"
+    port: 8080
+    uuid: "1737df47-a4b2-4096-9fc3-1d869aa50c08"
+    udp: true
+  - name: "🇦🇺 澳大利亚 004"
+    type: "vless"
+    server: "185.207.198.186"
+    port: 2087
+    uuid: "174622e3-2d1d-47ab-bf74-aef54996ec46"
+    udp: true
+  - name: "🇪🇸 西班牙 001"
+    type: "vless"
+    server: "185.18.250.245"
+    port: 443
+    uuid: "17540a16-a0dd-5694-7e1e-14e281ccc032"
+    udp: true
+  - name: "🇪🇸 西班牙 002"
+    type: "vless"
+    server: "185.18.250.252"
+    port: 443
+    uuid: "17540a16-a0dd-5694-7e1e-14e281ccc032"
+    udp: true
+  - name: "🇳🇱 荷兰 005"
+    type: "vless"
+    server: "185.193.28.212"
+    port: 443
+    uuid: "17540a16-a0dd-5694-7e1e-14e281ccc032"
+    udp: true
+  - name: "🇺🇸 美国 118"
+    type: "vless"
+    server: "66.81.247.155"
+    port: 443
+    uuid: "17540a16-a0dd-5694-7e1e-14e281ccc032"
+    udp: true
+  - name: "🇩🇪 德国 010"
+    type: "vless"
+    server: "188.40.210.8"
+    port: 1083
+    uuid: "179ddf63-c263-40ff-98a1-f53708573059"
+    udp: true
+  - name: "🇺🇸 美国 119"
+    type: "vless"
+    server: "144.172.119.9"
+    port: 110
+    uuid: "18450ff3-1ebb-4665-957b-219aef3d83c7"
+    udp: true
+  - name: "🇺🇸 美国 120"
+    type: "vless"
+    server: "104.16.19.242"
+    port: 80
+    uuid: "1853d1d2-1ccf-48e6-ae05-0c0bb285a8c4"
+    udp: true
+  - name: "🇺🇸 美国 121"
+    type: "vless"
+    server: "104.24.189.102"
+    port: 80
+    uuid: "1853d1d2-1ccf-48e6-ae05-0c0bb285a8c4"
+    udp: true
+  - name: "🇺🇸 美国 122"
+    type: "vless"
+    server: "69.46.46.123"
+    port: 443
+    uuid: "18758b47-442c-ce87-982f-95da64c3228b"
+    udp: true
+  - name: "🇺🇸 美国 123"
+    type: "vless"
+    server: "172.67.179.98"
+    port: 8880
+    uuid: "18a7834f-bf89-4c87-ad57-49927a56deed"
+    udp: true
+  - name: "🇳🇱 荷兰 006"
+    type: "vless"
+    server: "104.248.82.82"
+    port: 443
+    uuid: "18f1b94e-35f1-4c7f-953c-7b4681c52339"
+    udp: true
+  - name: "🇩🇪 德国 011"
+    type: "vless"
+    server: "138.197.190.97"
+    port: 443
+    uuid: "18f1b94e-35f1-4c7f-953c-7b4681c52339"
+    udp: true
+  - name: "🇺🇸 美国 124"
+    type: "vless"
+    server: "143.110.167.147"
+    port: 443
+    uuid: "18f1b94e-35f1-4c7f-953c-7b4681c52339"
+    udp: true
+  - name: "🇳🇱 荷兰 007"
+    type: "vless"
+    server: "159.65.200.233"
+    port: 443
+    uuid: "18f1b94e-35f1-4c7f-953c-7b4681c52339"
+    udp: true
+  - name: "🇺🇸 美国 125"
+    type: "vless"
+    server: "161.35.170.229"
+    port: 443
+    uuid: "18f1b94e-35f1-4c7f-953c-7b4681c52339"
+    udp: true
+  - name: "🇺🇸 美国 126"
+    type: "vless"
+    server: "164.92.145.52"
+    port: 443
+    uuid: "18f1b94e-35f1-4c7f-953c-7b4681c52339"
+    udp: true
+  - name: "🇷🇴 罗马尼亚 002"
+    type: "vless"
+    server: "89.39.70.34"
+    port: 8443
+    uuid: "195b5eff-0525-4b93-9216-859f9330de84"
+    udp: true
+  - name: "🇮🇷 伊朗 010"
+    type: "vless"
+    server: "91.98.202.214"
+    port: 1373
+    uuid: "1972d7cb-00d8-423e-91db-62f01b2289a6"
+    udp: true
+  - name: "🇵🇱 波兰 003"
+    type: "vless"
+    server: "89.167.17.75"
+    port: 443
+    uuid: "19773cc6-89a3-47c6-bc10-885460cd2b7b"
+    udp: true
+  - name: "🇺🇸 美国 127"
+    type: "vless"
+    server: "69.46.46.106"
+    port: 443
+    uuid: "198f3ee7-5fa3-2121-7d58-39c38c0feb59"
+    udp: true
+  - name: "🇮🇷 伊朗 011"
+    type: "vless"
+    server: "193.151.136.124"
+    port: 47992
+    uuid: "1aca480e-8011-4060-9fbe-5f00ff8d8231"
+    udp: true
+  - name: "🇺🇸 美国 128"
+    type: "vless"
+    server: "104.21.41.131"
+    port: 8443
+    uuid: "1ad37675-b4cf-42fa-9dc5-83fd35cd63cb"
+    udp: true
+  - name: "🇺🇸 美国 129"
+    type: "vless"
+    server: "185.216.71.225"
+    port: 443
+    uuid: "1af93670-c30e-4207-8458-7a0fc5638e53"
+    udp: true
+  - name: "🇺🇸 美国 130"
+    type: "vless"
+    server: "38.175.203.11"
+    port: 443
+    uuid: "1b8ec962-6e6f-4fc3-a9a4-c8a6fc907796"
+    udp: true
+  - name: "🇳🇱 荷兰 008"
+    type: "vless"
+    server: "185.215.235.38"
+    port: 8080
+    uuid: "1d2717a5-7e88-40fd-a55d-ba506f44dc96"
+    udp: true
+  - name: "🇨🇭 瑞士 002"
+    type: "vless"
+    server: "178.83.226.142"
+    port: 56539
+    uuid: "1d2cded7-0930-42da-a9f9-01a7adeb1642"
+    udp: true
+  - name: "🇺🇸 美国 131"
+    type: "vless"
+    server: "65.109.176.5"
+    port: 443
+    uuid: "1d2e5805-69c0-4948-861c-57e4f778624e"
+    udp: true
+  - name: "🇸🇬 新加坡 004"
+    type: "vless"
+    server: "178.128.63.151"
+    port: 12710
+    uuid: "1d305115-fb27-4cf5-ba1a-94f926018f26"
+    udp: true
+  - name: "🇺🇸 美国 132"
+    type: "vless"
+    server: "104.18.32.47"
+    port: 80
+    uuid: "1e35b4bf-b270-4c0b-918d-62746eedd2ad"
+    udp: true
+  - name: "🇺🇸 美国 133"
+    type: "vless"
+    server: "185.143.233.238"
+    port: 2086
+    uuid: "1ee1f28d-4975-4d7c-95c7-76172c20eed5"
+    udp: true
+  - name: "🇺🇸 美国 134"
+    type: "vless"
+    server: "185.143.234.238"
+    port: 2086
+    uuid: "1ee1f28d-4975-4d7c-95c7-76172c20eed5"
+    udp: true
+  - name: "🇮🇷 伊朗 012"
+    type: "vless"
+    server: "194.36.174.160"
+    port: 15300
+    uuid: "1f216ab5-b0bb-44f4-8222-a05eb8c8cc7c"
+    udp: true
+  - name: "🇺🇸 美国 135"
+    type: "vless"
+    server: "104.19.4.149"
+    port: 443
+    uuid: "1f3be56f-b39d-4276-b8f1-f63e38379b52"
+    udp: true
+  - name: "🇺🇸 美国 136"
+    type: "vless"
+    server: "104.16.22.21"
+    port: 2053
+    uuid: "1f6722ab-20ed-4d13-bf7e-94375ebd92fa"
+    udp: true
+  - name: "🇺🇸 美国 137"
+    type: "vless"
+    server: "162.159.82.123"
+    port: 2053
+    uuid: "1f6722ab-20ed-4d13-bf7e-94375ebd92fa"
+    udp: true
+  - name: "🇺🇸 美国 138"
+    type: "vless"
+    server: "69.46.46.48"
+    port: 443
+    uuid: "1faac420-42dc-44ee-afe3-c7875cd72428"
+    udp: true
+  - name: "🇺🇸 美国 139"
+    type: "vless"
+    server: "104.16.209.187"
+    port: 80
+    uuid: "20cf8a2b-e301-4240-9c03-20883249a287"
+    udp: true
+  - name: "🇺🇸 美国 140"
+    type: "vless"
+    server: "104.24.198.111"
+    port: 80
+    uuid: "20cf8a2b-e301-4240-9c03-20883249a287"
+    udp: true
+  - name: "🇹🇷 土耳其 002"
+    type: "vless"
+    server: "185.71.219.188"
+    port: 443
+    uuid: "2107ea1e-26fb-4831-8c3f-fb190bea79f7"
+    udp: true
+  - name: "🇺🇸 美国 141"
+    type: "vless"
+    server: "104.18.26.90"
+    port: 2087
+    uuid: "213426db-afb7-48d1-ae51-5093317212df"
+    udp: true
+  - name: "🇺🇸 美国 142"
+    type: "vless"
+    server: "104.21.55.47"
+    port: 2087
+    uuid: "213426db-afb7-48d1-ae51-5093317212df"
+    udp: true
+  - name: "🇺🇸 美国 143"
+    type: "vless"
+    server: "172.64.152.23"
+    port: 2087
+    uuid: "213426db-afb7-48d1-ae51-5093317212df"
+    udp: true
+  - name: "🇺🇸 美国 144"
+    type: "vless"
+    server: "69.46.46.107"
+    port: 443
+    uuid: "22574eff-9c7c-8092-7be7-3508a7fd1509"
+    udp: true
+  - name: "🇺🇸 美国 145"
+    type: "vless"
+    server: "172.64.152.23"
+    port: 2052
+    uuid: "2271c50f-ac7a-4d7f-8b04-64085b0daa56"
+    udp: true
+  - name: "🇳🇱 荷兰 009"
+    type: "vless"
+    server: "45.130.125.160"
+    port: 80
+    uuid: "22c15b3f-e205-48e2-9b30-1a2c3480e7b2"
+    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇨🇳CN-121.46.230.233-0199"
-      - "🇨🇦CA-196.247.59.156-0200"
-      - "🇨🇳CN-183.245.146.20-0201"
-      - "🇦🇺AU-103.224.212.142-0202"
-      - "🇨🇳CN-117.164.185.222-0203"
-      - "🇨🇳CN-117.164.185.222-0204"
-      - "🇨🇳CN-117.164.185.222-0205"
-      - "🇨🇳CN-117.164.185.222-0206"
-      - "🇨🇦CA-137.184.174.93-0048"
-      - "🇰🇷KR-218.237.185.230-0208"
-      - "🇮🇹IT-194.156.133.48-0036"
-      - "🇭🇰HK-47.244.120.197-0210"
-      - "🇭🇰HK-47.244.120.197-0211"
-      - "🇺🇸US-38.121.43.71-0035"
-      - "🏁RELAY-104.16.89.44-0214"
-      - "🇺🇸US-167.88.63.59-0215"
-      - "🇨🇳CN-117.164.185.222-0216"
-      - "🇬🇧GB-82.38.31.35-0217"
-      - "🇲🇽MX-64.177.90.30-0218"
-      - "🇬🇧GB-82.38.31.57-0220"
-      - "🇨🇳CN-183.245.146.20-0221"
-      - "🇲🇾MY-47.250.45.234-0226"
-      - "🇹🇼TW-36.224.151.80-0227"
-      - "🇪🇸ES-5.188.181.201-0228"
-      - "🇨🇳CN-183.245.146.20-0229"
-      - "🇭🇰HK-103.149.182.79-0230"
-      - "🇯🇵JP-64.83.33.45-0231"
-      - "🇳🇱NL-195.54.174.18-0232"
-      - "🇨🇷CR-138.59.16.146-0233"
-      - "🇨🇳CN-36.138.100.57-0234"
-      - "🇨🇳CN-36.138.100.57-0235"
-      - "🇺🇸US-45.33.109.70-0237"
-      - "🇩🇪_DE_德国"
-      - "🇬🇧_GB_英国->🇸🇬_SG_新加坡"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国"
-      - "🇦🇺_AU_澳大利亚"
-      - "🇷🇺_RU_俄罗斯"
-      - "🇩🇪_DE_德国"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国"
-      - "🇺🇸_US_美国"
-      - "🇬🇧_GB_英国->🇸🇬_SG_新加坡"
-      - "🇰🇷_KR_韩国"
-      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
-      - "🇨🇭_CH_瑞士"
-      - "🇳🇱_NL_荷兰->🇲🇩_MD_摩尔多瓦"
-      - "🇨🇳_CN_中国"
-      - "🇭🇰_HK_中国香港->🇺🇸_US_美国"
-      - "🇨🇭_CH_瑞士"
-      - "🇭🇰_HK_中国香港->🇯🇵_JP_日本"
       - "🇭🇰_HK_中国香港->🇺🇸_US_美国"
       - "防范境外势力渗透"
       - "防范境外势力渗透 #1"
@@ -4673,3 +4535,52 @@ proxy-groups:
       - "🇺🇸 美国 113"
       - "🇬🇧 英国 012"
       - "🇺🇸 美国 114"
+      - "🇺🇸 美国 115"
+      - "🇺🇸 美国 116"
+      - "🇺🇸 美国 117"
+      - "🇦🇺 澳大利亚 004"
+      - "🇪🇸 西班牙 001"
+      - "🇪🇸 西班牙 002"
+      - "🇳🇱 荷兰 005"
+      - "🇺🇸 美国 118"
+      - "🇩🇪 德国 010"
+      - "🇺🇸 美国 119"
+      - "🇺🇸 美国 120"
+      - "🇺🇸 美国 121"
+      - "🇺🇸 美国 122"
+      - "🇺🇸 美国 123"
+      - "🇳🇱 荷兰 006"
+      - "🇩🇪 德国 011"
+      - "🇺🇸 美国 124"
+      - "🇳🇱 荷兰 007"
+      - "🇺🇸 美国 125"
+      - "🇺🇸 美国 126"
+      - "🇷🇴 罗马尼亚 002"
+      - "🇮🇷 伊朗 010"
+      - "🇵🇱 波兰 003"
+      - "🇺🇸 美国 127"
+      - "🇮🇷 伊朗 011"
+      - "🇺🇸 美国 128"
+      - "🇺🇸 美国 129"
+      - "🇺🇸 美国 130"
+      - "🇳🇱 荷兰 008"
+      - "🇨🇭 瑞士 002"
+      - "🇺🇸 美国 131"
+      - "🇸🇬 新加坡 004"
+      - "🇺🇸 美国 132"
+      - "🇺🇸 美国 133"
+      - "🇺🇸 美国 134"
+      - "🇮🇷 伊朗 012"
+      - "🇺🇸 美国 135"
+      - "🇺🇸 美国 136"
+      - "🇺🇸 美国 137"
+      - "🇺🇸 美国 138"
+      - "🇺🇸 美国 139"
+      - "🇺🇸 美国 140"
+      - "🇹🇷 土耳其 002"
+      - "🇺🇸 美国 141"
+      - "🇺🇸 美国 142"
+      - "🇺🇸 美国 143"
+      - "🇺🇸 美国 144"
+      - "🇺🇸 美国 145"
+      - "🇳🇱 荷兰 009"

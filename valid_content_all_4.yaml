@@ -1,302 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-11 20:53:57
+# 生成时间: 2026-09-11 23:11:57
 # 节点数量: 500
 
 proxies:
-  - name: "🇺🇸 美国 411"
-    type: "vless"
-    server: "104.24.85.213"
-    port: 80
-    uuid: "ce354701-e5dd-4ca6-9a44-7eeb0c48b157"
-    udp: true
-  - name: "🇺🇸 美国 412"
-    type: "vless"
-    server: "104.26.14.85"
-    port: 443
-    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
-    udp: true
-  - name: "🇺🇸 美国 413"
-    type: "vless"
-    server: "172.67.172.95"
-    port: 443
-    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
-    udp: true
-  - name: "🇺🇸 美国 414"
-    type: "vless"
-    server: "173.245.49.157"
-    port: 443
-    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
-    udp: true
-  - name: "🇺🇸 美国 415"
-    type: "vless"
-    server: "198.202.211.1"
-    port: 443
-    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
-    udp: true
-  - name: "🇩🇪 德国 049"
-    type: "vless"
-    server: "159.69.193.221"
-    port: 1234
-    uuid: "cf546c96-ed5e-46cc-b080-1cacf1770a5c"
-    udp: true
-  - name: "🇺🇸 美国 416"
-    type: "vless"
-    server: "104.21.74.8"
-    port: 443
-    uuid: "cf63446e-f6b7-4d34-b7ed-d8648eeed0f7"
-    udp: true
-  - name: "🇺🇸 美国 417"
-    type: "vless"
-    server: "104.21.80.209"
-    port: 443
-    uuid: "cf63446e-f6b7-4d34-b7ed-d8648eeed0f7"
-    udp: true
-  - name: "🇺🇸 美国 418"
-    type: "vless"
-    server: "162.159.160.22"
-    port: 443
-    uuid: "cf63446e-f6b7-4d34-b7ed-d8648eeed0f7"
-    udp: true
-  - name: "🇷🇺 俄罗斯 011"
-    type: "vless"
-    server: "147.45.61.227"
-    port: 8443
-    uuid: "cf8087f3-0af3-4860-ab77-c253056d4b88"
-    udp: true
-  - name: "🇩🇪 德国 050"
-    type: "vless"
-    server: "116.202.19.249"
-    port: 443
-    uuid: "cf990ae8-ee77-4436-aa3a-bbc2fb040c53"
-    udp: true
-  - name: "🇮🇷 伊朗 035"
-    type: "vless"
-    server: "46.224.170.213"
-    port: 443
-    uuid: "cf990ae8-ee77-4436-aa3a-bbc2fb040c53"
-    udp: true
-  - name: "🇺🇸 美国 419"
-    type: "vless"
-    server: "172.67.143.52"
-    port: 80
-    uuid: "cfa14880-381f-4524-bb41-02c96a7e8832"
-    udp: true
-  - name: "🇺🇸 美国 420"
-    type: "vless"
-    server: "199.232.34.79"
-    port: 443
-    uuid: "cfe58967-e48a-499f-bbb1-db38bcaa173f"
-    udp: true
-  - name: "🇳🇱 荷兰 027"
-    type: "vless"
-    server: "45.130.125.69"
-    port: 8443
-    uuid: "cff6f361-828a-43c8-a8b5-8d10b32e57fb"
-    udp: true
-  - name: "🇳🇱 荷兰 028"
-    type: "vless"
-    server: "45.130.125.0"
-    port: 443
-    uuid: "d08d180d-cb07-4d82-b1bd-1e42fa523cd7"
-    udp: true
-  - name: "🇺🇸 美国 421"
-    type: "vless"
-    server: "104.26.0.7"
-    port: 443
-    uuid: "d171491a-9995-46ce-8719-f64463ca3a45"
-    udp: true
-  - name: "🇺🇸 美国 422"
-    type: "vless"
-    server: "69.46.46.40"
-    port: 443
-    uuid: "d1da87ee-28d8-f2ae-1c2f-5b81d3b6679b"
-    udp: true
-  - name: "🇺🇸 美国 423"
-    type: "vless"
-    server: "144.31.157.104"
-    port: 20017
-    uuid: "d2733ae6-44e7-4b14-8c2d-3f5bef74cdec"
-    udp: true
-  - name: "🇺🇸 美国 424"
-    type: "vless"
-    server: "104.18.27.94"
-    port: 2052
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-  - name: "🇺🇸 美国 425"
-    type: "vless"
-    server: "104.19.48.128"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-  - name: "🇺🇸 美国 426"
-    type: "vless"
-    server: "104.18.32.47"
-    port: 2053
-    uuid: "d361072e-9e0e-4e2d-8ec7-2a4189b5b23a"
-    udp: true
-  - name: "🇺🇸 美国 427"
-    type: "vless"
-    server: "172.64.155.209"
-    port: 2053
-    uuid: "d361072e-9e0e-4e2d-8ec7-2a4189b5b23a"
-    udp: true
-  - name: "🇺🇸 美国 428"
-    type: "vless"
-    server: "191.101.130.131"
-    port: 38001
-    uuid: "d38fb586-bec2-4892-f774-7789068e32d5"
-    udp: true
-  - name: "🇳🇱 荷兰 029"
-    type: "vless"
-    server: "45.130.125.194"
-    port: 8443
-    uuid: "d3d046fa-d372-430a-8ed9-083d62c44efb"
-    udp: true
-  - name: "🇺🇸 美国 429"
-    type: "vless"
-    server: "104.16.183.83"
-    port: 80
-    uuid: "d4e672e0-bc04-45c1-b710-df097fa41d23"
-    udp: true
-  - name: "🇺🇸 美国 430"
-    type: "vless"
-    server: "104.24.219.162"
-    port: 80
-    uuid: "d4e672e0-bc04-45c1-b710-df097fa41d23"
-    udp: true
-  - name: "🇷🇺 俄罗斯 012"
-    type: "vless"
-    server: "95.182.114.74"
-    port: 443
-    uuid: "d5948eae-ef1b-45e4-81aa-d27076b56530"
-    udp: true
-  - name: "🇮🇷 伊朗 036"
-    type: "vless"
-    server: "46.38.138.221"
-    port: 8081
-    uuid: "d5c88c60-0293-4356-ebd8-046560abfc4f"
-    udp: true
-  - name: "🇺🇸 美国 431"
-    type: "vless"
-    server: "69.46.46.41"
-    port: 443
-    uuid: "d6fbbc29-9e7c-454d-a791-9b0d068337a2"
-    udp: true
-  - name: "🇩🇪 德国 051"
-    type: "vless"
-    server: "185.110.189.172"
-    port: 443
-    uuid: "d70e525c-67bd-4261-b7f5-96589be5b3b0"
-    udp: true
-  - name: "🇺🇸 美国 432"
-    type: "vless"
-    server: "172.67.161.136"
-    port: 443
-    uuid: "d713a25e-d96c-4755-94f4-9a0e0cd1ad68"
-    udp: true
-  - name: "🇮🇷 伊朗 037"
-    type: "vless"
-    server: "185.204.170.125"
-    port: 333
-    uuid: "d7e1be1d-967b-4f43-9014-ab68c414da72"
-    udp: true
-  - name: "🇺🇸 美国 433"
-    type: "vless"
-    server: "151.101.56.9"
-    port: 80
-    uuid: "d8b3f1c4-94c7-423e-a03a-bfa7f6af0ea1"
-    udp: true
-  - name: "🇺🇸 美国 434"
-    type: "vless"
-    server: "172.67.219.238"
-    port: 8080
-    uuid: "d98c1be3-7837-4d8a-a9fc-05e7a807ccb0"
-    udp: true
-  - name: "🇺🇸 美国 435"
-    type: "vless"
-    server: "104.19.146.83"
-    port: 443
-    uuid: "d9eb0df3-3190-4447-86b6-656fe5ff1119"
-    udp: true
-  - name: "🇺🇸 美国 436"
-    type: "vless"
-    server: "104.19.221.227"
-    port: 443
-    uuid: "d9eb0df3-3190-4447-86b6-656fe5ff1119"
-    udp: true
-  - name: "🇺🇸 美国 437"
-    type: "vless"
-    server: "172.64.143.88"
-    port: 443
-    uuid: "d9eb0df3-3190-4447-86b6-656fe5ff1119"
-    udp: true
-  - name: "🇨🇳 中国 010"
-    type: "vless"
-    server: "62.60.223.109"
-    port: 9090
-    uuid: "d9f4bcb7-d0cf-49e9-9009-f275852df5ee"
-    udp: true
-  - name: "🇩🇪 德国 052"
-    type: "vless"
-    server: "88.198.107.126"
-    port: 37801
-    uuid: "da68a6b7-a3da-416a-a776-5788dded633b"
-    udp: true
-  - name: "🇺🇸 美国 438"
-    type: "vless"
-    server: "3.72.6.34"
-    port: 443
-    uuid: "dacb912c-39ef-4fe0-d720-fadaa53111c0"
-    udp: true
-  - name: "🇩🇪 德国 053"
-    type: "vless"
-    server: "5.75.207.199"
-    port: 56539
-    uuid: "dbec9b94-126e-4601-8bb9-2386106adfe6"
-    udp: true
-  - name: "🇳🇱 荷兰 030"
-    type: "vless"
-    server: "45.130.125.201"
-    port: 80
-    uuid: "dc8a9493-c54a-459e-d060-81a700000001"
-    udp: true
-  - name: "🇺🇸 美国 439"
-    type: "vless"
-    server: "104.16.72.41"
-    port: 80
-    uuid: "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51"
-    udp: true
-  - name: "🇫🇷 法国 014"
-    type: "vless"
-    server: "94.140.0.74"
-    port: 2087
-    uuid: "dca945d2-6d9b-434f-8754-3626a6a75e21"
-    udp: true
-  - name: "🇺🇸 美国 440"
-    type: "vless"
-    server: "104.21.18.41"
-    port: 443
-    uuid: "dd0cfef0-fda9-47ec-8a65-49d7bc004f82"
-    udp: true
-  - name: "🇺🇸 美国 441"
-    type: "vless"
-    server: "172.67.180.92"
-    port: 443
-    uuid: "dd0cfef0-fda9-47ec-8a65-49d7bc004f82"
-    udp: true
-  - name: "🇳🇱 荷兰 031"
-    type: "vless"
-    server: "45.130.125.76"
-    port: 2096
-    uuid: "dd24f07d-5ed1-4e51-8073-5733e904fa88"
-    udp: true
-  - name: "🇩🇪 德国 054"
-    type: "vless"
-    server: "49.13.36.171"
-    port: 23746
-    uuid: "de43a9ca-6cc0-441e-981d-53208760cd90"
-    udp: true
   - name: "🇬🇧 英国 029"
     type: "vless"
     server: "31.76.76.28"
@@ -5335,60 +5041,681 @@ proxies:
       path: "/"
       headers:
         Host: "cdnde.irteyz.today"
+  - name: "🇰🇷 韩国 004"
+    type: "vmess"
+    server: "54.180.96.67"
+    port: 8888
+    uuid: "ae7486f9-d7b7-4f26-97a0-dc5b093dfa89"
+    cipher: "auto"
+    alterId: 1
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "54.180.96.67"
+  - name: "🇺🇸 美国 738"
+    type: "vmess"
+    server: "23.224.101.102"
+    port: 443
+    uuid: "946ba5df-5771-4873-a3cb-892378526147"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/footers"
+      headers:
+        Host: "www.76126449.xyz"
+  - name: "🇺🇸 美国 739"
+    type: "vmess"
+    server: "104.18.7.138"
+    port: 443
+    uuid: "3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cdnde.irteyz.today"
+  - name: "🇳🇱 荷兰 035"
+    type: "vmess"
+    server: "46.182.107.82"
+    port: 443
+    uuid: "37c29f42-b7c7-40c7-9da9-743dcc4895bc"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/footers"
+      headers:
+        Host: "46.182.107.82"
+  - name: "🇺🇸 美国 740"
+    type: "vmess"
+    server: "104.18.6.138"
+    port: 443
+    uuid: "3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cdnde.irteyz.today"
+  - name: "🇺🇸 美国 741"
+    type: "vmess"
+    server: "104.19.7.84"
+    port: 443
+    uuid: "4cdb016f-f14e-30b3-97d6-453c741a5c80"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/y475"
+      headers:
+        Host: "free.frli.xyz"
+  - name: "🇳🇱 荷兰 036"
+    type: "vmess"
+    server: "46.182.107.39"
+    port: 443
+    uuid: "d3133484-f2bf-4b0c-8d38-f8e645b67947"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/footers"
+      headers:
+        Host: "46.182.107.39"
+  - name: "🇳🇱 荷兰 037"
+    type: "vmess"
+    server: "46.182.107.46"
+    port: 443
+    uuid: "fe5f69e7-e183-439b-950b-8221ef0651f2"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/footers"
+      headers:
+        Host: "46.182.107.46"
+  - name: "🇳🇱 荷兰 038"
+    type: "vmess"
+    server: "46.182.107.37"
+    port: 443
+    uuid: "65ea6727-4461-47a7-a5c4-fef2c67f2f68"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/footers"
+      headers:
+        Host: "46.182.107.37"
+  - name: "🇺🇸 美国 742"
+    type: "vmess"
+    server: "free-russian01-cdn.xiaohouzi.club"
+    port: 80
+    uuid: "3d31728e-064d-42b8-b945-f79c008f73fc"
+    cipher: "auto"
+    alterId: 233
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "free-russian01-cdn.xiaohouzi.club"
+  - name: "🇨🇿 捷克 007"
+    type: "vmess"
+    server: "rntwo.laoban666.xyz"
+    port: 443
+    uuid: "114f5786-a8a0-446a-a32f-446893480560"
+    cipher: "auto"
+    alterId: 10
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/27353486f3a1d4f/"
+      headers:
+        Host: "rntwo.laoban666.xyz"
+  - name: "🇺🇸 美国 743"
+    type: "vmess"
+    server: "ping.pe"
+    port: 443
+    uuid: "3a3e263d-223f-49cc-bbdb-f7e07a55e6fe"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/111111.online"
+      headers:
+        Host: "by.6111.online"
+  - name: "🇳🇱 荷兰 039"
+    type: "vmess"
+    server: "46.182.107.44"
+    port: 443
+    uuid: "fe5f69e7-e183-439b-950b-8221ef0651f2"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/footers"
+      headers:
+        Host: "46.182.107.44"
+  - name: "🇺🇸 美国 744"
+    type: "vmess"
+    server: "104.19.110.34"
+    port: 443
+    uuid: "4cdb016f-f14e-30b3-97d6-453c741a5c80"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/y475"
+      headers:
+        Host: "free.frli.xyz"
+  - name: "🇺🇸 美国 745"
+    type: "vmess"
+    server: "107.175.44.154"
+    port: 443
+    uuid: "114f5786-a8a0-446a-a32f-446893480560"
+    cipher: "auto"
+    alterId: 10
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/27353486f3a1d4f/"
+      headers:
+        Host: "107.175.44.154"
+  - name: "🇸🇬 新加坡 007"
+    type: "vmess"
+    server: "104.248.148.147"
+    port: 21888
+    uuid: "ae7486f9-d7b7-4f26-97a0-dc5b093dfa89"
+    cipher: "auto"
+    alterId: 1
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "104.248.148.147"
+  - name: "🇺🇸 美国 746"
+    type: "vmess"
+    server: "104.17.21.243"
+    port: 443
+    uuid: "4cdb016f-f14e-30b3-97d6-453c741a5c80"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/y475"
+      headers:
+        Host: "free.frli.xyz"
+  - name: "🇺🇸 美国 747"
+    type: "vmess"
+    server: "185.143.233.114"
+    port: 80
+    uuid: "cf7f2d7c-d4f8-469a-bfd5-97484bb98d2c"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "185.143.233.114"
+  - name: "🇺🇸 美国 748"
+    type: "vmess"
+    server: "147.135.112.248"
+    port: 80
+    uuid: "973c2639-c9c2-484d-ae9b-3d68b2f30d9e"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "147.135.112.248"
+  - name: "🇺🇸 美国 749"
+    type: "vmess"
+    server: "136.175.178.176mgmg.xhtk.cc"
+    port: 443
+    uuid: "23b3724b-3d90-2074-a5bf-09388a9806b7"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/veghvws"
+      headers:
+        Host: "136.175.178.176mgmg.xhtk.cc"
+  - name: "🇸🇬 新加坡 008"
+    type: "vmess"
+    server: "139.99.61.154"
+    port: 80
+    uuid: "932a1f0d-f5ce-418d-8560-c88f53c534b9"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "139.99.61.154"
+  - name: "🇺🇸 美国 750"
+    type: "vmess"
+    server: "speed.cloudflare.com"
+    port: 443
+    uuid: "ffffffff-ffff-ffff-ffff-ffffffffffff"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "speed.cloudflare.com"
+  - name: "🇨🇦 加拿大 017"
+    type: "vmess"
+    server: "hohm.microsoft.com"
+    port: 443
+    uuid: "2b214122-1906-428a-bbb7-a039cbb7cd5c"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/9JZFDTKE"
+      headers:
+        Host: "hohm.microsoft.com"
+  - name: "🇺🇸 美国 751"
+    type: "vmess"
+    server: "RACKNERD.COM"
+    port: 2086
+    uuid: "c2a55def-e91e-4132-c504-0f276c4c3a1e"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/aries"
+      headers:
+        Host: "RACKNERD.COM"
+  - name: "🇺🇸 美国 752"
+    type: "vmess"
+    server: "15.235.202.196"
+    port: 80
+    uuid: "66f7af16-9d20-4df2-9849-0f65a8bb5527"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "15.235.202.196"
+  - name: "🇺🇸 美国 753"
+    type: "vmess"
+    server: "powerservice.com"
+    port: 443
+    uuid: "0764a598-82c4-4b41-ba10-551a625beed5"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "powerservice.com"
+  - name: "🇺🇸 美国 754"
+    type: "vmess"
+    server: "15.204.31.63"
+    port: 80
+    uuid: "ab4a729f-e4d4-4a78-8c24-3107c5e4faee"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "15.204.31.63"
+  - name: "🇨🇦 加拿大 018"
+    type: "vmess"
+    server: "165.154.246.71"
+    port: 80
+    uuid: "13581ae8-65c9-4fbe-9c78-77fac9ca503a"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "?ed=2048"
+      headers:
+        Host: "165.154.246.71"
+  - name: "🇺🇸 美国 755"
+    type: "vmess"
+    server: "162.19.224.175"
+    port: 80
+    uuid: "42ba278d-65e0-4743-8707-e18ed98cfed5"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "162.19.224.175"
+  - name: "🇺🇸 美国 756"
+    type: "vmess"
+    server: "104.168.87.190"
+    port: 1234
+    uuid: "df2bc8f4-fc1a-4f4e-b0e5-fd49055b32a9"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/bb"
+      headers:
+        Host: "104.168.87.190"
+  - name: "🇨🇿 捷克 008"
+    type: "vmess"
+    server: "de-v.sshmax.xyz"
+    port: 80
+    uuid: "5668ff97-631f-4602-a13f-b56552c67abe"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "de-v.sshmax.xyz"
+  - name: "🇹🇭 泰国 002"
+    type: "vmess"
+    server: "cacerts.digicert.com"
+    port: 443
+    uuid: "4612618c-24cd-4379-9924-cfdf3d61fa5a"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cacerts.digicert.com"
+  - name: "🇺🇸 美国 757"
+    type: "vmess"
+    server: "173.245.49.23"
+    port: 8443
+    uuid: "a6a37e04-5e81-44c9-be53-baa3ff46eb8b"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "173.245.49.23"
+  - name: "🇺🇸 美国 758"
+    type: "vmess"
+    server: "buyvm.sharecentre.online"
+    port: 443
+    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/shirker"
+      headers:
+        Host: "buyvm.sharecentre.online"
+  - name: "🇺🇸 美国 759"
+    type: "vmess"
+    server: "vuk2.0bad.com"
+    port: 443
+    uuid: "927094d3-d678-4763-8591-e240d0bcae87"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/chat"
+      headers:
+        Host: "vuk2.0bad.com"
+  - name: "🇷🇺 俄罗斯 020"
+    type: "vmess"
+    server: "haxus3.janechiu.icu"
+    port: 443
+    uuid: "0df258cb-a376-4b8e-a378-a556a4658aeb"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "haxus3.janechiu.icu"
+  - name: "🇺🇸 美国 760"
+    type: "vmess"
+    server: "lg10.cfcdn1.xyz"
+    port: 443
+    uuid: "17b2a313-37a0-4945-a8e4-e63375506b4a"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/A2DJOPFT"
+      headers:
+        Host: "lg10.cfcdn1.xyz"
+  - name: "🇺🇸 美国 761"
+    type: "vmess"
+    server: "clash6.ssr-free.xyz"
+    port: 443
+    uuid: "5f64fa65-7b14-49c5-954d-aa15c6bfcacd"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/dongtaiwang.com"
+      headers:
+        Host: "clash6.ssr-free.xyz"
+  - name: "🇺🇸 美国 762"
+    type: "vmess"
+    server: "vsg1.0bad.com"
+    port: 443
+    uuid: "927094d3-d678-4763-8591-e240d0bcae87"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/chat"
+      headers:
+        Host: "vsg1.0bad.com"
+  - name: "🇨🇳 中国 015"
+    type: "vmess"
+    server: "8.210.131.2"
+    port: 31357
+    uuid: "618c0914-e31e-4b82-8289-2e7a47e48dfd"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇨🇳 中国 016"
+    type: "vmess"
+    server: "47.242.69.124"
+    port: 54620
+    uuid: "7c3008e5-9665-4319-a2b9-ac7370665f1a"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 763"
+    type: "vmess"
+    server: "de-2.sharecentre.online"
+    port: 443
+    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/shirker"
+      headers:
+        Host: "de-2.sharecentre.online"
+  - name: "🇨🇿 捷克 009"
+    type: "vmess"
+    server: "sg1-v.sshmax.xyz"
+    port: 443
+    uuid: "b655be0e-4b1a-4e3e-b63f-22a928a6e808"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "sg1-v.sshmax.xyz"
+  - name: "🇺🇸 美国 764"
+    type: "vmess"
+    server: "steam.dnspro.icu"
+    port: 5001
+    uuid: "d4c93465-70f0-30d5-ab5f-a8881f3f49e7"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/iso"
+      headers:
+        Host: "steam.dnspro.icu"
+  - name: "🇨🇳 中国 017"
+    type: "vmess"
+    server: "47.243.230.222"
+    port: 35668
+    uuid: "ab4df3ef-e77f-4f2a-bfb8-63604412f73b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
+  - name: "🇺🇸 美国 765"
+    type: "vmess"
+    server: "sg-gcore.sharecentre.online"
+    port: 443
+    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/shirker"
+      headers:
+        Host: "sg-gcore.sharecentre.online"
+  - name: "🇺🇸 美国 766"
+    type: "vmess"
+    server: "st-1.dnspro.icu"
+    port: 9111
+    uuid: "13ef5f2c-d002-36a2-9e96-a13d5e3ae03b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/iso"
+      headers:
+        Host: "st-1.dnspro.icu"
+  - name: "🇺🇸 美国 767"
+    type: "vmess"
+    server: "st-2.dnspro.icu"
+    port: 5100
+    uuid: "13ef5f2c-d002-36a2-9e96-a13d5e3ae03b"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/iso"
+      headers:
+        Host: "st-2.dnspro.icu"
+  - name: "🇨🇳 中国 018"
+    type: "vmess"
+    server: "47.243.187.171"
+    port: 60808
+    uuid: "99c3c1c3-c27c-49a0-9c2c-7c77c3d92bf6"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "http"
+    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇺🇸 美国 411"
-      - "🇺🇸 美国 412"
-      - "🇺🇸 美国 413"
-      - "🇺🇸 美国 414"
-      - "🇺🇸 美国 415"
-      - "🇩🇪 德国 049"
-      - "🇺🇸 美国 416"
-      - "🇺🇸 美国 417"
-      - "🇺🇸 美国 418"
-      - "🇷🇺 俄罗斯 011"
-      - "🇩🇪 德国 050"
-      - "🇮🇷 伊朗 035"
-      - "🇺🇸 美国 419"
-      - "🇺🇸 美国 420"
-      - "🇳🇱 荷兰 027"
-      - "🇳🇱 荷兰 028"
-      - "🇺🇸 美国 421"
-      - "🇺🇸 美国 422"
-      - "🇺🇸 美国 423"
-      - "🇺🇸 美国 424"
-      - "🇺🇸 美国 425"
-      - "🇺🇸 美国 426"
-      - "🇺🇸 美国 427"
-      - "🇺🇸 美国 428"
-      - "🇳🇱 荷兰 029"
-      - "🇺🇸 美国 429"
-      - "🇺🇸 美国 430"
-      - "🇷🇺 俄罗斯 012"
-      - "🇮🇷 伊朗 036"
-      - "🇺🇸 美国 431"
-      - "🇩🇪 德国 051"
-      - "🇺🇸 美国 432"
-      - "🇮🇷 伊朗 037"
-      - "🇺🇸 美国 433"
-      - "🇺🇸 美国 434"
-      - "🇺🇸 美国 435"
-      - "🇺🇸 美国 436"
-      - "🇺🇸 美国 437"
-      - "🇨🇳 中国 010"
-      - "🇩🇪 德国 052"
-      - "🇺🇸 美国 438"
-      - "🇩🇪 德国 053"
-      - "🇳🇱 荷兰 030"
-      - "🇺🇸 美国 439"
-      - "🇫🇷 法国 014"
-      - "🇺🇸 美国 440"
-      - "🇺🇸 美国 441"
-      - "🇳🇱 荷兰 031"
-      - "🇩🇪 德国 054"
       - "🇬🇧 英国 029"
       - "🇬🇧 英国 030"
       - "🇮🇷 伊朗 038"
@@ -5840,3 +6167,52 @@ proxy-groups:
       - "🇺🇸 美国 736"
       - "🇮🇪 爱尔兰 004"
       - "🇺🇸 美国 737"
+      - "🇰🇷 韩国 004"
+      - "🇺🇸 美国 738"
+      - "🇺🇸 美国 739"
+      - "🇳🇱 荷兰 035"
+      - "🇺🇸 美国 740"
+      - "🇺🇸 美国 741"
+      - "🇳🇱 荷兰 036"
+      - "🇳🇱 荷兰 037"
+      - "🇳🇱 荷兰 038"
+      - "🇺🇸 美国 742"
+      - "🇨🇿 捷克 007"
+      - "🇺🇸 美国 743"
+      - "🇳🇱 荷兰 039"
+      - "🇺🇸 美国 744"
+      - "🇺🇸 美国 745"
+      - "🇸🇬 新加坡 007"
+      - "🇺🇸 美国 746"
+      - "🇺🇸 美国 747"
+      - "🇺🇸 美国 748"
+      - "🇺🇸 美国 749"
+      - "🇸🇬 新加坡 008"
+      - "🇺🇸 美国 750"
+      - "🇨🇦 加拿大 017"
+      - "🇺🇸 美国 751"
+      - "🇺🇸 美国 752"
+      - "🇺🇸 美国 753"
+      - "🇺🇸 美国 754"
+      - "🇨🇦 加拿大 018"
+      - "🇺🇸 美国 755"
+      - "🇺🇸 美国 756"
+      - "🇨🇿 捷克 008"
+      - "🇹🇭 泰国 002"
+      - "🇺🇸 美国 757"
+      - "🇺🇸 美国 758"
+      - "🇺🇸 美国 759"
+      - "🇷🇺 俄罗斯 020"
+      - "🇺🇸 美国 760"
+      - "🇺🇸 美国 761"
+      - "🇺🇸 美国 762"
+      - "🇨🇳 中国 015"
+      - "🇨🇳 中国 016"
+      - "🇺🇸 美国 763"
+      - "🇨🇿 捷克 009"
+      - "🇺🇸 美国 764"
+      - "🇨🇳 中国 017"
+      - "🇺🇸 美国 765"
+      - "🇺🇸 美国 766"
+      - "🇺🇸 美国 767"
+      - "🇨🇳 中国 018"
