@@ -1,5 +1,5 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-10 23:05:23
+# 生成时间: 2026-09-11 04:23:04
 # 节点数量: 500
 
 proxies:
@@ -188,7 +188,7 @@ proxies:
     type: "hysteria2"
     server: "sg01.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -196,7 +196,7 @@ proxies:
     type: "hysteria2"
     server: "sg01.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -204,7 +204,7 @@ proxies:
     type: "hysteria2"
     server: "sg01.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -212,7 +212,7 @@ proxies:
     type: "hysteria2"
     server: "sg02.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -220,15 +220,7 @@ proxies:
     type: "hysteria2"
     server: "sg03.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "新加坡04aws"
-    type: "hysteria2"
-    server: "sg04.459292.xyz"
-    port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -236,7 +228,7 @@ proxies:
     type: "hysteria2"
     server: "sg05.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -244,7 +236,7 @@ proxies:
     type: "hysteria2"
     server: "sg06.459292.xyz"
     port: 8080
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -252,7 +244,7 @@ proxies:
     type: "hysteria2"
     server: "sg07.459292.xyz"
     port: 8080
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -260,15 +252,7 @@ proxies:
     type: "hysteria2"
     server: "sg08.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "新加坡09aws"
-    type: "hysteria2"
-    server: "sg09.459292.xyz"
-    port: 30003
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -276,15 +260,7 @@ proxies:
     type: "hysteria2"
     server: "sg10.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "新加坡11aws"
-    type: "hysteria2"
-    server: "sg11.459921.xyz"
-    port: 8080
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -292,7 +268,7 @@ proxies:
     type: "hysteria2"
     server: "sg19.459921.xyz"
     port: 8080
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -300,19 +276,19 @@ proxies:
     type: "vless"
     server: "1sg001.344211.cc"
     port: 8443
-    uuid: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    uuid: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
   - name: "vless新加坡02aws"
     type: "vless"
     server: "1sg002.344211.cc"
     port: 8443
-    uuid: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    uuid: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
   - name: "美国01aws"
     type: "hysteria2"
     server: "dbb53608.459921.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -320,7 +296,7 @@ proxies:
     type: "hysteria2"
     server: "us02.459292.xyz"
     port: 8080
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -328,7 +304,7 @@ proxies:
     type: "hysteria2"
     server: "us03.459292.xyz"
     port: 20000
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -336,7 +312,7 @@ proxies:
     type: "hysteria2"
     server: "us04.459292.xyz"
     port: 20001
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -344,7 +320,7 @@ proxies:
     type: "hysteria2"
     server: "cfus01.459292.xyz"
     port: 30001
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -352,7 +328,7 @@ proxies:
     type: "hysteria2"
     server: "1jp003.459292.xyz"
     port: 30001
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -360,7 +336,7 @@ proxies:
     type: "hysteria2"
     server: "1jp001.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -368,7 +344,7 @@ proxies:
     type: "hysteria2"
     server: "jp06.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -376,7 +352,7 @@ proxies:
     type: "hysteria2"
     server: "hyfnjp03.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -384,7 +360,7 @@ proxies:
     type: "hysteria2"
     server: "jp03.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -392,7 +368,7 @@ proxies:
     type: "hysteria2"
     server: "hyfnjp01.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -400,7 +376,7 @@ proxies:
     type: "hysteria2"
     server: "27add0b5.459921.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -408,7 +384,7 @@ proxies:
     type: "hysteria2"
     server: "5791271f.459921.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -416,7 +392,7 @@ proxies:
     type: "hysteria2"
     server: "898ca7c3.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -424,7 +400,7 @@ proxies:
     type: "hysteria2"
     server: "7a322d16.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -432,7 +408,7 @@ proxies:
     type: "hysteria2"
     server: "d3e887dc.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -440,7 +416,7 @@ proxies:
     type: "hysteria2"
     server: "5e6b6eb1.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -448,7 +424,7 @@ proxies:
     type: "hysteria2"
     server: "tw1.459292.xyz"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -456,7 +432,7 @@ proxies:
     type: "hysteria2"
     server: "tw06.459292.xyz"
     port: 30001
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -464,7 +440,7 @@ proxies:
     type: "hysteria2"
     server: "tw5.459921.xyz"
     port: 30001
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -472,7 +448,7 @@ proxies:
     type: "hysteria2"
     server: "tw07.344211.cc"
     port: 8443
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -480,7 +456,7 @@ proxies:
     type: "hysteria2"
     server: "tw4.459921.xyz"
     port: 30001
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -488,7 +464,7 @@ proxies:
     type: "hysteria2"
     server: "tw3.344211.cc"
     port: 30001
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -496,7 +472,7 @@ proxies:
     type: "hysteria2"
     server: "tw40.459921.xyz"
     port: 8080
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -504,7 +480,7 @@ proxies:
     type: "hysteria2"
     server: "tw11.344211.cc"
     port: 8080
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -512,7 +488,7 @@ proxies:
     type: "hysteria2"
     server: "5gzdx.344211.cc"
     port: 30001
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
@@ -520,28 +496,28 @@ proxies:
     type: "trojan"
     server: "1.1.1.1"
     port: 8080
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     tls: true
     udp: true
   - name: "每次使用前更新订阅到最新，用不了，换个客户端，重新导入订阅，用手机流量试下。"
     type: "trojan"
     server: "1.1.1.1"
     port: 8080
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     tls: true
     udp: true
   - name: "电报群https://t.me/feiniaoyunjichang"
     type: "trojan"
     server: "1.1.1.1"
     port: 820
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     tls: true
     udp: true
   - name: "防失联页https://github.com/feiniaoyun"
     type: "trojan"
     server: "2.2.2.2"
     port: 820
-    password: "1c74e77e-2a82-4932-8a08-429951c0df7c"
+    password: "8d9ddfb4-7583-45b3-acf1-5343db385a38"
     tls: true
     udp: true
   - name: "剩余流量：1000000000 GB"
@@ -1303,6 +1279,24 @@ proxies:
     port: 443
     uuid: "29794dae-06ca-4b62-94f2-220b5858d39b"
     udp: true
+  - name: "官网: www.雨燕云.com"
+    type: "ss"
+    server: "1.1.1.1"
+    port: 10001
+    cipher: "chacha20-ietf-poly1305"
+    password: "53db9c44-94a1-4976-8682-5d1c3642058d"
+  - name: "套餐到期:2025-11-20"
+    type: "ss"
+    server: "127.0.0.1"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "password"
+  - name: "续费方法在节点详情的<地址>"
+    type: "ss"
+    server: "3rdq9m.shvpn.xyz"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "password"
   - name: "套餐到期:2025-10-15"
     type: "ss"
     server: "127.0.0.1"
@@ -1324,18 +1318,6 @@ proxies:
   - name: "续费方法在节点详情的<地址>"
     type: "ss"
     server: "qpwhjq.shvpn.xyz"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "password"
-  - name: "套餐到期:2025-11-20"
-    type: "ss"
-    server: "127.0.0.1"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "password"
-  - name: "续费方法在节点详情的<地址>"
-    type: "ss"
-    server: "3rdq9m.shvpn.xyz"
     port: 443
     cipher: "aes-256-gcm"
     password: "password"
@@ -1380,79 +1362,79 @@ proxies:
     server: "gd.bjnet2.com"
     port: 36602
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "🇭🇰香港-Gemini-IEPL"
     type: "ss"
     server: "gd.bjnet2.com"
     port: 36602
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "🇭🇰香港2-IEPL"
     type: "ss"
     server: "gd2.bjnet2.com"
     port: 36602
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "🇹🇼台湾-IEPL"
     type: "ss"
     server: "gd.bjnet2.com"
     port: 36603
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "🇹🇼台湾2-IEPL"
     type: "ss"
     server: "gd2.bjnet2.com"
     port: 36603
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "🇸🇬新加坡-Gemini-IEPL"
     type: "ss"
     server: "gd.bjnet2.com"
     port: 36604
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "🇸🇬新加坡2-Gemini-IEPL"
     type: "ss"
     server: "gd2.bjnet2.com"
     port: 36604
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "🇯🇵日本-IEPL-GPT"
     type: "ss"
     server: "gd.bjnet2.com"
     port: 36609
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "🇯🇵日本2-IEPL-GPT"
     type: "ss"
     server: "gd2.bjnet2.com"
     port: 36609
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "🇯🇵日本4-IEPL-家宽"
     type: "ss"
     server: "gd2.bjnet2.com"
     port: 36610
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "🇺🇸美国-IEPL-GPT"
     type: "ss"
     server: "gd.bjnet2.com"
     port: 36608
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "🇺🇸美国2-IEPL-GPT"
     type: "ss"
     server: "gd2.bjnet2.com"
     port: 36608
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "🇩🇪德国-IEPL"
     type: "ss"
     server: "gd.bjnet2.com"
     port: 36611
     cipher: "aes-128-gcm"
-    password: "fe9c3bb2-2372-47bf-bb4f-8faf65d435df"
+    password: "577ee7ab-417b-4719-98d8-bed0728a2941"
   - name: "用户名 llpl"
     type: "ss"
     server: "127.0.0.1"
@@ -2109,53 +2091,42 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.23.63"
+  - name: "VLESS-0"
+    type: "vless"
+    server: "104.21.33.59"
     port: 443
-    password: "humanity"
-    tls: true
+    uuid: "9b18ccef-b9e0-41d1-8990-9d970569e142"
+    udp: true
+  - name: "美国+CloudFlare公司CDN节点(iPower)"
+    type: "vless"
+    server: "66.235.200.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "104.16.174.124"
+    server: "104.18.152.225"
     port: 443
     password: "humanity"
     tls: true
     udp: true
   - name: "美国+CloudFlare节点"
     type: "vless"
-    server: "104.17.25.208"
-    port: 2096
-    uuid: "42c62a5a-cd31-4551-80ef-908732370287"
+    server: "104.21.94.81"
+    port: 2053
+    uuid: "ef23616d-8a9d-4b22-b2f5-9bda864de179"
     udp: true
   - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.152.161"
+    type: "vless"
+    server: "104.21.13.173"
     port: 443
-    password: "humanity"
-    tls: true
+    uuid: "7700ff6d-cefb-4768-a806-ec4f63fe3b38"
     udp: true
   - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.16.174.117"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.16.174.71"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.152.233"
-    port: 443
-    password: "humanity"
-    tls: true
+    type: "vless"
+    server: "172.64.148.60"
+    port: 8880
+    uuid: "5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1"
     udp: true
   - name: "美国+CloudFlare节点"
     type: "trojan"
@@ -2165,80 +2136,87 @@ proxies:
     tls: true
     udp: true
   - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.16.174.36"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.152.108"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.152.208"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.16.174.185"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "俄罗斯+V2CROSS.COM"
     type: "vless"
-    server: "95.163.232.171"
-    port: 14443
-    uuid: "fb67fd37-8d41-43a9-a093-c0b807fc5299"
+    server: "104.18.39.196"
+    port: 8880
+    uuid: "5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.18.152.155"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "英国+V2CROSS.COM"
+    type: "vless"
+    server: "swe-1.lunoa.ru"
+    port: 443
+    uuid: "ef3595fb-72f4-430d-9bf8-fff90327903a"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "104.21.3.133"
+    port: 2083
+    uuid: "2b8738de-1af5-4267-b101-c05707769ed4"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "104.25.99.169"
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-60c86b8747e5"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "198.41.223.96"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "美国+佛罗里达州迈阿密市"
+    type: "vless"
+    server: "72.56.238.46"
+    port: 443
+    uuid: "d73e3cdc-a80b-4e73-a11b-cc467d7a84f8"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.17.177.143"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.21.42.129"
+    port: 2087
+    password: "eabf1999fefbb7d2"
+    tls: true
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "themeforest.net"
+    port: 8880
+    uuid: "96a32aaa-ebd9-4824-aa04-e9678011d9b0"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "www.speedtest.net"
+    port: 443
+    password: "humanity"
+    tls: true
     udp: true
   - name: "美国+V2CROSS.COM"
-    type: "trojan"
+    type: "vless"
     server: "199.232.78.160"
     port: 443
-    password: "MiTiVPN"
-    tls: true
+    uuid: "XpnTeam-12"
     udp: true
   - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "www.ignitelimit.com"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "加拿大+V2CROSS.COM"
-    type: "trojan"
-    server: "130.250.137.171"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.17.111.8"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.16.174.12"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "join-telegram-channel.tirexnet.kdns.fr"
-    port: 443
-    password: "humanity"
-    tls: true
+    type: "vless"
+    server: "log.bpminecraft.com"
+    port: 8880
+    uuid: "5bbf0601-8431-45f6-a4e9-a1e8b44c0055"
     udp: true
   - name: "🇺🇸US-156.146.38.167-0122"
     type: "ss"
@@ -3432,6 +3410,12 @@ proxies:
       path: "/"
       headers:
         Host: "zhuyong.hucloud-dns.xyz"
+  - name: "🇺🇸US-167.88.63.59-0210"
+    type: "ss"
+    server: "167.88.63.59"
+    port: 6379
+    cipher: "aes-256-gcm"
+    password: "zDNVedRFPQexG9v"
 
 proxy-groups:
   - name: "Proxy"
@@ -3470,14 +3454,11 @@ proxy-groups:
       - "新加坡01aws"
       - "新加坡02aws"
       - "新加坡03aws"
-      - "新加坡04aws"
       - "新加坡05aws"
       - "新加坡06aws"
       - "新加坡07aws"
       - "新加坡08aws"
-      - "新加坡09aws"
       - "新加坡10aws"
-      - "新加坡11aws"
       - "新加坡12aws"
       - "vless新加坡01aws"
       - "vless新加坡02aws"
@@ -3614,11 +3595,12 @@ proxy-groups:
       - "US-LAX-DC12-004[TCP]"
       - "US-LAX-DC12-005[UDP]"
       - "US-LAX-DC12-005[TCP]"
+      - "官网: www.雨燕云.com"
+      - "套餐到期:2025-11-20"
+      - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-10-15"
       - "续费方法在节点详情的<地址>"
       - "套餐到期:2025-12-13"
-      - "续费方法在节点详情的<地址>"
-      - "套餐到期:2025-11-20"
       - "续费方法在节点详情的<地址>"
       - "🚫 账户已被封禁-1 🚫"
       - "🚫 账户已被封禁-2 🚫"
@@ -3745,6 +3727,8 @@ proxy-groups:
       - "[hy2]DE｜德国-法兰克福/1(ipv6)"
       - "🇦🇶 订阅于2026年09月05日 04:42已到期"
       - "🇦🇶 订阅于2026年09月10日 08:00已到期"
+      - "VLESS-0"
+      - "美国+CloudFlare公司CDN节点(iPower)"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
@@ -3752,17 +3736,16 @@ proxy-groups:
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
+      - "英国+V2CROSS.COM"
+      - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "美国+佛罗里达州迈阿密市"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "俄罗斯+V2CROSS.COM"
       - "美国+V2CROSS.COM"
-      - "美国+CloudFlare节点"
-      - "加拿大+V2CROSS.COM"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "🇺🇸US-156.146.38.167-0122"
       - "🇺🇸US-156.146.38.170-0125"
@@ -3937,3 +3920,4 @@ proxy-groups:
       - "🇭🇰HK-156.245.232.239-0207"
       - "🇲🇾MY-47.250.45.234-0208"
       - "🏁RELAY-104.16.89.44-0209"
+      - "🇺🇸US-167.88.63.59-0210"
