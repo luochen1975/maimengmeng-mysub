@@ -1,52 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-11 16:23:25
-# 节点数量: 122
+# 生成时间: 2026-09-11 20:53:57
+# 节点数量: 115
 
 proxies:
-  - name: "RU【机场推荐：https://a9a.xyz】5"
-    type: "vless"
-    server: "pr-media.pepro.site"
-    port: 14443
-    uuid: "fb67fd37-8d41-43a9-a093-c0b807fc5299"
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】6"
-    type: "trojan"
-    server: "198.41.223.96"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "FR【机场推荐：https://a9a.xyz】7"
-    type: "vless"
-    server: "35.181.15.183"
-    port: 22222
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    udp: true
-  - name: "TR【机场推荐：https://a9a.xyz】8"
-    type: "vless"
-    server: "connect3.nyxserver.ir"
-    port: 8444
-    uuid: "0b39a009-2a2a-4035-ba87-cc82894f8e21"
-    udp: true
-  - name: "SG【机场推荐：https://a9a.xyz】9"
-    type: "ss"
-    server: "146.235.19.129"
-    port: 56927
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "i699dvro3+yyb9U6o3qsojnoZw2MsymfU8jhW6SzVLg="
-  - name: "GB【机场推荐：https://a9a.xyz】10"
-    type: "vless"
-    server: "en-new.moriarty-web.com"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-  - name: "CA【机场推荐：https://a9a.xyz】11"
-    type: "trojan"
-    server: "104.18.152.187"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
   - name: "CA【机场推荐：https://a9a.xyz】12"
     type: "vless"
     server: "172.67.184.123"
@@ -817,7 +773,7 @@ proxies:
     behavior: "classical"
     format: "yaml"
     size-limit: 0
-  - name: "剩余流量：23.07 GB"
+  - name: "剩余流量：20.81 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -828,13 +784,6 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "RU【机场推荐：https://a9a.xyz】5"
-      - "CA【机场推荐：https://a9a.xyz】6"
-      - "FR【机场推荐：https://a9a.xyz】7"
-      - "TR【机场推荐：https://a9a.xyz】8"
-      - "SG【机场推荐：https://a9a.xyz】9"
-      - "GB【机场推荐：https://a9a.xyz】10"
-      - "CA【机场推荐：https://a9a.xyz】11"
       - "CA【机场推荐：https://a9a.xyz】12"
       - "CA【机场推荐：https://a9a.xyz】13"
       - "CA【机场推荐：https://a9a.xyz】14"
@@ -949,4 +898,4 @@ proxy-groups:
       - "国内入口：bigairport-mirror.com 固定入口：大机场.com  电报讨论群组：BigAirport_Group"
       - "套餐到期：2027-03-09"
       - "Unnamed"
-      - "剩余流量：23.07 GB"
+      - "剩余流量：20.81 GB"

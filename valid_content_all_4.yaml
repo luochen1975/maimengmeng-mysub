@@ -1,20 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-11 16:23:25
+# 生成时间: 2026-09-11 20:53:57
 # 节点数量: 500
 
 proxies:
-  - name: "🇺🇸 美国 409"
-    type: "vless"
-    server: "153.56.134.149"
-    port: 37217
-    uuid: "cd74983f-12f5-4836-aae5-17fbc136f888"
-    udp: true
-  - name: "🇺🇸 美国 410"
-    type: "vless"
-    server: "104.16.214.14"
-    port: 80
-    uuid: "ce354701-e5dd-4ca6-9a44-7eeb0c48b157"
-    udp: true
   - name: "🇺🇸 美国 411"
     type: "vless"
     server: "104.24.85.213"
@@ -5319,13 +5307,39 @@ proxies:
       path: "/y475"
       headers:
         Host: "free.frli.xyz"
+  - name: "🇮🇪 爱尔兰 004"
+    type: "vmess"
+    server: "ac2088.herokuapp.com"
+    port: 443
+    uuid: "d1babe08-f8ac-490b-b66f-9be27467f3cc"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess"
+      headers:
+        Host: "ac2088.herokuapp.com"
+  - name: "🇺🇸 美国 737"
+    type: "vmess"
+    server: "104.19.45.117"
+    port: 443
+    uuid: "3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2"
+    cipher: "auto"
+    alterId: 64
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cdnde.irteyz.today"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇺🇸 美国 409"
-      - "🇺🇸 美国 410"
       - "🇺🇸 美国 411"
       - "🇺🇸 美国 412"
       - "🇺🇸 美国 413"
@@ -5824,3 +5838,5 @@ proxy-groups:
       - "🇺🇸 美国 734"
       - "🇺🇸 美国 735"
       - "🇺🇸 美国 736"
+      - "🇮🇪 爱尔兰 004"
+      - "🇺🇸 美国 737"

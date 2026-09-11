@@ -1,22 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-11 16:23:25
+# 生成时间: 2026-09-11 20:53:57
 # 节点数量: 500
 
 proxies:
-  - name: "🇨🇳CN-36.138.100.57-0197"
-    type: "trojan"
-    server: "36.138.100.57"
-    port: 11002
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇨🇳CN-36.138.100.57-0198"
-    type: "trojan"
-    server: "36.138.100.57"
-    port: 11001
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
   - name: "🇨🇳CN-121.46.230.233-0199"
     type: "ss"
     server: "121.46.230.233"
@@ -78,32 +64,24 @@ proxies:
     password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
     tls: true
     udp: true
-  - name: "🇲🇾MY-118.107.222.231-0207"
+  - name: "🇨🇦CA-137.184.174.93-0048"
     type: "ss"
-    server: "118.107.222.231"
-    port: 65443
-    cipher: "aes-256-cfb"
-    password: "7eadc6dbe2ae"
-  - name: "🏁RELAY-172.64.145.93-0113"
-    type: "vmess"
-    server: "www.shopify.com"
-    port: 443
-    uuid: "d187a23a-76a9-4d55-84e3-ea3b8b222cbf"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "dimensional-regularly-buildings-keys.trycloudflare.com"
-  - name: "🇮🇪IE-108.129.176.139-0097"
+    server: "137.184.174.93"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
+  - name: "🇰🇷KR-218.237.185.230-0208"
     type: "ss"
-    server: "108.129.176.139"
-    port: 443
+    server: "p141.panda001.net"
+    port: 4652
     cipher: "aes-256-cfb"
-    password: "amazonskr05"
+    password: "qwerREWQ@@"
+  - name: "🇮🇹IT-194.156.133.48-0036"
+    type: "ss"
+    server: "194.156.133.48"
+    port: 17002
+    cipher: "chacha20-ietf-poly1305"
+    password: "bb7eeda8-9be7-4f43-9066-b730aadccdf7"
   - name: "🇭🇰HK-47.244.120.197-0210"
     type: "vmess"
     server: "47.244.120.197"
@@ -132,12 +110,12 @@ proxies:
       path: "/"
       headers:
         Host: ""
-  - name: "🇳🇱NL-158.173.20.171-0096"
+  - name: "🇺🇸US-38.121.43.71-0035"
     type: "ss"
-    server: "158.173.20.171"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
+    server: "38.121.43.71"
+    port: 6697
+    cipher: "aes-256-gcm"
+    password: "TEzjfAYq2IjtuoS"
   - name: "🏁RELAY-104.16.89.44-0214"
     type: "vmess"
     server: "104.16.89.44"
@@ -1617,7 +1595,7 @@ proxies:
     port: 2096
     uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
     udp: true
-  - name: "SOCKS5-389"
+  - name: "SOCKS5-390"
     type: "socks5"
     server: "45.144.54.40"
     port: 1080
@@ -2015,19 +1993,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "25b4f876-476a-40fe-928b-b2af280162a6"
+    uuid: "a0c8a4c9-fa90-44a3-825f-cd51e6e0bbdc"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "25b4f876-476a-40fe-928b-b2af280162a6"
+    uuid: "a0c8a4c9-fa90-44a3-825f-cd51e6e0bbdc"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "25b4f876-476a-40fe-928b-b2af280162a6"
+    uuid: "a0c8a4c9-fa90-44a3-825f-cd51e6e0bbdc"
     udp: true
   - name: "其他 001"
     type: "vmess"
@@ -4178,13 +4156,23 @@ proxies:
     port: 443
     uuid: "16227db7-1914-4a97-bb6b-7bf98e6b525b"
     udp: true
+  - name: "🇬🇧 英国 012"
+    type: "vless"
+    server: "45.9.2.171"
+    port: 8443
+    uuid: "167610e4-bcaf-4074-bc2d-0c08dc4ea294"
+    udp: true
+  - name: "🇺🇸 美国 114"
+    type: "vless"
+    server: "104.21.16.1"
+    port: 80
+    uuid: "1737df47-a4b2-4096-9fc3-1d869aa50c08"
+    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇨🇳CN-36.138.100.57-0197"
-      - "🇨🇳CN-36.138.100.57-0198"
       - "🇨🇳CN-121.46.230.233-0199"
       - "🇨🇦CA-196.247.59.156-0200"
       - "🇨🇳CN-183.245.146.20-0201"
@@ -4193,12 +4181,12 @@ proxy-groups:
       - "🇨🇳CN-117.164.185.222-0204"
       - "🇨🇳CN-117.164.185.222-0205"
       - "🇨🇳CN-117.164.185.222-0206"
-      - "🇲🇾MY-118.107.222.231-0207"
-      - "🏁RELAY-172.64.145.93-0113"
-      - "🇮🇪IE-108.129.176.139-0097"
+      - "🇨🇦CA-137.184.174.93-0048"
+      - "🇰🇷KR-218.237.185.230-0208"
+      - "🇮🇹IT-194.156.133.48-0036"
       - "🇭🇰HK-47.244.120.197-0210"
       - "🇭🇰HK-47.244.120.197-0211"
-      - "🇳🇱NL-158.173.20.171-0096"
+      - "🇺🇸US-38.121.43.71-0035"
       - "🏁RELAY-104.16.89.44-0214"
       - "🇺🇸US-167.88.63.59-0215"
       - "🇨🇳CN-117.164.185.222-0216"
@@ -4387,7 +4375,7 @@ proxy-groups:
       - "🇸🇬SG_2|1.6MB/s"
       - "🇸🇬SG_3|2.5MB/s"
       - "🇸🇬SG_4|2.1MB/s"
-      - "SOCKS5-389"
+      - "SOCKS5-390"
       - "US_speednode_0130"
       - "US_speednode_0132"
       - "US_speednode_0135"
@@ -4683,3 +4671,5 @@ proxy-groups:
       - "🇺🇸 美国 111"
       - "🇺🇸 美国 112"
       - "🇺🇸 美国 113"
+      - "🇬🇧 英国 012"
+      - "🇺🇸 美国 114"
