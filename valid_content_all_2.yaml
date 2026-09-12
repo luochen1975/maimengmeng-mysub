@@ -1,8 +1,358 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-12 15:28:07
+# 生成时间: 2026-09-12 20:29:24
 # 节点数量: 500
 
 proxies:
+  - name: "🇨🇳CN-183.245.146.20-0230"
+    type: "trojan"
+    server: "183.245.146.20"
+    port: 41001
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇦🇺AU-103.224.212.142-0231"
+    type: "vmess"
+    server: "asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom"
+    port: 888
+    uuid: "fbc2efb0-786a-4074-81ea-8ab12ca5422c"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge.cjhh.mom"
+  - name: "🇨🇳CN-117.164.185.222-0232"
+    type: "trojan"
+    server: "117.164.185.222"
+    port: 21005
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇨🇳CN-117.164.185.222-0233"
+    type: "trojan"
+    server: "117.164.185.222"
+    port: 21004
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇨🇳CN-117.164.185.222-0234"
+    type: "trojan"
+    server: "117.164.185.222"
+    port: 21003
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇳🇱_NL_荷兰->🇲🇩_MD_摩尔多瓦"
+    type: "vless"
+    server: "31.59.150.174"
+    port: 9443
+    uuid: "92089155-6602-4122-86d4-fe6de20e8c4d"
+    udp: true
+  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
+    type: "vless"
+    server: "jp.sofast.live"
+    port: 52683
+    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
+    udp: true
+  - name: "🇫🇮_FI_芬兰"
+    type: "vless"
+    server: "fin.pinkmoon.pro"
+    port: 443
+    uuid: "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5"
+    udp: true
+  - name: "🇷🇴_RO_罗马尼亚"
+    type: "vless"
+    server: "roma1.moritech.net"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+  - name: "🇸🇬_SG_新加坡"
+    type: "vless"
+    server: "43.160.241.174"
+    port: 443
+    uuid: "3db635e4-f9ec-42d6-8aba-e23df8b0e6da"
+    udp: true
+  - name: "🇷🇴_RO_罗马尼亚"
+    type: "vless"
+    server: "roma3.moritech.net"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+  - name: "🇳🇱_NL_荷兰"
+    type: "vless"
+    server: "tmnd2.betust.net"
+    port: 443
+    uuid: "02722550-1915-4629-a653-cbe95e594f70"
+    udp: true
+  - name: "🇨🇳_CN_中国"
+    type: "vless"
+    server: "us22.sofast.live"
+    port: 58011
+    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
+    udp: true
+  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+    type: "hysteria2"
+    server: "gta.internet-card.sbs"
+    port: 443
+    password: "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇦🇹_AT_奥地利"
+    type: "vless"
+    server: "at-new-ded5.moritech.net"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+  - name: "🇹🇼_TW_中国台湾"
+    type: "vless"
+    server: "220.135.105.32"
+    port: 2087
+    uuid: "3db635e4-f9ec-42d6-8aba-e23df8b0e6da"
+    udp: true
+  - name: "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+    type: "vless"
+    server: "news.zoom.us"
+    port: 8443
+    uuid: "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2"
+    udp: true
+  - name: "🇳🇱_NL_荷兰"
+    type: "vless"
+    server: "cdn6.goonars.com"
+    port: 443
+    uuid: "02722550-1915-4629-a653-cbe95e594f70"
+    udp: true
+  - name: "🇺🇸_US_美国"
+    type: "vmess"
+    server: "www.shopify.com"
+    port: 443
+    uuid: "6a89a215-22bf-4bd7-9642-b95b2e09583a"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/hls/cctv5phd.m3u8"
+      headers:
+        Host: "guanwang.awsno.com"
+  - name: "🇷🇺_RU_俄罗斯"
+    type: "vless"
+    server: "pr-media.pepro.site"
+    port: 14443
+    uuid: "fb67fd37-8d41-43a9-a093-c0b807fc5299"
+    udp: true
+  - name: "🇭🇰_HK_中国香港->🇺🇸_US_美国"
+    type: "vmess"
+    server: "v4.hdacd.com"
+    port: 30804
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    cipher: "auto"
+    alterId: 2
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇰🇷_KR_韩国"
+    type: "hysteria2"
+    server: "152.70.237.123"
+    port: 2053
+    password: "maintell"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇨🇳_CN_中国"
+    type: "vmess"
+    server: "112.132.215.108"
+    port: 50002
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    alterId: 64
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "防范境外势力渗透"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 80
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "防范境外势力渗透 #1"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 81
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "防范境外势力渗透 #2"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 82
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "防范境外势力渗透 #3"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 83
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "防范境外势力渗透 #4"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 84
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "防范境外势力渗透 #5"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 85
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "防范境外势力渗透 #6"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 86
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "防范境外势力渗透 #7"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 87
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "防范境外势力渗透 #8"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 88
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "防范境外势力渗透 #9"
+    type: "vmess"
+    server: "127.0.0.53"
+    port: 89
+    uuid: "88888888-8888-8888-8888-888888888888"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "日本"
+    type: "hysteria2"
+    server: "141.147.151.58"
+    port: 443
+    password: "07a4fcf5553a80cf300374d325386038"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "芬兰"
+    type: "hysteria2"
+    server: "samurai.h4ck.me"
+    port: 443
+    password: "14f7504c-bd01-4d88-bd42-80dc6bf6b202"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "日本 #1"
+    type: "hysteria2"
+    server: "138.3.208.26"
+    port: 50160
+    password: "184cdec28da5a09450803c8debcd2cc9"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "新加坡"
+    type: "hysteria2"
+    server: "sg1.xiaoliyu.cyou"
+    port: 1933
+    password: "19f72087-4591-4d72-930b-2697078ec2be"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "🇰🇷KR_1|1.6MB/s"
+    type: "hysteria2"
+    server: "152-69-231-175.liao.kdns.fr"
+    port: 50160
+    password: "1beb216e3f60aea9555dae60d219a5ca"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "荷兰"
+    type: "hysteria2"
+    server: "45.88.14.120"
+    port: 443
+    password: "252bb78f404ff43efa42808e98cc4ae9"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "日本 #2"
+    type: "hysteria2"
+    server: "138.2.8.249"
+    port: 50160
+    password: "4d6d97a82ddf959252e2ada36c3c3053"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "摩尔多瓦"
+    type: "hysteria2"
+    server: "md1.cnyvpn.com"
+    port: 443
+    password: "60e2a548-96aa-4850-a279-1edab743c39b"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "美国"
+    type: "hysteria2"
+    server: "rm-eco-us-01.409648.xyz"
+    port: 443
+    password: "6dcb725e-947e-4bbe-bb35-903374d57179"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
+  - name: "芬兰 #1"
+    type: "hysteria2"
+    server: "ltu-01.node.lumixnet.com"
+    port: 443
+    password: "7c5566a7-4b55-4659-975f-06507d32fd3f"
+    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
   - name: "波兰"
     type: "hysteria2"
     server: "31.76.22.210"
@@ -1025,7 +1375,7 @@ proxies:
     port: 443
     uuid: "52d1d193-7a49-4d2e-9d52-c2615704034b"
     udp: true
-  - name: "SOCKS5-388"
+  - name: "SOCKS5-381"
     type: "socks5"
     server: "45.144.54.40"
     port: 1080
@@ -1482,19 +1832,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "9f1c9711-b9ec-44dc-8df7-7662838272db"
+    uuid: "2f695b5c-1f9c-4501-b935-4f90f8c8563c"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "9f1c9711-b9ec-44dc-8df7-7662838272db"
+    uuid: "2f695b5c-1f9c-4501-b935-4f90f8c8563c"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "9f1c9711-b9ec-44dc-8df7-7662838272db"
+    uuid: "2f695b5c-1f9c-4501-b935-4f90f8c8563c"
     udp: true
   - name: "🇺🇸 美国 001"
     type: "vmess"
@@ -4572,7 +4922,7 @@ proxies:
     port: 21388
     cipher: "chacha20-ietf-poly1305"
     password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "距离下次重置剩余：4 天"
+  - name: "距离下次重置剩余：3 天"
     type: "ss"
     server: "hk3.network-cdn-gw-yd.net"
     port: 21388
@@ -4590,290 +4940,54 @@ proxies:
     port: 21388
     cipher: "chacha20-ietf-poly1305"
     password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-01"
-    type: "ss"
-    server: "hk1.network-cdn-gw-yd.net"
-    port: 32060
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-02"
-    type: "ss"
-    server: "hk2.network-cdn-gw-yd.net"
-    port: 32063
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-03"
-    type: "ss"
-    server: "hk13.network-cdn-gw-yd.net"
-    port: 32061
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-04"
-    type: "ss"
-    server: "hk14.network-cdn-gw-yd.net"
-    port: 32062
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-05"
-    type: "ss"
-    server: "hk15.network-cdn-gw-yd.net"
-    port: 47705
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-06"
-    type: "ss"
-    server: "hk16.network-cdn-gw-yd.net"
-    port: 47706
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-07"
-    type: "ss"
-    server: "hk17.network-cdn-gw-yd.net"
-    port: 47707
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-08"
-    type: "ss"
-    server: "hk18.network-cdn-gw-yd.net"
-    port: 47708
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-09"
-    type: "ss"
-    server: "hk09.network-cdn-gw-yd.net"
-    port: 47709
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "香港-Basic-BGP-10"
-    type: "ss"
-    server: "hk11.network-cdn-gw-yd.net"
-    port: 47711
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic-01"
-    type: "ss"
-    server: "us06.network-cdn-gw-yd.net"
-    port: 43111
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic-02"
-    type: "ss"
-    server: "us07.network-cdn-gw-yd.net"
-    port: 43211
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic-03"
-    type: "ss"
-    server: "us08.network-cdn-gw-yd.net"
-    port: 43212
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic直连-01|gpt|三网优化线路|X3"
-    type: "ss"
-    server: "us9.network-cdn-gw-yd.net"
-    port: 43213
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "美国-Basic直连-02|gpt|三网优化线路|X3"
-    type: "ss"
-    server: "us10.network-cdn-gw-yd.net"
-    port: 43215
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "日本-Basic-BGP-01"
-    type: "ss"
-    server: "jp01.network-cdn-gw-yd.net"
-    port: 48801
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "日本-Basic-BGP-02"
-    type: "ss"
-    server: "jp02.network-cdn-gw-yd.net"
-    port: 48802
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "台湾-Basic-BGP-01"
-    type: "ss"
-    server: "tw1.network-cdn-gw-yd.net"
-    port: 46601
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "台湾-Basic-BGP-02"
-    type: "ss"
-    server: "tw02.network-cdn-gw-yd.net"
-    port: 46602
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "新加坡-IEPL-Basic专线-01"
-    type: "ss"
-    server: "sgp01.network-cdn-gw-yd.net"
-    port: 45506
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "韩国-IEPL-Basic专线-|X2|"
-    type: "ss"
-    server: "kr03.network-cdn-gw-yd.net"
-    port: 36220
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "越南-IEPL-Basic专线-01"
-    type: "ss"
-    server: "vn01.network-cdn-gw-yd.net"
-    port: 20011
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "英国-IEPL-Basic专线-01"
-    type: "ss"
-    server: "uks1.network-cdn-gw-yd.net"
-    port: 10014
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "剩余流量：0"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
-  - name: "距离下次重置剩余：19 天"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
-  - name: "套餐到期：2027-09-01"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
-  - name: "⚠️保持软件为最新版"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
-  - name: "⚠️使用前更新订阅"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    udp: true
-  - name: "🇺🇸美国 公益"
-    type: "vmess"
-    server: "p05.rghvf.sbs"
-    port: 1233
-    uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "tcp"
-    udp: true
-  - name: "剩余流量：50 GB"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    udp: true
-  - name: "距离下次重置剩余：29 天"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    udp: true
-  - name: "套餐到期：2029-06-11"
-    type: "vless"
-    server: "asaa.mmm.top"
-    port: 10003
-    uuid: "68adffea-4146-4f92-b2f9-955cd634c274"
-    udp: true
-  - name: "剩余流量：0"
-    type: "hysteria2"
-    server: "31.56.229.243"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "套餐到期：长期有效"
-    type: "hysteria2"
-    server: "31.56.229.243"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇺🇸官网:gz-cloud.top"
-    type: "hysteria2"
-    server: "31.56.229.243"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇺🇸频道:@gzcloudpd"
-    type: "hysteria2"
-    server: "31.56.229.243"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇭🇰香港 | 三网-x2"
-    type: "hysteria2"
-    server: "hk-alicdn.xn--9kqp42aims.top"
-    port: 7684
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇯🇵日本 | GCP"
-    type: "tuic"
-    server: "2778.qwq1145.com"
-    port: 2001
-    uuid: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-  - name: "🇺🇸美国-01 | 免费"
-    type: "vless"
-    server: "us-host.xn--9kqp42aims.top"
-    port: 443
-    uuid: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-  - name: "🇺🇸美国-02 | 免费"
-    type: "vless"
-    server: "us-host.xn--9kqp42aims.top"
-    port: 443
-    uuid: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-  - name: "🇺🇸美国-03 | 免费"
-    type: "hysteria2"
-    server: "us-ju.xn--9kqp42aims.top"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇺🇸美国-04 | 免费"
-    type: "hysteria2"
-    server: "us-ju.xn--9kqp42aims.top"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
-  - name: "🇺🇸美国-05"
-    type: "hysteria2"
-    server: "107.172.252.201"
-    port: 20000
-    password: "ceeb8370-d87a-40c7-b8b9-566716210763"
-    udp: true
-    up: "50 Mbps"
-    down: "100 Mbps"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇨🇳CN-183.245.146.20-0230"
+      - "🇦🇺AU-103.224.212.142-0231"
+      - "🇨🇳CN-117.164.185.222-0232"
+      - "🇨🇳CN-117.164.185.222-0233"
+      - "🇨🇳CN-117.164.185.222-0234"
+      - "🇳🇱_NL_荷兰->🇲🇩_MD_摩尔多瓦"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国"
+      - "🇫🇮_FI_芬兰"
+      - "🇷🇴_RO_罗马尼亚"
+      - "🇸🇬_SG_新加坡"
+      - "🇷🇴_RO_罗马尼亚"
+      - "🇳🇱_NL_荷兰"
+      - "🇨🇳_CN_中国"
+      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+      - "🇦🇹_AT_奥地利"
+      - "🇹🇼_TW_中国台湾"
+      - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - "🇳🇱_NL_荷兰"
+      - "🇺🇸_US_美国"
+      - "🇷🇺_RU_俄罗斯"
+      - "🇭🇰_HK_中国香港->🇺🇸_US_美国"
+      - "🇰🇷_KR_韩国"
+      - "🇨🇳_CN_中国"
+      - "防范境外势力渗透"
+      - "防范境外势力渗透 #1"
+      - "防范境外势力渗透 #2"
+      - "防范境外势力渗透 #3"
+      - "防范境外势力渗透 #4"
+      - "防范境外势力渗透 #5"
+      - "防范境外势力渗透 #6"
+      - "防范境外势力渗透 #7"
+      - "防范境外势力渗透 #8"
+      - "防范境外势力渗透 #9"
+      - "日本"
+      - "芬兰"
+      - "日本 #1"
+      - "新加坡"
+      - "🇰🇷KR_1|1.6MB/s"
+      - "荷兰"
+      - "日本 #2"
+      - "摩尔多瓦"
+      - "美国"
+      - "芬兰 #1"
       - "波兰"
       - "🇩🇪169467 | ⚡️Telegram = t.me/S..."
       - "芬兰 #2"
@@ -5008,7 +5122,7 @@ proxy-groups:
       - "🇭🇰HK_1|4.0MB/s"
       - "🇭🇰HK_2|4.4MB/s"
       - "🇷🇺RU_1|1.6MB/s"
-      - "SOCKS5-388"
+      - "SOCKS5-381"
       - "US_speednode_0130"
       - "US_speednode_0132"
       - "US_speednode_0135"
@@ -5328,49 +5442,6 @@ proxy-groups:
       - "🇺🇸 美国 118"
       - "其他 055"
       - "剩余流量：-0.55000000000001 GB"
-      - "距离下次重置剩余：4 天"
+      - "距离下次重置剩余：3 天"
       - "套餐到期：2026-09-16"
       - "官网导航入口:gw.grrnc.com"
-      - "香港-Basic-BGP-01"
-      - "香港-Basic-BGP-02"
-      - "香港-Basic-BGP-03"
-      - "香港-Basic-BGP-04"
-      - "香港-Basic-BGP-05"
-      - "香港-Basic-BGP-06"
-      - "香港-Basic-BGP-07"
-      - "香港-Basic-BGP-08"
-      - "香港-Basic-BGP-09"
-      - "香港-Basic-BGP-10"
-      - "美国-Basic-01"
-      - "美国-Basic-02"
-      - "美国-Basic-03"
-      - "美国-Basic直连-01|gpt|三网优化线路|X3"
-      - "美国-Basic直连-02|gpt|三网优化线路|X3"
-      - "日本-Basic-BGP-01"
-      - "日本-Basic-BGP-02"
-      - "台湾-Basic-BGP-01"
-      - "台湾-Basic-BGP-02"
-      - "新加坡-IEPL-Basic专线-01"
-      - "韩国-IEPL-Basic专线-|X2|"
-      - "越南-IEPL-Basic专线-01"
-      - "英国-IEPL-Basic专线-01"
-      - "剩余流量：0"
-      - "距离下次重置剩余：19 天"
-      - "套餐到期：2027-09-01"
-      - "⚠️保持软件为最新版"
-      - "⚠️使用前更新订阅"
-      - "🇺🇸美国 公益"
-      - "剩余流量：50 GB"
-      - "距离下次重置剩余：29 天"
-      - "套餐到期：2029-06-11"
-      - "剩余流量：0"
-      - "套餐到期：长期有效"
-      - "🇺🇸官网:gz-cloud.top"
-      - "🇺🇸频道:@gzcloudpd"
-      - "🇭🇰香港 | 三网-x2"
-      - "🇯🇵日本 | GCP"
-      - "🇺🇸美国-01 | 免费"
-      - "🇺🇸美国-02 | 免费"
-      - "🇺🇸美国-03 | 免费"
-      - "🇺🇸美国-04 | 免费"
-      - "🇺🇸美国-05"
