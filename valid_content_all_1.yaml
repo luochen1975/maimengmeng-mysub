@@ -1,5 +1,5 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-12 20:29:24
+# 生成时间: 2026-09-12 22:57:59
 # 节点数量: 500
 
 proxies:
@@ -2037,37 +2037,18 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
-  - name: "巴西+圣保罗"
-    type: "vless"
-    server: "200.165.235.78"
-    port: 443
-    uuid: "238e492b-bc20-4380-92b6-135d39112ca4"
-    udp: true
-  - name: "巴西圣保罗+CloudFlare节点"
+  - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "188.114.97.7"
+    server: "104.16.174.143"
     port: 443
     password: "humanity"
     tls: true
     udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "198.41.223.96"
-    port: 443
-    password: "humanity"
-    tls: true
-    udp: true
-  - name: "美国+CloudFlare节点"
+  - name: "广东省广州市+UCloud"
     type: "vless"
-    server: "172.67.71.160"
-    port: 443
-    uuid: "8666ab45-8e3d-4988-841b-2561d91e32d5"
-    udp: true
-  - name: "美国+科罗拉多州NTT(美国)通信公司"
-    type: "vless"
-    server: "207.56.137.51"
-    port: 443
-    uuid: "01ada9fb-fa2f-45da-a0d0-bce80cdf433b"
+    server: "jp.sofast.live"
+    port: 52683
+    uuid: "399b6b23-cc40-4831-a494-61948e2df133"
     udp: true
   - name: "美国+CloudFlare节点"
     type: "vless"
@@ -2075,24 +2056,56 @@ proxies:
     port: 443
     uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
     udp: true
-  - name: "美国+CloudFlare节点"
-    type: "vless"
-    server: "172.67.150.230"
+  - name: "英国+V2CROSS.COM"
+    type: "hysteria2"
+    server: "news.gazette.help"
     port: 443
-    uuid: "a90c264d-3853-4eef-9a3d-628b2d02d15e"
+    password: "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX"
     udp: true
-  - name: "巴西圣保罗+CloudFlare节点"
-    type: "vless"
-    server: "188.114.97.6"
-    port: 2082
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
-    udp: true
+    up: "50 Mbps"
+    down: "100 Mbps"
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "104.20.6.134"
+    server: "172.67.149.60"
     port: 443
     password: "humanity"
     tls: true
+    udp: true
+  - name: "伊朗+V2CROSS.COM"
+    type: "vless"
+    server: "31.59.150.174"
+    port: 9443
+    uuid: "92089155-6602-4122-86d4-fe6de20e8c4d"
+    udp: true
+  - name: "乌克兰+V2CROSS.COM"
+    type: "vless"
+    server: "5.34.178.120"
+    port: 443
+    uuid: "9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f"
+    udp: true
+  - name: "俄罗斯+V2CROSS.COM"
+    type: "vless"
+    server: "95.163.232.171"
+    port: 14443
+    uuid: "fb67fd37-8d41-43a9-a093-c0b807fc5299"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "172.67.156.147"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "mfa.gov.ua"
+    port: 2087
+    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "vless"
+    server: "172.67.140.11"
+    port: 443
+    uuid: "a90c264d-3853-4eef-9a3d-628b2d02d15e"
     udp: true
   - name: "🇺🇸US-173.244.56.6-0105"
     type: "ss"
@@ -3450,18 +3463,6 @@ proxies:
     password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
     tls: true
     udp: true
-  - name: "🇨🇳CN-121.46.230.233-0228"
-    type: "ss"
-    server: "121.46.230.233"
-    port: 65443
-    cipher: "aes-256-cfb"
-    password: "7eadc6dbe2ae"
-  - name: "🇨🇦CA-196.247.59.156-0229"
-    type: "ss"
-    server: "196.247.59.156"
-    port: 808
-    cipher: "chacha20-ietf-poly1305"
-    password: "G!yBwPWH3Vao"
 
 proxy-groups:
   - name: "Proxy"
@@ -3763,14 +3764,16 @@ proxy-groups:
       - "[hy2]DE｜德国-法兰克福/1(ipv6)"
       - "🇦🇶 订阅于2026年09月05日 04:42已到期"
       - "🇦🇶 订阅于2026年09月10日 08:00已到期"
-      - "巴西+圣保罗"
-      - "巴西圣保罗+CloudFlare节点"
+      - "美国+CloudFlare节点"
+      - "广东省广州市+UCloud"
+      - "美国+CloudFlare节点"
+      - "英国+V2CROSS.COM"
+      - "美国+CloudFlare节点"
+      - "伊朗+V2CROSS.COM"
+      - "乌克兰+V2CROSS.COM"
+      - "俄罗斯+V2CROSS.COM"
       - "美国+CloudFlare节点"
       - "美国+CloudFlare节点"
-      - "美国+科罗拉多州NTT(美国)通信公司"
-      - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "巴西圣保罗+CloudFlare节点"
       - "美国+CloudFlare节点"
       - "🇺🇸US-173.244.56.6-0105"
       - "🇺🇸US-108.181.0.177-0066"
@@ -3965,5 +3968,3 @@ proxy-groups:
       - "🇨🇳CN-117.164.185.220-0225"
       - "🇨🇳CN-36.138.100.57-0226"
       - "🇨🇳CN-36.138.100.57-0227"
-      - "🇨🇳CN-121.46.230.233-0228"
-      - "🇨🇦CA-196.247.59.156-0229"

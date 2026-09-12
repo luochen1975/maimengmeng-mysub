@@ -1,8 +1,20 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-12 20:29:24
+# 生成时间: 2026-09-12 22:57:59
 # 节点数量: 500
 
 proxies:
+  - name: "🇨🇳CN-121.46.230.233-0228"
+    type: "ss"
+    server: "121.46.230.233"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+  - name: "🇨🇦CA-196.247.59.156-0229"
+    type: "ss"
+    server: "196.247.59.156"
+    port: 808
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
   - name: "🇨🇳CN-183.245.146.20-0230"
     type: "trojan"
     server: "183.245.146.20"
@@ -1375,7 +1387,7 @@ proxies:
     port: 443
     uuid: "52d1d193-7a49-4d2e-9d52-c2615704034b"
     udp: true
-  - name: "SOCKS5-381"
+  - name: "SOCKS5-383"
     type: "socks5"
     server: "45.144.54.40"
     port: 1080
@@ -1832,19 +1844,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "2f695b5c-1f9c-4501-b935-4f90f8c8563c"
+    uuid: "f083358f-9fdd-490e-abae-27693e65d82a"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "2f695b5c-1f9c-4501-b935-4f90f8c8563c"
+    uuid: "f083358f-9fdd-490e-abae-27693e65d82a"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "2f695b5c-1f9c-4501-b935-4f90f8c8563c"
+    uuid: "f083358f-9fdd-490e-abae-27693e65d82a"
     udp: true
   - name: "🇺🇸 美国 001"
     type: "vmess"
@@ -4928,23 +4940,13 @@ proxies:
     port: 21388
     cipher: "chacha20-ietf-poly1305"
     password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "套餐到期：2026-09-16"
-    type: "ss"
-    server: "hk3.network-cdn-gw-yd.net"
-    port: 21388
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
-  - name: "官网导航入口:gw.grrnc.com"
-    type: "ss"
-    server: "hk3.network-cdn-gw-yd.net"
-    port: 21388
-    cipher: "chacha20-ietf-poly1305"
-    password: "aed6e687-58a9-4836-ba62-7d8184c94df4"
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
+      - "🇨🇳CN-121.46.230.233-0228"
+      - "🇨🇦CA-196.247.59.156-0229"
       - "🇨🇳CN-183.245.146.20-0230"
       - "🇦🇺AU-103.224.212.142-0231"
       - "🇨🇳CN-117.164.185.222-0232"
@@ -5122,7 +5124,7 @@ proxy-groups:
       - "🇭🇰HK_1|4.0MB/s"
       - "🇭🇰HK_2|4.4MB/s"
       - "🇷🇺RU_1|1.6MB/s"
-      - "SOCKS5-381"
+      - "SOCKS5-383"
       - "US_speednode_0130"
       - "US_speednode_0132"
       - "US_speednode_0135"
@@ -5443,5 +5445,3 @@ proxy-groups:
       - "其他 055"
       - "剩余流量：-0.55000000000001 GB"
       - "距离下次重置剩余：3 天"
-      - "套餐到期：2026-09-16"
-      - "官网导航入口:gw.grrnc.com"
