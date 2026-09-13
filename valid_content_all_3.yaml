@@ -1,70 +1,8 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-13 04:34:55
-# 节点数量: 408
+# 生成时间: 2026-09-13 11:39:38
+# 节点数量: 403
 
 proxies:
-  - name: "🇺🇸 美国 109"
-    type: "vmess"
-    server: "172.99.190.12"
-    port: 22324
-    uuid: "04621bae-ab36-11ec-b909-0242ac120002"
-    cipher: "auto"
-    alterId: 0
-    tls: false
-    network: "tcp"
-    udp: true
-  - name: "🇺🇸 美国 110"
-    type: "vmess"
-    server: "172.67.206.124"
-    port: 443
-    uuid: "4fa35ea4-668e-4d7b-9bbc-b83681060617"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/kwhmvws"
-      headers:
-        Host: "rlhrwtqusd.site"
-  - name: "🇮🇷 伊朗 001"
-    type: "vmess"
-    server: "jahfkjha.cfd"
-    port: 443
-    uuid: "950db6aa-4926-4616-816e-ec0312dcb87b"
-    cipher: "auto"
-    alterId: 1
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/linkws"
-      headers:
-        Host: "jahfkjha.cfd"
-  - name: "🇺🇸 美国 111"
-    type: "vmess"
-    server: "7.vmessprotocol.join.telegram-vmessprotocol-channel.space"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    cipher: "auto"
-    alterId: 1
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "ophelia.mom"
-  - name: "🇺🇸 美国 112"
-    type: "vmess"
-    server: "138.2.44.211"
-    port: 20081
-    uuid: "593b8525-0c48-4b0f-d9af-2d73a9148973"
-    cipher: "auto"
-    alterId: 64
-    tls: false
-    network: "tcp"
-    udp: true
   - name: "其他 051"
     type: "vmess"
     server: "hms02opi.fxiaomi.sbs"
@@ -537,7 +475,7 @@ proxies:
     port: 10003
     uuid: "9b6419f8-8120-442e-a48c-6bf52aef0abf"
     udp: true
-  - name: "距离下次重置剩余：19 天"
+  - name: "距离下次重置剩余：18 天"
     type: "vless"
     server: "asaa.mmm.top"
     port: 10003
@@ -677,7 +615,7 @@ proxies:
     udp: true
     up: "50 Mbps"
     down: "100 Mbps"
-  - name: "🇺🇸美国-05"
+  - name: "🇺🇸美国-05 | x0.1"
     type: "hysteria2"
     server: "107.172.252.201"
     port: 20000
@@ -1266,7 +1204,7 @@ proxies:
     port: 28048
     cipher: "aes-128-gcm"
     password: "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
-  - name: "剩余流量：44.91 GB"
+  - name: "剩余流量：30.19 GB"
     type: "ss"
     server: "127.0.0.1"
     port: 80
@@ -1321,7 +1259,7 @@ proxies:
   - name: "香港家宽hy2🇭🇰"
     type: "hysteria2"
     server: "hkbn.388898.xyz"
-    port: 21171
+    port: 21204
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1395,7 +1333,7 @@ proxies:
   - name: "美国AT&T家宽-02套餐hy2"
     type: "hysteria2"
     server: "att-b-02.388898.xyz"
-    port: 31414
+    port: 31192
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1403,7 +1341,7 @@ proxies:
   - name: "美国AT&T家宽备用🇺🇸hy2"
     type: "hysteria2"
     server: "att-b-04.388898.xyz"
-    port: 31439
+    port: 31469
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1669,7 +1607,7 @@ proxies:
   - name: "加拿大家宽🇨🇦hy2"
     type: "hysteria2"
     server: "ca.388898.xyz"
-    port: 53474
+    port: 53625
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1677,7 +1615,7 @@ proxies:
   - name: "[01]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet02.388898.xyz"
-    port: 33233
+    port: 33762
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1685,7 +1623,7 @@ proxies:
   - name: "[02]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet10.388898.xyz"
-    port: 11096
+    port: 11459
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1693,7 +1631,7 @@ proxies:
   - name: "[03]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet30.388898.xyz"
-    port: 11519
+    port: 11897
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1707,7 +1645,7 @@ proxies:
   - name: "日本樱花10gbps🌸hy2"
     type: "hysteria2"
     server: "sakuraweb.388898.xyz"
-    port: 31767
+    port: 31193
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1721,7 +1659,7 @@ proxies:
   - name: "德国高速节点hy2🇩🇪"
     type: "hysteria2"
     server: "dodef.388898.xyz"
-    port: 31322
+    port: 31824
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1729,7 +1667,7 @@ proxies:
   - name: "【1】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 31217
+    port: 31809
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1737,7 +1675,7 @@ proxies:
   - name: "【2】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 32670
+    port: 32447
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1745,7 +1683,7 @@ proxies:
   - name: "香港家宽hy2🇭🇰"
     type: "hysteria2"
     server: "hkbn.388898.xyz"
-    port: 21855
+    port: 21708
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1753,7 +1691,7 @@ proxies:
   - name: "美国AT&T家宽-02套餐hy2"
     type: "hysteria2"
     server: "att-b-02.388898.xyz"
-    port: 31085
+    port: 31260
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1761,7 +1699,7 @@ proxies:
   - name: "美国AT&T家宽备用🇺🇸hy2"
     type: "hysteria2"
     server: "att-b-04.388898.xyz"
-    port: 31814
+    port: 31974
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1769,7 +1707,7 @@ proxies:
   - name: "加拿大家宽🇨🇦hy2"
     type: "hysteria2"
     server: "ca.388898.xyz"
-    port: 53681
+    port: 53967
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1777,7 +1715,7 @@ proxies:
   - name: "[01]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet02.388898.xyz"
-    port: 33048
+    port: 33617
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1785,7 +1723,7 @@ proxies:
   - name: "[02]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet10.388898.xyz"
-    port: 11058
+    port: 11940
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1793,7 +1731,7 @@ proxies:
   - name: "[03]台湾hinet家宽🇨🇳hy2"
     type: "hysteria2"
     server: "hinet30.388898.xyz"
-    port: 11202
+    port: 11991
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1801,7 +1739,7 @@ proxies:
   - name: "日本樱花10gbps🌸hy2"
     type: "hysteria2"
     server: "sakuraweb.388898.xyz"
-    port: 31362
+    port: 31335
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1809,7 +1747,7 @@ proxies:
   - name: "德国高速节点hy2🇩🇪"
     type: "hysteria2"
     server: "dodef.388898.xyz"
-    port: 31348
+    port: 31689
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1817,7 +1755,7 @@ proxies:
   - name: "【1】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 31137
+    port: 31349
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1825,7 +1763,7 @@ proxies:
   - name: "【2】新加坡高速节点🇸🇬hy2"
     type: "hysteria2"
     server: "sggo.388898.xyz"
-    port: 32363
+    port: 32303
     password: "f959a3fc-2e55-4bde-8ed4-4fab249f8733"
     udp: true
     up: "50 Mbps"
@@ -1860,7 +1798,7 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
-  - name: "🇦🇶 [流量 2天后 自动重置]"
+  - name: "🇦🇶 [流量 1天后 自动重置]"
     type: "vmess"
     server: "127.0.0.1"
     port: 80
@@ -3049,11 +2987,6 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇺🇸 美国 109"
-      - "🇺🇸 美国 110"
-      - "🇮🇷 伊朗 001"
-      - "🇺🇸 美国 111"
-      - "🇺🇸 美国 112"
       - "其他 051"
       - "🇺🇸 美国 113"
       - "🇺🇸 美国 114"
@@ -3104,7 +3037,7 @@ proxy-groups:
       - "越南-IEPL-Basic专线-01"
       - "英国-IEPL-Basic专线-01"
       - "剩余流量：0"
-      - "距离下次重置剩余：19 天"
+      - "距离下次重置剩余：18 天"
       - "套餐到期：2027-09-01"
       - "⚠️保持软件为最新版"
       - "⚠️使用前更新订阅"
@@ -3124,7 +3057,7 @@ proxy-groups:
       - "🇺🇸美国-02"
       - "🇺🇸美国-03"
       - "🇺🇸美国-04"
-      - "🇺🇸美国-05"
+      - "🇺🇸美国-05 | x0.1"
       - "🇺🇸美国-06"
       - "🇺🇸美国-07"
       - "🇯🇵日本-06"
@@ -3201,7 +3134,7 @@ proxy-groups:
       - "🇨🇦 加拿大 02 专线"
       - "🇦🇺 澳大利亚 01 专线"
       - "🇦🇺 澳大利亚 02 专线"
-      - "剩余流量：44.91 GB"
+      - "剩余流量：30.19 GB"
       - "Shadowsocks"
       - "剩余流量：0"
       - "距离下次重置剩余：20+天"
@@ -3291,7 +3224,7 @@ proxy-groups:
       - "🇦🇶 ⚠️‼️ 您的流量已耗尽 ‼️"
       - "🇦🇶 [订阅: 2026年09月14日到期]"
       - "🇦🇶 流量[剩余: 0 B] 已用 300.51 GB"
-      - "🇦🇶 [流量 2天后 自动重置]"
+      - "🇦🇶 [流量 1天后 自动重置]"
       - "🇦🇶 也可登陆官网 加购流量包"
       - "🇦🇶 ⚠️‼️ 流量已耗尽 请加流量 ‼️"
       - "🇦🇶 ⚠️‼️您的订阅已重置 ‼️"

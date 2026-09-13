@@ -1,112 +1,70 @@
 # Mihomo / Clash Meta 配置文件
-# 生成时间: 2026-09-13 04:34:55
+# 生成时间: 2026-09-13 11:39:38
 # 节点数量: 500
 
 proxies:
-  - name: "🇺🇸US-167.88.63.79-0019"
+  - name: "🇹🇼TW-125.224.228.163-0227"
     type: "ss"
-    server: "167.88.63.79"
-    port: 8881
-    cipher: "aes-256-gcm"
-    password: "kDWvXYZoTBcGkC4"
-  - name: "🇩🇪DE-49.12.203.80-0018"
+    server: "namrcg001640lrm.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "a9a0d092-6f0e-4701-81ee-454643d6d506"
+  - name: "🇰🇷KR-141.164.45.187-0228"
     type: "ss"
-    server: "49.12.203.80"
-    port: 40960
+    server: "141.164.45.187"
+    port: 6679
     cipher: "aes-256-gcm"
-    password: "6kA7b3f9Aw2508erQ3W7D4"
-  - name: "🇨🇳CN-121.46.230.138-0222"
+    password: "TEzjfAYq2IjtuoS"
+  - name: "🇨🇳CN-121.46.230.137-0229"
+    type: "ss"
+    server: "121.46.230.137"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+  - name: "🇨🇳CN-183.245.146.20-0231"
+    type: "trojan"
+    server: "183.245.146.20"
+    port: 11002
+    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
+    tls: true
+    udp: true
+  - name: "🇨🇳CN-121.46.230.232-0233"
+    type: "ss"
+    server: "121.46.230.232"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+  - name: "🇨🇳CN-121.46.230.138-0234"
     type: "ss"
     server: "121.46.230.138"
     port: 65443
     cipher: "aes-256-cfb"
     password: "7eadc6dbe2ae"
-  - name: "🇨🇳CN-183.245.146.20-0223"
+  - name: "🇨🇳CN-183.245.146.20-0235"
     type: "trojan"
     server: "183.245.146.20"
     port: 11001
     password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
     tls: true
     udp: true
-  - name: "🇨🇳CN-117.164.185.220-0224"
+  - name: "🇨🇳CN-117.164.185.220-0236"
     type: "trojan"
     server: "117.164.185.220"
     port: 11002
     password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
     tls: true
     udp: true
-  - name: "🇨🇳CN-117.164.185.220-0225"
+  - name: "🇨🇳CN-117.164.185.220-0237"
     type: "trojan"
     server: "117.164.185.220"
     port: 11001
     password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
     tls: true
     udp: true
-  - name: "🇨🇳CN-36.138.100.57-0226"
+  - name: "🇨🇳CN-36.138.100.57-0238"
     type: "trojan"
     server: "36.138.100.57"
     port: 11002
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇨🇳CN-36.138.100.57-0227"
-    type: "trojan"
-    server: "36.138.100.57"
-    port: 11001
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇨🇳CN-121.46.230.233-0228"
-    type: "ss"
-    server: "121.46.230.233"
-    port: 65443
-    cipher: "aes-256-cfb"
-    password: "7eadc6dbe2ae"
-  - name: "🇨🇦CA-196.247.59.156-0229"
-    type: "ss"
-    server: "196.247.59.156"
-    port: 808
-    cipher: "chacha20-ietf-poly1305"
-    password: "G!yBwPWH3Vao"
-  - name: "🇨🇳CN-183.245.146.20-0230"
-    type: "trojan"
-    server: "183.245.146.20"
-    port: 41001
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇦🇺AU-103.224.212.142-0231"
-    type: "vmess"
-    server: "asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom"
-    port: 888
-    uuid: "fbc2efb0-786a-4074-81ea-8ab12ca5422c"
-    cipher: "auto"
-    alterId: 0
-    tls: true
-    network: "ws"
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge.cjhh.mom"
-  - name: "🇨🇳CN-117.164.185.222-0232"
-    type: "trojan"
-    server: "117.164.185.222"
-    port: 21005
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇨🇳CN-117.164.185.222-0233"
-    type: "trojan"
-    server: "117.164.185.222"
-    port: 21004
-    password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
-    tls: true
-    udp: true
-  - name: "🇨🇳CN-117.164.185.222-0234"
-    type: "trojan"
-    server: "117.164.185.222"
-    port: 21003
     password: "623e1900-473d-4b72-8d6b-c3a2e3223e3e"
     tls: true
     udp: true
@@ -1520,12 +1478,12 @@ proxies:
     port: 8443
     uuid: "b2744db0-1c64-4218-a93b-9eba0e5f811f"
     udp: true
-  - name: "HTTP-402"
+  - name: "HTTP-395"
     type: "http"
     server: "45.66.248.28"
     port: 18000
     udp: true
-  - name: "HTTP-403"
+  - name: "HTTP-396"
     type: "http"
     server: "179.0.79.3"
     port: 8085
@@ -1596,7 +1554,7 @@ proxies:
     port: 8443
     uuid: "9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc"
     udp: true
-  - name: "SOCKS5-415"
+  - name: "SOCKS5-408"
     type: "socks5"
     server: "45.144.54.40"
     port: 1080
@@ -2071,19 +2029,19 @@ proxies:
     type: "vless"
     server: "cf.090227.xyz"
     port: 8443
-    uuid: "130c40c8-cd32-46aa-9e93-ebffe5186b4b"
+    uuid: "2d0cd7c5-0749-4ff1-81a1-fc02b39ef71b"
     udp: true
   - name: "电信分流"
     type: "vless"
     server: "ct.090227.xyz"
     port: 2083
-    uuid: "130c40c8-cd32-46aa-9e93-ebffe5186b4b"
+    uuid: "2d0cd7c5-0749-4ff1-81a1-fc02b39ef71b"
     udp: true
   - name: "移动分流"
     type: "vless"
     server: "cmcc.090227.xyz"
     port: 2096
-    uuid: "130c40c8-cd32-46aa-9e93-ebffe5186b4b"
+    uuid: "2d0cd7c5-0749-4ff1-81a1-fc02b39ef71b"
     udp: true
   - name: "🇺🇸 美国 001"
     type: "vmess"
@@ -4789,26 +4747,83 @@ proxies:
     tls: false
     network: "tcp"
     udp: true
+  - name: "🇺🇸 美国 109"
+    type: "vmess"
+    server: "172.99.190.12"
+    port: 22324
+    uuid: "04621bae-ab36-11ec-b909-0242ac120002"
+    cipher: "auto"
+    alterId: 0
+    tls: false
+    network: "tcp"
+    udp: true
+  - name: "🇺🇸 美国 110"
+    type: "vmess"
+    server: "172.67.206.124"
+    port: 443
+    uuid: "4fa35ea4-668e-4d7b-9bbc-b83681060617"
+    cipher: "auto"
+    alterId: 0
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/kwhmvws"
+      headers:
+        Host: "rlhrwtqusd.site"
+  - name: "🇮🇷 伊朗 001"
+    type: "vmess"
+    server: "jahfkjha.cfd"
+    port: 443
+    uuid: "950db6aa-4926-4616-816e-ec0312dcb87b"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "jahfkjha.cfd"
+  - name: "🇺🇸 美国 111"
+    type: "vmess"
+    server: "7.vmessprotocol.join.telegram-vmessprotocol-channel.space"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    cipher: "auto"
+    alterId: 1
+    tls: true
+    network: "ws"
+    udp: true
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "ophelia.mom"
+  - name: "🇺🇸 美国 112"
+    type: "vmess"
+    server: "138.2.44.211"
+    port: 20081
+    uuid: "593b8525-0c48-4b0f-d9af-2d73a9148973"
+    cipher: "auto"
+    alterId: 64
+    tls: false
+    network: "tcp"
+    udp: true
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "🇺🇸US-167.88.63.79-0019"
-      - "🇩🇪DE-49.12.203.80-0018"
-      - "🇨🇳CN-121.46.230.138-0222"
-      - "🇨🇳CN-183.245.146.20-0223"
-      - "🇨🇳CN-117.164.185.220-0224"
-      - "🇨🇳CN-117.164.185.220-0225"
-      - "🇨🇳CN-36.138.100.57-0226"
-      - "🇨🇳CN-36.138.100.57-0227"
-      - "🇨🇳CN-121.46.230.233-0228"
-      - "🇨🇦CA-196.247.59.156-0229"
-      - "🇨🇳CN-183.245.146.20-0230"
-      - "🇦🇺AU-103.224.212.142-0231"
-      - "🇨🇳CN-117.164.185.222-0232"
-      - "🇨🇳CN-117.164.185.222-0233"
-      - "🇨🇳CN-117.164.185.222-0234"
+      - "🇹🇼TW-125.224.228.163-0227"
+      - "🇰🇷KR-141.164.45.187-0228"
+      - "🇨🇳CN-121.46.230.137-0229"
+      - "🇨🇳CN-183.245.146.20-0231"
+      - "🇨🇳CN-121.46.230.232-0233"
+      - "🇨🇳CN-121.46.230.138-0234"
+      - "🇨🇳CN-183.245.146.20-0235"
+      - "🇨🇳CN-117.164.185.220-0236"
+      - "🇨🇳CN-117.164.185.220-0237"
+      - "🇨🇳CN-36.138.100.57-0238"
       - "🇭🇰_HK_中国香港"
       - "🇵🇱_PL_波兰"
       - "🇯🇵_JP_日本->🇾🇪_YE_也门"
@@ -4991,8 +5006,8 @@ proxy-groups:
       - "🇵🇱PL_1|2.8MB/s"
       - "🇺🇸US_6|3.4MB/s"
       - "🇩🇪DE_1|4.1MB/s"
-      - "HTTP-402"
-      - "HTTP-403"
+      - "HTTP-395"
+      - "HTTP-396"
       - "🇺🇸US_21|3.0MB/s"
       - "🇩🇪DE_4|2.2MB/s"
       - "🇩🇪DE_5|3.7MB/s"
@@ -5004,7 +5019,7 @@ proxy-groups:
       - "🇵🇱PL_4|2.6MB/s"
       - "🇺🇸US_24|4.7MB/s"
       - "🇩🇪DE_6|4.0MB/s"
-      - "SOCKS5-415"
+      - "SOCKS5-408"
       - "US_speednode_0130"
       - "US_speednode_0132"
       - "US_speednode_0135"
@@ -5294,3 +5309,8 @@ proxy-groups:
       - "🇺🇸 美国 106"
       - "🇺🇸 美国 107"
       - "🇺🇸 美国 108"
+      - "🇺🇸 美国 109"
+      - "🇺🇸 美国 110"
+      - "🇮🇷 伊朗 001"
+      - "🇺🇸 美国 111"
+      - "🇺🇸 美国 112"
